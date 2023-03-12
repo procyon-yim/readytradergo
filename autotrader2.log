@@ -1,0 +1,6 @@
+2023-03-12 03:11:15,286 [INFO   ] [APP] autotrader2 started with arguments={rtg.py, run, UUB_FUT2.py, autotrader.py, autotrader2.py, bollinger_FUT.py, bollinger_FUT2.py, UUB_FUT4.py}
+2023-03-12 03:11:15,286 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"minusOne","Secret":"secret"}
+2023-03-12 03:11:15,323 [INFO   ] [CONNECTION] fd=16 connection established: peer=127.0.0.1:12345
+2023-03-12 03:11:15,374 [INFO   ] [CONNECTION] fd=16 connection lost
+2023-03-12 03:11:15,374 [INFO   ] [APP] closing event loop
+2023-03-12 03:11:15,374 [INFO   ] [RECEIVER] connection lost

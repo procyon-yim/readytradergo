@@ -1,11 +1,11 @@
 {
   "Engine": {
-    "MarketDataFile": "data/market_data2.csv",
+    "MarketDataFile": "data/market_data1.csv",
     "MarketEventInterval": 0.05,
     "MarketOpenDelay": 5.0,
     "MatchEventsFile": "match_events.csv",
     "ScoreBoardFile": "score_board.csv",
-    "Speed": 3.0,
+    "Speed": 1.0,
     "TickInterval": 0.25
   },
   "Execution": {
@@ -38,8 +38,11 @@
   "Traders": {
     "UUBFUT": "secret",
     "UUBFUT2": "secret",
-    "BollingerFUT": "secret",
-    "BollingerFUT2": "secret",
-    "minusOne": "secret"
+    "UUBFUT3": "secret",
+    "UUBFUT_final": "secret",
+    "minusOne": "secret",
+    "minusOneV2": "secret",
+    "BollingerFUT" : "secret",
+    "BollingerFUT2" : "secret"
   }
 }

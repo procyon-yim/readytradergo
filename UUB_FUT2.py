@@ -25,7 +25,7 @@ from typing import List
 from ready_trader_go import BaseAutoTrader, Instrument, Lifespan, MAXIMUM_ASK, MINIMUM_BID, Side
 
 
-LOT_SIZE = 5
+LOT_SIZE = 10
 POSITION_LIMIT = 100
 TICK_SIZE_IN_CENTS = 100
 MIN_BID_NEAREST_TICK = (MINIMUM_BID + TICK_SIZE_IN_CENTS) // TICK_SIZE_IN_CENTS * TICK_SIZE_IN_CENTS
@@ -94,26 +94,29 @@ class AutoTrader(BaseAutoTrader):
             
             if n>m:
                 SMA = np.mean(TP_list[n-m-1:n])
-                UUB = SMA + 2.2*np.std(TP_list[n-m-1:n])
+                UUB = SMA + 1.97*np.std(TP_list[n-m-1:n])
                 UB = SMA + 1.5*np.std(TP_list[n-m-1:n])
                 MB = np.sum(TP_list[n-m-1:n])/m
                 LB = SMA - 1.5*np.std(TP_list[n-m-1:n])
-                LLB = SMA - 2.2*np.std(TP_list[n-m-1:n])
+                LLB = SMA - 1.97*np.std(TP_list[n-m-1:n])
                 #TP_list.pop(0)
                 
             else:
                 SMA = TP_list[n-1]
-                UUB = SMA + 2.2*np.std(TP_list)
+                UUB = SMA + 1.97*np.std(TP_list)
                 UB = SMA + 1.5*np.std(TP_list)
                 MB = TP_list[n-1]
                 LB = SMA - 1.5*np.std(TP_list)
-                LLB = SMA - 2.2*np.std(TP_list)
+                LLB = SMA - 1.97*np.std(TP_list)
             
             #dV = np.sum(ask_volumes) - np.sum(bid_volumes)
+            
+            bid_max_idx = bid_volumes.index(max(bid_volumes))
+            ask_max_idx = ask_volumes.index(max(ask_volumes))
         
             price_adjustment = - (self.position // LOT_SIZE) * TICK_SIZE_IN_CENTS
-            new_bid_price = bid_prices[-1] + price_adjustment if bid_prices[0] != 0 else 0
-            new_ask_price = ask_prices[-1] + price_adjustment if ask_prices[0] != 0 else 0
+            new_bid_price = bid_prices[bid_max_idx] + price_adjustment if bid_prices[0] != 0 else 0
+            new_ask_price = ask_prices[ask_max_idx] + price_adjustment if ask_prices[0] != 0 else 0
             
             if self.bid_id != 0 and new_bid_price not in (self.bid_price, 0):
                 self.send_cancel_order(self.bid_id)
