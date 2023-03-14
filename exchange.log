@@ -9523,3 +9523,54 @@ ConnectionResetError: [Errno 54] Connection reset by peer
 2023-03-12 03:29:19,443 [INFO   ] [MATCH_EVENTS] writer thread complete after processing 467308 match events
 2023-03-12 03:29:19,443 [INFO   ] [SCORE_BOARD] writer thread complete after processing 3602 score records
 2023-03-12 03:29:19,444 [INFO   ] [APP] closing event loop
+2023-03-13 19:02:17,245 [INFO   ] [APP] exchange started with arguments={rtg.py, run, UUB_final.py}
+2023-03-13 19:02:17,246 [INFO   ] [APP] configuration={"Engine":{"MarketDataFile":"data/market_data2.csv","MarketEventInterval":0.05,"MarketOpenDelay":5.0,"MatchEventsFile":"match_events.csv","ScoreBoardFile":"score_board.csv","Speed":3.0,"TickInterval":0.25},"Execution":{"Host":"127.0.0.1","Port":12345},"Fees":{"Maker":-0.0001,"Taker":0.0002},"Hud":{"Host":"127.0.0.1","Port":12347},"Information":{"Type":"mmap","Name":"info.dat"},"Instrument":{"EtfClamp":0.002,"TickSize":1.0},"Limits":{"ActiveOrderCountLimit":10,"ActiveVolumeLimit":200,"MessageFrequencyInterval":1.0,"MessageFrequencyLimit":50,"PositionLimit":100},"Traders":{"UUBFUT":"secret","UUBFUT2":"secret","UUBFUT3":"secret","UUBFUT_final":"secret","minusOne":"secret","minusOneV2":"secret","BollingerFUT":"secret","BollingerFUT2":"secret"}}
+2023-03-13 19:02:17,246 [INFO   ] [CONTROLLER] starting the match
+2023-03-13 19:02:17,246 [INFO   ] [EXECUTION] starting execution server: host=127.0.0.1 port=12345
+2023-03-13 19:02:17,246 [INFO   ] [INFORMATION] starting information publisher: type=mmap name=info.dat
+2023-03-13 19:02:17,249 [INFO   ] [HEADS_UP] starting heads-up display server: host=127.0.0.1 port=12347
+2023-03-13 19:02:17,249 [INFO   ] [INFORMATION] information channel established
+2023-03-13 19:02:17,796 [INFO   ] [CONNECTION] fd=24 connection established: peer=127.0.0.1:53895
+2023-03-13 19:02:17,797 [INFO   ] [EXECUTION] fd=24 'UUBFUT_final' is ready!
+2023-03-13 19:02:19,269 [INFO   ] [CONNECTION] fd=25 connection established: peer=127.0.0.1:53896
+2023-03-13 19:02:22,254 [INFO   ] [CONTROLLER] market open
+2023-03-13 19:04:30,247 [INFO   ] [APP] SIGTERM signal received - shutting down...
+2023-03-13 19:04:30,248 [INFO   ] [APP] closing event loop
+2023-03-15 05:43:55,726 [INFO   ] [APP] exchange started with arguments={rtg.py, run, UUB_final.py}
+2023-03-15 05:43:55,726 [INFO   ] [APP] configuration={"Engine":{"MarketDataFile":"data/match160_events","MarketEventInterval":0.05,"MarketOpenDelay":5.0,"MatchEventsFile":"match_events.csv","ScoreBoardFile":"score_board.csv","Speed":3.0,"TickInterval":0.25},"Execution":{"Host":"127.0.0.1","Port":12345},"Fees":{"Maker":-0.0001,"Taker":0.0002},"Hud":{"Host":"127.0.0.1","Port":12347},"Information":{"Type":"mmap","Name":"info.dat"},"Instrument":{"EtfClamp":0.002,"TickSize":1.0},"Limits":{"ActiveOrderCountLimit":10,"ActiveVolumeLimit":200,"MessageFrequencyInterval":1.0,"MessageFrequencyLimit":50,"PositionLimit":100},"Traders":{"UUBFUT":"secret","UUBFUT2":"secret","UUBFUT3":"secret","UUBFUT_final":"secret","minusOne":"secret","minusOneV2":"secret","BollingerFUT":"secret","BollingerFUT2":"secret"}}
+2023-03-15 05:43:55,727 [INFO   ] [CONTROLLER] starting the match
+2023-03-15 05:43:55,727 [INFO   ] [EXECUTION] starting execution server: host=127.0.0.1 port=12345
+2023-03-15 05:43:55,727 [INFO   ] [INFORMATION] starting information publisher: type=mmap name=info.dat
+2023-03-15 05:43:55,744 [INFO   ] [HEADS_UP] starting heads-up display server: host=127.0.0.1 port=12347
+2023-03-15 05:43:55,744 [INFO   ] [INFORMATION] information channel established
+2023-03-15 05:43:55,745 [ERROR  ] [MARKET_EVENTS] failed to open market data file: filename='data/match160_events'
+Traceback (most recent call last):
+  File "/Users/wooseophwang/Desktop/trade/readytradergo/ready_trader_go/market_events.py", line 176, in start
+    market_data = open(self.filename)
+                  ^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/match160_events'
+2023-03-15 05:43:55,746 [ERROR  ] [asyncio] Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<Controller.start() done, defined at /Users/wooseophwang/Desktop/trade/readytradergo/ready_trader_go/controller.py:102> exception=FileNotFoundError(2, 'No such file or directory')>
+Traceback (most recent call last):
+  File "/Users/wooseophwang/Desktop/trade/readytradergo/ready_trader_go/controller.py", line 111, in start
+    self.__market_events_reader.start()
+  File "/Users/wooseophwang/Desktop/trade/readytradergo/ready_trader_go/market_events.py", line 176, in start
+    market_data = open(self.filename)
+                  ^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/match160_events'
+2023-03-15 05:43:56,247 [INFO   ] [CONNECTION] fd=21 connection established: peer=127.0.0.1:58106
+2023-03-15 05:43:56,247 [INFO   ] [EXECUTION] fd=21 'UUBFUT_final' is ready!
+2023-03-15 05:43:57,716 [INFO   ] [CONNECTION] fd=22 connection established: peer=127.0.0.1:58107
+2023-03-15 05:44:14,057 [INFO   ] [APP] SIGTERM signal received - shutting down...
+2023-03-15 05:44:14,058 [INFO   ] [APP] closing event loop
+2023-03-15 05:44:26,464 [INFO   ] [APP] exchange started with arguments={rtg.py, run, UUB_final.py}
+2023-03-15 05:44:26,464 [INFO   ] [APP] configuration={"Engine":{"MarketDataFile":"data/match160_events.csv","MarketEventInterval":0.05,"MarketOpenDelay":5.0,"MatchEventsFile":"match_events.csv","ScoreBoardFile":"score_board.csv","Speed":3.0,"TickInterval":0.25},"Execution":{"Host":"127.0.0.1","Port":12345},"Fees":{"Maker":-0.0001,"Taker":0.0002},"Hud":{"Host":"127.0.0.1","Port":12347},"Information":{"Type":"mmap","Name":"info.dat"},"Instrument":{"EtfClamp":0.002,"TickSize":1.0},"Limits":{"ActiveOrderCountLimit":10,"ActiveVolumeLimit":200,"MessageFrequencyInterval":1.0,"MessageFrequencyLimit":50,"PositionLimit":100},"Traders":{"UUBFUT":"secret","UUBFUT2":"secret","UUBFUT3":"secret","UUBFUT_final":"secret","minusOne":"secret","minusOneV2":"secret","BollingerFUT":"secret","BollingerFUT2":"secret"}}
+2023-03-15 05:44:26,464 [INFO   ] [CONTROLLER] starting the match
+2023-03-15 05:44:26,464 [INFO   ] [EXECUTION] starting execution server: host=127.0.0.1 port=12345
+2023-03-15 05:44:26,465 [INFO   ] [INFORMATION] starting information publisher: type=mmap name=info.dat
+2023-03-15 05:44:26,467 [INFO   ] [HEADS_UP] starting heads-up display server: host=127.0.0.1 port=12347
+2023-03-15 05:44:26,467 [INFO   ] [INFORMATION] information channel established
+2023-03-15 05:44:26,789 [INFO   ] [CONNECTION] fd=23 connection established: peer=127.0.0.1:58109
+2023-03-15 05:44:26,790 [INFO   ] [EXECUTION] fd=23 'UUBFUT_final' is ready!
+2023-03-15 05:44:28,161 [INFO   ] [CONNECTION] fd=24 connection established: peer=127.0.0.1:58110
+2023-03-15 05:44:31,471 [INFO   ] [CONTROLLER] market open
