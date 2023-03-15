@@ -34,14 +34,12 @@ def show_price(logfile):
                 idx_SEQ = words.index('sequence') + 2
                 TP.append(float(words[idx_TP]))
                 SEQ.append(int(words[idx_SEQ]))
-    print(TP)
     TP = np.array(TP)
     m = 25
     UUB = list()
     UB = list()
     LB = list()
     LLB = list()
-    print(TP, SEQ)
     for n in SEQ:
         if n > m:
             sma = np.mean(TP[n-m-1:n])
