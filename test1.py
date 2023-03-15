@@ -84,7 +84,6 @@ class AutoTrader(BaseAutoTrader):
             bidprice_FUT = bid_prices[0]
             askprice_FUT = ask_prices[0]
             TP_FUT.append((bidprice_FUT + askprice_FUT) /2)
-            a=1
         
         if instrument == Instrument.ETF:
             
@@ -106,25 +105,25 @@ class AutoTrader(BaseAutoTrader):
             new_bid_price = bid_prices[0]
             new_ask_price = ask_prices[0]
 
-            if self.bid_id == 0 and new_bid_price != 0 and self.position < POSITION_LIMIT and diff == -1.5*sigma:
+            if self.bid_id == 0 and new_bid_price != 0 and self.position < POSITION_LIMIT and diff < -1.5*sigma:
                 self.bid_id = next(self.order_ids)
                 self.bid_price = new_bid_price
                 self.send_insert_order(self.bid_id, Side.BUY, new_bid_price, LOT_SIZE, Lifespan.GOOD_FOR_DAY)
                 self.bids.add(self.bid_id)
 
-            if self.ask_id == 0 and new_ask_price != 0 and self.position > -POSITION_LIMIT and diff == 1.5*sigma:
+            if self.ask_id == 0 and new_ask_price != 0 and self.position > -POSITION_LIMIT and diff > 1.5*sigma:
                 self.ask_id = next(self.order_ids)
                 self.ask_price = new_ask_price
                 self.send_insert_order(self.ask_id, Side.SELL, new_ask_price, LOT_SIZE, Lifespan.GOOD_FOR_DAY)
                 self.asks.add(self.ask_id)
                 
-            if self.bid_id == 0 and new_bid_price != 0 and self.position < POSITION_LIMIT and diff == 0.5*sigma:
+            if self.bid_id == 0 and new_bid_price != 0 and self.position < POSITION_LIMIT and 0.7*sigma >diff > 0.5*sigma:
                 self.bid_id = next(self.order_ids)
                 self.bid_price = new_bid_price
                 self.send_insert_order(self.bid_id, Side.BUY, new_bid_price, self.position, Lifespan.GOOD_FOR_DAY)
                 self.bids.add(self.bid_id)
 
-            if self.ask_id == 0 and new_ask_price != 0 and self.position > -POSITION_LIMIT and diff == -0.5*sigma:
+            if self.ask_id == 0 and new_ask_price != 0 and self.position > -POSITION_LIMIT and -0.7*sigma<diff < -0.5*sigma:
                 self.ask_id = next(self.order_ids)
                 self.ask_price = new_ask_price
                 self.send_insert_order(self.ask_id, Side.SELL, new_ask_price, self.position, Lifespan.GOOD_FOR_DAY)

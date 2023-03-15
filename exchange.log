@@ -9574,6 +9574,7 @@ FileNotFoundError: [Errno 2] No such file or directory: 'data/match160_events'
 2023-03-15 05:44:26,790 [INFO   ] [EXECUTION] fd=23 'UUBFUT_final' is ready!
 2023-03-15 05:44:28,161 [INFO   ] [CONNECTION] fd=24 connection established: peer=127.0.0.1:58110
 2023-03-15 05:44:31,471 [INFO   ] [CONTROLLER] market open
+<<<<<<< HEAD
 2023-03-15 14:39:46,818 [INFO   ] [APP] exchange started with arguments={rtg.py, run, test1.py}
 2023-03-15 14:39:46,819 [INFO   ] [APP] configuration={"Engine":{"MarketDataFile":"data/market_data2.csv","MarketEventInterval":0.05,"MarketOpenDelay":5.0,"MatchEventsFile":"match_events.csv","ScoreBoardFile":"score_board.csv","Speed":3.0,"TickInterval":0.25},"Execution":{"Host":"127.0.0.1","Port":12345},"Fees":{"Maker":-0.0001,"Taker":0.0002},"Hud":{"Host":"127.0.0.1","Port":12347},"Information":{"Type":"mmap","Name":"info.dat"},"Instrument":{"EtfClamp":0.002,"TickSize":1.0},"Limits":{"ActiveOrderCountLimit":10,"ActiveVolumeLimit":200,"MessageFrequencyInterval":1.0,"MessageFrequencyLimit":50,"PositionLimit":100},"Traders":{"test1":"secret"}}
 2023-03-15 14:39:46,820 [INFO   ] [CONTROLLER] starting the match
@@ -9635,3 +9636,368 @@ FileNotFoundError: [Errno 2] No such file or directory: 'data/match160_events'
 2023-03-15 14:54:39,996 [INFO   ] [CONTROLLER] market open
 2023-03-15 14:55:18,678 [INFO   ] [CONNECTION] fd=1100 connection lost
 2023-03-15 14:55:18,678 [WARNING] [EXECUTION] fd=1100 lost connection to auto-trader:
+=======
+2023-03-15 15:11:55,348 [INFO   ] [APP] exchange started with arguments={rtg.py, run, UUB_final.py}
+2023-03-15 15:11:55,348 [INFO   ] [APP] configuration={"Engine":{"MarketDataFile":"data/market_data2.csv","MarketEventInterval":0.05,"MarketOpenDelay":5.0,"MatchEventsFile":"match_events.csv","ScoreBoardFile":"score_board.csv","Speed":3.0,"TickInterval":0.25},"Execution":{"Host":"127.0.0.1","Port":12345},"Fees":{"Maker":-0.0001,"Taker":0.0002},"Hud":{"Host":"127.0.0.1","Port":12347},"Information":{"Type":"mmap","Name":"info.dat"},"Instrument":{"EtfClamp":0.002,"TickSize":1.0},"Limits":{"ActiveOrderCountLimit":10,"ActiveVolumeLimit":200,"MessageFrequencyInterval":1.0,"MessageFrequencyLimit":50,"PositionLimit":100},"Traders":{"UUBFUT":"secret","UUBFUT2":"secret","UUBFUT3":"secret","UUBFUT_final":"secret","minusOne":"secret","minusOneV2":"secret","BollingerFUT":"secret","BollingerFUT2":"secret"}}
+2023-03-15 15:11:55,348 [INFO   ] [CONTROLLER] starting the match
+2023-03-15 15:11:55,348 [INFO   ] [EXECUTION] starting execution server: host=127.0.0.1 port=12345
+2023-03-15 15:11:55,349 [ERROR  ] [asyncio] Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<Controller.start() done, defined at /Users/wooseophwang/Desktop/trade/readytradergo/ready_trader_go/controller.py:102> exception=OSError(48, "error while attempting to bind on address ('127.0.0.1', 12345): address already in use")>
+Traceback (most recent call last):
+  File "/Users/wooseophwang/Desktop/trade/readytradergo/ready_trader_go/controller.py", line 106, in start
+    await self.__execution_server.start()
+  File "/Users/wooseophwang/Desktop/trade/readytradergo/ready_trader_go/execution.py", line 185, in start
+    self.__server = await asyncio.get_running_loop().create_server(self.__on_new_connection, self.host, self.port)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/base_events.py", line 1525, in create_server
+    raise OSError(err.errno, 'error while attempting '
+OSError: [Errno 48] error while attempting to bind on address ('127.0.0.1', 12345): address already in use
+2023-03-15 15:12:29,824 [INFO   ] [APP] exchange started with arguments={rtg.py, run, UUB_final.py}
+2023-03-15 15:12:29,825 [INFO   ] [APP] configuration={"Engine":{"MarketDataFile":"data/market_data2.csv","MarketEventInterval":0.05,"MarketOpenDelay":5.0,"MatchEventsFile":"match_events.csv","ScoreBoardFile":"score_board.csv","Speed":3.0,"TickInterval":0.25},"Execution":{"Host":"127.0.0.1","Port":12345},"Fees":{"Maker":-0.0001,"Taker":0.0002},"Hud":{"Host":"127.0.0.1","Port":12347},"Information":{"Type":"mmap","Name":"info.dat"},"Instrument":{"EtfClamp":0.002,"TickSize":1.0},"Limits":{"ActiveOrderCountLimit":10,"ActiveVolumeLimit":200,"MessageFrequencyInterval":1.0,"MessageFrequencyLimit":50,"PositionLimit":100},"Traders":{"UUBFUT":"secret","UUBFUT2":"secret","UUBFUT3":"secret","UUBFUT_final":"secret","minusOne":"secret","minusOneV2":"secret","BollingerFUT":"secret","BollingerFUT2":"secret"}}
+2023-03-15 15:12:29,825 [INFO   ] [CONTROLLER] starting the match
+2023-03-15 15:12:29,825 [INFO   ] [EXECUTION] starting execution server: host=127.0.0.1 port=12345
+2023-03-15 15:12:29,825 [ERROR  ] [asyncio] Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<Controller.start() done, defined at /Users/wooseophwang/Desktop/trade/readytradergo/ready_trader_go/controller.py:102> exception=OSError(48, "error while attempting to bind on address ('127.0.0.1', 12345): address already in use")>
+Traceback (most recent call last):
+  File "/Users/wooseophwang/Desktop/trade/readytradergo/ready_trader_go/controller.py", line 106, in start
+    await self.__execution_server.start()
+  File "/Users/wooseophwang/Desktop/trade/readytradergo/ready_trader_go/execution.py", line 185, in start
+    self.__server = await asyncio.get_running_loop().create_server(self.__on_new_connection, self.host, self.port)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wooseophwang/opt/anaconda3/envs/trade/lib/python3.11/asyncio/base_events.py", line 1511, in create_server
+    raise OSError(err.errno, 'error while attempting '
+OSError: [Errno 48] error while attempting to bind on address ('127.0.0.1', 12345): address already in use
+2023-03-15 15:12:54,961 [INFO   ] [APP] SIGTERM signal received - shutting down...
+2023-03-15 15:12:54,961 [INFO   ] [APP] closing event loop
+2023-03-15 15:13:17,353 [INFO   ] [APP] exchange started with arguments={rtg.py, run, UUB_final.py}
+2023-03-15 15:13:17,353 [INFO   ] [APP] configuration={"Engine":{"MarketDataFile":"data/market_data2.csv","MarketEventInterval":0.05,"MarketOpenDelay":5.0,"MatchEventsFile":"match_events.csv","ScoreBoardFile":"score_board.csv","Speed":3.0,"TickInterval":0.25},"Execution":{"Host":"127.0.0.1","Port":12345},"Fees":{"Maker":-0.0001,"Taker":0.0002},"Hud":{"Host":"127.0.0.1","Port":12347},"Information":{"Type":"mmap","Name":"info.dat"},"Instrument":{"EtfClamp":0.002,"TickSize":1.0},"Limits":{"ActiveOrderCountLimit":10,"ActiveVolumeLimit":200,"MessageFrequencyInterval":1.0,"MessageFrequencyLimit":50,"PositionLimit":100},"Traders":{"UUBFUT":"secret","UUBFUT2":"secret","UUBFUT3":"secret","UUBFUT_final":"secret","minusOne":"secret","minusOneV2":"secret","BollingerFUT":"secret","BollingerFUT2":"secret"}}
+2023-03-15 15:13:17,354 [INFO   ] [CONTROLLER] starting the match
+2023-03-15 15:13:17,354 [INFO   ] [EXECUTION] starting execution server: host=127.0.0.1 port=12345
+2023-03-15 15:13:17,354 [ERROR  ] [asyncio] Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<Controller.start() done, defined at /Users/wooseophwang/Desktop/trade/readytradergo/ready_trader_go/controller.py:102> exception=OSError(48, "error while attempting to bind on address ('127.0.0.1', 12345): address already in use")>
+Traceback (most recent call last):
+  File "/Users/wooseophwang/Desktop/trade/readytradergo/ready_trader_go/controller.py", line 106, in start
+    await self.__execution_server.start()
+  File "/Users/wooseophwang/Desktop/trade/readytradergo/ready_trader_go/execution.py", line 185, in start
+    self.__server = await asyncio.get_running_loop().create_server(self.__on_new_connection, self.host, self.port)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wooseophwang/opt/anaconda3/envs/trade/lib/python3.11/asyncio/base_events.py", line 1511, in create_server
+    raise OSError(err.errno, 'error while attempting '
+OSError: [Errno 48] error while attempting to bind on address ('127.0.0.1', 12345): address already in use
+2023-03-15 15:13:47,900 [INFO   ] [APP] SIGTERM signal received - shutting down...
+2023-03-15 15:13:47,901 [INFO   ] [APP] closing event loop
+2023-03-15 15:13:50,940 [INFO   ] [APP] exchange started with arguments={rtg.py, run, UUB_final.py}
+2023-03-15 15:13:50,940 [INFO   ] [APP] configuration={"Engine":{"MarketDataFile":"data/market_data2.csv","MarketEventInterval":0.05,"MarketOpenDelay":5.0,"MatchEventsFile":"match_events.csv","ScoreBoardFile":"score_board.csv","Speed":3.0,"TickInterval":0.25},"Execution":{"Host":"127.0.0.1","Port":12345},"Fees":{"Maker":-0.0001,"Taker":0.0002},"Hud":{"Host":"127.0.0.1","Port":12347},"Information":{"Type":"mmap","Name":"info.dat"},"Instrument":{"EtfClamp":0.002,"TickSize":1.0},"Limits":{"ActiveOrderCountLimit":10,"ActiveVolumeLimit":200,"MessageFrequencyInterval":1.0,"MessageFrequencyLimit":50,"PositionLimit":100},"Traders":{"UUB_final":"secret","UUBFUT2":"secret","UUBFUT3":"secret","UUBFUT_final":"secret","minusOne":"secret","minusOneV2":"secret","BollingerFUT":"secret","BollingerFUT2":"secret"}}
+2023-03-15 15:13:50,941 [INFO   ] [CONTROLLER] starting the match
+2023-03-15 15:13:50,941 [INFO   ] [EXECUTION] starting execution server: host=127.0.0.1 port=12345
+2023-03-15 15:13:50,941 [ERROR  ] [asyncio] Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<Controller.start() done, defined at /Users/wooseophwang/Desktop/trade/readytradergo/ready_trader_go/controller.py:102> exception=OSError(48, "error while attempting to bind on address ('127.0.0.1', 12345): address already in use")>
+Traceback (most recent call last):
+  File "/Users/wooseophwang/Desktop/trade/readytradergo/ready_trader_go/controller.py", line 106, in start
+    await self.__execution_server.start()
+  File "/Users/wooseophwang/Desktop/trade/readytradergo/ready_trader_go/execution.py", line 185, in start
+    self.__server = await asyncio.get_running_loop().create_server(self.__on_new_connection, self.host, self.port)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wooseophwang/opt/anaconda3/envs/trade/lib/python3.11/asyncio/base_events.py", line 1511, in create_server
+    raise OSError(err.errno, 'error while attempting '
+OSError: [Errno 48] error while attempting to bind on address ('127.0.0.1', 12345): address already in use
+2023-03-15 15:14:01,400 [INFO   ] [APP] SIGTERM signal received - shutting down...
+2023-03-15 15:14:01,400 [INFO   ] [APP] closing event loop
+2023-03-15 15:14:46,784 [INFO   ] [APP] exchange started with arguments={rtg.py, run, UUB_final.py}
+2023-03-15 15:14:46,784 [INFO   ] [APP] configuration={"Engine":{"MarketDataFile":"data/market_data2.csv","MarketEventInterval":0.05,"MarketOpenDelay":5.0,"MatchEventsFile":"match_events.csv","ScoreBoardFile":"score_board.csv","Speed":1.0,"TickInterval":0.25},"Execution":{"Host":"127.0.0.1","Port":12345},"Fees":{"Maker":-0.0001,"Taker":0.0002},"Hud":{"Host":"127.0.0.1","Port":12347},"Information":{"Type":"mmap","Name":"info.dat"},"Instrument":{"EtfClamp":0.002,"TickSize":1.0},"Limits":{"ActiveOrderCountLimit":10,"ActiveVolumeLimit":200,"MessageFrequencyInterval":1.0,"MessageFrequencyLimit":50,"PositionLimit":100},"Traders":{"UUB_final":"secret","UUBFUT2":"secret","UUBFUT3":"secret","UUBFUT_final":"secret","minusOne":"secret","minusOneV2":"secret","BollingerFUT":"secret","BollingerFUT2":"secret"}}
+2023-03-15 15:14:46,784 [INFO   ] [CONTROLLER] starting the match
+2023-03-15 15:14:46,784 [INFO   ] [EXECUTION] starting execution server: host=127.0.0.1 port=12345
+2023-03-15 15:14:46,785 [ERROR  ] [asyncio] Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<Controller.start() done, defined at /Users/wooseophwang/Desktop/trade/readytradergo/ready_trader_go/controller.py:102> exception=OSError(48, "error while attempting to bind on address ('127.0.0.1', 12345): address already in use")>
+Traceback (most recent call last):
+  File "/Users/wooseophwang/Desktop/trade/readytradergo/ready_trader_go/controller.py", line 106, in start
+    await self.__execution_server.start()
+  File "/Users/wooseophwang/Desktop/trade/readytradergo/ready_trader_go/execution.py", line 185, in start
+    self.__server = await asyncio.get_running_loop().create_server(self.__on_new_connection, self.host, self.port)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wooseophwang/opt/anaconda3/envs/trade/lib/python3.11/asyncio/base_events.py", line 1511, in create_server
+    raise OSError(err.errno, 'error while attempting '
+OSError: [Errno 48] error while attempting to bind on address ('127.0.0.1', 12345): address already in use
+2023-03-15 15:15:00,554 [INFO   ] [APP] SIGTERM signal received - shutting down...
+2023-03-15 15:15:00,554 [INFO   ] [APP] closing event loop
+2023-03-15 15:44:26,073 [INFO   ] [APP] exchange started with arguments={rtg.py, run, autotrader.py}
+2023-03-15 15:44:26,073 [INFO   ] [APP] configuration={"Engine":{"MarketDataFile":"data/market_data2.csv","MarketEventInterval":0.05,"MarketOpenDelay":5.0,"MatchEventsFile":"match_events.csv","ScoreBoardFile":"score_board.csv","Speed":1.0,"TickInterval":0.25},"Execution":{"Host":"127.0.0.1","Port":12345},"Fees":{"Maker":-0.0001,"Taker":0.0002},"Hud":{"Host":"127.0.0.1","Port":12347},"Information":{"Type":"mmap","Name":"info.dat"},"Instrument":{"EtfClamp":0.002,"TickSize":1.0},"Limits":{"ActiveOrderCountLimit":10,"ActiveVolumeLimit":200,"MessageFrequencyInterval":1.0,"MessageFrequencyLimit":50,"PositionLimit":100},"Traders":{"UUB_final":"secret","UUBFUT2":"secret","UUBFUT3":"secret","UUBFUT_final":"secret","minusOne":"secret","minusOneV2":"secret","BollingerFUT":"secret","BollingerFUT2":"secret"}}
+2023-03-15 15:44:26,074 [INFO   ] [CONTROLLER] starting the match
+2023-03-15 15:44:26,074 [INFO   ] [EXECUTION] starting execution server: host=127.0.0.1 port=12345
+2023-03-15 15:44:26,074 [INFO   ] [INFORMATION] starting information publisher: type=mmap name=info.dat
+2023-03-15 15:44:26,093 [INFO   ] [HEADS_UP] starting heads-up display server: host=127.0.0.1 port=12347
+2023-03-15 15:44:26,093 [INFO   ] [INFORMATION] information channel established
+2023-03-15 15:44:26,411 [INFO   ] [CONNECTION] fd=24 connection established: peer=127.0.0.1:49237
+2023-03-15 15:44:26,412 [INFO   ] [EXECUTION] fd=24 'minusOne' is ready!
+2023-03-15 15:44:27,677 [INFO   ] [CONNECTION] fd=25 connection established: peer=127.0.0.1:49239
+2023-03-15 15:44:31,098 [INFO   ] [CONTROLLER] market open
+2023-03-15 15:44:34,504 [INFO   ] [APP] SIGTERM signal received - shutting down...
+2023-03-15 15:44:34,504 [INFO   ] [APP] closing event loop
+2023-03-15 15:45:26,925 [INFO   ] [APP] exchange started with arguments={rtg.py, run, UUB_final.py}
+2023-03-15 15:45:26,925 [INFO   ] [APP] configuration={"Engine":{"MarketDataFile":"data/market_data6.csv","MarketEventInterval":0.05,"MarketOpenDelay":5.0,"MatchEventsFile":"match_events.csv","ScoreBoardFile":"score_board.csv","Speed":1.0,"TickInterval":0.25},"Execution":{"Host":"127.0.0.1","Port":12345},"Fees":{"Maker":-0.0001,"Taker":0.0002},"Hud":{"Host":"127.0.0.1","Port":12347},"Information":{"Type":"mmap","Name":"info.dat"},"Instrument":{"EtfClamp":0.002,"TickSize":1.0},"Limits":{"ActiveOrderCountLimit":10,"ActiveVolumeLimit":200,"MessageFrequencyInterval":1.0,"MessageFrequencyLimit":50,"PositionLimit":100},"Traders":{"UUB_final":"secret","UUBFUT2":"secret","UUBFUT3":"secret","UUBFUT_final":"secret","minusOne":"secret","minusOneV2":"secret","BollingerFUT":"secret","BollingerFUT2":"secret"}}
+2023-03-15 15:45:26,926 [INFO   ] [CONTROLLER] starting the match
+2023-03-15 15:45:26,926 [INFO   ] [EXECUTION] starting execution server: host=127.0.0.1 port=12345
+2023-03-15 15:45:26,926 [INFO   ] [INFORMATION] starting information publisher: type=mmap name=info.dat
+2023-03-15 15:45:26,930 [INFO   ] [HEADS_UP] starting heads-up display server: host=127.0.0.1 port=12347
+2023-03-15 15:45:26,930 [INFO   ] [INFORMATION] information channel established
+2023-03-15 15:45:27,250 [INFO   ] [CONNECTION] fd=24 connection established: peer=127.0.0.1:49244
+2023-03-15 15:45:27,250 [INFO   ] [EXECUTION] fd=24 'UUB_final' is ready!
+2023-03-15 15:45:28,533 [INFO   ] [CONNECTION] fd=25 connection established: peer=127.0.0.1:49245
+2023-03-15 15:45:31,933 [INFO   ] [CONTROLLER] market open
+2023-03-15 16:00:28,557 [INFO   ] [MARKET_EVENTS] reader thread complete after processing 422722 market events
+2023-03-15 16:00:31,933 [INFO   ] [TIMER] shutting down the match: time=899.989349 reason='match complete'
+2023-03-15 16:00:31,939 [INFO   ] [COMPETITOR] 'UUB_final' closing execution channel at time=899.989349
+2023-03-15 16:00:31,940 [INFO   ] [CONNECTION] fd=24 connection lost
+2023-03-15 16:00:31,940 [INFO   ] [MATCH_EVENTS] writer thread complete after processing 428823 match events
+2023-03-15 16:00:31,940 [INFO   ] [SCORE_BOARD] writer thread complete after processing 3601 score records
+2023-03-15 16:00:31,941 [INFO   ] [APP] closing event loop
+2023-03-15 17:08:18,765 [INFO   ] [APP] exchange started with arguments={rtg.py, run, UUB_final.py}
+2023-03-15 17:08:18,765 [INFO   ] [APP] configuration={"Engine":{"MarketDataFile":"data/market_data6.csv","MarketEventInterval":0.05,"MarketOpenDelay":5.0,"MatchEventsFile":"match_events.csv","ScoreBoardFile":"score_board.csv","Speed":1.0,"TickInterval":0.25},"Execution":{"Host":"127.0.0.1","Port":12345},"Fees":{"Maker":-0.0001,"Taker":0.0002},"Hud":{"Host":"127.0.0.1","Port":12347},"Information":{"Type":"mmap","Name":"info.dat"},"Instrument":{"EtfClamp":0.002,"TickSize":1.0},"Limits":{"ActiveOrderCountLimit":10,"ActiveVolumeLimit":200,"MessageFrequencyInterval":1.0,"MessageFrequencyLimit":50,"PositionLimit":100},"Traders":{"UUB_final":"secret","UUBFUT2":"secret","UUBFUT3":"secret","UUBFUT_final":"secret","minusOne":"secret","minusOneV2":"secret","BollingerFUT":"secret","BollingerFUT2":"secret"}}
+2023-03-15 17:08:18,766 [INFO   ] [CONTROLLER] starting the match
+2023-03-15 17:08:18,766 [INFO   ] [EXECUTION] starting execution server: host=127.0.0.1 port=12345
+2023-03-15 17:08:18,766 [INFO   ] [INFORMATION] starting information publisher: type=mmap name=info.dat
+2023-03-15 17:08:18,768 [INFO   ] [HEADS_UP] starting heads-up display server: host=127.0.0.1 port=12347
+2023-03-15 17:08:18,768 [INFO   ] [INFORMATION] information channel established
+2023-03-15 17:08:19,242 [INFO   ] [CONNECTION] fd=24 connection established: peer=127.0.0.1:49269
+2023-03-15 17:08:19,243 [INFO   ] [EXECUTION] fd=24 'UUB_final' is ready!
+2023-03-15 17:08:20,639 [INFO   ] [CONNECTION] fd=25 connection established: peer=127.0.0.1:49270
+2023-03-15 17:08:23,773 [INFO   ] [CONTROLLER] market open
+2023-03-15 17:23:20,394 [INFO   ] [MARKET_EVENTS] reader thread complete after processing 422722 market events
+2023-03-15 17:23:23,797 [INFO   ] [TIMER] shutting down the match: time=900.008462 reason='match complete'
+2023-03-15 17:23:23,797 [INFO   ] [COMPETITOR] 'UUB_final' closing execution channel at time=900.008462
+2023-03-15 17:23:23,797 [INFO   ] [CONNECTION] fd=24 connection lost
+2023-03-15 17:23:23,797 [INFO   ] [SCORE_BOARD] writer thread complete after processing 3601 score records
+2023-03-15 17:23:23,797 [INFO   ] [MATCH_EVENTS] writer thread complete after processing 428288 match events
+2023-03-15 17:23:23,798 [INFO   ] [APP] closing event loop
+2023-03-15 18:02:35,880 [INFO   ] [APP] exchange started with arguments={rtg.py, run, UUB_final2.py}
+2023-03-15 18:02:35,880 [INFO   ] [APP] configuration={"Engine":{"MarketDataFile":"data/market_data6.csv","MarketEventInterval":0.05,"MarketOpenDelay":5.0,"MatchEventsFile":"match_events.csv","ScoreBoardFile":"score_board.csv","Speed":3.0,"TickInterval":0.25},"Execution":{"Host":"127.0.0.1","Port":12345},"Fees":{"Maker":-0.0001,"Taker":0.0002},"Hud":{"Host":"127.0.0.1","Port":12347},"Information":{"Type":"mmap","Name":"info.dat"},"Instrument":{"EtfClamp":0.002,"TickSize":1.0},"Limits":{"ActiveOrderCountLimit":10,"ActiveVolumeLimit":200,"MessageFrequencyInterval":1.0,"MessageFrequencyLimit":50,"PositionLimit":100},"Traders":{"UUB_final":"secret","UUB_final2":"secret","UUBFUT2":"secret","UUBFUT3":"secret","UUBFUT_final":"secret","minusOne":"secret","minusOneV2":"secret","BollingerFUT":"secret","BollingerFUT2":"secret"}}
+2023-03-15 18:02:35,880 [INFO   ] [CONTROLLER] starting the match
+2023-03-15 18:02:35,880 [INFO   ] [EXECUTION] starting execution server: host=127.0.0.1 port=12345
+2023-03-15 18:02:35,880 [INFO   ] [INFORMATION] starting information publisher: type=mmap name=info.dat
+2023-03-15 18:02:35,898 [INFO   ] [HEADS_UP] starting heads-up display server: host=127.0.0.1 port=12347
+2023-03-15 18:02:35,898 [INFO   ] [INFORMATION] information channel established
+2023-03-15 18:02:36,297 [INFO   ] [CONNECTION] fd=24 connection established: peer=127.0.0.1:49482
+2023-03-15 18:02:36,298 [INFO   ] [EXECUTION] fd=24 'UUB_final' is ready!
+2023-03-15 18:02:37,547 [INFO   ] [CONNECTION] fd=25 connection established: peer=127.0.0.1:49483
+2023-03-15 18:02:40,902 [INFO   ] [CONTROLLER] market open
+2023-03-15 18:07:39,783 [INFO   ] [MARKET_EVENTS] reader thread complete after processing 422722 market events
+2023-03-15 18:07:40,891 [INFO   ] [TIMER] shutting down the match: time=899.964148 reason='match complete'
+2023-03-15 18:07:40,891 [INFO   ] [COMPETITOR] 'UUB_final' closing execution channel at time=899.964148
+2023-03-15 18:07:40,891 [INFO   ] [CONNECTION] fd=24 connection lost
+2023-03-15 18:07:40,891 [INFO   ] [MATCH_EVENTS] writer thread complete after processing 427031 match events
+2023-03-15 18:07:40,891 [INFO   ] [SCORE_BOARD] writer thread complete after processing 3601 score records
+2023-03-15 18:07:40,891 [INFO   ] [APP] closing event loop
+2023-03-15 18:08:17,752 [INFO   ] [APP] exchange started with arguments={rtg.py, run, UUB_final.py}
+2023-03-15 18:08:17,752 [INFO   ] [APP] configuration={"Engine":{"MarketDataFile":"data/market_data6.csv","MarketEventInterval":0.05,"MarketOpenDelay":5.0,"MatchEventsFile":"match_events.csv","ScoreBoardFile":"score_board.csv","Speed":3.0,"TickInterval":0.25},"Execution":{"Host":"127.0.0.1","Port":12345},"Fees":{"Maker":-0.0001,"Taker":0.0002},"Hud":{"Host":"127.0.0.1","Port":12347},"Information":{"Type":"mmap","Name":"info.dat"},"Instrument":{"EtfClamp":0.002,"TickSize":1.0},"Limits":{"ActiveOrderCountLimit":10,"ActiveVolumeLimit":200,"MessageFrequencyInterval":1.0,"MessageFrequencyLimit":50,"PositionLimit":100},"Traders":{"UUB_final":"secret","UUB_final2":"secret","UUBFUT2":"secret","UUBFUT3":"secret","UUBFUT_final":"secret","minusOne":"secret","minusOneV2":"secret","BollingerFUT":"secret","BollingerFUT2":"secret"}}
+2023-03-15 18:08:17,753 [INFO   ] [CONTROLLER] starting the match
+2023-03-15 18:08:17,753 [INFO   ] [EXECUTION] starting execution server: host=127.0.0.1 port=12345
+2023-03-15 18:08:17,753 [INFO   ] [INFORMATION] starting information publisher: type=mmap name=info.dat
+2023-03-15 18:08:17,755 [INFO   ] [HEADS_UP] starting heads-up display server: host=127.0.0.1 port=12347
+2023-03-15 18:08:17,755 [INFO   ] [INFORMATION] information channel established
+2023-03-15 18:08:18,083 [INFO   ] [CONNECTION] fd=24 connection established: peer=127.0.0.1:49488
+2023-03-15 18:08:18,083 [INFO   ] [EXECUTION] fd=24 'UUB_final' is ready!
+2023-03-15 18:08:19,307 [INFO   ] [CONNECTION] fd=25 connection established: peer=127.0.0.1:49489
+2023-03-15 18:08:22,760 [INFO   ] [CONTROLLER] market open
+2023-03-15 18:13:21,629 [INFO   ] [MARKET_EVENTS] reader thread complete after processing 422722 market events
+2023-03-15 18:13:22,758 [INFO   ] [TIMER] shutting down the match: time=899.992432 reason='match complete'
+2023-03-15 18:13:22,758 [INFO   ] [COMPETITOR] 'UUB_final' closing execution channel at time=899.992432
+2023-03-15 18:13:22,759 [INFO   ] [CONNECTION] fd=24 connection lost
+2023-03-15 18:13:22,759 [INFO   ] [SCORE_BOARD] writer thread complete after processing 3601 score records
+2023-03-15 18:13:22,759 [INFO   ] [MATCH_EVENTS] writer thread complete after processing 428231 match events
+2023-03-15 18:13:22,759 [INFO   ] [APP] closing event loop
+2023-03-15 18:17:29,353 [INFO   ] [APP] exchange started with arguments={rtg.py, run, UUB_final2.py}
+2023-03-15 18:17:29,353 [INFO   ] [APP] configuration={"Engine":{"MarketDataFile":"data/market_data6.csv","MarketEventInterval":0.05,"MarketOpenDelay":5.0,"MatchEventsFile":"match_events.csv","ScoreBoardFile":"score_board.csv","Speed":3.0,"TickInterval":0.25},"Execution":{"Host":"127.0.0.1","Port":12345},"Fees":{"Maker":-0.0001,"Taker":0.0002},"Hud":{"Host":"127.0.0.1","Port":12347},"Information":{"Type":"mmap","Name":"info.dat"},"Instrument":{"EtfClamp":0.002,"TickSize":1.0},"Limits":{"ActiveOrderCountLimit":10,"ActiveVolumeLimit":200,"MessageFrequencyInterval":1.0,"MessageFrequencyLimit":50,"PositionLimit":100},"Traders":{"UUB_final":"secret","UUB_final2":"secret","UUBFUT2":"secret","UUBFUT3":"secret","UUBFUT_final":"secret","minusOne":"secret","minusOneV2":"secret","BollingerFUT":"secret","BollingerFUT2":"secret"}}
+2023-03-15 18:17:29,353 [INFO   ] [CONTROLLER] starting the match
+2023-03-15 18:17:29,353 [INFO   ] [EXECUTION] starting execution server: host=127.0.0.1 port=12345
+2023-03-15 18:17:29,354 [INFO   ] [INFORMATION] starting information publisher: type=mmap name=info.dat
+2023-03-15 18:17:29,371 [INFO   ] [HEADS_UP] starting heads-up display server: host=127.0.0.1 port=12347
+2023-03-15 18:17:29,371 [INFO   ] [INFORMATION] information channel established
+2023-03-15 18:17:29,694 [INFO   ] [CONNECTION] fd=24 connection established: peer=127.0.0.1:49535
+2023-03-15 18:17:29,694 [INFO   ] [EXECUTION] fd=24 'UUB_final' is ready!
+2023-03-15 18:17:30,897 [INFO   ] [CONNECTION] fd=25 connection established: peer=127.0.0.1:49536
+2023-03-15 18:17:34,376 [INFO   ] [CONTROLLER] market open
+2023-03-15 18:17:38,698 [INFO   ] [CONNECTION] fd=24 connection lost
+2023-03-15 18:17:38,699 [WARNING] [EXECUTION] fd=24 lost connection to auto-trader:
+2023-03-15 18:17:59,919 [INFO   ] [APP] SIGTERM signal received - shutting down...
+2023-03-15 18:17:59,919 [INFO   ] [APP] closing event loop
+2023-03-15 18:18:51,617 [INFO   ] [APP] exchange started with arguments={rtg.py, run, UUB_final2.py}
+2023-03-15 18:18:51,617 [INFO   ] [APP] configuration={"Engine":{"MarketDataFile":"data/market_data6.csv","MarketEventInterval":0.05,"MarketOpenDelay":5.0,"MatchEventsFile":"match_events.csv","ScoreBoardFile":"score_board.csv","Speed":3.0,"TickInterval":0.25},"Execution":{"Host":"127.0.0.1","Port":12345},"Fees":{"Maker":-0.0001,"Taker":0.0002},"Hud":{"Host":"127.0.0.1","Port":12347},"Information":{"Type":"mmap","Name":"info.dat"},"Instrument":{"EtfClamp":0.002,"TickSize":1.0},"Limits":{"ActiveOrderCountLimit":10,"ActiveVolumeLimit":200,"MessageFrequencyInterval":1.0,"MessageFrequencyLimit":50,"PositionLimit":100},"Traders":{"UUB_final":"secret","UUB_final2":"secret","UUBFUT2":"secret","UUBFUT3":"secret","UUBFUT_final":"secret","minusOne":"secret","minusOneV2":"secret","BollingerFUT":"secret","BollingerFUT2":"secret"}}
+2023-03-15 18:18:51,618 [INFO   ] [CONTROLLER] starting the match
+2023-03-15 18:18:51,618 [INFO   ] [EXECUTION] starting execution server: host=127.0.0.1 port=12345
+2023-03-15 18:18:51,618 [INFO   ] [INFORMATION] starting information publisher: type=mmap name=info.dat
+2023-03-15 18:18:51,635 [INFO   ] [HEADS_UP] starting heads-up display server: host=127.0.0.1 port=12347
+2023-03-15 18:18:51,635 [INFO   ] [INFORMATION] information channel established
+2023-03-15 18:18:51,950 [INFO   ] [CONNECTION] fd=24 connection established: peer=127.0.0.1:49542
+2023-03-15 18:18:51,951 [INFO   ] [EXECUTION] fd=24 'UUB_final' is ready!
+2023-03-15 18:18:53,174 [INFO   ] [CONNECTION] fd=25 connection established: peer=127.0.0.1:49543
+2023-03-15 18:18:56,640 [INFO   ] [CONTROLLER] market open
+2023-03-15 18:18:56,645 [INFO   ] [CONNECTION] fd=24 connection lost
+2023-03-15 18:18:56,645 [WARNING] [EXECUTION] fd=24 lost connection to auto-trader:
+2023-03-15 18:19:12,061 [INFO   ] [APP] SIGTERM signal received - shutting down...
+2023-03-15 18:19:12,061 [INFO   ] [APP] closing event loop
+2023-03-15 19:45:23,896 [INFO   ] [APP] exchange started with arguments={rtg.py, run, UUB_final2.py}
+2023-03-15 19:45:23,896 [INFO   ] [APP] configuration={"Engine":{"MarketDataFile":"data/market_data6.csv","MarketEventInterval":0.05,"MarketOpenDelay":5.0,"MatchEventsFile":"match_events.csv","ScoreBoardFile":"score_board.csv","Speed":3.0,"TickInterval":0.25},"Execution":{"Host":"127.0.0.1","Port":12345},"Fees":{"Maker":-0.0001,"Taker":0.0002},"Hud":{"Host":"127.0.0.1","Port":12347},"Information":{"Type":"mmap","Name":"info.dat"},"Instrument":{"EtfClamp":0.002,"TickSize":1.0},"Limits":{"ActiveOrderCountLimit":10,"ActiveVolumeLimit":200,"MessageFrequencyInterval":1.0,"MessageFrequencyLimit":50,"PositionLimit":100},"Traders":{"UUB_final":"secret","UUB_final2":"secret","UUBFUT2":"secret","UUBFUT3":"secret","UUBFUT_final":"secret","minusOne":"secret","minusOneV2":"secret","BollingerFUT":"secret","BollingerFUT2":"secret"}}
+2023-03-15 19:45:23,896 [INFO   ] [CONTROLLER] starting the match
+2023-03-15 19:45:23,896 [INFO   ] [EXECUTION] starting execution server: host=127.0.0.1 port=12345
+2023-03-15 19:45:23,896 [INFO   ] [INFORMATION] starting information publisher: type=mmap name=info.dat
+2023-03-15 19:45:23,914 [INFO   ] [HEADS_UP] starting heads-up display server: host=127.0.0.1 port=12347
+2023-03-15 19:45:23,914 [INFO   ] [INFORMATION] information channel established
+2023-03-15 19:45:24,243 [INFO   ] [CONNECTION] fd=24 connection established: peer=127.0.0.1:49660
+2023-03-15 19:45:24,243 [INFO   ] [EXECUTION] fd=24 'UUB_final' is ready!
+2023-03-15 19:45:25,511 [INFO   ] [CONNECTION] fd=25 connection established: peer=127.0.0.1:49661
+2023-03-15 19:45:28,918 [INFO   ] [CONTROLLER] market open
+2023-03-15 19:45:34,753 [INFO   ] [CONNECTION] fd=24 connection lost
+2023-03-15 19:45:34,753 [WARNING] [EXECUTION] fd=24 lost connection to auto-trader:
+2023-03-15 19:45:56,178 [INFO   ] [APP] SIGTERM signal received - shutting down...
+2023-03-15 19:45:56,178 [INFO   ] [APP] closing event loop
+2023-03-15 19:46:11,674 [INFO   ] [APP] exchange started with arguments={rtg.py, run, UUB_final2.py}
+2023-03-15 19:46:11,674 [INFO   ] [APP] configuration={"Engine":{"MarketDataFile":"data/market_data6.csv","MarketEventInterval":0.05,"MarketOpenDelay":5.0,"MatchEventsFile":"match_events.csv","ScoreBoardFile":"score_board.csv","Speed":3.0,"TickInterval":0.25},"Execution":{"Host":"127.0.0.1","Port":12345},"Fees":{"Maker":-0.0001,"Taker":0.0002},"Hud":{"Host":"127.0.0.1","Port":12347},"Information":{"Type":"mmap","Name":"info.dat"},"Instrument":{"EtfClamp":0.002,"TickSize":1.0},"Limits":{"ActiveOrderCountLimit":10,"ActiveVolumeLimit":200,"MessageFrequencyInterval":1.0,"MessageFrequencyLimit":50,"PositionLimit":100},"Traders":{"UUB_final":"secret","UUB_final2":"secret","UUBFUT2":"secret","UUBFUT3":"secret","UUBFUT_final":"secret","minusOne":"secret","minusOneV2":"secret","BollingerFUT":"secret","BollingerFUT2":"secret"}}
+2023-03-15 19:46:11,674 [INFO   ] [CONTROLLER] starting the match
+2023-03-15 19:46:11,674 [INFO   ] [EXECUTION] starting execution server: host=127.0.0.1 port=12345
+2023-03-15 19:46:11,675 [INFO   ] [INFORMATION] starting information publisher: type=mmap name=info.dat
+2023-03-15 19:46:11,692 [INFO   ] [HEADS_UP] starting heads-up display server: host=127.0.0.1 port=12347
+2023-03-15 19:46:11,692 [INFO   ] [INFORMATION] information channel established
+2023-03-15 19:46:12,008 [INFO   ] [CONNECTION] fd=24 connection established: peer=127.0.0.1:49666
+2023-03-15 19:46:12,009 [INFO   ] [EXECUTION] fd=24 'UUB_final' is ready!
+2023-03-15 19:46:13,210 [INFO   ] [CONNECTION] fd=25 connection established: peer=127.0.0.1:49667
+2023-03-15 19:46:16,695 [INFO   ] [CONTROLLER] market open
+2023-03-15 19:46:21,534 [INFO   ] [CONNECTION] fd=24 connection lost
+2023-03-15 19:46:21,534 [WARNING] [EXECUTION] fd=24 lost connection to auto-trader:
+2023-03-15 19:46:36,393 [INFO   ] [APP] SIGTERM signal received - shutting down...
+2023-03-15 19:46:36,393 [INFO   ] [APP] closing event loop
+2023-03-15 19:51:42,397 [INFO   ] [APP] exchange started with arguments={rtg.py, run, UUB_final2.py}
+2023-03-15 19:51:42,397 [INFO   ] [APP] configuration={"Engine":{"MarketDataFile":"data/market_data6.csv","MarketEventInterval":0.05,"MarketOpenDelay":5.0,"MatchEventsFile":"match_events.csv","ScoreBoardFile":"score_board.csv","Speed":3.0,"TickInterval":0.25},"Execution":{"Host":"127.0.0.1","Port":12345},"Fees":{"Maker":-0.0001,"Taker":0.0002},"Hud":{"Host":"127.0.0.1","Port":12347},"Information":{"Type":"mmap","Name":"info.dat"},"Instrument":{"EtfClamp":0.002,"TickSize":1.0},"Limits":{"ActiveOrderCountLimit":10,"ActiveVolumeLimit":200,"MessageFrequencyInterval":1.0,"MessageFrequencyLimit":50,"PositionLimit":100},"Traders":{"UUB_final":"secret","UUB_final2":"secret","UUBFUT2":"secret","UUBFUT3":"secret","UUBFUT_final":"secret","minusOne":"secret","minusOneV2":"secret","BollingerFUT":"secret","BollingerFUT2":"secret"}}
+2023-03-15 19:51:42,397 [INFO   ] [CONTROLLER] starting the match
+2023-03-15 19:51:42,397 [INFO   ] [EXECUTION] starting execution server: host=127.0.0.1 port=12345
+2023-03-15 19:51:42,398 [INFO   ] [INFORMATION] starting information publisher: type=mmap name=info.dat
+2023-03-15 19:51:42,415 [INFO   ] [HEADS_UP] starting heads-up display server: host=127.0.0.1 port=12347
+2023-03-15 19:51:42,415 [INFO   ] [INFORMATION] information channel established
+2023-03-15 19:51:42,729 [INFO   ] [CONNECTION] fd=24 connection established: peer=127.0.0.1:49681
+2023-03-15 19:51:42,730 [INFO   ] [EXECUTION] fd=24 'UUB_final' is ready!
+2023-03-15 19:51:43,923 [INFO   ] [CONNECTION] fd=25 connection established: peer=127.0.0.1:49682
+2023-03-15 19:51:47,418 [INFO   ] [CONTROLLER] market open
+2023-03-15 19:51:51,826 [INFO   ] [CONNECTION] fd=24 connection lost
+2023-03-15 19:51:51,826 [WARNING] [EXECUTION] fd=24 lost connection to auto-trader:
+2023-03-15 19:52:13,012 [INFO   ] [APP] SIGTERM signal received - shutting down...
+2023-03-15 19:52:13,012 [INFO   ] [APP] closing event loop
+2023-03-15 19:52:31,946 [INFO   ] [APP] exchange started with arguments={rtg.py, run, UUB_final2.py}
+2023-03-15 19:52:31,946 [INFO   ] [APP] configuration={"Engine":{"MarketDataFile":"data/market_data6.csv","MarketEventInterval":0.05,"MarketOpenDelay":5.0,"MatchEventsFile":"match_events.csv","ScoreBoardFile":"score_board.csv","Speed":3.0,"TickInterval":0.25},"Execution":{"Host":"127.0.0.1","Port":12345},"Fees":{"Maker":-0.0001,"Taker":0.0002},"Hud":{"Host":"127.0.0.1","Port":12347},"Information":{"Type":"mmap","Name":"info.dat"},"Instrument":{"EtfClamp":0.002,"TickSize":1.0},"Limits":{"ActiveOrderCountLimit":10,"ActiveVolumeLimit":200,"MessageFrequencyInterval":1.0,"MessageFrequencyLimit":50,"PositionLimit":100},"Traders":{"UUB_final":"secret","UUB_final2":"secret","UUBFUT2":"secret","UUBFUT3":"secret","UUBFUT_final":"secret","minusOne":"secret","minusOneV2":"secret","BollingerFUT":"secret","BollingerFUT2":"secret"}}
+2023-03-15 19:52:31,946 [INFO   ] [CONTROLLER] starting the match
+2023-03-15 19:52:31,946 [INFO   ] [EXECUTION] starting execution server: host=127.0.0.1 port=12345
+2023-03-15 19:52:31,946 [INFO   ] [INFORMATION] starting information publisher: type=mmap name=info.dat
+2023-03-15 19:52:31,964 [INFO   ] [HEADS_UP] starting heads-up display server: host=127.0.0.1 port=12347
+2023-03-15 19:52:31,964 [INFO   ] [INFORMATION] information channel established
+2023-03-15 19:52:32,278 [INFO   ] [CONNECTION] fd=24 connection established: peer=127.0.0.1:49688
+2023-03-15 19:52:32,278 [INFO   ] [EXECUTION] fd=24 'UUB_final' is ready!
+2023-03-15 19:52:33,491 [INFO   ] [CONNECTION] fd=25 connection established: peer=127.0.0.1:49689
+2023-03-15 19:52:36,967 [INFO   ] [CONTROLLER] market open
+2023-03-15 19:53:37,087 [INFO   ] [APP] SIGTERM signal received - shutting down...
+2023-03-15 19:53:37,087 [INFO   ] [APP] closing event loop
+2023-03-15 19:53:40,808 [INFO   ] [APP] exchange started with arguments={rtg.py, run, UUB_final2.py}
+2023-03-15 19:53:40,809 [INFO   ] [APP] configuration={"Engine":{"MarketDataFile":"data/market_data6.csv","MarketEventInterval":0.05,"MarketOpenDelay":5.0,"MatchEventsFile":"match_events.csv","ScoreBoardFile":"score_board.csv","Speed":3.0,"TickInterval":0.25},"Execution":{"Host":"127.0.0.1","Port":12345},"Fees":{"Maker":-0.0001,"Taker":0.0002},"Hud":{"Host":"127.0.0.1","Port":12347},"Information":{"Type":"mmap","Name":"info.dat"},"Instrument":{"EtfClamp":0.002,"TickSize":1.0},"Limits":{"ActiveOrderCountLimit":10,"ActiveVolumeLimit":200,"MessageFrequencyInterval":1.0,"MessageFrequencyLimit":50,"PositionLimit":100},"Traders":{"UUB_final":"secret","UUB_final2":"secret","UUBFUT2":"secret","UUBFUT3":"secret","UUBFUT_final":"secret","minusOne":"secret","minusOneV2":"secret","BollingerFUT":"secret","BollingerFUT2":"secret"}}
+2023-03-15 19:53:40,809 [INFO   ] [CONTROLLER] starting the match
+2023-03-15 19:53:40,809 [INFO   ] [EXECUTION] starting execution server: host=127.0.0.1 port=12345
+2023-03-15 19:53:40,809 [INFO   ] [INFORMATION] starting information publisher: type=mmap name=info.dat
+2023-03-15 19:53:40,826 [INFO   ] [HEADS_UP] starting heads-up display server: host=127.0.0.1 port=12347
+2023-03-15 19:53:40,827 [INFO   ] [INFORMATION] information channel established
+2023-03-15 19:53:41,143 [INFO   ] [CONNECTION] fd=24 connection established: peer=127.0.0.1:49696
+2023-03-15 19:53:41,143 [INFO   ] [EXECUTION] fd=24 'UUB_final' is ready!
+2023-03-15 19:53:42,345 [INFO   ] [CONNECTION] fd=25 connection established: peer=127.0.0.1:49697
+2023-03-15 19:53:45,831 [INFO   ] [CONTROLLER] market open
+2023-03-15 19:58:44,717 [INFO   ] [MARKET_EVENTS] reader thread complete after processing 422722 market events
+2023-03-15 19:58:45,824 [INFO   ] [TIMER] shutting down the match: time=899.964772 reason='match complete'
+2023-03-15 19:58:45,824 [INFO   ] [COMPETITOR] 'UUB_final' closing execution channel at time=899.964772
+2023-03-15 19:58:45,825 [INFO   ] [CONNECTION] fd=24 connection lost
+2023-03-15 19:58:45,825 [INFO   ] [MATCH_EVENTS] writer thread complete after processing 426964 match events
+2023-03-15 19:58:45,825 [INFO   ] [SCORE_BOARD] writer thread complete after processing 3601 score records
+2023-03-15 19:58:45,826 [INFO   ] [APP] closing event loop
+2023-03-15 20:15:30,287 [INFO   ] [APP] exchange started with arguments={rtg.py, run, UUB_final.py}
+2023-03-15 20:15:30,287 [INFO   ] [APP] configuration={"Engine":{"MarketDataFile":"data/market_data6.csv","MarketEventInterval":0.05,"MarketOpenDelay":5.0,"MatchEventsFile":"match_events.csv","ScoreBoardFile":"score_board.csv","Speed":3.0,"TickInterval":0.25},"Execution":{"Host":"127.0.0.1","Port":12345},"Fees":{"Maker":-0.0001,"Taker":0.0002},"Hud":{"Host":"127.0.0.1","Port":12347},"Information":{"Type":"mmap","Name":"info.dat"},"Instrument":{"EtfClamp":0.002,"TickSize":1.0},"Limits":{"ActiveOrderCountLimit":10,"ActiveVolumeLimit":200,"MessageFrequencyInterval":1.0,"MessageFrequencyLimit":50,"PositionLimit":100},"Traders":{"UUB_final":"secret","UUB_final2":"secret","UUBFUT2":"secret","UUBFUT3":"secret","UUBFUT_final":"secret","minusOne":"secret","minusOneV2":"secret","BollingerFUT":"secret","BollingerFUT2":"secret"}}
+2023-03-15 20:15:30,287 [INFO   ] [CONTROLLER] starting the match
+2023-03-15 20:15:30,287 [INFO   ] [EXECUTION] starting execution server: host=127.0.0.1 port=12345
+2023-03-15 20:15:30,288 [INFO   ] [INFORMATION] starting information publisher: type=mmap name=info.dat
+2023-03-15 20:15:30,305 [INFO   ] [HEADS_UP] starting heads-up display server: host=127.0.0.1 port=12347
+2023-03-15 20:15:30,305 [INFO   ] [INFORMATION] information channel established
+2023-03-15 20:15:30,620 [INFO   ] [CONNECTION] fd=24 connection established: peer=127.0.0.1:49868
+2023-03-15 20:15:30,620 [INFO   ] [EXECUTION] fd=24 'UUB_final' is ready!
+2023-03-15 20:15:31,816 [INFO   ] [CONNECTION] fd=25 connection established: peer=127.0.0.1:49869
+2023-03-15 20:15:35,310 [INFO   ] [CONTROLLER] market open
+2023-03-15 20:20:34,187 [INFO   ] [MARKET_EVENTS] reader thread complete after processing 422722 market events
+2023-03-15 20:20:35,317 [INFO   ] [TIMER] shutting down the match: time=900.006848 reason='match complete'
+2023-03-15 20:20:35,317 [INFO   ] [COMPETITOR] 'UUB_final' closing execution channel at time=900.006848
+2023-03-15 20:20:35,317 [INFO   ] [CONNECTION] fd=24 connection lost
+2023-03-15 20:20:35,318 [INFO   ] [MATCH_EVENTS] writer thread complete after processing 428235 match events
+2023-03-15 20:20:35,318 [INFO   ] [SCORE_BOARD] writer thread complete after processing 3601 score records
+2023-03-15 20:20:35,318 [INFO   ] [APP] closing event loop
+2023-03-15 20:21:23,115 [INFO   ] [APP] exchange started with arguments={rtg.py, run, UUB_final.py}
+2023-03-15 20:21:23,116 [INFO   ] [APP] configuration={"Engine":{"MarketDataFile":"data/market_data6.csv","MarketEventInterval":0.05,"MarketOpenDelay":5.0,"MatchEventsFile":"match_events.csv","ScoreBoardFile":"score_board.csv","Speed":3.0,"TickInterval":0.25},"Execution":{"Host":"127.0.0.1","Port":12345},"Fees":{"Maker":-0.0001,"Taker":0.0002},"Hud":{"Host":"127.0.0.1","Port":12347},"Information":{"Type":"mmap","Name":"info.dat"},"Instrument":{"EtfClamp":0.002,"TickSize":1.0},"Limits":{"ActiveOrderCountLimit":10,"ActiveVolumeLimit":200,"MessageFrequencyInterval":1.0,"MessageFrequencyLimit":50,"PositionLimit":100},"Traders":{"UUB_final":"secret","UUB_final2":"secret","UUBFUT2":"secret","UUBFUT3":"secret","UUBFUT_final":"secret","minusOne":"secret","minusOneV2":"secret","BollingerFUT":"secret","BollingerFUT2":"secret"}}
+2023-03-15 20:21:23,116 [INFO   ] [CONTROLLER] starting the match
+2023-03-15 20:21:23,116 [INFO   ] [EXECUTION] starting execution server: host=127.0.0.1 port=12345
+2023-03-15 20:21:23,116 [INFO   ] [INFORMATION] starting information publisher: type=mmap name=info.dat
+2023-03-15 20:21:23,133 [INFO   ] [HEADS_UP] starting heads-up display server: host=127.0.0.1 port=12347
+2023-03-15 20:21:23,134 [INFO   ] [INFORMATION] information channel established
+2023-03-15 20:21:23,458 [INFO   ] [CONNECTION] fd=24 connection established: peer=127.0.0.1:49875
+2023-03-15 20:21:23,459 [INFO   ] [EXECUTION] fd=24 'UUB_final' is ready!
+2023-03-15 20:21:24,663 [INFO   ] [CONNECTION] fd=25 connection established: peer=127.0.0.1:49876
+2023-03-15 20:21:28,138 [INFO   ] [CONTROLLER] market open
+2023-03-15 20:26:27,014 [INFO   ] [MARKET_EVENTS] reader thread complete after processing 422722 market events
+2023-03-15 20:26:28,133 [INFO   ] [TIMER] shutting down the match: time=899.972424 reason='match complete'
+2023-03-15 20:26:28,133 [INFO   ] [COMPETITOR] 'UUB_final' closing execution channel at time=899.972424
+2023-03-15 20:26:28,133 [INFO   ] [CONNECTION] fd=24 connection lost
+2023-03-15 20:26:28,134 [INFO   ] [SCORE_BOARD] writer thread complete after processing 3601 score records
+2023-03-15 20:26:28,134 [INFO   ] [MATCH_EVENTS] writer thread complete after processing 428262 match events
+2023-03-15 20:26:28,134 [INFO   ] [APP] closing event loop
+2023-03-15 20:27:40,763 [INFO   ] [APP] exchange started with arguments={rtg.py, run, UUB_final.py}
+2023-03-15 20:27:40,763 [INFO   ] [APP] configuration={"Engine":{"MarketDataFile":"data/market_data6.csv","MarketEventInterval":0.05,"MarketOpenDelay":5.0,"MatchEventsFile":"match_events.csv","ScoreBoardFile":"score_board.csv","Speed":3.0,"TickInterval":0.25},"Execution":{"Host":"127.0.0.1","Port":12345},"Fees":{"Maker":-0.0001,"Taker":0.0002},"Hud":{"Host":"127.0.0.1","Port":12347},"Information":{"Type":"mmap","Name":"info.dat"},"Instrument":{"EtfClamp":0.002,"TickSize":1.0},"Limits":{"ActiveOrderCountLimit":10,"ActiveVolumeLimit":200,"MessageFrequencyInterval":1.0,"MessageFrequencyLimit":50,"PositionLimit":100},"Traders":{"UUB_final":"secret","UUB_final2":"secret","UUBFUT2":"secret","UUBFUT3":"secret","UUBFUT_final":"secret","minusOne":"secret","minusOneV2":"secret","BollingerFUT":"secret","BollingerFUT2":"secret"}}
+2023-03-15 20:27:40,763 [INFO   ] [CONTROLLER] starting the match
+2023-03-15 20:27:40,763 [INFO   ] [EXECUTION] starting execution server: host=127.0.0.1 port=12345
+2023-03-15 20:27:40,764 [INFO   ] [INFORMATION] starting information publisher: type=mmap name=info.dat
+2023-03-15 20:27:40,781 [INFO   ] [HEADS_UP] starting heads-up display server: host=127.0.0.1 port=12347
+2023-03-15 20:27:40,781 [INFO   ] [INFORMATION] information channel established
+2023-03-15 20:27:41,106 [INFO   ] [CONNECTION] fd=24 connection established: peer=127.0.0.1:49883
+2023-03-15 20:27:41,107 [INFO   ] [EXECUTION] fd=24 'UUB_final' is ready!
+2023-03-15 20:27:42,306 [INFO   ] [CONNECTION] fd=25 connection established: peer=127.0.0.1:49884
+2023-03-15 20:27:45,785 [INFO   ] [CONTROLLER] market open
+2023-03-15 20:32:44,662 [INFO   ] [MARKET_EVENTS] reader thread complete after processing 422722 market events
+2023-03-15 20:32:45,781 [INFO   ] [TIMER] shutting down the match: time=899.974878 reason='match complete'
+2023-03-15 20:32:45,781 [INFO   ] [COMPETITOR] 'UUB_final' closing execution channel at time=899.974878
+2023-03-15 20:32:45,781 [INFO   ] [CONNECTION] fd=24 connection lost
+2023-03-15 20:32:45,782 [INFO   ] [MATCH_EVENTS] writer thread complete after processing 428153 match events
+2023-03-15 20:32:45,782 [INFO   ] [SCORE_BOARD] writer thread complete after processing 3601 score records
+2023-03-15 20:32:45,782 [INFO   ] [APP] closing event loop
+2023-03-15 20:33:54,840 [INFO   ] [APP] exchange started with arguments={rtg.py, run, UUB_final.py}
+2023-03-15 20:33:54,840 [INFO   ] [APP] configuration={"Engine":{"MarketDataFile":"data/market_data6.csv","MarketEventInterval":0.05,"MarketOpenDelay":5.0,"MatchEventsFile":"match_events.csv","ScoreBoardFile":"score_board.csv","Speed":3.0,"TickInterval":0.25},"Execution":{"Host":"127.0.0.1","Port":12345},"Fees":{"Maker":-0.0001,"Taker":0.0002},"Hud":{"Host":"127.0.0.1","Port":12347},"Information":{"Type":"mmap","Name":"info.dat"},"Instrument":{"EtfClamp":0.002,"TickSize":1.0},"Limits":{"ActiveOrderCountLimit":10,"ActiveVolumeLimit":200,"MessageFrequencyInterval":1.0,"MessageFrequencyLimit":50,"PositionLimit":100},"Traders":{"UUB_final":"secret","UUB_final2":"secret","UUBFUT2":"secret","UUBFUT3":"secret","UUBFUT_final":"secret","minusOne":"secret","minusOneV2":"secret","BollingerFUT":"secret","BollingerFUT2":"secret"}}
+2023-03-15 20:33:54,840 [INFO   ] [CONTROLLER] starting the match
+2023-03-15 20:33:54,840 [INFO   ] [EXECUTION] starting execution server: host=127.0.0.1 port=12345
+2023-03-15 20:33:54,841 [INFO   ] [INFORMATION] starting information publisher: type=mmap name=info.dat
+2023-03-15 20:33:54,858 [INFO   ] [HEADS_UP] starting heads-up display server: host=127.0.0.1 port=12347
+2023-03-15 20:33:54,858 [INFO   ] [INFORMATION] information channel established
+2023-03-15 20:33:55,175 [INFO   ] [CONNECTION] fd=24 connection established: peer=127.0.0.1:49900
+2023-03-15 20:33:55,175 [INFO   ] [EXECUTION] fd=24 'UUB_final' is ready!
+2023-03-15 20:33:56,377 [INFO   ] [CONNECTION] fd=25 connection established: peer=127.0.0.1:49901
+2023-03-15 20:33:59,863 [INFO   ] [CONTROLLER] market open
+2023-03-15 20:38:58,736 [INFO   ] [MARKET_EVENTS] reader thread complete after processing 422722 market events
+2023-03-15 20:38:59,879 [INFO   ] [TIMER] shutting down the match: time=900.037408 reason='match complete'
+2023-03-15 20:38:59,880 [INFO   ] [COMPETITOR] 'UUB_final' closing execution channel at time=900.037408
+2023-03-15 20:38:59,880 [INFO   ] [CONNECTION] fd=24 connection lost
+2023-03-15 20:38:59,880 [INFO   ] [MATCH_EVENTS] writer thread complete after processing 428273 match events
+2023-03-15 20:38:59,880 [INFO   ] [SCORE_BOARD] writer thread complete after processing 3601 score records
+2023-03-15 20:38:59,880 [INFO   ] [APP] closing event loop
+>>>>>>> 6c4b21f42a5a8115e4762cb7f9f901b65087390c
+2023-03-15 16:06:55,401 [INFO   ] [APP] exchange started with arguments={rtg.py, run, test1.py}
+2023-03-15 16:06:55,401 [INFO   ] [APP] configuration={"Engine":{"MarketDataFile":"data/market_data6.csv","MarketEventInterval":0.05,"MarketOpenDelay":5.0,"MatchEventsFile":"match_events.csv","ScoreBoardFile":"score_board.csv","Speed":3.0,"TickInterval":0.25},"Execution":{"Host":"127.0.0.1","Port":12345},"Fees":{"Maker":-0.0001,"Taker":0.0002},"Hud":{"Host":"127.0.0.1","Port":12347},"Information":{"Type":"mmap","Name":"info.dat"},"Instrument":{"EtfClamp":0.002,"TickSize":1.0},"Limits":{"ActiveOrderCountLimit":10,"ActiveVolumeLimit":200,"MessageFrequencyInterval":1.0,"MessageFrequencyLimit":50,"PositionLimit":100},"Traders":{"test1":"secret"}}
+2023-03-15 16:06:55,402 [INFO   ] [CONTROLLER] starting the match
+2023-03-15 16:06:55,402 [INFO   ] [EXECUTION] starting execution server: host=127.0.0.1 port=12345
+2023-03-15 16:06:55,403 [INFO   ] [INFORMATION] starting information publisher: type=mmap name=info.dat
+2023-03-15 16:06:55,404 [INFO   ] [HEADS_UP] starting heads-up display server: host=127.0.0.1 port=12347
+2023-03-15 16:06:55,404 [INFO   ] [INFORMATION] information channel established
+2023-03-15 16:06:55,432 [INFO   ] [CONNECTION] fd=1088 connection established: peer=127.0.0.1:56655
+2023-03-15 16:06:55,432 [INFO   ] [EXECUTION] fd=1088 'test1' is ready!
+2023-03-15 16:06:56,703 [INFO   ] [CONNECTION] fd=1100 connection established: peer=127.0.0.1:56656
+2023-03-15 16:07:00,431 [INFO   ] [CONTROLLER] market open
+2023-03-15 16:07:00,703 [INFO   ] [COMPETITOR] 'test1' sent error message: time=0.843000 client_order_id=1 message='%d is not a valid volume'
+2023-03-15 16:07:00,847 [INFO   ] [COMPETITOR] 'test1' sent error message: time=1.263000 client_order_id=2 message='%d is not a valid volume'
+2023-03-15 16:07:02,459 [INFO   ] [COMPETITOR] 'test1' sent error message: time=6.093000 client_order_id=3 message='%d is not a valid volume'
+2023-03-15 16:07:11,896 [INFO   ] [COMPETITOR] 'test1' sent error message: time=34.365914 client_order_id=16 message='ETF position limit breached'
+2023-03-15 16:07:11,896 [INFO   ] [COMPETITOR] 'test1' closing execution channel at time=34.365914
+2023-03-15 16:07:11,899 [INFO   ] [CONNECTION] fd=1088 connection lost

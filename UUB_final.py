@@ -36,7 +36,7 @@ DELTA = 100
 
 class AutoTrader(BaseAutoTrader):
     """Example Auto-trader.
-
+ 
     When it starts this auto-trader places ten-lot bid and ask orders at the
     current best-bid and best-ask prices respectively. Thereafter, if it has
     a long position (it has bought more lots than it has sold) it reduces its
@@ -88,6 +88,7 @@ class AutoTrader(BaseAutoTrader):
             #Typical Price
             TP = (bid_prices[0] + ask_prices[0]) / 2
             TP_list.append(TP)
+            midf = 0.5*(bid_prices[0] + ask_prices[0])
             
             #Upper band, middle band, lower band, dev=2
             n = sequence_number
@@ -99,7 +100,7 @@ class AutoTrader(BaseAutoTrader):
                 UB = SMA + 1.5*np.std(TP_list[n-m-1:n])
                 MB = np.sum(TP_list[n-m-1:n])/m
                 LB = SMA - 1.5*np.std(TP_list[n-m-1:n])
-                LLB = SMA - 1.97*np.std(TP_list[n-m-1:n])
+                LLB = SMA - 1.97*np.std(TP_list[n-m-1:n])  
                 #TP_list.pop(0)
                 
             else:
@@ -159,8 +160,13 @@ class AutoTrader(BaseAutoTrader):
                 #     self.asks.add(self.ask_id)
             
                 
-            self.logger.info("received order book for instrument %d with sequence number %d with SMA %f with UB %f with TP %f with new_ask_price %f", instrument,
-                         sequence_number, SMA, UB, TP, new_ask_price)
+            self.logger.info("received order book for instrument %d with sequence number %d with SMA %f with TP %f with new_ask_price %f with future price %f", instrument,
+                         sequence_number, SMA, UB, TP, midf)
+            
+        if instrument == Instrument.ETF:
+            mide = 0.5*(bid_prices[0] + ask_prices[0])
+            self.logger.info("instrument %d sequence number %d with etf price %f", instrument,
+                         sequence_number, mide)
 
     def on_order_filled_message(self, client_order_id: int, price: int, volume: int) -> None:
         """Called when one of your orders is filled, partially or fully.
