@@ -777,3 +777,273 @@ Traceback (most recent call last):
     self._receiver_transport.close()
     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-15 16:05:49,063 [INFO   ] [APP] test1 started with arguments={rtg.py, run, test1.py}
+2023-03-15 16:05:49,064 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"test1","Secret":"secret"}
+2023-03-15 16:06:55,422 [INFO   ] [APP] test1 started with arguments={rtg.py, run, test1.py}
+2023-03-15 16:06:55,422 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"test1","Secret":"secret"}
+2023-03-15 16:06:55,432 [INFO   ] [CONNECTION] fd=760 connection established: peer=127.0.0.1:12345
+2023-03-15 16:07:00,433 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 1 diff equals 0.000000
+2023-03-15 16:07:00,479 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 2
+2023-03-15 16:07:00,515 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 2 diff equals 0.000000
+2023-03-15 16:07:00,590 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 3 diff equals 400.000000
+2023-03-15 16:07:00,590 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 3
+2023-03-15 16:07:00,701 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 4 diff equals 200.000000
+2023-03-15 16:07:00,703 [WARNING] [TRADER] error with order 1: %d is not a valid volume
+2023-03-15 16:07:00,704 [INFO   ] [TRADER] received order status for order 1 with fill volume 0 remaining 0 and fees 0
+2023-03-15 16:07:00,762 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 5 diff equals 350.000000
+2023-03-15 16:07:00,845 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 2
+2023-03-15 16:07:00,847 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 6 diff equals 200.000000
+2023-03-15 16:07:00,847 [WARNING] [TRADER] error with order 2: %d is not a valid volume
+2023-03-15 16:07:00,847 [INFO   ] [TRADER] received order status for order 2 with fill volume 0 remaining 0 and fees 0
+2023-03-15 16:07:00,943 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 3
+2023-03-15 16:07:00,948 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 7 diff equals -50.000000
+2023-03-15 16:07:00,994 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 8 diff equals 0.000000
+2023-03-15 16:07:01,096 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 9 diff equals 0.000000
+2023-03-15 16:07:01,181 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 10 diff equals -100.000000
+2023-03-15 16:07:01,260 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 11 diff equals 0.000000
+2023-03-15 16:07:01,340 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 12 diff equals 350.000000
+2023-03-15 16:07:01,374 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 4
+2023-03-15 16:07:01,428 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 13 diff equals 450.000000
+2023-03-15 16:07:01,428 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 5
+2023-03-15 16:07:01,467 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 6
+2023-03-15 16:07:01,512 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 14 diff equals 350.000000
+2023-03-15 16:07:01,616 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 15 diff equals 250.000000
+2023-03-15 16:07:01,616 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 4
+2023-03-15 16:07:01,619 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 7
+2023-03-15 16:07:01,672 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 16 diff equals 100.000000
+2023-03-15 16:07:01,744 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 17 diff equals 250.000000
+2023-03-15 16:07:01,794 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 8
+2023-03-15 16:07:01,841 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 18 diff equals 150.000000
+2023-03-15 16:07:01,923 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 19 diff equals 50.000000
+2023-03-15 16:07:01,950 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 9
+2023-03-15 16:07:02,028 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 20 diff equals 50.000000
+2023-03-15 16:07:02,110 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 21 diff equals -50.000000
+2023-03-15 16:07:02,156 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 10
+2023-03-15 16:07:02,180 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 22 diff equals -250.000000
+2023-03-15 16:07:02,234 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 23 diff equals 250.000000
+2023-03-15 16:07:02,234 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 11
+2023-03-15 16:07:02,350 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 24 diff equals -150.000000
+2023-03-15 16:07:02,455 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 25 diff equals 200.000000
+2023-03-15 16:07:02,459 [WARNING] [TRADER] error with order 3: %d is not a valid volume
+2023-03-15 16:07:02,460 [INFO   ] [TRADER] received order status for order 3 with fill volume 0 remaining 0 and fees 0
+2023-03-15 16:07:02,510 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 26 diff equals -250.000000
+2023-03-15 16:07:02,572 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 5
+2023-03-15 16:07:02,605 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 27 diff equals -350.000000
+2023-03-15 16:07:02,605 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 6
+2023-03-15 16:07:02,663 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 12
+2023-03-15 16:07:02,663 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 28 diff equals -100.000000
+2023-03-15 16:07:02,719 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 7
+2023-03-15 16:07:02,763 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 29 diff equals -500.000000
+2023-03-15 16:07:02,768 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 13
+2023-03-15 16:07:02,768 [INFO   ] [TRADER] received order status for order 4 with fill volume 0 remaining 20 and fees 0
+2023-03-15 16:07:02,819 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 30 diff equals -400.000000
+2023-03-15 16:07:02,911 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 31 diff equals -250.000000
+2023-03-15 16:07:03,014 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 32 diff equals -550.000000
+2023-03-15 16:07:03,103 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 33 diff equals -500.000000
+2023-03-15 16:07:03,195 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 34 diff equals -400.000000
+2023-03-15 16:07:03,221 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 14
+2023-03-15 16:07:03,283 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 35 diff equals -550.000000
+2023-03-15 16:07:03,335 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 36 diff equals -550.000000
+2023-03-15 16:07:03,428 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 37 diff equals -550.000000
+2023-03-15 16:07:03,501 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 15
+2023-03-15 16:07:03,502 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 38 diff equals -550.000000
+2023-03-15 16:07:03,502 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 8
+2023-03-15 16:07:03,502 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 16
+2023-03-15 16:07:03,600 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 39 diff equals -450.000000
+2023-03-15 16:07:03,679 [INFO   ] [TRADER] received order filled for order 4 with price 127000 and volume 20
+2023-03-15 16:07:03,680 [INFO   ] [TRADER] received order status for order 4 with fill volume 20 remaining 0 and fees -254
+2023-03-15 16:07:03,681 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 40 diff equals -500.000000
+2023-03-15 16:07:03,681 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 9
+2023-03-15 16:07:03,681 [INFO   ] [TRADER] received hedge filled for order 5 with average price 127600 and volume 20
+2023-03-15 16:07:03,681 [INFO   ] [TRADER] received order status for order 6 with fill volume 0 remaining 20 and fees 0
+2023-03-15 16:07:03,717 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 17
+2023-03-15 16:07:03,753 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 41 diff equals -450.000000
+2023-03-15 16:07:03,798 [INFO   ] [TRADER] received order filled for order 6 with price 127000 and volume 20
+2023-03-15 16:07:03,798 [INFO   ] [TRADER] received order status for order 6 with fill volume 20 remaining 0 and fees -254
+2023-03-15 16:07:03,799 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 10
+2023-03-15 16:07:03,800 [INFO   ] [TRADER] received hedge filled for order 7 with average price 127400 and volume 20
+2023-03-15 16:07:03,846 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 42 diff equals -450.000000
+2023-03-15 16:07:03,923 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 43 diff equals -400.000000
+2023-03-15 16:07:03,924 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 11
+2023-03-15 16:07:04,016 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 44 diff equals -400.000000
+2023-03-15 16:07:04,017 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 12
+2023-03-15 16:07:04,054 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 18
+2023-03-15 16:07:04,097 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 45 diff equals -350.000000
+2023-03-15 16:07:04,133 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 19
+2023-03-15 16:07:04,183 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 46 diff equals -150.000000
+2023-03-15 16:07:04,183 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 13
+2023-03-15 16:07:04,264 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 47 diff equals 0.000000
+2023-03-15 16:07:04,341 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 48 diff equals -150.000000
+2023-03-15 16:07:04,442 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 49 diff equals -50.000000
+2023-03-15 16:07:04,497 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 50 diff equals -100.000000
+2023-03-15 16:07:04,560 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 51 diff equals -100.000000
+2023-03-15 16:07:04,600 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 20
+2023-03-15 16:07:04,668 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 52 diff equals 100.000000
+2023-03-15 16:07:04,780 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 53 diff equals 150.000000
+2023-03-15 16:07:04,828 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 54 diff equals 100.000000
+2023-03-15 16:07:04,961 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 55 diff equals 200.000000
+2023-03-15 16:07:04,963 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 14
+2023-03-15 16:07:04,963 [INFO   ] [TRADER] received order status for order 8 with fill volume 0 remaining 40 and fees 0
+2023-03-15 16:07:05,038 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 56 diff equals 400.000000
+2023-03-15 16:07:05,040 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 15
+2023-03-15 16:07:05,100 [INFO   ] [TRADER] received order filled for order 8 with price 127800 and volume 21
+2023-03-15 16:07:05,100 [INFO   ] [TRADER] received order status for order 8 with fill volume 21 remaining 19 and fees -268
+2023-03-15 16:07:05,101 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 57 diff equals 450.000000
+2023-03-15 16:07:05,101 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 16
+2023-03-15 16:07:05,101 [INFO   ] [TRADER] received hedge filled for order 9 with average price 127500 and volume 21
+2023-03-15 16:07:05,135 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 21
+2023-03-15 16:07:05,182 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 58 diff equals 400.000000
+2023-03-15 16:07:05,272 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 59 diff equals 550.000000
+2023-03-15 16:07:05,273 [INFO   ] [TRADER] received order status for order 10 with fill volume 0 remaining 20 and fees 0
+2023-03-15 16:07:05,333 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 60 diff equals 450.000000
+2023-03-15 16:07:05,426 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 61 diff equals 450.000000
+2023-03-15 16:07:05,426 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 17
+2023-03-15 16:07:05,521 [INFO   ] [TRADER] received order filled for order 10 with price 128200 and volume 12
+2023-03-15 16:07:05,521 [INFO   ] [TRADER] received order status for order 10 with fill volume 12 remaining 8 and fees -154
+2023-03-15 16:07:05,524 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 62 diff equals 400.000000
+2023-03-15 16:07:05,524 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 18
+2023-03-15 16:07:05,524 [INFO   ] [TRADER] received hedge filled for order 11 with average price 127700 and volume 12
+2023-03-15 16:07:05,578 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 63 diff equals 400.000000
+2023-03-15 16:07:05,677 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 64 diff equals 450.000000
+2023-03-15 16:07:05,740 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 65 diff equals 450.000000
+2023-03-15 16:07:05,835 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 66 diff equals 400.000000
+2023-03-15 16:07:05,930 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 67 diff equals 500.000000
+2023-03-15 16:07:06,006 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 68 diff equals 500.000000
+2023-03-15 16:07:06,006 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 19
+2023-03-15 16:07:06,086 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 69 diff equals 400.000000
+2023-03-15 16:07:06,193 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 70 diff equals 350.000000
+2023-03-15 16:07:06,243 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 71 diff equals 250.000000
+2023-03-15 16:07:06,243 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 22
+2023-03-15 16:07:06,333 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 72 diff equals 300.000000
+2023-03-15 16:07:06,439 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 73 diff equals 200.000000
+2023-03-15 16:07:06,440 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 23
+2023-03-15 16:07:06,487 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 74 diff equals 150.000000
+2023-03-15 16:07:06,562 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 24
+2023-03-15 16:07:06,586 [INFO   ] [TRADER] received order filled for order 8 with price 127800 and volume 19
+2023-03-15 16:07:06,586 [INFO   ] [TRADER] received order status for order 8 with fill volume 40 remaining 0 and fees -511
+2023-03-15 16:07:06,591 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 25
+2023-03-15 16:07:06,591 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 20
+2023-03-15 16:07:06,596 [INFO   ] [TRADER] received hedge filled for order 12 with average price 127900 and volume 19
+2023-03-15 16:07:06,596 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 75 diff equals -100.000000
+2023-03-15 16:07:06,706 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 76 diff equals -50.000000
+2023-03-15 16:07:06,754 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 77 diff equals -50.000000
+2023-03-15 16:07:06,832 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 78 diff equals -50.000000
+2023-03-15 16:07:06,911 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 79 diff equals -150.000000
+2023-03-15 16:07:06,986 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 80 diff equals -100.000000
+2023-03-15 16:07:07,065 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 81 diff equals -150.000000
+2023-03-15 16:07:07,173 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 82 diff equals -250.000000
+2023-03-15 16:07:07,254 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 83 diff equals -300.000000
+2023-03-15 16:07:07,347 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 84 diff equals -250.000000
+2023-03-15 16:07:07,409 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 85 diff equals -200.000000
+2023-03-15 16:07:07,434 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 26
+2023-03-15 16:07:07,484 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 86 diff equals -450.000000
+2023-03-15 16:07:07,565 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 87 diff equals -300.000000
+2023-03-15 16:07:07,686 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 88 diff equals -350.000000
+2023-03-15 16:07:07,700 [INFO   ] [TRADER] received order filled for order 10 with price 128200 and volume 2
+2023-03-15 16:07:07,700 [INFO   ] [TRADER] received order status for order 10 with fill volume 14 remaining 6 and fees -180
+2023-03-15 16:07:07,702 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 21
+2023-03-15 16:07:07,702 [INFO   ] [TRADER] received hedge filled for order 13 with average price 128300 and volume 2
+2023-03-15 16:07:07,737 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 22
+2023-03-15 16:07:07,761 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 89 diff equals -350.000000
+2023-03-15 16:07:07,823 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 90 diff equals -200.000000
+2023-03-15 16:07:07,934 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 91 diff equals -150.000000
+2023-03-15 16:07:08,009 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 92 diff equals -100.000000
+2023-03-15 16:07:08,095 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 93 diff equals 0.000000
+2023-03-15 16:07:08,133 [INFO   ] [TRADER] received order filled for order 10 with price 128200 and volume 6
+2023-03-15 16:07:08,133 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 23
+2023-03-15 16:07:08,133 [INFO   ] [TRADER] received order status for order 10 with fill volume 20 remaining 0 and fees -257
+2023-03-15 16:07:08,133 [INFO   ] [TRADER] received hedge filled for order 14 with average price 127900 and volume 6
+2023-03-15 16:07:08,196 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 94 diff equals 450.000000
+2023-03-15 16:07:08,223 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 27
+2023-03-15 16:07:08,257 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 95 diff equals 650.000000
+2023-03-15 16:07:08,257 [INFO   ] [TRADER] received order status for order 15 with fill volume 0 remaining 20 and fees 0
+2023-03-15 16:07:08,303 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 24
+2023-03-15 16:07:08,334 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 96 diff equals 200.000000
+2023-03-15 16:07:08,334 [INFO   ] [TRADER] received order status for order 16 with fill volume 0 remaining 60 and fees 0
+2023-03-15 16:07:08,425 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 97 diff equals 200.000000
+2023-03-15 16:07:08,466 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 28
+2023-03-15 16:07:08,510 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 98 diff equals 200.000000
+2023-03-15 16:07:08,582 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 99 diff equals 200.000000
+2023-03-15 16:07:08,675 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 100 diff equals 150.000000
+2023-03-15 16:07:08,675 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 25
+2023-03-15 16:07:08,767 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 101 diff equals 200.000000
+2023-03-15 16:07:08,829 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 29
+2023-03-15 16:07:08,830 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 102 diff equals -50.000000
+2023-03-15 16:07:08,922 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 103 diff equals 0.000000
+2023-03-15 16:07:08,999 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 104 diff equals 0.000000
+2023-03-15 16:07:09,015 [INFO   ] [TRADER] received order filled for order 15 with price 128400 and volume 2
+2023-03-15 16:07:09,016 [INFO   ] [TRADER] received order status for order 15 with fill volume 2 remaining 18 and fees -26
+2023-03-15 16:07:09,016 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 26
+2023-03-15 16:07:09,016 [INFO   ] [TRADER] received hedge filled for order 17 with average price 128100 and volume 2
+2023-03-15 16:07:09,077 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 105 diff equals 0.000000
+2023-03-15 16:07:09,160 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 106 diff equals 0.000000
+2023-03-15 16:07:09,248 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 107 diff equals 50.000000
+2023-03-15 16:07:09,344 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 108 diff equals 100.000000
+2023-03-15 16:07:09,420 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 109 diff equals 50.000000
+2023-03-15 16:07:09,482 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 110 diff equals 100.000000
+2023-03-15 16:07:09,560 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 111 diff equals 50.000000
+2023-03-15 16:07:09,671 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 112 diff equals -200.000000
+2023-03-15 16:07:09,732 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 113 diff equals -200.000000
+2023-03-15 16:07:09,764 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 27
+2023-03-15 16:07:09,809 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 114 diff equals -250.000000
+2023-03-15 16:07:09,918 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 115 diff equals -400.000000
+2023-03-15 16:07:10,012 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 116 diff equals -350.000000
+2023-03-15 16:07:10,105 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 117 diff equals -350.000000
+2023-03-15 16:07:10,175 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 118 diff equals -400.000000
+2023-03-15 16:07:10,176 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 28
+2023-03-15 16:07:10,263 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 119 diff equals -350.000000
+2023-03-15 16:07:10,328 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 120 diff equals -350.000000
+2023-03-15 16:07:10,450 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 121 diff equals -450.000000
+2023-03-15 16:07:10,499 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 29
+2023-03-15 16:07:10,527 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 122 diff equals -400.000000
+2023-03-15 16:07:10,558 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 123 diff equals -400.000000
+2023-03-15 16:07:10,669 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 124 diff equals -400.000000
+2023-03-15 16:07:10,762 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 125 diff equals -300.000000
+2023-03-15 16:07:10,809 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 30
+2023-03-15 16:07:10,840 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 126 diff equals -350.000000
+2023-03-15 16:07:10,921 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 30
+2023-03-15 16:07:10,922 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 127 diff equals -50.000000
+2023-03-15 16:07:11,000 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 128 diff equals 50.000000
+2023-03-15 16:07:11,091 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 129 diff equals 100.000000
+2023-03-15 16:07:11,170 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 130 diff equals 150.000000
+2023-03-15 16:07:11,194 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 31
+2023-03-15 16:07:11,233 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 131 diff equals 250.000000
+2023-03-15 16:07:11,294 [INFO   ] [TRADER] received order filled for order 16 with price 127500 and volume 15
+2023-03-15 16:07:11,294 [INFO   ] [TRADER] received order status for order 16 with fill volume 15 remaining 45 and fees -191
+2023-03-15 16:07:11,297 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 31
+2023-03-15 16:07:11,297 [INFO   ] [TRADER] received hedge filled for order 18 with average price 127400 and volume 15
+2023-03-15 16:07:11,333 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 132 diff equals 300.000000
+2023-03-15 16:07:11,407 [INFO   ] [TRADER] received order filled for order 16 with price 127500 and volume 3
+2023-03-15 16:07:11,407 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 32
+2023-03-15 16:07:11,409 [INFO   ] [TRADER] received order status for order 16 with fill volume 18 remaining 42 and fees -229
+2023-03-15 16:07:11,409 [INFO   ] [TRADER] received hedge filled for order 19 with average price 127300 and volume 3
+2023-03-15 16:07:11,435 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 133 diff equals 350.000000
+2023-03-15 16:07:11,440 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 32
+2023-03-15 16:07:11,466 [INFO   ] [TRADER] received order filled for order 16 with price 127500 and volume 7
+2023-03-15 16:07:11,467 [INFO   ] [TRADER] received order status for order 16 with fill volume 25 remaining 35 and fees -318
+2023-03-15 16:07:11,473 [INFO   ] [TRADER] received order filled for order 16 with price 127500 and volume 8
+2023-03-15 16:07:11,474 [INFO   ] [TRADER] received order status for order 16 with fill volume 33 remaining 27 and fees -420
+2023-03-15 16:07:11,481 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 33
+2023-03-15 16:07:11,481 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 33
+2023-03-15 16:07:11,487 [INFO   ] [TRADER] received hedge filled for order 20 with average price 127100 and volume 7
+2023-03-15 16:07:11,487 [INFO   ] [TRADER] received hedge filled for order 21 with average price 127100 and volume 8
+2023-03-15 16:07:11,487 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 34
+2023-03-15 16:07:11,513 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 134 diff equals 500.000000
+2023-03-15 16:07:11,522 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 35
+2023-03-15 16:07:11,564 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 135 diff equals 550.000000
+2023-03-15 16:07:11,655 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 136 diff equals 500.000000
+2023-03-15 16:07:11,742 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 36
+2023-03-15 16:07:11,780 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 137 diff equals 350.000000
+2023-03-15 16:07:11,826 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 138 diff equals 400.000000
+2023-03-15 16:07:11,895 [INFO   ] [TRADER] received order filled for order 16 with price 127500 and volume 27
+2023-03-15 16:07:11,896 [INFO   ] [TRADER] received order status for order 16 with fill volume 60 remaining 0 and fees -764
+2023-03-15 16:07:11,896 [WARNING] [TRADER] error with order 16: ETF position limit breached
+2023-03-15 16:07:11,899 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 34
+2023-03-15 16:07:11,899 [ERROR  ] [CONNECTION] fd=760 connection lost:
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.752.0_x64__qbz5n2kfra8p0\Lib\asyncio\selector_events.py", line 995, in _read_ready__data_received
+    data = self._sock.recv(self.max_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2023-03-15 16:07:11,902 [INFO   ] [APP] closing event loop
+2023-03-15 16:07:11,902 [INFO   ] [RECEIVER] connection lost
