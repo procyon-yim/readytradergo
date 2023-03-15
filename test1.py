@@ -84,7 +84,7 @@ class AutoTrader(BaseAutoTrader):
             bidprice_FUT = bid_prices[0]
             askprice_FUT = ask_prices[0]
             TP_FUT.append((bidprice_FUT + askprice_FUT) /2)
-            
+            a=1
         
         if instrument == Instrument.ETF:
             

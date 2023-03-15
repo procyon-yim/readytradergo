@@ -36,13 +36,6 @@
     "PositionLimit": 100
   },
   "Traders": {
-    "UUBFUT": "secret",
-    "UUBFUT2": "secret",
-    "UUBFUT3": "secret",
-    "UUBFUT_final": "secret",
-    "minusOne": "secret",
-    "minusOneV2": "secret",
-    "BollingerFUT" : "secret",
-    "BollingerFUT2" : "secret"
+    "test1" : "secret"
   }
 }
