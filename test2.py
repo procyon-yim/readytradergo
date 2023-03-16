@@ -30,10 +30,13 @@ MIN_BID_NEAREST_TICK = (MINIMUM_BID + TICK_SIZE_IN_CENTS) // TICK_SIZE_IN_CENTS 
 MAX_ASK_NEAREST_TICK = MAXIMUM_ASK // TICK_SIZE_IN_CENTS * TICK_SIZE_IN_CENTS
 bid_E = []
 ask_E =[]
+mid_E = []
 bid_F =[]
-ask_F =[]
+ask_F = []
+mid_F = []
 buygap =[]
 sellgap=[]
+tp_gap = []
 
 class AutoTrader(BaseAutoTrader):
     """Example Auto-trader.
@@ -88,8 +91,8 @@ class AutoTrader(BaseAutoTrader):
             #storing prices for ETF
             bid_F.append(bid_prices[0])
             ask_F.append(ask_prices[0])
-            midf = 0.5*(bid_prices[0]+ask_prices[0])
-            self.logger.info("future mid is %f", midf)
+            mid_F.append(0.5*(bid_prices[0]+ask_prices[0]))
+            self.logger.info("future mid is %f", mid_F[sequence_number-1])
             
         if instrument == Instrument.ETF:
             #storing prices for Future
@@ -99,15 +102,16 @@ class AutoTrader(BaseAutoTrader):
             buygap.append(ask_E[sequence_number-1] - bid_F[sequence_number-1])
             sellgap.append(bid_E[sequence_number-1] - ask_F[sequence_number-1])
             
-            mid = 0.5*(bid_prices[0]+ask_prices[0])
+            mid_E.append(0.5*(bid_prices[0]+ask_prices[0]))
             
+            tp_gap.append(mid_E[sequence_number-1] - mid_F[sequence_number-1])
             
-            new_bid_price = ask_prices[0]
-            new_ask_price = bid_prices[0]
+            new_bid_price = 0.2*(ask_prices[0]-(bid_prices[0] + ask_prices[0]) / 2) + (bid_prices[0] + ask_prices[0]) / 2
+            new_ask_price = (bid_prices[0] + ask_prices[0]) / 2 - 0.2*((bid_prices[0] + ask_prices[0]) / 2-bid_prices[0])
             
             self.logger.info("current buygap is %f and sellgap is %f and ETFbid is %f ETFask is %f and FUTbid is %f ETFask is %f ETF mid is %f ETF volume is %f", 
                              buygap[sequence_number-1], sellgap[sequence_number-1],bid_E[sequence_number-1],ask_E[sequence_number-1],bid_F[sequence_number-1],
-                             ask_F[sequence_number-1], mid, self.etf_volume)
+                             ask_F[sequence_number-1], mid_E[sequence_number-1], self.etf_volume)
             
             if self.bid_id != 0 and new_bid_price not in (self.bid_price, 0):
                 self.send_cancel_order(self.bid_id)
@@ -117,9 +121,9 @@ class AutoTrader(BaseAutoTrader):
                 self.ask_id = 0
 
             #sell ETF, buy FUT (short enter)
-            if self.ask_id == 0 and new_ask_price != 0 and sellgap[sequence_number-1] > sigma and abs(self.etf_volume) <= 100:
+            if self.ask_id == 0 and new_ask_price != 0 and tp_gap[sequence_number-1] > sigma and abs(self.etf_volume) <= 100:
                 if abs(self.etf_volume) + LOT_SIZE > POSITION_LIMIT:
-                    TEMP_LOT_SIZE = POSITION_LIMIT + abs(self.etf_volume)
+                    TEMP_LOT_SIZE = int((POSITION_LIMIT + self.etf_volume)/2)
                     self.ask_id = next(self.order_ids)
                     self.ask_price = new_ask_price
                     self.send_insert_order(self.ask_id, Side.SELL, new_ask_price, TEMP_LOT_SIZE, Lifespan.FILL_AND_KILL)
@@ -135,13 +139,13 @@ class AutoTrader(BaseAutoTrader):
                          LOT_SIZE,self.position)
             
             #buy ETF, sell FUT (short exit)
-            if self.bid_id == 0 and new_bid_price != 0 and sellgap[sequence_number-1] < 0.2*sigma and abs(self.etf_volume) <= 100:
+            if self.bid_id == 0 and new_bid_price != 0 and tp_gap[sequence_number-1] < 0.5*sigma and abs(self.etf_volume) <= 100:
                 if abs(self.etf_volume) + LOT_SIZE > POSITION_LIMIT:
-                    TEMP_LOT_SIZE = POSITION_LIMIT + abs(self.etf_volume)
+                    TEMP_LOT_SIZE = int((POSITION_LIMIT - self.etf_volume)/2)
                     self.bid_id = next(self.order_ids)
                     new_bid_price = bid_prices[0]
                     self.bid_price = new_bid_price
-                    self.send_insert_order(self.bid_id, Side.BUY, new_bid_price, TEMP_LOT_SIZE, Lifespan.FILL_AND_KILL)
+                    self.send_insert_order(self.bid_id, Side.BUY, new_bid_price, TEMP_LOT_SIZE, Lifespan.GOOD_FOR_DAY)
                     self.bids.add(self.bid_id)
                     self.logger.info("short exit at price of %f at volume %d position being %d", new_bid_price,
                             TEMP_LOT_SIZE,self.position)
@@ -155,9 +159,9 @@ class AutoTrader(BaseAutoTrader):
                             LOT_SIZE,self.position)
                     
             #buy ETF, sell FUT (long enter)
-            if self.bid_id == 0 and new_bid_price != 0 and buygap[sequence_number-1] < -sigma and abs(self.etf_volume) <= 100:
+            if self.bid_id == 0 and new_bid_price != 0 and tp_gap[sequence_number-1] < -sigma and abs(self.etf_volume) <= 100:
                 if abs(self.etf_volume) + LOT_SIZE > POSITION_LIMIT:
-                    TEMP_LOT_SIZE = POSITION_LIMIT + abs(int(self.etf_volume))
+                    TEMP_LOT_SIZE = int((POSITION_LIMIT - self.etf_volume)/2)
                     self.bid_id = next(self.order_ids)
                     self.bid_price = new_bid_price
                     self.send_insert_order(self.bid_id, Side.BUY, new_bid_price, TEMP_LOT_SIZE, Lifespan.FILL_AND_KILL)
@@ -174,9 +178,9 @@ class AutoTrader(BaseAutoTrader):
                             LOT_SIZE,self.position)
                 
             #sell ETF, buy FUT (long exit)
-            if self.ask_id == 0 and new_ask_price != 0 and buygap[sequence_number-1] > -0.75*sigma and abs(self.etf_volume) <= 100:
+            if self.ask_id == 0 and new_ask_price != 0 and tp_gap[sequence_number-1] > -0.75*sigma and abs(self.etf_volume) <= 100:
                 if abs(self.etf_volume) + LOT_SIZE > POSITION_LIMIT:
-                    TEMP_LOT_SIZE = POSITION_LIMIT + abs(self.etf_volume)
+                    TEMP_LOT_SIZE = int((POSITION_LIMIT + self.etf_volume)/2)
                     self.ask_id = next(self.order_ids)
                     new_ask_price = ask_prices[0]
                     self.ask_price = new_ask_price
