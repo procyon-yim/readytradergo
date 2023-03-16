@@ -22,16 +22,15 @@ from typing import List
 
 from ready_trader_go import BaseAutoTrader, Instrument, Lifespan, MAXIMUM_ASK, MINIMUM_BID, Side
 
-import numpy as np
 
 LOT_SIZE = 20
 POSITION_LIMIT = 100
 TICK_SIZE_IN_CENTS = 100
 MIN_BID_NEAREST_TICK = (MINIMUM_BID + TICK_SIZE_IN_CENTS) // TICK_SIZE_IN_CENTS * TICK_SIZE_IN_CENTS
 MAX_ASK_NEAREST_TICK = MAXIMUM_ASK // TICK_SIZE_IN_CENTS * TICK_SIZE_IN_CENTS
-TP_ETF = []
-TP_FUT = []
-
+ETF_mid = []
+FUTURE_mid =[]
+diff_list = []
 
 class AutoTrader(BaseAutoTrader):
     """Example Auto-trader.
@@ -76,8 +75,11 @@ class AutoTrader(BaseAutoTrader):
         prices are reported along with the volume available at each of those
         price levels.
         """
-
+        
+        sigma=310
+        
         if instrument == Instrument.FUTURE:
+<<<<<<< HEAD
             # storing prices for Future
             bidprice_FUT = bid_prices[0]
             askprice_FUT = ask_prices[0]
@@ -85,133 +87,79 @@ class AutoTrader(BaseAutoTrader):
             with open('test1.txt', 'a') as f:
                 f.write('FUTbid0:{0},FUTask0:{1}\n'.format(bidprice_FUT, askprice_FUT))
 
+=======
+            #storing prices for ETF
+            midf = 0.5*(bid_prices[0]+ask_prices[0])
+            FUTURE_mid.append(midf)
+            self.logger.info("future mid is %f", midf)
+            
+>>>>>>> ce437b608b608cd8128de33e4578389bc159a2e8
         if instrument == Instrument.ETF:
-
-            # storing prices for ETF
-            bidprice_ETF = bid_prices[0]
-            askprice_ETF = ask_prices[0]
-            TP_ETF.append((bidprice_ETF + askprice_ETF) / 2)
-            with open('test1.txt', 'a') as f:
-                f.write('ETFbid0:{0},ETFask0:{1}\n'.format(bidprice_ETF, askprice_ETF))
-            # standard deviation of spread
-            sigma = 300
-
-            # spread
-            diff = TP_ETF[sequence_number - 1] - TP_FUT[sequence_number - 1]
-
-            new_bid_price = ask_prices[0]
-            new_ask_price = bid_prices[0]
-
-            self.logger.info(
-                "received order book for instrument %d with sequence number %d diff equals %f, ETF=%f FUT=%f",
-                instrument,
-                sequence_number, diff, TP_ETF[sequence_number - 1], TP_FUT[sequence_number - 1])
-
+            #storing prices for Future
+            mid = 0.5*(bid_prices[0]+ask_prices[0])
+            ETF_mid.append(mid)
+            
+            diff = FUTURE_mid[sequence_number-1] - ETF_mid[sequence_number-1]
+            
+            diff_list.append(diff)
+            
+            new_bid_price = int((mid-0.3*(mid - bid_prices[0]))/100)*100
+            new_ask_price = int(((0.3*(ask_prices[0] - mid) + mid))/100)*100
+            
+            #self.logger.info("current buygap is %f and sellgap is %f and ETFbid is %f ETFask is %f and FUTbid is %f ETFask is %f ETF mid is %f", buygap[sequence_number-1],
+                         #sellgap[sequence_number-1],bid_E[sequence_number-1],ask_E[sequence_number-1],bid_F[sequence_number-1],ask_F[sequence_number-1], mid)
+            
             if self.bid_id != 0 and new_bid_price not in (self.bid_price, 0):
                 self.send_cancel_order(self.bid_id)
                 self.bid_id = 0
-
             if self.ask_id != 0 and new_ask_price not in (self.ask_price, 0):
                 self.send_cancel_order(self.ask_id)
                 self.ask_id = 0
 
-            if self.bid_id == 0 and new_bid_price != 0 and self.position < POSITION_LIMIT - 20 and diff < -1 * sigma:
-                self.bid_id = next(self.order_ids)
-                self.bid_price = new_bid_price
-                self.send_insert_order(self.bid_id, Side.BUY, new_bid_price, LOT_SIZE, Lifespan.FILL_AND_KILL)
-                self.bids.add(self.bid_id)
-                self.logger.info("long enter at price of %f at volume %d ETF position being %d", new_bid_price,
-<<<<<<< HEAD
-                         LOT_SIZE,self.position)
-
-            if self.ask_id == 0 and new_ask_price != 0 and self.position > -POSITION_LIMIT+20 and diff > 1*sigma:
-=======
-                                 LOT_SIZE, self.position)
-
-            if self.ask_id == 0 and new_ask_price != 0 and self.position > -POSITION_LIMIT + 20 and diff > 1 * sigma:
->>>>>>> ab737791828905f1f2edb198cedf4a1bb95ed049
+            #sell ETF, buy FUT (short enter)
+            if self.ask_id == 0 and new_ask_price != 0 and self.position > -POSITION_LIMIT+LOT_SIZE and diff > 1.25*sigma:
                 self.ask_id = next(self.order_ids)
                 self.ask_price = new_ask_price
                 self.send_insert_order(self.ask_id, Side.SELL, new_ask_price, LOT_SIZE, Lifespan.FILL_AND_KILL)
                 self.asks.add(self.ask_id)
-                self.logger.info("short enter at price of %f at volume %d ETF position being %d", new_ask_price,
-<<<<<<< HEAD
-                         LOT_SIZE,self.position)
                 
-            if self.bid_id == 0 and new_bid_price != 0 and 0 > self.position > -POSITION_LIMIT+10 and 0.5*sigma > diff:
-                new_bid_price = ask_prices[0]
-=======
-                                 LOT_SIZE, self.position)
-
-            if self.bid_id == 0 and new_bid_price != 0 and 0 > self.position > -POSITION_LIMIT + 20 and 0.5 * sigma > diff:
->>>>>>> ab737791828905f1f2edb198cedf4a1bb95ed049
+                self.logger.info("short enter at price of %f at volume %d position being %d", new_ask_price,
+                         LOT_SIZE,self.position)
+            
+            #buy ETF, sell FUT (short exit)
+            if self.bid_id == 0 and new_bid_price != 0 and 0 > self.position and diff < 0.5*sigma:
+                self.bid_id = next(self.order_ids)
+                
+                new_bid_price = bid_prices[0]
+                self.bid_price = new_bid_price
+                self.send_insert_order(self.bid_id, Side.BUY, new_bid_price, LOT_SIZE, Lifespan.FILL_AND_KILL)
+                self.bids.add(self.bid_id)
+                
+                self.logger.info("short exit at price of %f at volume %d position being %d", new_bid_price,
+                         10,self.position)
+                
+            #buy ETF, sell FUT (long enter)
+            if self.bid_id == 0 and new_bid_price != 0 and self.position < POSITION_LIMIT - LOT_SIZE and diff < -1.25*sigma:
                 self.bid_id = next(self.order_ids)
                 self.bid_price = new_bid_price
-                self.send_insert_order(self.bid_id, Side.BUY, new_bid_price, 10, Lifespan.FILL_AND_KILL)
+                self.send_insert_order(self.bid_id, Side.BUY, new_bid_price, LOT_SIZE, Lifespan.FILL_AND_KILL)
                 self.bids.add(self.bid_id)
-                self.logger.info("short exit at price of %f at volume %d ETF position being %d", new_bid_price,
-<<<<<<< HEAD
-                         10,self.position)
-
-            if self.ask_id == 0 and new_ask_price != 0 and 0 < self.position < POSITION_LIMIT-10 and -0.5*sigma< diff:
-                new_ask_price = bid_prices[0]
-=======
-                                 LOT_SIZE, self.position)
-
-            if self.ask_id == 0 and new_ask_price != 0 and 0 < self.position < POSITION_LIMIT - 20 and -0.5 * sigma < diff:
->>>>>>> ab737791828905f1f2edb198cedf4a1bb95ed049
-                self.ask_id = next(self.order_ids)
-                self.ask_price = new_ask_price
-                self.send_insert_order(self.ask_id, Side.SELL, new_ask_price, 10, Lifespan.FILL_AND_KILL)
-                self.asks.add(self.ask_id)
-                self.logger.info("long exit at price of %f at volume %d ETF position being %d", new_ask_price,
-<<<<<<< HEAD
-                         10,self.position)
                 
-           
+                self.logger.info("long enter at price of %f at volume %d position being %d", new_bid_price,
+                         LOT_SIZE,self.position)
+                
+            #sell ETF, buy FUT (long exit)
+            if self.ask_id == 0 and new_ask_price != 0 and self.position > 0 and diff > -0.75*sigma:
+                self.ask_id = next(self.order_ids)
+                
+                new_ask_price = ask_prices[0]
+                self.ask_price = new_ask_price
+                self.send_insert_order(self.ask_id, Side.SELL, new_ask_price, LOT_SIZE, Lifespan.FILL_AND_KILL)
+                self.asks.add(self.ask_id)
+                
+                self.logger.info("long exit at price of %f at volume %d position being %d", new_ask_price,
+                         10,self.position)
             
-            
-=======
-                                 LOT_SIZE, self.position)
-
->>>>>>> ab737791828905f1f2edb198cedf4a1bb95ed049
-            # #parameter for process
-            # #can tune using MLE
-            # beta = 1
-            # kappa = 1
-
-            # #log likelihood
-
-            # #mistmatch of returns = dX
-            # #E = price of ETF, F = price of future
-            # dX = dE/E - beta * dF/F
-            # X = E - F
-
-            # #m = mean, sigma = variance
-            # m = np.mean(X)
-            # sigma = np.std(X)
-
-            # #OU process equation
-            # dX = kappa * (m - X) + sigma * dW
-
-            # #AR-1 model (discretized version of OU process)
-            # a = np.exp(-kappa * dt)
-            # b = m * (1- np.exp(-kappa * dt))
-            # Var_eps = sigma**2 * (1-np.exp(-2*kappa*dt)) / (2*kappa)
-            # X_1 = a + b * X_0 + epsilon
-
-            # #s-score calculation
-            # s = - m * np.sqrt(2*kappa) / sigma
-
-            # #conditions for s-score
-            # s_le = -1.25 #long, enter
-            # s_lo = -0.5 #long, exit
-            # s_se = 1.25 #short, enter
-            # s_so = 0.75 #short, exit
-
-            # #Linear Regression for estimating weights and parameters
-            # R_ETF[t] = TP_ETF[t] - TP_ETF[t-1] / TP_ETF[t-1]
-
     def on_order_filled_message(self, client_order_id: int, price: int, volume: int) -> None:
         """Called when one of your orders is filled, partially or fully.
         The price is the price at which the order was (partially) filled,

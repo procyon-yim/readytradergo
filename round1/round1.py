@@ -2,9 +2,8 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 
-'ehh'
-def show_team_pnl(scoreboardfile):
-    team_numbers = 8
+def show_team_pnl(scoreboardfile, logfile):
+    team_numbers = 1
     match_id = scoreboardfile.split('_')[0]
     score_board = pd.read_csv(scoreboardfile)
     team = score_board['Team'][:team_numbers].values
@@ -16,10 +15,36 @@ def show_team_pnl(scoreboardfile):
         row = score_board.iloc[i]
         pnl[row['Team']].append(row['ProfitOrLoss'])
 
+    plt.figure()
     for name in team:
         plt.plot(pnl[name], label=name)
     plt.title(match_id)
     plt.legend()
+    
+    etf = list()
+    future = list()
+    with open(logfile) as f:
+        for line in f.readlines():
+            words = line.split(' ')
+            if 'ETF' in words:
+                etf_idx = words.index('ETF') + 3
+                etf.append(float(words[etf_idx]))
+            if 'future' in words:
+                fut_idx = words.index('future') + 3
+                future.append(float(words[fut_idx]))
+        
+    etf = np.array(etf)
+    future = np.array(future)
+    
+    print(etf)
+    print(future)
+    
+    plt.figure()
+    plt.plot(etf, label='etf price')
+    plt.plot(future, label='future price')
+    plt.title('future and etf price')
+    plt.legend()
+
     plt.show()
 
 
@@ -75,18 +100,15 @@ def show_price(logfile):
 def show_price(logfile):
     etf = list()
     future = list()
-    SEQ = list()
     with open(logfile) as f:
         for line in f.readlines():
             words = line.split(' ')
-            if 'etf' in words:
-                etf_idx = words.index('etf') + 2
+            if 'ETF' in words:
+                etf_idx = words.index('ETF') + 3
                 etf.append(float(words[etf_idx]))
-            if 'SMA' in words:
-                fut_idx = words.index('future') + 2
-                idx_SEQ = words.index('sequence') + 2
+            if 'future' in words:
+                fut_idx = words.index('future') + 3
                 future.append(float(words[fut_idx]))
-                SEQ.append(int(words[idx_SEQ]))
         
     etf = np.array(etf)
     future = np.array(future)
@@ -105,4 +127,5 @@ if __name__ == '__main__':
     # UUB, UB, TP, LB, LLB 플롯해줌.
     #show_price('/Users/wooseophwang/Desktop/trade/readytradergo/round1/match160_Cocrew_801.log')
     #show_team_pnl('/Users/wooseophwang/Desktop/trade/readytradergo/round1/match63_score_board.csv')
-    show_price('/Users/wooseophwang/Desktop/trade/readytradergo/UUB_final.log')
+    #show_price('/Users/wooseophwang/Desktop/trade/readytradergo/test2.log')
+    show_team_pnl('/Users/wooseophwang/Desktop/trade/readytradergo/score_board2.csv', '/Users/wooseophwang/Desktop/trade/readytradergo/test22.log')

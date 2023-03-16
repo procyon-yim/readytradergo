@@ -23,7 +23,7 @@ from typing import List
 from ready_trader_go import BaseAutoTrader, Instrument, Lifespan, MAXIMUM_ASK, MINIMUM_BID, Side
 
 
-LOT_SIZE = 10
+LOT_SIZE = 40
 POSITION_LIMIT = 100
 TICK_SIZE_IN_CENTS = 100
 MIN_BID_NEAREST_TICK = (MINIMUM_BID + TICK_SIZE_IN_CENTS) // TICK_SIZE_IN_CENTS * TICK_SIZE_IN_CENTS
@@ -46,6 +46,7 @@ class AutoTrader(BaseAutoTrader):
         self.bids = set()
         self.asks = set()
         self.ask_id = self.ask_price = self.bid_id = self.bid_price = self.position = 0
+        self.etf_volume = 0
 
     def on_error_message(self, client_order_id: int, error_message: bytes) -> None:
         """Called when the exchange detects an error.
@@ -87,17 +88,31 @@ class AutoTrader(BaseAutoTrader):
                 self.send_cancel_order(self.ask_id)
                 self.ask_id = 0
 
-            if self.bid_id == 0 and new_bid_price != 0 and self.position < POSITION_LIMIT:
-                self.bid_id = next(self.order_ids)
-                self.bid_price = new_bid_price
-                self.send_insert_order(self.bid_id, Side.BUY, new_bid_price, LOT_SIZE, Lifespan.GOOD_FOR_DAY)
-                self.bids.add(self.bid_id)
+            if self.bid_id == 0 and new_bid_price != 0:
+                if abs(self.etf_volume) + LOT_SIZE > POSITION_LIMIT:
+                    TEMP_LOT_SIZE = int((POSITION_LIMIT - self.etf_volume))
+                    self.bid_id = next(self.order_ids)
+                    self.bid_price = new_bid_price
+                    self.send_insert_order(self.bid_id, Side.BUY, new_bid_price, TEMP_LOT_SIZE, Lifespan.GOOD_FOR_DAY)
+                    self.bids.add(self.bid_id)
+                else:
+                    self.bid_id = next(self.order_ids)
+                    self.bid_price = new_bid_price
+                    self.send_insert_order(self.bid_id, Side.BUY, new_bid_price, LOT_SIZE, Lifespan.GOOD_FOR_DAY)
+                    self.bids.add(self.bid_id)
 
-            if self.ask_id == 0 and new_ask_price != 0 and self.position > -POSITION_LIMIT:
-                self.ask_id = next(self.order_ids)
-                self.ask_price = new_ask_price
-                self.send_insert_order(self.ask_id, Side.SELL, new_ask_price, LOT_SIZE, Lifespan.GOOD_FOR_DAY)
-                self.asks.add(self.ask_id)
+            if self.ask_id == 0 and new_ask_price != 0:
+                if abs(self.etf_volume) + LOT_SIZE > POSITION_LIMIT:
+                    TEMP_LOT_SIZE = int((POSITION_LIMIT + self.etf_volume))
+                    self.ask_id = next(self.order_ids)
+                    self.ask_price = new_ask_price
+                    self.send_insert_order(self.ask_id, Side.SELL, new_ask_price, TEMP_LOT_SIZE, Lifespan.GOOD_FOR_DAY)
+                    self.asks.add(self.ask_id)
+                else:
+                    self.ask_id = next(self.order_ids)
+                    self.ask_price = new_ask_price
+                    self.send_insert_order(self.ask_id, Side.SELL, new_ask_price, LOT_SIZE, Lifespan.GOOD_FOR_DAY)
+                    self.asks.add(self.ask_id)
 
     def on_order_filled_message(self, client_order_id: int, price: int, volume: int) -> None:
         """Called when one of your orders is filled, partially or fully.
@@ -109,9 +124,11 @@ class AutoTrader(BaseAutoTrader):
                          price, volume)
         if client_order_id in self.bids:
             self.position += volume
+            self.etf_volume += volume
             self.send_hedge_order(next(self.order_ids), Side.ASK, MIN_BID_NEAREST_TICK, volume)
         elif client_order_id in self.asks:
             self.position -= volume
+            self.etf_volume -= volume
             self.send_hedge_order(next(self.order_ids), Side.BID, MAX_ASK_NEAREST_TICK, volume)
 
     def on_order_status_message(self, client_order_id: int, fill_volume: int, remaining_volume: int,
