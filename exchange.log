@@ -10724,3 +10724,58 @@ OSError: [Errno 48] error while attempting to bind on address ('127.0.0.1', 1234
 2023-03-16 10:52:26,457 [INFO   ] [APP] SIGTERM signal received - shutting down...
 2023-03-16 10:52:26,457 [INFO   ] [APP] closing event loop
 >>>>>>> ab737791828905f1f2edb198cedf4a1bb95ed049
+2023-03-16 16:10:16,203 [INFO   ] [APP] exchange started with arguments={rtg.py, run, test3.py}
+2023-03-16 16:10:16,203 [INFO   ] [APP] configuration={"Engine":{"MarketDataFile":"data/market_data6.csv","MarketEventInterval":0.05,"MarketOpenDelay":5.0,"MatchEventsFile":"match_events.csv","ScoreBoardFile":"score_board.csv","Speed":3.0,"TickInterval":0.25},"Execution":{"Host":"127.0.0.1","Port":12345},"Fees":{"Maker":-0.0001,"Taker":0.0002},"Hud":{"Host":"127.0.0.1","Port":12347},"Information":{"Type":"mmap","Name":"info.dat"},"Instrument":{"EtfClamp":0.002,"TickSize":1.0},"Limits":{"ActiveOrderCountLimit":10,"ActiveVolumeLimit":200,"MessageFrequencyInterval":1.0,"MessageFrequencyLimit":50,"PositionLimit":100},"Traders":{"test3":"secret","minusOne":"secret"}}
+2023-03-16 16:10:16,204 [INFO   ] [CONTROLLER] starting the match
+2023-03-16 16:10:16,204 [INFO   ] [EXECUTION] starting execution server: host=127.0.0.1 port=12345
+2023-03-16 16:10:16,205 [INFO   ] [INFORMATION] starting information publisher: type=mmap name=info.dat
+2023-03-16 16:10:16,207 [INFO   ] [HEADS_UP] starting heads-up display server: host=127.0.0.1 port=12347
+2023-03-16 16:10:16,207 [INFO   ] [INFORMATION] information channel established
+2023-03-16 16:10:16,238 [INFO   ] [CONNECTION] fd=1096 connection established: peer=127.0.0.1:56900
+2023-03-16 16:10:16,238 [INFO   ] [EXECUTION] fd=1096 'test3' is ready!
+2023-03-16 16:10:17,724 [INFO   ] [CONNECTION] fd=1108 connection established: peer=127.0.0.1:56901
+2023-03-16 16:10:21,249 [INFO   ] [CONTROLLER] market open
+2023-03-16 16:10:59,556 [INFO   ] [APP] exchange started with arguments={rtg.py, run, test3.py}
+2023-03-16 16:10:59,556 [INFO   ] [APP] configuration={"Engine":{"MarketDataFile":"data/market_data6.csv","MarketEventInterval":0.05,"MarketOpenDelay":5.0,"MatchEventsFile":"match_events.csv","ScoreBoardFile":"score_board.csv","Speed":3.0,"TickInterval":0.25},"Execution":{"Host":"127.0.0.1","Port":12345},"Fees":{"Maker":-0.0001,"Taker":0.0002},"Hud":{"Host":"127.0.0.1","Port":12347},"Information":{"Type":"mmap","Name":"info.dat"},"Instrument":{"EtfClamp":0.002,"TickSize":1.0},"Limits":{"ActiveOrderCountLimit":10,"ActiveVolumeLimit":200,"MessageFrequencyInterval":1.0,"MessageFrequencyLimit":50,"PositionLimit":100},"Traders":{"test3":"secret","minusOne":"secret"}}
+2023-03-16 16:10:59,557 [INFO   ] [CONTROLLER] starting the match
+2023-03-16 16:10:59,557 [INFO   ] [EXECUTION] starting execution server: host=127.0.0.1 port=12345
+2023-03-16 16:10:59,557 [INFO   ] [INFORMATION] starting information publisher: type=mmap name=info.dat
+2023-03-16 16:10:59,557 [INFO   ] [HEADS_UP] starting heads-up display server: host=127.0.0.1 port=12347
+2023-03-16 16:10:59,559 [INFO   ] [INFORMATION] information channel established
+2023-03-16 16:10:59,587 [INFO   ] [CONNECTION] fd=1100 connection established: peer=127.0.0.1:56919
+2023-03-16 16:10:59,587 [INFO   ] [EXECUTION] fd=1100 'test3' is ready!
+2023-03-16 16:11:00,640 [INFO   ] [CONNECTION] fd=1088 connection established: peer=127.0.0.1:56920
+2023-03-16 16:11:04,572 [INFO   ] [CONTROLLER] market open
+2023-03-16 16:11:29,241 [INFO   ] [COMPETITOR] 'test3' sent error message: time=73.968000 client_order_id=191 message='order rejected: in cross with an existing order'
+2023-03-16 16:11:32,846 [INFO   ] [COMPETITOR] 'test3' sent error message: time=84.798000 client_order_id=225 message='order rejected: in cross with an existing order'
+2023-03-16 16:11:32,912 [INFO   ] [COMPETITOR] 'test3' sent error message: time=84.984000 client_order_id=226 message='order rejected: in cross with an existing order'
+2023-03-16 16:15:01,174 [INFO   ] [APP] exchange started with arguments={rtg.py, run, test3.py}
+2023-03-16 16:15:01,174 [INFO   ] [APP] configuration={"Engine":{"MarketDataFile":"data/market_data6.csv","MarketEventInterval":0.05,"MarketOpenDelay":5.0,"MatchEventsFile":"match_events.csv","ScoreBoardFile":"score_board.csv","Speed":3.0,"TickInterval":0.25},"Execution":{"Host":"127.0.0.1","Port":12345},"Fees":{"Maker":-0.0001,"Taker":0.0002},"Hud":{"Host":"127.0.0.1","Port":12347},"Information":{"Type":"mmap","Name":"info.dat"},"Instrument":{"EtfClamp":0.002,"TickSize":1.0},"Limits":{"ActiveOrderCountLimit":10,"ActiveVolumeLimit":200,"MessageFrequencyInterval":1.0,"MessageFrequencyLimit":50,"PositionLimit":100},"Traders":{"test3":"secret","minusOne":"secret"}}
+2023-03-16 16:15:01,174 [INFO   ] [CONTROLLER] starting the match
+2023-03-16 16:15:01,175 [INFO   ] [EXECUTION] starting execution server: host=127.0.0.1 port=12345
+2023-03-16 16:15:01,175 [INFO   ] [INFORMATION] starting information publisher: type=mmap name=info.dat
+2023-03-16 16:15:01,176 [INFO   ] [HEADS_UP] starting heads-up display server: host=127.0.0.1 port=12347
+2023-03-16 16:15:01,176 [INFO   ] [INFORMATION] information channel established
+2023-03-16 16:15:01,214 [INFO   ] [CONNECTION] fd=1100 connection established: peer=127.0.0.1:62326
+2023-03-16 16:15:01,214 [INFO   ] [EXECUTION] fd=1100 'test3' is ready!
+2023-03-16 16:15:02,415 [INFO   ] [CONNECTION] fd=1104 connection established: peer=127.0.0.1:62328
+2023-03-16 16:15:06,188 [INFO   ] [CONTROLLER] market open
+2023-03-16 16:15:14,831 [INFO   ] [COMPETITOR] 'test3' sent error message: time=25.920000 client_order_id=95 message='order rejected: in cross with an existing order'
+2023-03-16 16:15:16,708 [INFO   ] [COMPETITOR] 'test3' sent error message: time=31.545000 client_order_id=114 message='order rejected: in cross with an existing order'
+2023-03-16 16:15:16,784 [INFO   ] [COMPETITOR] 'test3' sent error message: time=31.779000 client_order_id=115 message='order rejected: in cross with an existing order'
+2023-03-16 16:15:16,856 [INFO   ] [COMPETITOR] 'test3' sent error message: time=32.013000 client_order_id=116 message='order rejected: in cross with an existing order'
+2023-03-16 16:15:16,924 [INFO   ] [COMPETITOR] 'test3' sent error message: time=32.202000 client_order_id=117 message='order rejected: in cross with an existing order'
+2023-03-16 16:15:17,014 [INFO   ] [COMPETITOR] 'test3' sent error message: time=32.484000 client_order_id=118 message='order rejected: in cross with an existing order'
+2023-03-16 16:15:19,431 [INFO   ] [COMPETITOR] 'test3' sent error message: time=39.750000 client_order_id=142 message='order rejected: in cross with an existing order'
+2023-03-16 16:15:19,511 [INFO   ] [COMPETITOR] 'test3' sent error message: time=39.984000 client_order_id=143 message='order rejected: in cross with an existing order'
+2023-03-16 16:15:19,602 [INFO   ] [COMPETITOR] 'test3' sent error message: time=40.263000 client_order_id=144 message='order rejected: in cross with an existing order'
+2023-03-16 16:15:19,676 [INFO   ] [COMPETITOR] 'test3' sent error message: time=40.452000 client_order_id=145 message='order rejected: in cross with an existing order'
+2023-03-16 16:15:19,775 [INFO   ] [COMPETITOR] 'test3' sent error message: time=40.779000 client_order_id=146 message='order rejected: in cross with an existing order'
+2023-03-16 16:15:19,882 [INFO   ] [COMPETITOR] 'test3' sent error message: time=41.061000 client_order_id=147 message='order rejected: in cross with an existing order'
+2023-03-16 16:15:19,949 [INFO   ] [COMPETITOR] 'test3' sent error message: time=41.295000 client_order_id=148 message='order rejected: in cross with an existing order'
+2023-03-16 16:15:20,010 [INFO   ] [COMPETITOR] 'test3' sent error message: time=41.484000 client_order_id=149 message='order rejected: in cross with an existing order'
+2023-03-16 16:15:20,116 [INFO   ] [COMPETITOR] 'test3' sent error message: time=41.811000 client_order_id=150 message='order rejected: in cross with an existing order'
+2023-03-16 16:15:24,108 [INFO   ] [COMPETITOR] 'test3' sent error message: time=53.763000 client_order_id=199 message='order rejected: in cross with an existing order'
+2023-03-16 16:15:27,508 [INFO   ] [COMPETITOR] 'test3' sent error message: time=63.984000 client_order_id=234 message='order rejected: in cross with an existing order'
+2023-03-16 16:15:27,601 [INFO   ] [COMPETITOR] 'test3' sent error message: time=64.263000 client_order_id=235 message='order rejected: in cross with an existing order'
+2023-03-16 16:15:31,017 [INFO   ] [COMPETITOR] 'test3' sent error message: time=74.484000 client_order_id=270 message='order rejected: in cross with an existing order'

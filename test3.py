@@ -82,8 +82,6 @@ class AutoTrader(BaseAutoTrader):
             bidprice_FUT = bid_prices[0]
             askprice_FUT = ask_prices[0]
             TP_FUT.append((bidprice_FUT + askprice_FUT) / 2)
-            with open('test1.txt', 'a') as f:
-                f.write('FUTbid0:{0},FUTask0:{1}\n'.format(bidprice_FUT, askprice_FUT))
 
         if instrument == Instrument.ETF:
 
@@ -91,16 +89,15 @@ class AutoTrader(BaseAutoTrader):
             bidprice_ETF = bid_prices[0]
             askprice_ETF = ask_prices[0]
             TP_ETF.append((bidprice_ETF + askprice_ETF) / 2)
-            with open('test1.txt', 'a') as f:
-                f.write('ETFbid0:{0},ETFask0:{1}\n'.format(bidprice_ETF, askprice_ETF))
+
             # standard deviation of spread
             sigma = 300
 
             # spread
-            diff = TP_ETF[sequence_number - 1] - TP_FUT[sequence_number - 1]
+            diff = 100*int((TP_ETF[sequence_number - 1] - TP_FUT[sequence_number - 1])/100)
 
-            new_bid_price = ask_prices[0]
-            new_ask_price = bid_prices[0]
+            new_bid_price = 100*int(TP_ETF[sequence_number - 1]/100)
+            new_ask_price = 100*int(TP_ETF[sequence_number - 1]/100)
 
             self.logger.info(
                 "received order book for instrument %d with sequence number %d diff equals %f, ETF=%f FUT=%f",
@@ -115,66 +112,39 @@ class AutoTrader(BaseAutoTrader):
                 self.send_cancel_order(self.ask_id)
                 self.ask_id = 0
 
-            if self.bid_id == 0 and new_bid_price != 0 and self.position < POSITION_LIMIT - 20 and diff < -1 * sigma:
+            if self.bid_id == 0 and new_bid_price != 0 and self.position < POSITION_LIMIT - 20 and diff < -0.99 * sigma:
                 self.bid_id = next(self.order_ids)
                 self.bid_price = new_bid_price
-                self.send_insert_order(self.bid_id, Side.BUY, new_bid_price, LOT_SIZE, Lifespan.FILL_AND_KILL)
+                self.send_insert_order(self.bid_id, Side.BUY, new_bid_price, LOT_SIZE, Lifespan.GOOD_FOR_DAY)
                 self.bids.add(self.bid_id)
                 self.logger.info("long enter at price of %f at volume %d ETF position being %d", new_bid_price,
-<<<<<<< HEAD
                          LOT_SIZE,self.position)
 
-            if self.ask_id == 0 and new_ask_price != 0 and self.position > -POSITION_LIMIT+20 and diff > 1*sigma:
-=======
-                                 LOT_SIZE, self.position)
-
-            if self.ask_id == 0 and new_ask_price != 0 and self.position > -POSITION_LIMIT + 20 and diff > 1 * sigma:
->>>>>>> ab737791828905f1f2edb198cedf4a1bb95ed049
+            if self.ask_id == 0 and new_ask_price != 0 and self.position > -POSITION_LIMIT+20 and diff > 0.99*sigma:
                 self.ask_id = next(self.order_ids)
                 self.ask_price = new_ask_price
-                self.send_insert_order(self.ask_id, Side.SELL, new_ask_price, LOT_SIZE, Lifespan.FILL_AND_KILL)
+                self.send_insert_order(self.ask_id, Side.SELL, new_ask_price, LOT_SIZE, Lifespan.GOOD_FOR_DAY)
                 self.asks.add(self.ask_id)
                 self.logger.info("short enter at price of %f at volume %d ETF position being %d", new_ask_price,
-<<<<<<< HEAD
                          LOT_SIZE,self.position)
                 
-            if self.bid_id == 0 and new_bid_price != 0 and 0 > self.position > -POSITION_LIMIT+10 and 0.5*sigma > diff:
+            if self.bid_id == 0 and new_bid_price != 0 and 0 > self.position > -POSITION_LIMIT+10 and 0.51*sigma > diff:
                 new_bid_price = ask_prices[0]
-=======
-                                 LOT_SIZE, self.position)
-
-            if self.bid_id == 0 and new_bid_price != 0 and 0 > self.position > -POSITION_LIMIT + 20 and 0.5 * sigma > diff:
->>>>>>> ab737791828905f1f2edb198cedf4a1bb95ed049
                 self.bid_id = next(self.order_ids)
                 self.bid_price = new_bid_price
-                self.send_insert_order(self.bid_id, Side.BUY, new_bid_price, 10, Lifespan.FILL_AND_KILL)
+                self.send_insert_order(self.bid_id, Side.BUY, new_bid_price, 10, Lifespan.GOOD_FOR_DAY)
                 self.bids.add(self.bid_id)
                 self.logger.info("short exit at price of %f at volume %d ETF position being %d", new_bid_price,
-<<<<<<< HEAD
-                         10,self.position)
-
-            if self.ask_id == 0 and new_ask_price != 0 and 0 < self.position < POSITION_LIMIT-10 and -0.5*sigma< diff:
-                new_ask_price = bid_prices[0]
-=======
                                  LOT_SIZE, self.position)
 
-            if self.ask_id == 0 and new_ask_price != 0 and 0 < self.position < POSITION_LIMIT - 20 and -0.5 * sigma < diff:
->>>>>>> ab737791828905f1f2edb198cedf4a1bb95ed049
+            if self.ask_id == 0 and new_ask_price != 0 and 0 < self.position < POSITION_LIMIT - 20 and -0.51 * sigma < diff:
                 self.ask_id = next(self.order_ids)
                 self.ask_price = new_ask_price
-                self.send_insert_order(self.ask_id, Side.SELL, new_ask_price, 10, Lifespan.FILL_AND_KILL)
+                self.send_insert_order(self.ask_id, Side.SELL, new_ask_price, 10, Lifespan.GOOD_FOR_DAY)
                 self.asks.add(self.ask_id)
                 self.logger.info("long exit at price of %f at volume %d ETF position being %d", new_ask_price,
-<<<<<<< HEAD
-                         10,self.position)
-                
-           
-            
-            
-=======
-                                 LOT_SIZE, self.position)
+                         10,self.position,LOT_SIZE, self.position)
 
->>>>>>> ab737791828905f1f2edb198cedf4a1bb95ed049
             # #parameter for process
             # #can tune using MLE
             # beta = 1
