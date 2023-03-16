@@ -1,0 +1,1403 @@
+2023-03-16 16:15:01,179 [INFO   ] [APP] test3 started with arguments={rtg.py, run, test3.py}
+2023-03-16 16:15:01,180 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"test3","Secret":"secret"}
+2023-03-16 16:15:01,214 [INFO   ] [CONNECTION] fd=1016 connection established: peer=127.0.0.1:12345
+2023-03-16 16:15:06,188 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 1 diff equals 0.000000, ETF=0.000000 FUT=0.000000
+2023-03-16 16:15:06,237 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 2
+2023-03-16 16:15:06,275 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 2 diff equals 0.000000, ETF=126400.000000 FUT=126400.000000
+2023-03-16 16:15:06,346 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 3 diff equals 400.000000, ETF=126800.000000 FUT=126400.000000
+2023-03-16 16:15:06,346 [INFO   ] [TRADER] short enter at price of 126800.000000 at volume 20 ETF position being 0
+2023-03-16 16:15:06,346 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 3
+2023-03-16 16:15:06,346 [INFO   ] [TRADER] received order status for order 1 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:06,459 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 4 diff equals 100.000000, ETF=126700.000000 FUT=126600.000000
+2023-03-16 16:15:06,459 [INFO   ] [TRADER] received order status for order 1 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:06,516 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 5 diff equals 300.000000, ETF=126900.000000 FUT=126550.000000
+2023-03-16 16:15:06,516 [INFO   ] [TRADER] short enter at price of 126900.000000 at volume 20 ETF position being 0
+2023-03-16 16:15:06,516 [INFO   ] [TRADER] received order status for order 2 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:06,599 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 2
+2023-03-16 16:15:06,623 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 6 diff equals 0.000000, ETF=126750.000000 FUT=126750.000000
+2023-03-16 16:15:06,628 [INFO   ] [TRADER] received order status for order 2 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:06,698 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 3
+2023-03-16 16:15:06,701 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 7 diff equals 0.000000, ETF=127100.000000 FUT=127150.000000
+2023-03-16 16:15:06,765 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 8 diff equals 0.000000, ETF=127150.000000 FUT=127100.000000
+2023-03-16 16:15:06,852 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 9 diff equals 0.000000, ETF=127150.000000 FUT=127200.000000
+2023-03-16 16:15:06,951 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 10 diff equals -100.000000, ETF=127200.000000 FUT=127300.000000
+2023-03-16 16:15:07,013 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 11 diff equals 0.000000, ETF=127300.000000 FUT=127300.000000
+2023-03-16 16:15:07,095 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 12 diff equals 300.000000, ETF=127700.000000 FUT=127350.000000
+2023-03-16 16:15:07,096 [INFO   ] [TRADER] short enter at price of 127700.000000 at volume 20 ETF position being 0
+2023-03-16 16:15:07,096 [INFO   ] [TRADER] received order status for order 3 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:07,154 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 4
+2023-03-16 16:15:07,199 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 13 diff equals 200.000000, ETF=127550.000000 FUT=127300.000000
+2023-03-16 16:15:07,200 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 5
+2023-03-16 16:15:07,203 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 6
+2023-03-16 16:15:07,203 [INFO   ] [TRADER] received order status for order 3 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:07,250 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 14 diff equals 400.000000, ETF=127800.000000 FUT=127350.000000
+2023-03-16 16:15:07,250 [INFO   ] [TRADER] short enter at price of 127800.000000 at volume 20 ETF position being 0
+2023-03-16 16:15:07,250 [INFO   ] [TRADER] received order status for order 4 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:07,349 [INFO   ] [TRADER] received order filled for order 4 with price 127800 and volume 7
+2023-03-16 16:15:07,351 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 4
+2023-03-16 16:15:07,351 [INFO   ] [TRADER] received order status for order 4 with fill volume 7 remaining 13 and fees -89
+2023-03-16 16:15:07,352 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 15 diff equals 100.000000, ETF=127600.000000 FUT=127450.000000
+2023-03-16 16:15:07,352 [INFO   ] [TRADER] short exit at price of 127800.000000 at volume 20 ETF position being -7
+2023-03-16 16:15:07,352 [INFO   ] [TRADER] received hedge filled for order 5 with average price 127500 and volume 7
+2023-03-16 16:15:07,352 [INFO   ] [TRADER] received order status for order 4 with fill volume 7 remaining 0 and fees -89
+2023-03-16 16:15:07,352 [INFO   ] [TRADER] received order status for order 6 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:07,390 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 7
+2023-03-16 16:15:07,454 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 16 diff equals 300.000000, ETF=127900.000000 FUT=127550.000000
+2023-03-16 16:15:07,454 [INFO   ] [TRADER] short enter at price of 127900.000000 at volume 20 ETF position being -7
+2023-03-16 16:15:07,455 [INFO   ] [TRADER] received order status for order 6 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:07,455 [INFO   ] [TRADER] received order status for order 7 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:07,514 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 17 diff equals 100.000000, ETF=127650.000000 FUT=127550.000000
+2023-03-16 16:15:07,514 [INFO   ] [TRADER] short exit at price of 127900.000000 at volume 20 ETF position being -7
+2023-03-16 16:15:07,514 [INFO   ] [TRADER] received order status for order 7 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:07,515 [INFO   ] [TRADER] received order status for order 8 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:07,548 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 8
+2023-03-16 16:15:07,605 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 18 diff equals 400.000000, ETF=128050.000000 FUT=127650.000000
+2023-03-16 16:15:07,605 [INFO   ] [TRADER] short enter at price of 128000.000000 at volume 20 ETF position being -7
+2023-03-16 16:15:07,605 [INFO   ] [TRADER] received order status for order 8 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:07,606 [INFO   ] [TRADER] received order status for order 9 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:07,694 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 19 diff equals 0.000000, ETF=127700.000000 FUT=127750.000000
+2023-03-16 16:15:07,695 [INFO   ] [TRADER] short exit at price of 128000.000000 at volume 20 ETF position being -7
+2023-03-16 16:15:07,698 [INFO   ] [TRADER] received order status for order 9 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:07,699 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 9
+2023-03-16 16:15:07,699 [INFO   ] [TRADER] received order status for order 10 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:07,764 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 20 diff equals 400.000000, ETF=128100.000000 FUT=127700.000000
+2023-03-16 16:15:07,765 [INFO   ] [TRADER] short enter at price of 128100.000000 at volume 20 ETF position being -7
+2023-03-16 16:15:07,765 [INFO   ] [TRADER] received order status for order 10 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:07,765 [INFO   ] [TRADER] received order status for order 11 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:07,844 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 21 diff equals 0.000000, ETF=127750.000000 FUT=127750.000000
+2023-03-16 16:15:07,845 [INFO   ] [TRADER] short exit at price of 128100.000000 at volume 20 ETF position being -7
+2023-03-16 16:15:07,845 [INFO   ] [TRADER] received order status for order 11 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:07,845 [INFO   ] [TRADER] received order status for order 12 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:07,921 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 10
+2023-03-16 16:15:07,928 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 22 diff equals 100.000000, ETF=128250.000000 FUT=128150.000000
+2023-03-16 16:15:07,928 [INFO   ] [TRADER] short exit at price of 128400.000000 at volume 20 ETF position being -7
+2023-03-16 16:15:07,928 [INFO   ] [TRADER] received order status for order 12 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:07,928 [INFO   ] [TRADER] received order filled for order 13 with price 128400 and volume 10
+2023-03-16 16:15:07,928 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 5
+2023-03-16 16:15:07,928 [INFO   ] [TRADER] received order status for order 13 with fill volume 10 remaining 0 and fees 257
+2023-03-16 16:15:07,928 [INFO   ] [TRADER] received hedge filled for order 14 with average price 128100 and volume 10
+2023-03-16 16:15:08,000 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 11
+2023-03-16 16:15:08,030 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 23 diff equals 100.000000, ETF=128200.000000 FUT=128050.000000
+2023-03-16 16:15:08,044 [INFO   ] [TRADER] received order status for order 15 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:08,090 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 24 diff equals -300.000000, ETF=127800.000000 FUT=128150.000000
+2023-03-16 16:15:08,090 [INFO   ] [TRADER] long enter at price of 127800.000000 at volume 20 ETF position being 3
+2023-03-16 16:15:08,090 [INFO   ] [TRADER] received order status for order 15 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:08,090 [INFO   ] [TRADER] received order status for order 16 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:08,167 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 25 diff equals 200.000000, ETF=128200.000000 FUT=128000.000000
+2023-03-16 16:15:08,174 [INFO   ] [TRADER] received order status for order 16 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:08,174 [INFO   ] [TRADER] received order status for order 17 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:08,264 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 26 diff equals -200.000000, ETF=127600.000000 FUT=127850.000000
+2023-03-16 16:15:08,264 [INFO   ] [TRADER] received order status for order 17 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:08,326 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 6
+2023-03-16 16:15:08,355 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 27 diff equals -300.000000, ETF=127500.000000 FUT=127850.000000
+2023-03-16 16:15:08,355 [INFO   ] [TRADER] long enter at price of 127500.000000 at volume 20 ETF position being 3
+2023-03-16 16:15:08,358 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 7
+2023-03-16 16:15:08,358 [INFO   ] [TRADER] received order status for order 18 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:08,417 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 12
+2023-03-16 16:15:08,455 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 28 diff equals 0.000000, ETF=127650.000000 FUT=127600.000000
+2023-03-16 16:15:08,462 [INFO   ] [TRADER] received order status for order 18 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:08,462 [INFO   ] [TRADER] received order status for order 19 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:08,481 [INFO   ] [TRADER] received order filled for order 19 with price 127600 and volume 10
+2023-03-16 16:15:08,482 [INFO   ] [TRADER] received order status for order 19 with fill volume 10 remaining 0 and fees -128
+2023-03-16 16:15:08,487 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 8
+2023-03-16 16:15:08,487 [INFO   ] [TRADER] received hedge filled for order 20 with average price 127700 and volume 10
+2023-03-16 16:15:08,516 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 29 diff equals -500.000000, ETF=127150.000000 FUT=127650.000000
+2023-03-16 16:15:08,516 [INFO   ] [TRADER] long enter at price of 127100.000000 at volume 20 ETF position being -7
+2023-03-16 16:15:08,516 [INFO   ] [TRADER] received order status for order 21 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:08,551 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 13
+2023-03-16 16:15:08,591 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 30 diff equals -300.000000, ETF=127200.000000 FUT=127550.000000
+2023-03-16 16:15:08,591 [INFO   ] [TRADER] long enter at price of 127200.000000 at volume 20 ETF position being -7
+2023-03-16 16:15:08,591 [INFO   ] [TRADER] received order status for order 21 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:08,592 [INFO   ] [TRADER] received order status for order 22 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:08,686 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 31 diff equals -200.000000, ETF=127250.000000 FUT=127450.000000
+2023-03-16 16:15:08,746 [INFO   ] [TRADER] received order filled for order 22 with price 127200 and volume 20
+2023-03-16 16:15:08,746 [INFO   ] [TRADER] received order status for order 22 with fill volume 20 remaining 0 and fees -254
+2023-03-16 16:15:08,747 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 32 diff equals -600.000000, ETF=127000.000000 FUT=127650.000000
+2023-03-16 16:15:08,747 [INFO   ] [TRADER] long enter at price of 127000.000000 at volume 20 ETF position being 13
+2023-03-16 16:15:08,747 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 9
+2023-03-16 16:15:08,747 [INFO   ] [TRADER] received hedge filled for order 23 with average price 127600 and volume 20
+2023-03-16 16:15:08,747 [INFO   ] [TRADER] received order status for order 24 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:08,826 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 33 diff equals -400.000000, ETF=127150.000000 FUT=127600.000000
+2023-03-16 16:15:08,827 [INFO   ] [TRADER] long enter at price of 127100.000000 at volume 20 ETF position being 13
+2023-03-16 16:15:08,827 [INFO   ] [TRADER] received order status for order 24 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:08,827 [INFO   ] [TRADER] received order status for order 25 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:08,917 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 34 diff equals -400.000000, ETF=127150.000000 FUT=127600.000000
+2023-03-16 16:15:08,979 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 14
+2023-03-16 16:15:08,996 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 35 diff equals -200.000000, ETF=127150.000000 FUT=127400.000000
+2023-03-16 16:15:09,104 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 36 diff equals -500.000000, ETF=127150.000000 FUT=127650.000000
+2023-03-16 16:15:09,198 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 37 diff equals -400.000000, ETF=127150.000000 FUT=127600.000000
+2023-03-16 16:15:09,238 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 15
+2023-03-16 16:15:09,260 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 38 diff equals -500.000000, ETF=127250.000000 FUT=127800.000000
+2023-03-16 16:15:09,260 [INFO   ] [TRADER] long enter at price of 127200.000000 at volume 20 ETF position being 13
+2023-03-16 16:15:09,260 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 10
+2023-03-16 16:15:09,260 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 16
+2023-03-16 16:15:09,260 [INFO   ] [TRADER] received order status for order 25 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:09,261 [INFO   ] [TRADER] received order status for order 26 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:09,355 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 39 diff equals -300.000000, ETF=127250.000000 FUT=127600.000000
+2023-03-16 16:15:09,437 [INFO   ] [TRADER] received order filled for order 26 with price 127200 and volume 20
+2023-03-16 16:15:09,437 [INFO   ] [TRADER] received order status for order 26 with fill volume 20 remaining 0 and fees -254
+2023-03-16 16:15:09,438 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 40 diff equals -500.000000, ETF=127150.000000 FUT=127650.000000
+2023-03-16 16:15:09,438 [INFO   ] [TRADER] long enter at price of 127100.000000 at volume 20 ETF position being 33
+2023-03-16 16:15:09,438 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 11
+2023-03-16 16:15:09,438 [INFO   ] [TRADER] received hedge filled for order 27 with average price 127600 and volume 20
+2023-03-16 16:15:09,439 [INFO   ] [TRADER] received order status for order 28 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:09,475 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 17
+2023-03-16 16:15:09,519 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 41 diff equals -400.000000, ETF=127200.000000 FUT=127600.000000
+2023-03-16 16:15:09,519 [INFO   ] [TRADER] long enter at price of 127200.000000 at volume 20 ETF position being 33
+2023-03-16 16:15:09,519 [INFO   ] [TRADER] received order status for order 28 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:09,519 [INFO   ] [TRADER] received order status for order 29 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:09,570 [INFO   ] [TRADER] received order filled for order 29 with price 127200 and volume 20
+2023-03-16 16:15:09,570 [INFO   ] [TRADER] received order status for order 29 with fill volume 20 remaining 0 and fees -254
+2023-03-16 16:15:09,571 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 12
+2023-03-16 16:15:09,571 [INFO   ] [TRADER] received hedge filled for order 30 with average price 127400 and volume 20
+2023-03-16 16:15:09,603 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 42 diff equals -400.000000, ETF=127050.000000 FUT=127500.000000
+2023-03-16 16:15:09,604 [INFO   ] [TRADER] long enter at price of 127000.000000 at volume 20 ETF position being 53
+2023-03-16 16:15:09,604 [INFO   ] [TRADER] received order status for order 31 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:09,697 [INFO   ] [TRADER] received order filled for order 31 with price 127000 and volume 14
+2023-03-16 16:15:09,697 [INFO   ] [TRADER] received order status for order 31 with fill volume 14 remaining 6 and fees -178
+2023-03-16 16:15:09,698 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 43 diff equals -300.000000, ETF=127150.000000 FUT=127500.000000
+2023-03-16 16:15:09,698 [INFO   ] [TRADER] long enter at price of 127100.000000 at volume 20 ETF position being 67
+2023-03-16 16:15:09,698 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 13
+2023-03-16 16:15:09,698 [INFO   ] [TRADER] received hedge filled for order 32 with average price 127400 and volume 14
+2023-03-16 16:15:09,698 [INFO   ] [TRADER] received order status for order 31 with fill volume 14 remaining 0 and fees -178
+2023-03-16 16:15:09,698 [INFO   ] [TRADER] received order status for order 33 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:09,759 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 44 diff equals -300.000000, ETF=127200.000000 FUT=127550.000000
+2023-03-16 16:15:09,759 [INFO   ] [TRADER] long enter at price of 127200.000000 at volume 20 ETF position being 67
+2023-03-16 16:15:09,760 [INFO   ] [TRADER] received order status for order 33 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:09,760 [INFO   ] [TRADER] received order status for order 34 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:09,791 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 14
+2023-03-16 16:15:09,825 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 18
+2023-03-16 16:15:09,852 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 45 diff equals -200.000000, ETF=127250.000000 FUT=127500.000000
+2023-03-16 16:15:09,893 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 19
+2023-03-16 16:15:09,943 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 46 diff equals 0.000000, ETF=127550.000000 FUT=127600.000000
+2023-03-16 16:15:09,952 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 15
+2023-03-16 16:15:09,953 [INFO   ] [TRADER] received order status for order 34 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:09,953 [INFO   ] [TRADER] received order status for order 35 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:10,009 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 47 diff equals -200.000000, ETF=127250.000000 FUT=127450.000000
+2023-03-16 16:15:10,009 [INFO   ] [TRADER] received order status for order 35 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:10,089 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 48 diff equals -100.000000, ETF=127450.000000 FUT=127600.000000
+2023-03-16 16:15:10,098 [INFO   ] [TRADER] received order status for order 36 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:10,179 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 49 diff equals -400.000000, ETF=127200.000000 FUT=127600.000000
+2023-03-16 16:15:10,181 [INFO   ] [TRADER] long enter at price of 127200.000000 at volume 20 ETF position being 67
+2023-03-16 16:15:10,181 [INFO   ] [TRADER] received order status for order 36 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:10,181 [INFO   ] [TRADER] received order status for order 37 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:10,242 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 50 diff equals 0.000000, ETF=127550.000000 FUT=127550.000000
+2023-03-16 16:15:10,251 [INFO   ] [TRADER] received order status for order 37 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:10,251 [INFO   ] [TRADER] received order status for order 38 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:10,336 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 51 diff equals -300.000000, ETF=127250.000000 FUT=127550.000000
+2023-03-16 16:15:10,336 [INFO   ] [TRADER] long enter at price of 127200.000000 at volume 20 ETF position being 67
+2023-03-16 16:15:10,336 [INFO   ] [TRADER] received order status for order 38 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:10,337 [INFO   ] [TRADER] received order status for order 39 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:10,378 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 20
+2023-03-16 16:15:10,429 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 52 diff equals 100.000000, ETF=127850.000000 FUT=127750.000000
+2023-03-16 16:15:10,440 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 16
+2023-03-16 16:15:10,440 [INFO   ] [TRADER] received order status for order 39 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:10,440 [INFO   ] [TRADER] received order filled for order 40 with price 127800 and volume 9
+2023-03-16 16:15:10,440 [INFO   ] [TRADER] received order status for order 40 with fill volume 9 remaining 1 and fees 230
+2023-03-16 16:15:10,440 [INFO   ] [TRADER] received hedge filled for order 41 with average price 127800 and volume 9
+2023-03-16 16:15:10,495 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 53 diff equals -300.000000, ETF=127500.000000 FUT=127800.000000
+2023-03-16 16:15:10,495 [INFO   ] [TRADER] long enter at price of 127500.000000 at volume 20 ETF position being 58
+2023-03-16 16:15:10,495 [INFO   ] [TRADER] received order status for order 40 with fill volume 9 remaining 0 and fees 230
+2023-03-16 16:15:10,495 [INFO   ] [TRADER] received order status for order 42 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:10,574 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 54 diff equals 0.000000, ETF=127700.000000 FUT=127700.000000
+2023-03-16 16:15:10,583 [INFO   ] [TRADER] received order status for order 42 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:10,584 [INFO   ] [TRADER] received order status for order 43 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:10,682 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 55 diff equals -300.000000, ETF=127350.000000 FUT=127650.000000
+2023-03-16 16:15:10,683 [INFO   ] [TRADER] long enter at price of 127300.000000 at volume 20 ETF position being 58
+2023-03-16 16:15:10,683 [INFO   ] [TRADER] received order status for order 43 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:10,683 [INFO   ] [TRADER] received order status for order 44 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:10,737 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 17
+2023-03-16 16:15:10,761 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 56 diff equals 100.000000, ETF=127750.000000 FUT=127600.000000
+2023-03-16 16:15:10,808 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 18
+2023-03-16 16:15:10,808 [INFO   ] [TRADER] received order status for order 44 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:10,808 [INFO   ] [TRADER] received order status for order 45 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:10,808 [INFO   ] [TRADER] received order filled for order 45 with price 127700 and volume 10
+2023-03-16 16:15:10,809 [INFO   ] [TRADER] received order status for order 45 with fill volume 10 remaining 0 and fees -128
+2023-03-16 16:15:10,812 [INFO   ] [TRADER] received hedge filled for order 46 with average price 127700 and volume 10
+2023-03-16 16:15:10,842 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 57 diff equals 0.000000, ETF=127600.000000 FUT=127550.000000
+2023-03-16 16:15:10,858 [INFO   ] [TRADER] received order status for order 47 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:10,908 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 21
+2023-03-16 16:15:10,953 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 58 diff equals -200.000000, ETF=127300.000000 FUT=127550.000000
+2023-03-16 16:15:10,953 [INFO   ] [TRADER] received order status for order 47 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:10,999 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 59 diff equals -100.000000, ETF=127350.000000 FUT=127450.000000
+2023-03-16 16:15:11,007 [INFO   ] [TRADER] received order status for order 48 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:11,106 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 60 diff equals -300.000000, ETF=127150.000000 FUT=127450.000000
+2023-03-16 16:15:11,107 [INFO   ] [TRADER] long enter at price of 127100.000000 at volume 20 ETF position being 48
+2023-03-16 16:15:11,107 [INFO   ] [TRADER] received order status for order 48 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:11,107 [INFO   ] [TRADER] received order status for order 49 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:11,184 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 61 diff equals 100.000000, ETF=127550.000000 FUT=127450.000000
+2023-03-16 16:15:11,194 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 19
+2023-03-16 16:15:11,194 [INFO   ] [TRADER] received order status for order 49 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:11,194 [INFO   ] [TRADER] received order status for order 50 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:11,236 [INFO   ] [TRADER] received order filled for order 50 with price 127500 and volume 10
+2023-03-16 16:15:11,236 [INFO   ] [TRADER] received order status for order 50 with fill volume 10 remaining 0 and fees -128
+2023-03-16 16:15:11,236 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 20
+2023-03-16 16:15:11,237 [INFO   ] [TRADER] received hedge filled for order 51 with average price 127700 and volume 10
+2023-03-16 16:15:11,283 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 62 diff equals 300.000000, ETF=127900.000000 FUT=127600.000000
+2023-03-16 16:15:11,283 [INFO   ] [TRADER] short enter at price of 127900.000000 at volume 20 ETF position being 38
+2023-03-16 16:15:11,283 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 21
+2023-03-16 16:15:11,283 [INFO   ] [TRADER] received order status for order 52 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:11,333 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 63 diff equals 100.000000, ETF=127700.000000 FUT=127600.000000
+2023-03-16 16:15:11,341 [INFO   ] [TRADER] received order status for order 52 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:11,341 [INFO   ] [TRADER] received order status for order 53 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:11,456 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 64 diff equals 100.000000, ETF=127600.000000 FUT=127500.000000
+2023-03-16 16:15:11,465 [INFO   ] [TRADER] received order status for order 53 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:11,465 [INFO   ] [TRADER] received order status for order 54 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:11,514 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 65 diff equals 0.000000, ETF=127550.000000 FUT=127500.000000
+2023-03-16 16:15:11,526 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 22
+2023-03-16 16:15:11,526 [INFO   ] [TRADER] received order status for order 54 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:11,527 [INFO   ] [TRADER] received order filled for order 55 with price 127500 and volume 10
+2023-03-16 16:15:11,527 [INFO   ] [TRADER] received order status for order 55 with fill volume 10 remaining 0 and fees 255
+2023-03-16 16:15:11,528 [INFO   ] [TRADER] received hedge filled for order 56 with average price 127600 and volume 10
+2023-03-16 16:15:11,609 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 66 diff equals 300.000000, ETF=127800.000000 FUT=127500.000000
+2023-03-16 16:15:11,610 [INFO   ] [TRADER] short enter at price of 127800.000000 at volume 20 ETF position being 28
+2023-03-16 16:15:11,610 [INFO   ] [TRADER] received order status for order 57 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:11,706 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 67 diff equals 100.000000, ETF=127650.000000 FUT=127500.000000
+2023-03-16 16:15:11,715 [INFO   ] [TRADER] received order status for order 57 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:11,716 [INFO   ] [TRADER] received order status for order 58 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:11,766 [INFO   ] [TRADER] received order filled for order 58 with price 127600 and volume 10
+2023-03-16 16:15:11,767 [INFO   ] [TRADER] received order status for order 58 with fill volume 10 remaining 0 and fees -128
+2023-03-16 16:15:11,767 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 68 diff equals 300.000000, ETF=127800.000000 FUT=127450.000000
+2023-03-16 16:15:11,767 [INFO   ] [TRADER] short enter at price of 127800.000000 at volume 20 ETF position being 18
+2023-03-16 16:15:11,767 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 23
+2023-03-16 16:15:11,768 [INFO   ] [TRADER] received hedge filled for order 59 with average price 127500 and volume 10
+2023-03-16 16:15:11,768 [INFO   ] [TRADER] received order status for order 60 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:11,848 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 69 diff equals 100.000000, ETF=127650.000000 FUT=127550.000000
+2023-03-16 16:15:11,856 [INFO   ] [TRADER] received order status for order 60 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:11,856 [INFO   ] [TRADER] received order status for order 61 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:11,942 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 70 diff equals -100.000000, ETF=127550.000000 FUT=127700.000000
+2023-03-16 16:15:11,951 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 24
+2023-03-16 16:15:11,951 [INFO   ] [TRADER] received order status for order 61 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:11,952 [INFO   ] [TRADER] received order filled for order 62 with price 127500 and volume 10
+2023-03-16 16:15:11,952 [INFO   ] [TRADER] received order status for order 62 with fill volume 10 remaining 0 and fees 255
+2023-03-16 16:15:11,956 [INFO   ] [TRADER] received hedge filled for order 63 with average price 127700 and volume 10
+2023-03-16 16:15:12,008 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 22
+2023-03-16 16:15:12,008 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 71 diff equals 100.000000, ETF=127850.000000 FUT=127750.000000
+2023-03-16 16:15:12,018 [INFO   ] [TRADER] received order status for order 64 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:12,110 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 72 diff equals 0.000000, ETF=127650.000000 FUT=127700.000000
+2023-03-16 16:15:12,121 [INFO   ] [TRADER] received order status for order 64 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:12,121 [INFO   ] [TRADER] received order status for order 65 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:12,188 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 73 diff equals -200.000000, ETF=127550.000000 FUT=127800.000000
+2023-03-16 16:15:12,189 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 23
+2023-03-16 16:15:12,189 [INFO   ] [TRADER] received order status for order 65 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:12,268 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 74 diff equals 100.000000, ETF=127950.000000 FUT=127850.000000
+2023-03-16 16:15:12,276 [INFO   ] [TRADER] received order status for order 66 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:12,365 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 24
+2023-03-16 16:15:12,365 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 25
+2023-03-16 16:15:12,370 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 75 diff equals -200.000000, ETF=127700.000000 FUT=127950.000000
+2023-03-16 16:15:12,370 [INFO   ] [TRADER] received order status for order 66 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:12,472 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 76 diff equals 0.000000, ETF=127950.000000 FUT=127900.000000
+2023-03-16 16:15:12,480 [INFO   ] [TRADER] received order status for order 67 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:12,523 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 77 diff equals -200.000000, ETF=127700.000000 FUT=127900.000000
+2023-03-16 16:15:12,523 [INFO   ] [TRADER] received order status for order 67 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:12,598 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 78 diff equals 0.000000, ETF=127950.000000 FUT=127900.000000
+2023-03-16 16:15:12,632 [INFO   ] [TRADER] received order status for order 68 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:12,692 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 79 diff equals -300.000000, ETF=127700.000000 FUT=128000.000000
+2023-03-16 16:15:12,692 [INFO   ] [TRADER] long enter at price of 127700.000000 at volume 20 ETF position being 8
+2023-03-16 16:15:12,692 [INFO   ] [TRADER] received order status for order 68 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:12,692 [INFO   ] [TRADER] received order status for order 69 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:12,751 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 80 diff equals 100.000000, ETF=128050.000000 FUT=127950.000000
+2023-03-16 16:15:12,758 [INFO   ] [TRADER] received order status for order 69 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:12,758 [INFO   ] [TRADER] received order status for order 70 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:12,848 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 81 diff equals -100.000000, ETF=127750.000000 FUT=127900.000000
+2023-03-16 16:15:12,855 [INFO   ] [TRADER] received order status for order 70 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:12,855 [INFO   ] [TRADER] received order status for order 71 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:12,970 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 82 diff equals -500.000000, ETF=127600.000000 FUT=128100.000000
+2023-03-16 16:15:12,970 [INFO   ] [TRADER] long enter at price of 127600.000000 at volume 20 ETF position being 8
+2023-03-16 16:15:12,973 [INFO   ] [TRADER] received order status for order 71 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:12,973 [INFO   ] [TRADER] received order status for order 72 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:13,003 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 83 diff equals -100.000000, ETF=128000.000000 FUT=128100.000000
+2023-03-16 16:15:13,013 [INFO   ] [TRADER] received order status for order 72 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:13,013 [INFO   ] [TRADER] received order status for order 73 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:13,112 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 84 diff equals -300.000000, ETF=127750.000000 FUT=128100.000000
+2023-03-16 16:15:13,112 [INFO   ] [TRADER] long enter at price of 127700.000000 at volume 20 ETF position being 8
+2023-03-16 16:15:13,112 [INFO   ] [TRADER] received order status for order 73 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:13,112 [INFO   ] [TRADER] received order status for order 74 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:13,201 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 85 diff equals -200.000000, ETF=128050.000000 FUT=128300.000000
+2023-03-16 16:15:13,201 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 25
+2023-03-16 16:15:13,205 [INFO   ] [TRADER] received order status for order 74 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:13,250 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 86 diff equals -300.000000, ETF=127950.000000 FUT=128300.000000
+2023-03-16 16:15:13,250 [INFO   ] [TRADER] long enter at price of 127900.000000 at volume 20 ETF position being 8
+2023-03-16 16:15:13,252 [INFO   ] [TRADER] received order status for order 75 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:13,360 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 87 diff equals -100.000000, ETF=128150.000000 FUT=128250.000000
+2023-03-16 16:15:13,369 [INFO   ] [TRADER] received order status for order 75 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:13,369 [INFO   ] [TRADER] received order status for order 76 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:13,440 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 88 diff equals -400.000000, ETF=127850.000000 FUT=128250.000000
+2023-03-16 16:15:13,440 [INFO   ] [TRADER] long enter at price of 127800.000000 at volume 20 ETF position being 8
+2023-03-16 16:15:13,440 [INFO   ] [TRADER] received order status for order 76 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:13,442 [INFO   ] [TRADER] received order status for order 77 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:13,471 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 26
+2023-03-16 16:15:13,509 [INFO   ] [TRADER] received order filled for order 77 with price 127800 and volume 20
+2023-03-16 16:15:13,509 [INFO   ] [TRADER] received order status for order 77 with fill volume 20 remaining 0 and fees -256
+2023-03-16 16:15:13,509 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 27
+2023-03-16 16:15:13,509 [INFO   ] [TRADER] received hedge filled for order 78 with average price 128200 and volume 20
+2023-03-16 16:15:13,509 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 89 diff equals -200.000000, ETF=128000.000000 FUT=128250.000000
+2023-03-16 16:15:13,607 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 90 diff equals -100.000000, ETF=128000.000000 FUT=128150.000000
+2023-03-16 16:15:13,616 [INFO   ] [TRADER] received order status for order 79 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:13,693 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 91 diff equals -200.000000, ETF=127800.000000 FUT=128050.000000
+2023-03-16 16:15:13,694 [INFO   ] [TRADER] received order status for order 79 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:13,769 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 92 diff equals 0.000000, ETF=127950.000000 FUT=127950.000000
+2023-03-16 16:15:13,778 [INFO   ] [TRADER] received order status for order 80 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:13,829 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 93 diff equals -200.000000, ETF=127700.000000 FUT=127950.000000
+2023-03-16 16:15:13,829 [INFO   ] [TRADER] received order status for order 80 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:13,940 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 94 diff equals 400.000000, ETF=128300.000000 FUT=127850.000000
+2023-03-16 16:15:13,940 [INFO   ] [TRADER] short enter at price of 128300.000000 at volume 20 ETF position being 28
+2023-03-16 16:15:13,940 [INFO   ] [TRADER] received order status for order 81 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:13,992 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 26
+2023-03-16 16:15:14,036 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 95 diff equals 600.000000, ETF=128250.000000 FUT=127650.000000
+2023-03-16 16:15:14,036 [INFO   ] [TRADER] short enter at price of 128200.000000 at volume 20 ETF position being 28
+2023-03-16 16:15:14,036 [INFO   ] [TRADER] received order status for order 81 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:14,036 [INFO   ] [TRADER] received order filled for order 82 with price 128200 and volume 20
+2023-03-16 16:15:14,037 [INFO   ] [TRADER] received order status for order 82 with fill volume 20 remaining 0 and fees 513
+2023-03-16 16:15:14,037 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 28
+2023-03-16 16:15:14,037 [INFO   ] [TRADER] received hedge filled for order 83 with average price 127700 and volume 20
+2023-03-16 16:15:14,066 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 29
+2023-03-16 16:15:14,097 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 96 diff equals 200.000000, ETF=127850.000000 FUT=127650.000000
+2023-03-16 16:15:14,106 [INFO   ] [TRADER] received order status for order 84 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:14,175 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 97 diff equals 0.000000, ETF=127650.000000 FUT=127650.000000
+2023-03-16 16:15:14,183 [INFO   ] [TRADER] received order status for order 84 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:14,183 [INFO   ] [TRADER] received order status for order 85 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:14,220 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 27
+2023-03-16 16:15:14,257 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 98 diff equals -100.000000, ETF=127550.000000 FUT=127650.000000
+2023-03-16 16:15:14,266 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 30
+2023-03-16 16:15:14,266 [INFO   ] [TRADER] received order status for order 85 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:14,266 [INFO   ] [TRADER] received order filled for order 86 with price 127500 and volume 3
+2023-03-16 16:15:14,266 [INFO   ] [TRADER] received order status for order 86 with fill volume 3 remaining 7 and fees 76
+2023-03-16 16:15:14,266 [INFO   ] [TRADER] received hedge filled for order 87 with average price 127700 and volume 3
+2023-03-16 16:15:14,334 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 99 diff equals -300.000000, ETF=127350.000000 FUT=127700.000000
+2023-03-16 16:15:14,334 [INFO   ] [TRADER] long enter at price of 127300.000000 at volume 20 ETF position being 5
+2023-03-16 16:15:14,335 [INFO   ] [TRADER] received order status for order 86 with fill volume 3 remaining 0 and fees 76
+2023-03-16 16:15:14,335 [INFO   ] [TRADER] received order status for order 88 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:14,427 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 100 diff equals 0.000000, ETF=127750.000000 FUT=127700.000000
+2023-03-16 16:15:14,436 [INFO   ] [TRADER] received order status for order 88 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:14,436 [INFO   ] [TRADER] received order status for order 89 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:14,476 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 31
+2023-03-16 16:15:14,519 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 101 diff equals -200.000000, ETF=127450.000000 FUT=127650.000000
+2023-03-16 16:15:14,519 [INFO   ] [TRADER] received order status for order 89 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:14,599 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 28
+2023-03-16 16:15:14,617 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 102 diff equals -300.000000, ETF=127700.000000 FUT=128000.000000
+2023-03-16 16:15:14,617 [INFO   ] [TRADER] long enter at price of 127700.000000 at volume 20 ETF position being 5
+2023-03-16 16:15:14,618 [INFO   ] [TRADER] received order status for order 90 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:14,692 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 103 diff equals 100.000000, ETF=128050.000000 FUT=127950.000000
+2023-03-16 16:15:14,700 [INFO   ] [TRADER] received order status for order 90 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:14,700 [INFO   ] [TRADER] received order status for order 91 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:14,787 [INFO   ] [TRADER] received order filled for order 91 with price 128000 and volume 10
+2023-03-16 16:15:14,787 [INFO   ] [TRADER] received order status for order 91 with fill volume 10 remaining 0 and fees -128
+2023-03-16 16:15:14,787 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 104 diff equals -100.000000, ETF=127900.000000 FUT=128000.000000
+2023-03-16 16:15:14,787 [INFO   ] [TRADER] short exit at price of 128400.000000 at volume 20 ETF position being -5
+2023-03-16 16:15:14,788 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 32
+2023-03-16 16:15:14,788 [INFO   ] [TRADER] received hedge filled for order 92 with average price 128100 and volume 10
+2023-03-16 16:15:14,788 [INFO   ] [TRADER] received order filled for order 93 with price 128400 and volume 6
+2023-03-16 16:15:14,788 [INFO   ] [TRADER] received order status for order 93 with fill volume 6 remaining 4 and fees 154
+2023-03-16 16:15:14,788 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 33
+2023-03-16 16:15:14,788 [INFO   ] [TRADER] received hedge filled for order 94 with average price 127900 and volume 6
+2023-03-16 16:15:14,831 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 105 diff equals 500.000000, ETF=128450.000000 FUT=127950.000000
+2023-03-16 16:15:14,831 [INFO   ] [TRADER] short enter at price of 128400.000000 at volume 20 ETF position being 1
+2023-03-16 16:15:14,831 [WARNING] [TRADER] error with order 95: order rejected: in cross with an existing order
+2023-03-16 16:15:14,831 [INFO   ] [TRADER] received order status for order 95 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:14,868 [INFO   ] [TRADER] received order filled for order 93 with price 128400 and volume 4
+2023-03-16 16:15:14,868 [INFO   ] [TRADER] received order status for order 93 with fill volume 10 remaining 0 and fees 103
+2023-03-16 16:15:14,868 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 34
+2023-03-16 16:15:14,869 [INFO   ] [TRADER] received hedge filled for order 96 with average price 127700 and volume 4
+2023-03-16 16:15:14,939 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 106 diff equals -100.000000, ETF=127800.000000 FUT=127900.000000
+2023-03-16 16:15:14,955 [INFO   ] [TRADER] received order status for order 97 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:15,007 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 107 diff equals -300.000000, ETF=127600.000000 FUT=127900.000000
+2023-03-16 16:15:15,008 [INFO   ] [TRADER] long enter at price of 127600.000000 at volume 20 ETF position being 5
+2023-03-16 16:15:15,008 [INFO   ] [TRADER] received order status for order 97 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:15,008 [INFO   ] [TRADER] received order status for order 98 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:15,095 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 108 diff equals 100.000000, ETF=128050.000000 FUT=127900.000000
+2023-03-16 16:15:15,105 [INFO   ] [TRADER] received order status for order 98 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:15,105 [INFO   ] [TRADER] received order status for order 99 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:15,174 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 109 diff equals -200.000000, ETF=127650.000000 FUT=127900.000000
+2023-03-16 16:15:15,174 [INFO   ] [TRADER] received order status for order 99 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:15,268 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 110 diff equals 0.000000, ETF=127900.000000 FUT=127900.000000
+2023-03-16 16:15:15,276 [INFO   ] [TRADER] received order status for order 100 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:15,344 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 111 diff equals -300.000000, ETF=127600.000000 FUT=127900.000000
+2023-03-16 16:15:15,344 [INFO   ] [TRADER] long enter at price of 127600.000000 at volume 20 ETF position being 5
+2023-03-16 16:15:15,344 [INFO   ] [TRADER] received order status for order 100 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:15,344 [INFO   ] [TRADER] received order status for order 101 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:15,456 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 112 diff equals -100.000000, ETF=127750.000000 FUT=127900.000000
+2023-03-16 16:15:15,464 [INFO   ] [TRADER] received order status for order 101 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:15,464 [INFO   ] [TRADER] received order status for order 102 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:15,532 [INFO   ] [TRADER] received order filled for order 102 with price 127700 and volume 10
+2023-03-16 16:15:15,532 [INFO   ] [TRADER] received order status for order 102 with fill volume 10 remaining 0 and fees -128
+2023-03-16 16:15:15,533 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 113 diff equals -300.000000, ETF=127600.000000 FUT=127900.000000
+2023-03-16 16:15:15,533 [INFO   ] [TRADER] long enter at price of 127600.000000 at volume 20 ETF position being -5
+2023-03-16 16:15:15,534 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 35
+2023-03-16 16:15:15,534 [INFO   ] [TRADER] received hedge filled for order 103 with average price 128000 and volume 10
+2023-03-16 16:15:15,534 [INFO   ] [TRADER] received order status for order 104 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:15,608 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 114 diff equals -200.000000, ETF=127750.000000 FUT=127950.000000
+2023-03-16 16:15:15,608 [INFO   ] [TRADER] short exit at price of 127900.000000 at volume 20 ETF position being -5
+2023-03-16 16:15:15,608 [INFO   ] [TRADER] received order status for order 104 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:15,609 [INFO   ] [TRADER] received order filled for order 105 with price 127900 and volume 10
+2023-03-16 16:15:15,609 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 36
+2023-03-16 16:15:15,609 [INFO   ] [TRADER] received order status for order 105 with fill volume 10 remaining 0 and fees 256
+2023-03-16 16:15:15,609 [INFO   ] [TRADER] received hedge filled for order 106 with average price 127900 and volume 10
+2023-03-16 16:15:15,687 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 115 diff equals -400.000000, ETF=127750.000000 FUT=128150.000000
+2023-03-16 16:15:15,687 [INFO   ] [TRADER] long enter at price of 127700.000000 at volume 20 ETF position being 5
+2023-03-16 16:15:15,687 [INFO   ] [TRADER] received order status for order 107 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:15,780 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 116 diff equals -200.000000, ETF=127800.000000 FUT=128050.000000
+2023-03-16 16:15:15,780 [INFO   ] [TRADER] received order status for order 107 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:15,858 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 117 diff equals -400.000000, ETF=127650.000000 FUT=128050.000000
+2023-03-16 16:15:15,858 [INFO   ] [TRADER] long enter at price of 127600.000000 at volume 20 ETF position being 5
+2023-03-16 16:15:15,859 [INFO   ] [TRADER] received order status for order 108 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:15,937 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 118 diff equals -300.000000, ETF=127750.000000 FUT=128100.000000
+2023-03-16 16:15:15,937 [INFO   ] [TRADER] long enter at price of 127700.000000 at volume 20 ETF position being 5
+2023-03-16 16:15:15,937 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 37
+2023-03-16 16:15:15,937 [INFO   ] [TRADER] received order status for order 108 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:15,937 [INFO   ] [TRADER] received order status for order 109 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:16,030 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 119 diff equals -200.000000, ETF=127800.000000 FUT=128050.000000
+2023-03-16 16:15:16,030 [INFO   ] [TRADER] received order status for order 109 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:16,093 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 120 diff equals -400.000000, ETF=127650.000000 FUT=128050.000000
+2023-03-16 16:15:16,094 [INFO   ] [TRADER] long enter at price of 127600.000000 at volume 20 ETF position being 5
+2023-03-16 16:15:16,094 [INFO   ] [TRADER] received order status for order 110 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:16,205 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 121 diff equals -400.000000, ETF=127750.000000 FUT=128200.000000
+2023-03-16 16:15:16,205 [INFO   ] [TRADER] long enter at price of 127700.000000 at volume 20 ETF position being 5
+2023-03-16 16:15:16,205 [INFO   ] [TRADER] received order status for order 110 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:16,206 [INFO   ] [TRADER] received order status for order 111 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:16,265 [INFO   ] [TRADER] received order filled for order 111 with price 127700 and volume 17
+2023-03-16 16:15:16,265 [INFO   ] [TRADER] received order status for order 111 with fill volume 17 remaining 3 and fees -217
+2023-03-16 16:15:16,266 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 122 diff equals -300.000000, ETF=127800.000000 FUT=128150.000000
+2023-03-16 16:15:16,266 [INFO   ] [TRADER] long enter at price of 127800.000000 at volume 20 ETF position being 22
+2023-03-16 16:15:16,267 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 38
+2023-03-16 16:15:16,267 [INFO   ] [TRADER] received hedge filled for order 112 with average price 128100 and volume 17
+2023-03-16 16:15:16,267 [INFO   ] [TRADER] received order status for order 111 with fill volume 17 remaining 0 and fees -217
+2023-03-16 16:15:16,267 [INFO   ] [TRADER] received order status for order 113 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:16,358 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 123 diff equals -300.000000, ETF=127850.000000 FUT=128200.000000
+2023-03-16 16:15:16,420 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 124 diff equals -300.000000, ETF=127850.000000 FUT=128150.000000
+2023-03-16 16:15:16,515 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 125 diff equals -200.000000, ETF=127850.000000 FUT=128050.000000
+2023-03-16 16:15:16,576 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 39
+2023-03-16 16:15:16,608 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 126 diff equals -200.000000, ETF=127850.000000 FUT=128050.000000
+2023-03-16 16:15:16,706 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 127 diff equals 100.000000, ETF=127850.000000 FUT=127750.000000
+2023-03-16 16:15:16,713 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 29
+2023-03-16 16:15:16,713 [WARNING] [TRADER] error with order 114: order rejected: in cross with an existing order
+2023-03-16 16:15:16,713 [INFO   ] [TRADER] received order status for order 114 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:16,784 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 128 diff equals 200.000000, ETF=127850.000000 FUT=127600.000000
+2023-03-16 16:15:16,791 [WARNING] [TRADER] error with order 115: order rejected: in cross with an existing order
+2023-03-16 16:15:16,791 [INFO   ] [TRADER] received order status for order 115 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:16,856 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 129 diff equals 200.000000, ETF=127850.000000 FUT=127600.000000
+2023-03-16 16:15:16,865 [WARNING] [TRADER] error with order 116: order rejected: in cross with an existing order
+2023-03-16 16:15:16,865 [INFO   ] [TRADER] received order status for order 116 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:16,924 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 130 diff equals 300.000000, ETF=127850.000000 FUT=127550.000000
+2023-03-16 16:15:16,924 [INFO   ] [TRADER] short enter at price of 127800.000000 at volume 20 ETF position being 22
+2023-03-16 16:15:16,924 [WARNING] [TRADER] error with order 117: order rejected: in cross with an existing order
+2023-03-16 16:15:16,924 [INFO   ] [TRADER] received order status for order 117 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:16,958 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 30
+2023-03-16 16:15:17,014 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 131 diff equals 300.000000, ETF=127850.000000 FUT=127500.000000
+2023-03-16 16:15:17,014 [INFO   ] [TRADER] short enter at price of 127800.000000 at volume 20 ETF position being 22
+2023-03-16 16:15:17,014 [WARNING] [TRADER] error with order 118: order rejected: in cross with an existing order
+2023-03-16 16:15:17,014 [INFO   ] [TRADER] received order status for order 118 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:17,058 [INFO   ] [TRADER] received order filled for order 113 with price 127800 and volume 20
+2023-03-16 16:15:17,058 [INFO   ] [TRADER] received order status for order 113 with fill volume 20 remaining 0 and fees -256
+2023-03-16 16:15:17,061 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 40
+2023-03-16 16:15:17,062 [INFO   ] [TRADER] received hedge filled for order 119 with average price 127400 and volume 20
+2023-03-16 16:15:17,098 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 132 diff equals 100.000000, ETF=127550.000000 FUT=127400.000000
+2023-03-16 16:15:17,108 [INFO   ] [TRADER] received order status for order 120 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:17,188 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 133 diff equals -100.000000, ETF=127300.000000 FUT=127450.000000
+2023-03-16 16:15:17,195 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 31
+2023-03-16 16:15:17,195 [INFO   ] [TRADER] received order status for order 120 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:17,195 [INFO   ] [TRADER] received order status for order 121 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:17,219 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 41
+2023-03-16 16:15:17,258 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 42
+2023-03-16 16:15:17,258 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 32
+2023-03-16 16:15:17,263 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 33
+2023-03-16 16:15:17,298 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 134 diff equals 100.000000, ETF=127200.000000 FUT=127100.000000
+2023-03-16 16:15:17,306 [INFO   ] [TRADER] received order status for order 121 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:17,306 [INFO   ] [TRADER] received order status for order 122 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:17,340 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 135 diff equals 0.000000, ETF=127150.000000 FUT=127100.000000
+2023-03-16 16:15:17,347 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 43
+2023-03-16 16:15:17,348 [INFO   ] [TRADER] received order status for order 122 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:17,348 [INFO   ] [TRADER] received order filled for order 123 with price 127100 and volume 6
+2023-03-16 16:15:17,348 [INFO   ] [TRADER] received order status for order 123 with fill volume 6 remaining 4 and fees 153
+2023-03-16 16:15:17,348 [INFO   ] [TRADER] received hedge filled for order 124 with average price 127200 and volume 6
+2023-03-16 16:15:17,447 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 136 diff equals 0.000000, ETF=127050.000000 FUT=127050.000000
+2023-03-16 16:15:17,455 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 44
+2023-03-16 16:15:17,456 [INFO   ] [TRADER] received order status for order 123 with fill volume 6 remaining 0 and fees 153
+2023-03-16 16:15:17,456 [INFO   ] [TRADER] received order filled for order 125 with price 127000 and volume 10
+2023-03-16 16:15:17,456 [INFO   ] [TRADER] received order status for order 125 with fill volume 10 remaining 0 and fees 254
+2023-03-16 16:15:17,456 [INFO   ] [TRADER] received hedge filled for order 126 with average price 127100 and volume 10
+2023-03-16 16:15:17,505 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 34
+2023-03-16 16:15:17,542 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 137 diff equals 0.000000, ETF=127200.000000 FUT=127200.000000
+2023-03-16 16:15:17,552 [INFO   ] [TRADER] received order status for order 127 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:17,606 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 138 diff equals -100.000000, ETF=127100.000000 FUT=127250.000000
+2023-03-16 16:15:17,613 [INFO   ] [TRADER] received order status for order 127 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:17,613 [INFO   ] [TRADER] received order status for order 128 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:17,686 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 139 diff equals 0.000000, ETF=127050.000000 FUT=127100.000000
+2023-03-16 16:15:17,704 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 45
+2023-03-16 16:15:17,705 [INFO   ] [TRADER] received order status for order 128 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:17,705 [INFO   ] [TRADER] received order filled for order 129 with price 127000 and volume 10
+2023-03-16 16:15:17,706 [INFO   ] [TRADER] received order status for order 129 with fill volume 10 remaining 0 and fees 254
+2023-03-16 16:15:17,706 [INFO   ] [TRADER] received hedge filled for order 130 with average price 127200 and volume 10
+2023-03-16 16:15:17,748 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 140 diff equals 0.000000, ETF=127050.000000 FUT=127100.000000
+2023-03-16 16:15:17,758 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 46
+2023-03-16 16:15:17,758 [INFO   ] [TRADER] received order filled for order 131 with price 127000 and volume 10
+2023-03-16 16:15:17,758 [INFO   ] [TRADER] received order status for order 131 with fill volume 10 remaining 0 and fees 254
+2023-03-16 16:15:17,758 [INFO   ] [TRADER] received hedge filled for order 132 with average price 127200 and volume 10
+2023-03-16 16:15:17,826 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 141 diff equals 0.000000, ETF=127050.000000 FUT=127050.000000
+2023-03-16 16:15:17,834 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 47
+2023-03-16 16:15:17,834 [INFO   ] [TRADER] received order filled for order 133 with price 127000 and volume 10
+2023-03-16 16:15:17,834 [INFO   ] [TRADER] received order status for order 133 with fill volume 10 remaining 0 and fees 254
+2023-03-16 16:15:17,834 [INFO   ] [TRADER] received hedge filled for order 134 with average price 127100 and volume 10
+2023-03-16 16:15:17,876 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 48
+2023-03-16 16:15:17,939 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 142 diff equals -400.000000, ETF=126850.000000 FUT=127250.000000
+2023-03-16 16:15:17,939 [INFO   ] [TRADER] long enter at price of 126800.000000 at volume 20 ETF position being -4
+2023-03-16 16:15:17,939 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 35
+2023-03-16 16:15:17,940 [INFO   ] [TRADER] received order status for order 135 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:18,016 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 143 diff equals -200.000000, ETF=126950.000000 FUT=127200.000000
+2023-03-16 16:15:18,016 [INFO   ] [TRADER] short exit at price of 127100.000000 at volume 20 ETF position being -4
+2023-03-16 16:15:18,016 [INFO   ] [TRADER] received order status for order 135 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:18,017 [INFO   ] [TRADER] received order filled for order 136 with price 127100 and volume 10
+2023-03-16 16:15:18,017 [INFO   ] [TRADER] received order status for order 136 with fill volume 10 remaining 0 and fees 254
+2023-03-16 16:15:18,017 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 49
+2023-03-16 16:15:18,017 [INFO   ] [TRADER] received hedge filled for order 137 with average price 127100 and volume 10
+2023-03-16 16:15:18,106 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 144 diff equals -400.000000, ETF=126900.000000 FUT=127300.000000
+2023-03-16 16:15:18,106 [INFO   ] [TRADER] long enter at price of 126900.000000 at volume 20 ETF position being 6
+2023-03-16 16:15:18,107 [INFO   ] [TRADER] received order status for order 138 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:18,205 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 145 diff equals -400.000000, ETF=127000.000000 FUT=127450.000000
+2023-03-16 16:15:18,205 [INFO   ] [TRADER] long enter at price of 127000.000000 at volume 20 ETF position being 6
+2023-03-16 16:15:18,205 [INFO   ] [TRADER] received order status for order 138 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:18,205 [INFO   ] [TRADER] received order status for order 139 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:18,248 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 146 diff equals -200.000000, ETF=127050.000000 FUT=127300.000000
+2023-03-16 16:15:18,379 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 147 diff equals -500.000000, ETF=127050.000000 FUT=127550.000000
+2023-03-16 16:15:18,379 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 36
+2023-03-16 16:15:18,455 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 148 diff equals -400.000000, ETF=127050.000000 FUT=127500.000000
+2023-03-16 16:15:18,482 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 50
+2023-03-16 16:15:18,531 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 149 diff equals -200.000000, ETF=127250.000000 FUT=127450.000000
+2023-03-16 16:15:18,532 [INFO   ] [TRADER] received order status for order 139 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:18,591 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 150 diff equals -400.000000, ETF=127250.000000 FUT=127650.000000
+2023-03-16 16:15:18,591 [INFO   ] [TRADER] long enter at price of 127200.000000 at volume 20 ETF position being 6
+2023-03-16 16:15:18,591 [INFO   ] [TRADER] received order status for order 140 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:18,685 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 151 diff equals -300.000000, ETF=127300.000000 FUT=127650.000000
+2023-03-16 16:15:18,685 [INFO   ] [TRADER] long enter at price of 127300.000000 at volume 20 ETF position being 6
+2023-03-16 16:15:18,685 [INFO   ] [TRADER] received order status for order 140 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:18,685 [INFO   ] [TRADER] received order status for order 141 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:18,749 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 152 diff equals -300.000000, ETF=127350.000000 FUT=127700.000000
+2023-03-16 16:15:18,858 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 153 diff equals -200.000000, ETF=127350.000000 FUT=127600.000000
+2023-03-16 16:15:18,936 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 154 diff equals -200.000000, ETF=127350.000000 FUT=127600.000000
+2023-03-16 16:15:19,011 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 155 diff equals -200.000000, ETF=127350.000000 FUT=127550.000000
+2023-03-16 16:15:19,091 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 156 diff equals -200.000000, ETF=127350.000000 FUT=127600.000000
+2023-03-16 16:15:19,175 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 37
+2023-03-16 16:15:19,198 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 157 diff equals -200.000000, ETF=127350.000000 FUT=127550.000000
+2023-03-16 16:15:19,261 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 158 diff equals -200.000000, ETF=127350.000000 FUT=127550.000000
+2023-03-16 16:15:19,340 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 159 diff equals -200.000000, ETF=127350.000000 FUT=127550.000000
+2023-03-16 16:15:19,428 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 160 diff equals 0.000000, ETF=127350.000000 FUT=127350.000000
+2023-03-16 16:15:19,437 [WARNING] [TRADER] error with order 142: order rejected: in cross with an existing order
+2023-03-16 16:15:19,438 [INFO   ] [TRADER] received order status for order 142 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:19,499 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 38
+2023-03-16 16:15:19,510 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 161 diff equals 100.000000, ETF=127350.000000 FUT=127200.000000
+2023-03-16 16:15:19,520 [WARNING] [TRADER] error with order 143: order rejected: in cross with an existing order
+2023-03-16 16:15:19,520 [INFO   ] [TRADER] received order status for order 143 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:19,602 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 162 diff equals 0.000000, ETF=127350.000000 FUT=127300.000000
+2023-03-16 16:15:19,610 [WARNING] [TRADER] error with order 144: order rejected: in cross with an existing order
+2023-03-16 16:15:19,611 [INFO   ] [TRADER] received order status for order 144 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:19,675 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 163 diff equals -100.000000, ETF=127350.000000 FUT=127500.000000
+2023-03-16 16:15:19,685 [WARNING] [TRADER] error with order 145: order rejected: in cross with an existing order
+2023-03-16 16:15:19,685 [INFO   ] [TRADER] received order status for order 145 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:19,774 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 164 diff equals 0.000000, ETF=127350.000000 FUT=127400.000000
+2023-03-16 16:15:19,782 [WARNING] [TRADER] error with order 146: order rejected: in cross with an existing order
+2023-03-16 16:15:19,783 [INFO   ] [TRADER] received order status for order 146 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:19,882 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 165 diff equals 0.000000, ETF=127350.000000 FUT=127400.000000
+2023-03-16 16:15:19,890 [WARNING] [TRADER] error with order 147: order rejected: in cross with an existing order
+2023-03-16 16:15:19,890 [INFO   ] [TRADER] received order status for order 147 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:19,948 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 166 diff equals 0.000000, ETF=127350.000000 FUT=127400.000000
+2023-03-16 16:15:19,956 [WARNING] [TRADER] error with order 148: order rejected: in cross with an existing order
+2023-03-16 16:15:19,956 [INFO   ] [TRADER] received order status for order 148 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:20,007 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 167 diff equals -100.000000, ETF=127350.000000 FUT=127450.000000
+2023-03-16 16:15:20,016 [WARNING] [TRADER] error with order 149: order rejected: in cross with an existing order
+2023-03-16 16:15:20,016 [INFO   ] [TRADER] received order status for order 149 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:20,115 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 168 diff equals -100.000000, ETF=127350.000000 FUT=127450.000000
+2023-03-16 16:15:20,124 [WARNING] [TRADER] error with order 150: order rejected: in cross with an existing order
+2023-03-16 16:15:20,124 [INFO   ] [TRADER] received order status for order 150 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:20,179 [INFO   ] [TRADER] received order filled for order 141 with price 127300 and volume 20
+2023-03-16 16:15:20,179 [INFO   ] [TRADER] received order status for order 141 with fill volume 20 remaining 0 and fees -255
+2023-03-16 16:15:20,187 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 169 diff equals -400.000000, ETF=127250.000000 FUT=127700.000000
+2023-03-16 16:15:20,188 [INFO   ] [TRADER] long enter at price of 127200.000000 at volume 20 ETF position being 26
+2023-03-16 16:15:20,188 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 51
+2023-03-16 16:15:20,188 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 39
+2023-03-16 16:15:20,200 [INFO   ] [TRADER] received hedge filled for order 151 with average price 127600 and volume 20
+2023-03-16 16:15:20,202 [INFO   ] [TRADER] received order status for order 152 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:20,268 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 170 diff equals -200.000000, ETF=127300.000000 FUT=127550.000000
+2023-03-16 16:15:20,269 [INFO   ] [TRADER] received order status for order 152 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:20,352 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 171 diff equals -100.000000, ETF=127200.000000 FUT=127300.000000
+2023-03-16 16:15:20,361 [INFO   ] [TRADER] received order status for order 153 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:20,429 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 172 diff equals -100.000000, ETF=127150.000000 FUT=127300.000000
+2023-03-16 16:15:20,437 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 52
+2023-03-16 16:15:20,437 [INFO   ] [TRADER] received order status for order 153 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:20,437 [INFO   ] [TRADER] received order filled for order 154 with price 127100 and volume 10
+2023-03-16 16:15:20,437 [INFO   ] [TRADER] received order status for order 154 with fill volume 10 remaining 0 and fees 254
+2023-03-16 16:15:20,438 [INFO   ] [TRADER] received hedge filled for order 155 with average price 127400 and volume 10
+2023-03-16 16:15:20,522 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 173 diff equals -100.000000, ETF=127200.000000 FUT=127300.000000
+2023-03-16 16:15:20,531 [INFO   ] [TRADER] received order status for order 156 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:20,578 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 40
+2023-03-16 16:15:20,602 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 174 diff equals 0.000000, ETF=127150.000000 FUT=127150.000000
+2023-03-16 16:15:20,608 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 53
+2023-03-16 16:15:20,608 [INFO   ] [TRADER] received order status for order 156 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:20,610 [INFO   ] [TRADER] received order filled for order 157 with price 127100 and volume 10
+2023-03-16 16:15:20,610 [INFO   ] [TRADER] received order status for order 157 with fill volume 10 remaining 0 and fees 254
+2023-03-16 16:15:20,610 [INFO   ] [TRADER] received hedge filled for order 158 with average price 127200 and volume 10
+2023-03-16 16:15:20,681 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 175 diff equals 0.000000, ETF=127200.000000 FUT=127150.000000
+2023-03-16 16:15:20,690 [INFO   ] [TRADER] received order status for order 159 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:20,723 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 41
+2023-03-16 16:15:20,776 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 176 diff equals -100.000000, ETF=127150.000000 FUT=127300.000000
+2023-03-16 16:15:20,783 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 54
+2023-03-16 16:15:20,783 [INFO   ] [TRADER] received order status for order 159 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:20,783 [INFO   ] [TRADER] received order filled for order 160 with price 127100 and volume 10
+2023-03-16 16:15:20,783 [INFO   ] [TRADER] received order status for order 160 with fill volume 10 remaining 0 and fees 254
+2023-03-16 16:15:20,784 [INFO   ] [TRADER] received hedge filled for order 161 with average price 127400 and volume 10
+2023-03-16 16:15:20,841 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 177 diff equals -100.000000, ETF=127200.000000 FUT=127300.000000
+2023-03-16 16:15:20,841 [INFO   ] [TRADER] short exit at price of 127300.000000 at volume 20 ETF position being -4
+2023-03-16 16:15:20,841 [INFO   ] [TRADER] received order filled for order 162 with price 127300 and volume 10
+2023-03-16 16:15:20,842 [INFO   ] [TRADER] received order status for order 162 with fill volume 10 remaining 0 and fees 255
+2023-03-16 16:15:20,842 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 55
+2023-03-16 16:15:20,842 [INFO   ] [TRADER] received hedge filled for order 163 with average price 127200 and volume 10
+2023-03-16 16:15:20,948 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 178 diff equals -100.000000, ETF=127200.000000 FUT=127300.000000
+2023-03-16 16:15:20,956 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 56
+2023-03-16 16:15:20,956 [INFO   ] [TRADER] received order status for order 164 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:20,999 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 42
+2023-03-16 16:15:21,025 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 179 diff equals -200.000000, ETF=127150.000000 FUT=127400.000000
+2023-03-16 16:15:21,025 [INFO   ] [TRADER] received order status for order 164 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:21,094 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 180 diff equals -100.000000, ETF=127200.000000 FUT=127300.000000
+2023-03-16 16:15:21,101 [INFO   ] [TRADER] received order status for order 165 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:21,138 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 57
+2023-03-16 16:15:21,194 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 181 diff equals -300.000000, ETF=127150.000000 FUT=127450.000000
+2023-03-16 16:15:21,194 [INFO   ] [TRADER] long enter at price of 127100.000000 at volume 20 ETF position being 6
+2023-03-16 16:15:21,195 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 43
+2023-03-16 16:15:21,195 [INFO   ] [TRADER] received order status for order 165 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:21,196 [INFO   ] [TRADER] received order status for order 166 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:21,259 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 182 diff equals -100.000000, ETF=127200.000000 FUT=127350.000000
+2023-03-16 16:15:21,269 [INFO   ] [TRADER] received order status for order 166 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:21,269 [INFO   ] [TRADER] received order status for order 167 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:21,336 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 183 diff equals -200.000000, ETF=127150.000000 FUT=127400.000000
+2023-03-16 16:15:21,336 [INFO   ] [TRADER] received order status for order 167 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:21,448 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 184 diff equals -300.000000, ETF=127200.000000 FUT=127500.000000
+2023-03-16 16:15:21,448 [INFO   ] [TRADER] long enter at price of 127200.000000 at volume 20 ETF position being 6
+2023-03-16 16:15:21,448 [INFO   ] [TRADER] received order status for order 168 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:21,496 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 58
+2023-03-16 16:15:21,528 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 185 diff equals 100.000000, ETF=127650.000000 FUT=127500.000000
+2023-03-16 16:15:21,536 [INFO   ] [TRADER] received order status for order 168 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:21,536 [INFO   ] [TRADER] received order status for order 169 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:21,605 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 186 diff equals 100.000000, ETF=127350.000000 FUT=127250.000000
+2023-03-16 16:15:21,613 [INFO   ] [TRADER] received order status for order 169 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:21,614 [INFO   ] [TRADER] received order status for order 170 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:21,682 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 187 diff equals 0.000000, ETF=127200.000000 FUT=127200.000000
+2023-03-16 16:15:21,690 [INFO   ] [TRADER] received order status for order 170 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:21,691 [INFO   ] [TRADER] received order status for order 171 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:21,762 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 188 diff equals 0.000000, ETF=127150.000000 FUT=127150.000000
+2023-03-16 16:15:21,776 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 59
+2023-03-16 16:15:21,777 [INFO   ] [TRADER] received order status for order 171 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:21,777 [INFO   ] [TRADER] received order filled for order 172 with price 127100 and volume 10
+2023-03-16 16:15:21,777 [INFO   ] [TRADER] received order status for order 172 with fill volume 10 remaining 0 and fees 254
+2023-03-16 16:15:21,778 [INFO   ] [TRADER] received hedge filled for order 173 with average price 127200 and volume 10
+2023-03-16 16:15:21,839 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 189 diff equals 300.000000, ETF=127450.000000 FUT=127150.000000
+2023-03-16 16:15:21,839 [INFO   ] [TRADER] short enter at price of 127400.000000 at volume 20 ETF position being -4
+2023-03-16 16:15:21,839 [INFO   ] [TRADER] received order status for order 174 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:21,937 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 190 diff equals 0.000000, ETF=127250.000000 FUT=127300.000000
+2023-03-16 16:15:21,937 [INFO   ] [TRADER] short exit at price of 127400.000000 at volume 20 ETF position being -4
+2023-03-16 16:15:21,937 [INFO   ] [TRADER] received order status for order 174 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:21,937 [INFO   ] [TRADER] received order status for order 175 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:22,001 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 191 diff equals 400.000000, ETF=127650.000000 FUT=127250.000000
+2023-03-16 16:15:22,001 [INFO   ] [TRADER] short enter at price of 127600.000000 at volume 20 ETF position being -4
+2023-03-16 16:15:22,001 [INFO   ] [TRADER] received order status for order 175 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:22,001 [INFO   ] [TRADER] received order status for order 176 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:22,037 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 60
+2023-03-16 16:15:22,088 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 44
+2023-03-16 16:15:22,088 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 192 diff equals 300.000000, ETF=127350.000000 FUT=127050.000000
+2023-03-16 16:15:22,088 [INFO   ] [TRADER] short enter at price of 127300.000000 at volume 20 ETF position being -4
+2023-03-16 16:15:22,088 [INFO   ] [TRADER] received order status for order 176 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:22,088 [INFO   ] [TRADER] received order status for order 177 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:22,135 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 45
+2023-03-16 16:15:22,194 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 193 diff equals 100.000000, ETF=127200.000000 FUT=127100.000000
+2023-03-16 16:15:22,195 [INFO   ] [TRADER] short exit at price of 127300.000000 at volume 20 ETF position being -4
+2023-03-16 16:15:22,198 [INFO   ] [TRADER] received order status for order 177 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:22,198 [INFO   ] [TRADER] received order status for order 178 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:22,250 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 194 diff equals 400.000000, ETF=127500.000000 FUT=127100.000000
+2023-03-16 16:15:22,250 [INFO   ] [TRADER] short enter at price of 127500.000000 at volume 20 ETF position being -4
+2023-03-16 16:15:22,251 [INFO   ] [TRADER] received order status for order 178 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:22,251 [INFO   ] [TRADER] received order status for order 179 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:22,328 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 195 diff equals 200.000000, ETF=127300.000000 FUT=127050.000000
+2023-03-16 16:15:22,328 [INFO   ] [TRADER] received order status for order 179 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:22,374 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 61
+2023-03-16 16:15:22,455 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 196 diff equals 300.000000, ETF=127350.000000 FUT=127050.000000
+2023-03-16 16:15:22,455 [INFO   ] [TRADER] short enter at price of 127300.000000 at volume 20 ETF position being -4
+2023-03-16 16:15:22,455 [INFO   ] [TRADER] received order status for order 180 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:22,515 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 197 diff equals 100.000000, ETF=127200.000000 FUT=127050.000000
+2023-03-16 16:15:22,515 [INFO   ] [TRADER] short exit at price of 127300.000000 at volume 20 ETF position being -4
+2023-03-16 16:15:22,515 [INFO   ] [TRADER] received order status for order 180 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:22,516 [INFO   ] [TRADER] received order status for order 181 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:22,560 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 46
+2023-03-16 16:15:22,578 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 47
+2023-03-16 16:15:22,609 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 198 diff equals 400.000000, ETF=127450.000000 FUT=127000.000000
+2023-03-16 16:15:22,609 [INFO   ] [TRADER] short enter at price of 127400.000000 at volume 20 ETF position being -4
+2023-03-16 16:15:22,614 [INFO   ] [TRADER] received order status for order 181 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:22,614 [INFO   ] [TRADER] received order status for order 182 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:22,687 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 199 diff equals 300.000000, ETF=127250.000000 FUT=126950.000000
+2023-03-16 16:15:22,688 [INFO   ] [TRADER] short enter at price of 127200.000000 at volume 20 ETF position being -4
+2023-03-16 16:15:22,688 [INFO   ] [TRADER] received order status for order 182 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:22,688 [INFO   ] [TRADER] received order status for order 183 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:22,779 [INFO   ] [TRADER] received order filled for order 183 with price 127200 and volume 20
+2023-03-16 16:15:22,780 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 200 diff equals 400.000000, ETF=127350.000000 FUT=126950.000000
+2023-03-16 16:15:22,780 [INFO   ] [TRADER] short enter at price of 127300.000000 at volume 20 ETF position being -24
+2023-03-16 16:15:22,780 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 62
+2023-03-16 16:15:22,780 [INFO   ] [TRADER] received order status for order 183 with fill volume 20 remaining 0 and fees -254
+2023-03-16 16:15:22,780 [INFO   ] [TRADER] received hedge filled for order 184 with average price 127000 and volume 20
+2023-03-16 16:15:22,780 [INFO   ] [TRADER] received order status for order 185 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:22,819 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 48
+2023-03-16 16:15:22,842 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 201 diff equals 200.000000, ETF=127200.000000 FUT=127000.000000
+2023-03-16 16:15:22,842 [INFO   ] [TRADER] received order status for order 185 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:22,920 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 202 diff equals 300.000000, ETF=127350.000000 FUT=127050.000000
+2023-03-16 16:15:22,920 [INFO   ] [TRADER] short enter at price of 127300.000000 at volume 20 ETF position being -24
+2023-03-16 16:15:22,921 [INFO   ] [TRADER] received order status for order 186 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:23,000 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 203 diff equals 100.000000, ETF=127200.000000 FUT=127050.000000
+2023-03-16 16:15:23,000 [INFO   ] [TRADER] short exit at price of 127300.000000 at volume 20 ETF position being -24
+2023-03-16 16:15:23,000 [INFO   ] [TRADER] received order status for order 186 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:23,000 [INFO   ] [TRADER] received order status for order 187 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:23,029 [INFO   ] [TRADER] received order filled for order 187 with price 127300 and volume 10
+2023-03-16 16:15:23,029 [INFO   ] [TRADER] received order status for order 187 with fill volume 10 remaining 0 and fees -127
+2023-03-16 16:15:23,029 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 63
+2023-03-16 16:15:23,030 [INFO   ] [TRADER] received hedge filled for order 188 with average price 127000 and volume 10
+2023-03-16 16:15:23,109 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 204 diff equals 300.000000, ETF=127350.000000 FUT=127050.000000
+2023-03-16 16:15:23,109 [INFO   ] [TRADER] short enter at price of 127300.000000 at volume 20 ETF position being -14
+2023-03-16 16:15:23,109 [INFO   ] [TRADER] received order status for order 189 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:23,203 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 205 diff equals 100.000000, ETF=127200.000000 FUT=127050.000000
+2023-03-16 16:15:23,203 [INFO   ] [TRADER] short exit at price of 127300.000000 at volume 20 ETF position being -14
+2023-03-16 16:15:23,203 [INFO   ] [TRADER] received order status for order 189 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:23,204 [INFO   ] [TRADER] received order status for order 190 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:23,276 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 206 diff equals 200.000000, ETF=127450.000000 FUT=127200.000000
+2023-03-16 16:15:23,276 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 49
+2023-03-16 16:15:23,281 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 50
+2023-03-16 16:15:23,281 [INFO   ] [TRADER] received order status for order 190 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:23,357 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 207 diff equals 0.000000, ETF=127350.000000 FUT=127300.000000
+2023-03-16 16:15:23,357 [INFO   ] [TRADER] short exit at price of 127600.000000 at volume 20 ETF position being -14
+2023-03-16 16:15:23,357 [INFO   ] [TRADER] received order filled for order 191 with price 127600 and volume 10
+2023-03-16 16:15:23,358 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 64
+2023-03-16 16:15:23,358 [INFO   ] [TRADER] received order status for order 191 with fill volume 10 remaining 0 and fees 255
+2023-03-16 16:15:23,358 [INFO   ] [TRADER] received hedge filled for order 192 with average price 127200 and volume 10
+2023-03-16 16:15:23,413 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 65
+2023-03-16 16:15:23,434 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 208 diff equals 200.000000, ETF=127500.000000 FUT=127300.000000
+2023-03-16 16:15:23,504 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 209 diff equals 200.000000, ETF=127500.000000 FUT=127250.000000
+2023-03-16 16:15:23,593 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 210 diff equals 300.000000, ETF=127450.000000 FUT=127100.000000
+2023-03-16 16:15:23,593 [INFO   ] [TRADER] short enter at price of 127400.000000 at volume 20 ETF position being -4
+2023-03-16 16:15:23,593 [INFO   ] [TRADER] received order status for order 193 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:23,671 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 211 diff equals 0.000000, ETF=127250.000000 FUT=127200.000000
+2023-03-16 16:15:23,671 [INFO   ] [TRADER] short exit at price of 127400.000000 at volume 20 ETF position being -4
+2023-03-16 16:15:23,671 [INFO   ] [TRADER] received order status for order 193 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:23,672 [INFO   ] [TRADER] received order status for order 194 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:23,761 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 212 diff equals 400.000000, ETF=127600.000000 FUT=127200.000000
+2023-03-16 16:15:23,762 [INFO   ] [TRADER] short enter at price of 127600.000000 at volume 20 ETF position being -4
+2023-03-16 16:15:23,762 [INFO   ] [TRADER] received order status for order 194 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:23,762 [INFO   ] [TRADER] received order status for order 195 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:23,791 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 66
+2023-03-16 16:15:23,856 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 213 diff equals 100.000000, ETF=127350.000000 FUT=127200.000000
+2023-03-16 16:15:23,857 [INFO   ] [TRADER] short exit at price of 127600.000000 at volume 20 ETF position being -4
+2023-03-16 16:15:23,857 [INFO   ] [TRADER] received order status for order 195 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:23,857 [INFO   ] [TRADER] received order status for order 196 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:23,934 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 214 diff equals 500.000000, ETF=127700.000000 FUT=127200.000000
+2023-03-16 16:15:23,935 [INFO   ] [TRADER] short enter at price of 127700.000000 at volume 20 ETF position being -4
+2023-03-16 16:15:23,935 [INFO   ] [TRADER] received order status for order 196 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:23,935 [INFO   ] [TRADER] received order status for order 197 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:24,023 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 215 diff equals 100.000000, ETF=127400.000000 FUT=127300.000000
+2023-03-16 16:15:24,023 [INFO   ] [TRADER] short exit at price of 127700.000000 at volume 20 ETF position being -4
+2023-03-16 16:15:24,023 [INFO   ] [TRADER] received order status for order 197 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:24,023 [INFO   ] [TRADER] received order status for order 198 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:24,107 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 216 diff equals 400.000000, ETF=127750.000000 FUT=127300.000000
+2023-03-16 16:15:24,108 [INFO   ] [TRADER] short enter at price of 127700.000000 at volume 20 ETF position being -4
+2023-03-16 16:15:24,108 [WARNING] [TRADER] error with order 199: order rejected: in cross with an existing order
+2023-03-16 16:15:24,108 [INFO   ] [TRADER] received order status for order 199 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:24,200 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 217 diff equals 500.000000, ETF=127850.000000 FUT=127350.000000
+2023-03-16 16:15:24,200 [INFO   ] [TRADER] short enter at price of 127800.000000 at volume 20 ETF position being -4
+2023-03-16 16:15:24,200 [INFO   ] [TRADER] received order status for order 198 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:24,200 [INFO   ] [TRADER] received order status for order 200 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:24,280 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 218 diff equals 100.000000, ETF=127450.000000 FUT=127350.000000
+2023-03-16 16:15:24,280 [INFO   ] [TRADER] short exit at price of 127800.000000 at volume 20 ETF position being -4
+2023-03-16 16:15:24,280 [INFO   ] [TRADER] received order status for order 200 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:24,280 [INFO   ] [TRADER] received order status for order 201 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:24,359 [INFO   ] [TRADER] received order filled for order 201 with price 127800 and volume 10
+2023-03-16 16:15:24,360 [INFO   ] [TRADER] received order status for order 201 with fill volume 10 remaining 0 and fees -128
+2023-03-16 16:15:24,362 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 219 diff equals 200.000000, ETF=127450.000000 FUT=127200.000000
+2023-03-16 16:15:24,370 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 51
+2023-03-16 16:15:24,370 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 67
+2023-03-16 16:15:24,370 [INFO   ] [TRADER] received hedge filled for order 202 with average price 127100 and volume 10
+2023-03-16 16:15:24,370 [INFO   ] [TRADER] received order status for order 203 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:24,438 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 220 diff equals 0.000000, ETF=127250.000000 FUT=127200.000000
+2023-03-16 16:15:24,445 [INFO   ] [TRADER] received order status for order 203 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:24,445 [INFO   ] [TRADER] received order status for order 204 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:24,512 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 221 diff equals 0.000000, ETF=127150.000000 FUT=127150.000000
+2023-03-16 16:15:24,520 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 68
+2023-03-16 16:15:24,520 [INFO   ] [TRADER] received order status for order 204 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:24,520 [INFO   ] [TRADER] received order filled for order 205 with price 127100 and volume 10
+2023-03-16 16:15:24,520 [INFO   ] [TRADER] received order status for order 205 with fill volume 10 remaining 0 and fees 254
+2023-03-16 16:15:24,520 [INFO   ] [TRADER] received hedge filled for order 206 with average price 127200 and volume 10
+2023-03-16 16:15:24,546 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 69
+2023-03-16 16:15:24,592 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 222 diff equals 0.000000, ETF=127200.000000 FUT=127150.000000
+2023-03-16 16:15:24,592 [INFO   ] [TRADER] short exit at price of 127300.000000 at volume 20 ETF position being -4
+2023-03-16 16:15:24,593 [INFO   ] [TRADER] received order filled for order 207 with price 127300 and volume 10
+2023-03-16 16:15:24,593 [INFO   ] [TRADER] received order status for order 207 with fill volume 10 remaining 0 and fees 255
+2023-03-16 16:15:24,593 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 70
+2023-03-16 16:15:24,593 [INFO   ] [TRADER] received hedge filled for order 208 with average price 127000 and volume 10
+2023-03-16 16:15:24,652 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 71
+2023-03-16 16:15:24,690 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 223 diff equals 100.000000, ETF=127200.000000 FUT=127100.000000
+2023-03-16 16:15:24,697 [INFO   ] [TRADER] received order status for order 209 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:24,762 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 224 diff equals 0.000000, ETF=127150.000000 FUT=127100.000000
+2023-03-16 16:15:24,771 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 72
+2023-03-16 16:15:24,771 [INFO   ] [TRADER] received order status for order 209 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:24,771 [INFO   ] [TRADER] received order filled for order 210 with price 127100 and volume 10
+2023-03-16 16:15:24,771 [INFO   ] [TRADER] received order status for order 210 with fill volume 10 remaining 0 and fees 254
+2023-03-16 16:15:24,773 [INFO   ] [TRADER] received hedge filled for order 211 with average price 127200 and volume 10
+2023-03-16 16:15:24,840 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 225 diff equals 100.000000, ETF=127200.000000 FUT=127100.000000
+2023-03-16 16:15:24,840 [INFO   ] [TRADER] short exit at price of 127300.000000 at volume 20 ETF position being -4
+2023-03-16 16:15:24,840 [INFO   ] [TRADER] received order filled for order 212 with price 127300 and volume 10
+2023-03-16 16:15:24,840 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 73
+2023-03-16 16:15:24,840 [INFO   ] [TRADER] received order status for order 212 with fill volume 10 remaining 0 and fees 255
+2023-03-16 16:15:24,840 [INFO   ] [TRADER] received hedge filled for order 213 with average price 127000 and volume 10
+2023-03-16 16:15:24,933 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 226 diff equals 100.000000, ETF=127200.000000 FUT=127100.000000
+2023-03-16 16:15:24,940 [INFO   ] [TRADER] received order status for order 214 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:24,979 [INFO   ] [TRADER] received order filled for order 214 with price 127200 and volume 10
+2023-03-16 16:15:24,980 [INFO   ] [TRADER] received order status for order 214 with fill volume 10 remaining 0 and fees -127
+2023-03-16 16:15:24,980 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 74
+2023-03-16 16:15:24,981 [INFO   ] [TRADER] received hedge filled for order 215 with average price 127200 and volume 10
+2023-03-16 16:15:25,009 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 227 diff equals 100.000000, ETF=127250.000000 FUT=127100.000000
+2023-03-16 16:15:25,009 [INFO   ] [TRADER] short exit at price of 127300.000000 at volume 20 ETF position being -4
+2023-03-16 16:15:25,009 [INFO   ] [TRADER] received order filled for order 216 with price 127300 and volume 10
+2023-03-16 16:15:25,009 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 75
+2023-03-16 16:15:25,009 [INFO   ] [TRADER] received order status for order 216 with fill volume 10 remaining 0 and fees 255
+2023-03-16 16:15:25,009 [INFO   ] [TRADER] received hedge filled for order 217 with average price 127000 and volume 10
+2023-03-16 16:15:25,046 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 76
+2023-03-16 16:15:25,103 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 228 diff equals 100.000000, ETF=127250.000000 FUT=127100.000000
+2023-03-16 16:15:25,112 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 77
+2023-03-16 16:15:25,112 [INFO   ] [TRADER] received order filled for order 218 with price 127200 and volume 10
+2023-03-16 16:15:25,113 [INFO   ] [TRADER] received order status for order 218 with fill volume 10 remaining 0 and fees 254
+2023-03-16 16:15:25,113 [INFO   ] [TRADER] received hedge filled for order 219 with average price 127200 and volume 10
+2023-03-16 16:15:25,186 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 229 diff equals 100.000000, ETF=127250.000000 FUT=127100.000000
+2023-03-16 16:15:25,186 [INFO   ] [TRADER] short exit at price of 127300.000000 at volume 20 ETF position being -4
+2023-03-16 16:15:25,187 [INFO   ] [TRADER] received order filled for order 220 with price 127300 and volume 10
+2023-03-16 16:15:25,187 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 78
+2023-03-16 16:15:25,187 [INFO   ] [TRADER] received order status for order 220 with fill volume 10 remaining 0 and fees 255
+2023-03-16 16:15:25,187 [INFO   ] [TRADER] received hedge filled for order 221 with average price 127000 and volume 10
+2023-03-16 16:15:25,261 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 79
+2023-03-16 16:15:25,291 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 230 diff equals -400.000000, ETF=126700.000000 FUT=127100.000000
+2023-03-16 16:15:25,291 [INFO   ] [TRADER] long enter at price of 126700.000000 at volume 20 ETF position being 6
+2023-03-16 16:15:25,294 [INFO   ] [TRADER] received order status for order 222 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:25,339 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 231 diff equals -300.000000, ETF=126750.000000 FUT=127050.000000
+2023-03-16 16:15:25,417 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 232 diff equals -300.000000, ETF=126750.000000 FUT=127100.000000
+2023-03-16 16:15:25,512 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 233 diff equals -400.000000, ETF=126750.000000 FUT=127200.000000
+2023-03-16 16:15:25,605 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 234 diff equals -400.000000, ETF=126750.000000 FUT=127150.000000
+2023-03-16 16:15:25,683 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 235 diff equals -400.000000, ETF=126750.000000 FUT=127150.000000
+2023-03-16 16:15:25,777 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 236 diff equals -300.000000, ETF=126750.000000 FUT=127100.000000
+2023-03-16 16:15:25,840 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 237 diff equals -300.000000, ETF=126750.000000 FUT=127100.000000
+2023-03-16 16:15:25,916 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 238 diff equals -300.000000, ETF=126750.000000 FUT=127050.000000
+2023-03-16 16:15:26,010 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 239 diff equals -300.000000, ETF=126750.000000 FUT=127050.000000
+2023-03-16 16:15:26,088 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 240 diff equals -300.000000, ETF=126750.000000 FUT=127100.000000
+2023-03-16 16:15:26,167 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 241 diff equals -300.000000, ETF=126750.000000 FUT=127050.000000
+2023-03-16 16:15:26,244 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 242 diff equals -300.000000, ETF=126750.000000 FUT=127100.000000
+2023-03-16 16:15:26,260 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 80
+2023-03-16 16:15:26,325 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 52
+2023-03-16 16:15:26,359 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 243 diff equals -600.000000, ETF=126750.000000 FUT=127350.000000
+2023-03-16 16:15:26,429 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 244 diff equals -600.000000, ETF=126750.000000 FUT=127350.000000
+2023-03-16 16:15:26,463 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 81
+2023-03-16 16:15:26,498 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 245 diff equals -400.000000, ETF=126850.000000 FUT=127300.000000
+2023-03-16 16:15:26,500 [INFO   ] [TRADER] long enter at price of 126800.000000 at volume 20 ETF position being 6
+2023-03-16 16:15:26,500 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 82
+2023-03-16 16:15:26,500 [INFO   ] [TRADER] received order status for order 222 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:26,500 [INFO   ] [TRADER] received order status for order 223 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:26,587 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 246 diff equals -400.000000, ETF=126850.000000 FUT=127300.000000
+2023-03-16 16:15:26,619 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 83
+2023-03-16 16:15:26,683 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 247 diff equals 0.000000, ETF=127350.000000 FUT=127300.000000
+2023-03-16 16:15:26,691 [INFO   ] [TRADER] received order status for order 223 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:26,692 [INFO   ] [TRADER] received order status for order 224 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:26,758 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 248 diff equals -300.000000, ETF=127000.000000 FUT=127300.000000
+2023-03-16 16:15:26,758 [INFO   ] [TRADER] long enter at price of 127000.000000 at volume 20 ETF position being 6
+2023-03-16 16:15:26,758 [INFO   ] [TRADER] received order status for order 224 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:26,758 [INFO   ] [TRADER] received order status for order 225 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:26,820 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 84
+2023-03-16 16:15:26,852 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 249 diff equals 100.000000, ETF=127450.000000 FUT=127300.000000
+2023-03-16 16:15:26,868 [INFO   ] [TRADER] received order status for order 225 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:26,868 [INFO   ] [TRADER] received order status for order 226 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:26,948 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 250 diff equals -200.000000, ETF=127050.000000 FUT=127300.000000
+2023-03-16 16:15:26,949 [INFO   ] [TRADER] received order status for order 226 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:26,994 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 251 diff equals 0.000000, ETF=127300.000000 FUT=127300.000000
+2023-03-16 16:15:27,002 [INFO   ] [TRADER] received order status for order 227 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:27,039 [INFO   ] [TRADER] received order filled for order 227 with price 127300 and volume 9
+2023-03-16 16:15:27,040 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 85
+2023-03-16 16:15:27,040 [INFO   ] [TRADER] received order status for order 227 with fill volume 9 remaining 1 and fees -115
+2023-03-16 16:15:27,040 [INFO   ] [TRADER] received hedge filled for order 228 with average price 127400 and volume 9
+2023-03-16 16:15:27,089 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 53
+2023-03-16 16:15:27,102 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 252 diff equals -100.000000, ETF=126950.000000 FUT=127100.000000
+2023-03-16 16:15:27,103 [INFO   ] [TRADER] short exit at price of 127300.000000 at volume 20 ETF position being -3
+2023-03-16 16:15:27,103 [INFO   ] [TRADER] received order status for order 227 with fill volume 9 remaining 0 and fees -115
+2023-03-16 16:15:27,103 [INFO   ] [TRADER] received order status for order 229 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:27,182 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 253 diff equals 400.000000, ETF=127500.000000 FUT=127100.000000
+2023-03-16 16:15:27,182 [INFO   ] [TRADER] short enter at price of 127500.000000 at volume 20 ETF position being -3
+2023-03-16 16:15:27,182 [INFO   ] [TRADER] received order status for order 229 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:27,182 [INFO   ] [TRADER] received order status for order 230 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:27,259 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 254 diff equals 0.000000, ETF=127050.000000 FUT=127100.000000
+2023-03-16 16:15:27,260 [INFO   ] [TRADER] short exit at price of 127500.000000 at volume 20 ETF position being -3
+2023-03-16 16:15:27,260 [INFO   ] [TRADER] received order status for order 230 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:27,260 [INFO   ] [TRADER] received order status for order 231 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:27,322 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 86
+2023-03-16 16:15:27,353 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 255 diff equals 500.000000, ETF=127600.000000 FUT=127100.000000
+2023-03-16 16:15:27,353 [INFO   ] [TRADER] short enter at price of 127600.000000 at volume 20 ETF position being -3
+2023-03-16 16:15:27,353 [INFO   ] [TRADER] received order status for order 231 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:27,354 [INFO   ] [TRADER] received order status for order 232 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:27,448 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 256 diff equals 0.000000, ETF=127100.000000 FUT=127100.000000
+2023-03-16 16:15:27,448 [INFO   ] [TRADER] short exit at price of 127600.000000 at volume 20 ETF position being -3
+2023-03-16 16:15:27,448 [INFO   ] [TRADER] received order status for order 232 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:27,448 [INFO   ] [TRADER] received order status for order 233 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:27,508 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 257 diff equals 500.000000, ETF=127650.000000 FUT=127100.000000
+2023-03-16 16:15:27,508 [INFO   ] [TRADER] short enter at price of 127600.000000 at volume 20 ETF position being -3
+2023-03-16 16:15:27,508 [WARNING] [TRADER] error with order 234: order rejected: in cross with an existing order
+2023-03-16 16:15:27,509 [INFO   ] [TRADER] received order status for order 234 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:27,601 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 258 diff equals 600.000000, ETF=127650.000000 FUT=127050.000000
+2023-03-16 16:15:27,601 [INFO   ] [TRADER] short enter at price of 127600.000000 at volume 20 ETF position being -3
+2023-03-16 16:15:27,601 [WARNING] [TRADER] error with order 235: order rejected: in cross with an existing order
+2023-03-16 16:15:27,602 [INFO   ] [TRADER] received order status for order 235 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:27,664 [INFO   ] [TRADER] received order filled for order 233 with price 127600 and volume 10
+2023-03-16 16:15:27,664 [INFO   ] [TRADER] received order status for order 233 with fill volume 10 remaining 0 and fees -128
+2023-03-16 16:15:27,664 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 54
+2023-03-16 16:15:27,664 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 87
+2023-03-16 16:15:27,666 [INFO   ] [TRADER] received hedge filled for order 236 with average price 126900 and volume 10
+2023-03-16 16:15:27,699 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 259 diff equals 100.000000, ETF=127100.000000 FUT=127000.000000
+2023-03-16 16:15:27,707 [INFO   ] [TRADER] received order status for order 237 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:27,746 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 88
+2023-03-16 16:15:27,747 [INFO   ] [TRADER] received order filled for order 237 with price 127100 and volume 7
+2023-03-16 16:15:27,747 [INFO   ] [TRADER] received order status for order 237 with fill volume 7 remaining 3 and fees -89
+2023-03-16 16:15:27,747 [INFO   ] [TRADER] received hedge filled for order 238 with average price 127100 and volume 7
+2023-03-16 16:15:27,773 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 260 diff equals -100.000000, ETF=126850.000000 FUT=127000.000000
+2023-03-16 16:15:27,774 [INFO   ] [TRADER] received order status for order 237 with fill volume 7 remaining 0 and fees -89
+2023-03-16 16:15:27,827 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 55
+2023-03-16 16:15:27,861 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 261 diff equals 0.000000, ETF=127300.000000 FUT=127300.000000
+2023-03-16 16:15:27,928 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 262 diff equals 200.000000, ETF=127300.000000 FUT=127100.000000
+2023-03-16 16:15:28,021 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 263 diff equals 0.000000, ETF=127150.000000 FUT=127100.000000
+2023-03-16 16:15:28,083 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 264 diff equals 0.000000, ETF=127200.000000 FUT=127200.000000
+2023-03-16 16:15:28,178 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 265 diff equals 0.000000, ETF=127200.000000 FUT=127200.000000
+2023-03-16 16:15:28,269 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 56
+2023-03-16 16:15:28,272 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 266 diff equals 0.000000, ETF=127300.000000 FUT=127300.000000
+2023-03-16 16:15:28,349 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 267 diff equals 100.000000, ETF=127300.000000 FUT=127200.000000
+2023-03-16 16:15:28,454 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 57
+2023-03-16 16:15:28,461 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 268 diff equals 500.000000, ETF=127200.000000 FUT=126700.000000
+2023-03-16 16:15:28,461 [INFO   ] [TRADER] short enter at price of 127200.000000 at volume 20 ETF position being 0
+2023-03-16 16:15:28,461 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 58
+2023-03-16 16:15:28,463 [INFO   ] [TRADER] received order status for order 239 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:28,535 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 269 diff equals 200.000000, ETF=126900.000000 FUT=126700.000000
+2023-03-16 16:15:28,535 [INFO   ] [TRADER] received order status for order 239 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:28,598 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 89
+2023-03-16 16:15:28,598 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 59
+2023-03-16 16:15:28,613 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 270 diff equals 300.000000, ETF=126900.000000 FUT=126600.000000
+2023-03-16 16:15:28,613 [INFO   ] [TRADER] short enter at price of 126900.000000 at volume 20 ETF position being 0
+2023-03-16 16:15:28,613 [INFO   ] [TRADER] received order status for order 240 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:28,708 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 271 diff equals 100.000000, ETF=126750.000000 FUT=126600.000000
+2023-03-16 16:15:28,709 [INFO   ] [TRADER] received order status for order 240 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:28,775 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 272 diff equals 300.000000, ETF=126850.000000 FUT=126550.000000
+2023-03-16 16:15:28,775 [INFO   ] [TRADER] short enter at price of 126800.000000 at volume 20 ETF position being 0
+2023-03-16 16:15:28,779 [INFO   ] [TRADER] received order status for order 241 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:28,849 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 273 diff equals 200.000000, ETF=126700.000000 FUT=126500.000000
+2023-03-16 16:15:28,850 [INFO   ] [TRADER] received order status for order 241 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:28,916 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 60
+2023-03-16 16:15:28,916 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 274 diff equals 300.000000, ETF=126850.000000 FUT=126500.000000
+2023-03-16 16:15:28,916 [INFO   ] [TRADER] short enter at price of 126800.000000 at volume 20 ETF position being 0
+2023-03-16 16:15:28,920 [INFO   ] [TRADER] received order status for order 242 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:29,017 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 275 diff equals 300.000000, ETF=126700.000000 FUT=126350.000000
+2023-03-16 16:15:29,017 [INFO   ] [TRADER] short enter at price of 126700.000000 at volume 20 ETF position being 0
+2023-03-16 16:15:29,017 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 61
+2023-03-16 16:15:29,029 [INFO   ] [TRADER] received order status for order 242 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:29,029 [INFO   ] [TRADER] received order status for order 243 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:29,080 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 276 diff equals 100.000000, ETF=126650.000000 FUT=126500.000000
+2023-03-16 16:15:29,080 [INFO   ] [TRADER] received order status for order 243 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:29,119 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 90
+2023-03-16 16:15:29,188 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 277 diff equals 400.000000, ETF=126700.000000 FUT=126250.000000
+2023-03-16 16:15:29,189 [INFO   ] [TRADER] short enter at price of 126700.000000 at volume 20 ETF position being 0
+2023-03-16 16:15:29,189 [INFO   ] [TRADER] received order status for order 244 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:29,236 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 62
+2023-03-16 16:15:29,248 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 63
+2023-03-16 16:15:29,286 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 278 diff equals 300.000000, ETF=126650.000000 FUT=126300.000000
+2023-03-16 16:15:29,286 [INFO   ] [TRADER] short enter at price of 126600.000000 at volume 20 ETF position being 0
+2023-03-16 16:15:29,286 [INFO   ] [TRADER] received order status for order 244 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:29,286 [INFO   ] [TRADER] received order filled for order 245 with price 126600 and volume 16
+2023-03-16 16:15:29,286 [INFO   ] [TRADER] received order status for order 245 with fill volume 16 remaining 4 and fees 405
+2023-03-16 16:15:29,287 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 91
+2023-03-16 16:15:29,287 [INFO   ] [TRADER] received hedge filled for order 246 with average price 126400 and volume 16
+2023-03-16 16:15:29,368 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 279 diff equals 100.000000, ETF=126550.000000 FUT=126400.000000
+2023-03-16 16:15:29,368 [INFO   ] [TRADER] short exit at price of 126600.000000 at volume 20 ETF position being -16
+2023-03-16 16:15:29,372 [INFO   ] [TRADER] received order status for order 245 with fill volume 16 remaining 0 and fees 405
+2023-03-16 16:15:29,372 [INFO   ] [TRADER] received order status for order 247 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:29,424 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 280 diff equals 500.000000, ETF=126800.000000 FUT=126300.000000
+2023-03-16 16:15:29,424 [INFO   ] [TRADER] short enter at price of 126800.000000 at volume 20 ETF position being -16
+2023-03-16 16:15:29,424 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 92
+2023-03-16 16:15:29,424 [INFO   ] [TRADER] received order status for order 247 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:29,424 [INFO   ] [TRADER] received order status for order 248 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:29,467 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 64
+2023-03-16 16:15:29,467 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 93
+2023-03-16 16:15:29,488 [INFO   ] [TRADER] received order filled for order 248 with price 126800 and volume 20
+2023-03-16 16:15:29,488 [INFO   ] [TRADER] received order status for order 248 with fill volume 20 remaining 0 and fees -254
+2023-03-16 16:15:29,488 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 94
+2023-03-16 16:15:29,488 [INFO   ] [TRADER] received hedge filled for order 249 with average price 126500 and volume 20
+2023-03-16 16:15:29,529 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 281 diff equals 500.000000, ETF=126950.000000 FUT=126400.000000
+2023-03-16 16:15:29,529 [INFO   ] [TRADER] short enter at price of 126900.000000 at volume 20 ETF position being -36
+2023-03-16 16:15:29,531 [INFO   ] [TRADER] received order filled for order 250 with price 126900 and volume 20
+2023-03-16 16:15:29,531 [INFO   ] [TRADER] received order status for order 250 with fill volume 20 remaining 0 and fees 508
+2023-03-16 16:15:29,531 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 95
+2023-03-16 16:15:29,531 [INFO   ] [TRADER] received hedge filled for order 251 with average price 126500 and volume 20
+2023-03-16 16:15:29,609 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 282 diff equals 500.000000, ETF=127000.000000 FUT=126450.000000
+2023-03-16 16:15:29,610 [INFO   ] [TRADER] short enter at price of 127000.000000 at volume 20 ETF position being -56
+2023-03-16 16:15:29,610 [INFO   ] [TRADER] received order status for order 252 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:29,642 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 96
+2023-03-16 16:15:29,689 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 283 diff equals 500.000000, ETF=126950.000000 FUT=126450.000000
+2023-03-16 16:15:29,689 [INFO   ] [TRADER] short enter at price of 126900.000000 at volume 20 ETF position being -56
+2023-03-16 16:15:29,689 [INFO   ] [TRADER] received order status for order 252 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:29,689 [INFO   ] [TRADER] received order filled for order 253 with price 126900 and volume 20
+2023-03-16 16:15:29,690 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 97
+2023-03-16 16:15:29,690 [INFO   ] [TRADER] received order status for order 253 with fill volume 20 remaining 0 and fees 508
+2023-03-16 16:15:29,690 [INFO   ] [TRADER] received hedge filled for order 254 with average price 126500 and volume 20
+2023-03-16 16:15:29,767 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 98
+2023-03-16 16:15:29,798 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 284 diff equals 400.000000, ETF=126600.000000 FUT=126150.000000
+2023-03-16 16:15:29,798 [INFO   ] [TRADER] short enter at price of 126600.000000 at volume 20 ETF position being -76
+2023-03-16 16:15:29,803 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 65
+2023-03-16 16:15:29,803 [INFO   ] [TRADER] received order status for order 255 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:29,861 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 285 diff equals 200.000000, ETF=126500.000000 FUT=126250.000000
+2023-03-16 16:15:29,861 [INFO   ] [TRADER] received order status for order 255 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:29,924 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 286 diff equals 300.000000, ETF=126600.000000 FUT=126250.000000
+2023-03-16 16:15:29,924 [INFO   ] [TRADER] short enter at price of 126600.000000 at volume 20 ETF position being -76
+2023-03-16 16:15:29,924 [INFO   ] [TRADER] received order status for order 256 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:30,014 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 287 diff equals 200.000000, ETF=126500.000000 FUT=126250.000000
+2023-03-16 16:15:30,015 [INFO   ] [TRADER] received order status for order 256 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:30,110 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 288 diff equals 300.000000, ETF=126600.000000 FUT=126250.000000
+2023-03-16 16:15:30,110 [INFO   ] [TRADER] short enter at price of 126600.000000 at volume 20 ETF position being -76
+2023-03-16 16:15:30,111 [INFO   ] [TRADER] received order status for order 257 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:30,166 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 66
+2023-03-16 16:15:30,202 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 289 diff equals 200.000000, ETF=126500.000000 FUT=126300.000000
+2023-03-16 16:15:30,203 [INFO   ] [TRADER] received order status for order 257 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:30,254 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 290 diff equals 100.000000, ETF=126550.000000 FUT=126400.000000
+2023-03-16 16:15:30,254 [INFO   ] [TRADER] short exit at price of 126700.000000 at volume 20 ETF position being -76
+2023-03-16 16:15:30,255 [INFO   ] [TRADER] received order filled for order 258 with price 126700 and volume 10
+2023-03-16 16:15:30,255 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 99
+2023-03-16 16:15:30,255 [INFO   ] [TRADER] received order status for order 258 with fill volume 10 remaining 0 and fees 253
+2023-03-16 16:15:30,255 [INFO   ] [TRADER] received hedge filled for order 259 with average price 126300 and volume 10
+2023-03-16 16:15:30,348 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 291 diff equals 0.000000, ETF=126550.000000 FUT=126500.000000
+2023-03-16 16:15:30,348 [INFO   ] [TRADER] short exit at price of 126700.000000 at volume 20 ETF position being -66
+2023-03-16 16:15:30,348 [INFO   ] [TRADER] received order filled for order 260 with price 126700 and volume 10
+2023-03-16 16:15:30,348 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 100
+2023-03-16 16:15:30,350 [INFO   ] [TRADER] received order status for order 260 with fill volume 10 remaining 0 and fees 253
+2023-03-16 16:15:30,350 [INFO   ] [TRADER] received hedge filled for order 261 with average price 126400 and volume 10
+2023-03-16 16:15:30,454 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 292 diff equals 100.000000, ETF=126550.000000 FUT=126450.000000
+2023-03-16 16:15:30,454 [INFO   ] [TRADER] short exit at price of 126700.000000 at volume 20 ETF position being -56
+2023-03-16 16:15:30,455 [INFO   ] [TRADER] received order filled for order 262 with price 126700 and volume 6
+2023-03-16 16:15:30,455 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 101
+2023-03-16 16:15:30,455 [INFO   ] [TRADER] received order status for order 262 with fill volume 6 remaining 4 and fees 152
+2023-03-16 16:15:30,455 [INFO   ] [TRADER] received hedge filled for order 263 with average price 126400 and volume 6
+2023-03-16 16:15:30,516 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 293 diff equals 400.000000, ETF=126850.000000 FUT=126450.000000
+2023-03-16 16:15:30,516 [INFO   ] [TRADER] short enter at price of 126800.000000 at volume 20 ETF position being -50
+2023-03-16 16:15:30,516 [INFO   ] [TRADER] received order status for order 262 with fill volume 6 remaining 0 and fees 152
+2023-03-16 16:15:30,516 [INFO   ] [TRADER] received order status for order 264 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:30,552 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 67
+2023-03-16 16:15:30,603 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 294 diff equals 0.000000, ETF=126600.000000 FUT=126600.000000
+2023-03-16 16:15:30,603 [INFO   ] [TRADER] short exit at price of 126800.000000 at volume 20 ETF position being -50
+2023-03-16 16:15:30,605 [INFO   ] [TRADER] received order status for order 264 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:30,605 [INFO   ] [TRADER] received order status for order 265 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:30,694 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 295 diff equals 300.000000, ETF=126950.000000 FUT=126600.000000
+2023-03-16 16:15:30,694 [INFO   ] [TRADER] short enter at price of 126900.000000 at volume 20 ETF position being -50
+2023-03-16 16:15:30,694 [INFO   ] [TRADER] received order status for order 265 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:30,694 [INFO   ] [TRADER] received order status for order 266 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:30,772 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 296 diff equals 0.000000, ETF=126650.000000 FUT=126600.000000
+2023-03-16 16:15:30,772 [INFO   ] [TRADER] short exit at price of 126900.000000 at volume 20 ETF position being -50
+2023-03-16 16:15:30,772 [INFO   ] [TRADER] received order status for order 266 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:30,773 [INFO   ] [TRADER] received order status for order 267 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:30,819 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 68
+2023-03-16 16:15:30,881 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 297 diff equals 600.000000, ETF=127000.000000 FUT=126400.000000
+2023-03-16 16:15:30,882 [INFO   ] [TRADER] short enter at price of 127000.000000 at volume 20 ETF position being -50
+2023-03-16 16:15:30,891 [INFO   ] [TRADER] received order status for order 267 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:30,891 [INFO   ] [TRADER] received order status for order 268 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:30,949 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 298 diff equals 100.000000, ETF=126700.000000 FUT=126600.000000
+2023-03-16 16:15:30,949 [INFO   ] [TRADER] short exit at price of 127000.000000 at volume 20 ETF position being -50
+2023-03-16 16:15:30,952 [INFO   ] [TRADER] received order status for order 268 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:30,952 [INFO   ] [TRADER] received order status for order 269 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:31,017 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 299 diff equals 600.000000, ETF=127050.000000 FUT=126450.000000
+2023-03-16 16:15:31,017 [INFO   ] [TRADER] short enter at price of 127000.000000 at volume 20 ETF position being -50
+2023-03-16 16:15:31,017 [WARNING] [TRADER] error with order 270: order rejected: in cross with an existing order
+2023-03-16 16:15:31,017 [INFO   ] [TRADER] received order status for order 270 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:31,065 [INFO   ] [TRADER] received order filled for order 269 with price 127000 and volume 10
+2023-03-16 16:15:31,065 [INFO   ] [TRADER] received order status for order 269 with fill volume 10 remaining 0 and fees -127
+2023-03-16 16:15:31,065 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 102
+2023-03-16 16:15:31,065 [INFO   ] [TRADER] received hedge filled for order 271 with average price 126400 and volume 10
+2023-03-16 16:15:31,094 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 300 diff equals 200.000000, ETF=126700.000000 FUT=126450.000000
+2023-03-16 16:15:31,189 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 301 diff equals 300.000000, ETF=126700.000000 FUT=126400.000000
+2023-03-16 16:15:31,189 [INFO   ] [TRADER] short enter at price of 126700.000000 at volume 20 ETF position being -40
+2023-03-16 16:15:31,189 [INFO   ] [TRADER] received order status for order 272 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:31,267 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 302 diff equals 100.000000, ETF=126550.000000 FUT=126450.000000
+2023-03-16 16:15:31,267 [INFO   ] [TRADER] short exit at price of 126700.000000 at volume 20 ETF position being -40
+2023-03-16 16:15:31,268 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 103
+2023-03-16 16:15:31,268 [INFO   ] [TRADER] received order status for order 272 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:31,268 [INFO   ] [TRADER] received order status for order 273 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:31,360 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 303 diff equals 500.000000, ETF=126900.000000 FUT=126400.000000
+2023-03-16 16:15:31,360 [INFO   ] [TRADER] short enter at price of 126900.000000 at volume 20 ETF position being -40
+2023-03-16 16:15:31,360 [INFO   ] [TRADER] received order status for order 273 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:31,361 [INFO   ] [TRADER] received order status for order 274 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:31,439 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 304 diff equals 200.000000, ETF=126650.000000 FUT=126450.000000
+2023-03-16 16:15:31,441 [INFO   ] [TRADER] received order status for order 274 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:31,508 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 305 diff equals 100.000000, ETF=126700.000000 FUT=126600.000000
+2023-03-16 16:15:31,508 [INFO   ] [TRADER] short exit at price of 127000.000000 at volume 20 ETF position being -40
+2023-03-16 16:15:31,513 [INFO   ] [TRADER] received order filled for order 275 with price 127000 and volume 10
+2023-03-16 16:15:31,513 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 104
+2023-03-16 16:15:31,513 [INFO   ] [TRADER] received order status for order 275 with fill volume 10 remaining 0 and fees 254
+2023-03-16 16:15:31,513 [INFO   ] [TRADER] received hedge filled for order 276 with average price 126500 and volume 10
+2023-03-16 16:15:31,611 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 306 diff equals 200.000000, ETF=126750.000000 FUT=126500.000000
+2023-03-16 16:15:31,671 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 307 diff equals 300.000000, ETF=126650.000000 FUT=126300.000000
+2023-03-16 16:15:31,671 [INFO   ] [TRADER] short enter at price of 126600.000000 at volume 20 ETF position being -30
+2023-03-16 16:15:31,672 [INFO   ] [TRADER] received order status for order 277 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:31,767 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 308 diff equals 100.000000, ETF=126500.000000 FUT=126350.000000
+2023-03-16 16:15:31,767 [INFO   ] [TRADER] short exit at price of 126600.000000 at volume 20 ETF position being -30
+2023-03-16 16:15:31,767 [INFO   ] [TRADER] received order status for order 277 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:31,767 [INFO   ] [TRADER] received order status for order 278 with fill volume 0 remaining 10 and fees 0
+2023-03-16 16:15:31,828 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 309 diff equals 500.000000, ETF=126800.000000 FUT=126300.000000
+2023-03-16 16:15:31,828 [INFO   ] [TRADER] short enter at price of 126800.000000 at volume 20 ETF position being -30
+2023-03-16 16:15:31,828 [INFO   ] [TRADER] received order status for order 278 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:31,828 [INFO   ] [TRADER] received order status for order 279 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:31,940 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 310 diff equals 300.000000, ETF=126600.000000 FUT=126250.000000
+2023-03-16 16:15:31,940 [INFO   ] [TRADER] short enter at price of 126600.000000 at volume 20 ETF position being -30
+2023-03-16 16:15:31,940 [INFO   ] [TRADER] received order status for order 279 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:31,940 [INFO   ] [TRADER] received order status for order 280 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:31,995 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 69
+2023-03-16 16:15:32,015 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 311 diff equals 300.000000, ETF=126500.000000 FUT=126150.000000
+2023-03-16 16:15:32,016 [INFO   ] [TRADER] short enter at price of 126500.000000 at volume 20 ETF position being -30
+2023-03-16 16:15:32,016 [INFO   ] [TRADER] received order status for order 280 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:32,016 [INFO   ] [TRADER] received order status for order 281 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:32,046 [INFO   ] [TRADER] received order filled for order 281 with price 126500 and volume 20
+2023-03-16 16:15:32,046 [INFO   ] [TRADER] received order status for order 281 with fill volume 20 remaining 0 and fees -253
+2023-03-16 16:15:32,046 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 105
+2023-03-16 16:15:32,047 [INFO   ] [TRADER] received hedge filled for order 282 with average price 126200 and volume 20
+2023-03-16 16:15:32,093 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 312 diff equals 400.000000, ETF=126600.000000 FUT=126150.000000
+2023-03-16 16:15:32,093 [INFO   ] [TRADER] short enter at price of 126600.000000 at volume 20 ETF position being -50
+2023-03-16 16:15:32,094 [INFO   ] [TRADER] received order status for order 283 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:32,170 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 313 diff equals 300.000000, ETF=126500.000000 FUT=126150.000000
+2023-03-16 16:15:32,170 [INFO   ] [TRADER] short enter at price of 126500.000000 at volume 20 ETF position being -50
+2023-03-16 16:15:32,171 [INFO   ] [TRADER] received order status for order 283 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:32,171 [INFO   ] [TRADER] received order status for order 284 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:32,283 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 70
+2023-03-16 16:15:32,286 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 314 diff equals 500.000000, ETF=126450.000000 FUT=125950.000000
+2023-03-16 16:15:32,286 [INFO   ] [TRADER] short enter at price of 126400.000000 at volume 20 ETF position being -50
+2023-03-16 16:15:32,286 [INFO   ] [TRADER] received order status for order 284 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:32,286 [INFO   ] [TRADER] received order filled for order 285 with price 126400 and volume 20
+2023-03-16 16:15:32,286 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 106
+2023-03-16 16:15:32,286 [INFO   ] [TRADER] received order status for order 285 with fill volume 20 remaining 0 and fees 506
+2023-03-16 16:15:32,287 [INFO   ] [TRADER] received hedge filled for order 286 with average price 126000 and volume 20
+2023-03-16 16:15:32,326 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 71
+2023-03-16 16:15:32,344 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 315 diff equals 800.000000, ETF=126600.000000 FUT=125800.000000
+2023-03-16 16:15:32,344 [INFO   ] [TRADER] short enter at price of 126600.000000 at volume 20 ETF position being -70
+2023-03-16 16:15:32,344 [INFO   ] [TRADER] received order status for order 287 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:32,401 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 107
+2023-03-16 16:15:32,430 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 316 diff equals 400.000000, ETF=126300.000000 FUT=125850.000000
+2023-03-16 16:15:32,430 [INFO   ] [TRADER] short enter at price of 126300.000000 at volume 20 ETF position being -70
+2023-03-16 16:15:32,430 [INFO   ] [TRADER] received order status for order 287 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:32,430 [INFO   ] [TRADER] received order status for order 288 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:32,468 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 72
+2023-03-16 16:15:32,496 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 317 diff equals 300.000000, ETF=126250.000000 FUT=125950.000000
+2023-03-16 16:15:32,496 [INFO   ] [TRADER] short enter at price of 126200.000000 at volume 20 ETF position being -70
+2023-03-16 16:15:32,496 [INFO   ] [TRADER] received order status for order 288 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:32,496 [INFO   ] [TRADER] received order filled for order 289 with price 126200 and volume 20
+2023-03-16 16:15:32,496 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 108
+2023-03-16 16:15:32,496 [INFO   ] [TRADER] received order status for order 289 with fill volume 20 remaining 0 and fees 505
+2023-03-16 16:15:32,496 [INFO   ] [TRADER] received hedge filled for order 290 with average price 126000 and volume 20
+2023-03-16 16:15:32,546 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 109
+2023-03-16 16:15:32,588 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 318 diff equals 300.000000, ETF=126250.000000 FUT=125900.000000
+2023-03-16 16:15:32,666 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 319 diff equals 400.000000, ETF=126250.000000 FUT=125850.000000
+2023-03-16 16:15:32,696 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 110
+2023-03-16 16:15:32,748 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 111
+2023-03-16 16:15:32,775 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 320 diff equals 200.000000, ETF=126200.000000 FUT=125950.000000
+2023-03-16 16:15:32,798 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 73
+2023-03-16 16:15:32,839 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 321 diff equals 300.000000, ETF=126200.000000 FUT=125850.000000
+2023-03-16 16:15:32,957 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 322 diff equals 400.000000, ETF=126150.000000 FUT=125700.000000
+2023-03-16 16:15:32,957 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 74
+2023-03-16 16:15:32,980 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 112
+2023-03-16 16:15:33,011 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 323 diff equals 400.000000, ETF=126100.000000 FUT=125700.000000
+2023-03-16 16:15:33,090 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 324 diff equals 400.000000, ETF=126100.000000 FUT=125700.000000
+2023-03-16 16:15:33,181 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 325 diff equals 300.000000, ETF=126100.000000 FUT=125800.000000
+2023-03-16 16:15:33,181 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 75
+2023-03-16 16:15:33,227 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 76
+2023-03-16 16:15:33,269 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 326 diff equals 400.000000, ETF=126050.000000 FUT=125600.000000
+2023-03-16 16:15:33,269 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 77
+2023-03-16 16:15:33,339 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 327 diff equals 200.000000, ETF=126050.000000 FUT=125800.000000
+2023-03-16 16:15:33,354 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 113
+2023-03-16 16:15:33,437 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 328 diff equals 100.000000, ETF=126000.000000 FUT=125850.000000
+2023-03-16 16:15:33,509 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 329 diff equals 200.000000, ETF=126000.000000 FUT=125800.000000
+2023-03-16 16:15:33,602 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 330 diff equals 100.000000, ETF=126050.000000 FUT=125950.000000
+2023-03-16 16:15:33,696 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 331 diff equals 100.000000, ETF=126100.000000 FUT=125950.000000
+2023-03-16 16:15:33,732 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 78
+2023-03-16 16:15:33,776 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 332 diff equals 0.000000, ETF=126050.000000 FUT=126000.000000
+2023-03-16 16:15:33,839 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 333 diff equals 100.000000, ETF=126050.000000 FUT=125950.000000
+2023-03-16 16:15:33,854 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 114
+2023-03-16 16:15:33,921 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 334 diff equals 100.000000, ETF=126050.000000 FUT=125950.000000
+2023-03-16 16:15:33,951 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 115
+2023-03-16 16:15:33,982 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 79
+2023-03-16 16:15:34,026 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 335 diff equals 0.000000, ETF=126050.000000 FUT=126100.000000
+2023-03-16 16:15:34,102 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 336 diff equals 0.000000, ETF=126050.000000 FUT=126100.000000
+2023-03-16 16:15:34,146 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 80
+2023-03-16 16:15:34,182 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 337 diff equals -200.000000, ETF=126100.000000 FUT=126300.000000
+2023-03-16 16:15:34,260 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 338 diff equals -200.000000, ETF=126100.000000 FUT=126300.000000
+2023-03-16 16:15:34,291 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 116
+2023-03-16 16:15:34,327 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 81
+2023-03-16 16:15:34,355 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 339 diff equals 0.000000, ETF=126150.000000 FUT=126200.000000
+2023-03-16 16:15:34,395 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 82
+2023-03-16 16:15:34,440 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 340 diff equals -100.000000, ETF=126150.000000 FUT=126250.000000
+2023-03-16 16:15:34,472 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 83
+2023-03-16 16:15:34,511 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 341 diff equals 0.000000, ETF=126150.000000 FUT=126150.000000
+2023-03-16 16:15:34,594 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 342 diff equals 0.000000, ETF=126150.000000 FUT=126200.000000
+2023-03-16 16:15:34,595 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 117
+2023-03-16 16:15:34,704 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 343 diff equals -100.000000, ETF=126150.000000 FUT=126250.000000
+2023-03-16 16:15:34,704 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 118
+2023-03-16 16:15:34,760 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 344 diff equals -100.000000, ETF=126250.000000 FUT=126350.000000
+2023-03-16 16:15:34,814 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 84
+2023-03-16 16:15:34,865 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 345 diff equals -200.000000, ETF=126300.000000 FUT=126500.000000
+2023-03-16 16:15:34,929 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 346 diff equals -200.000000, ETF=126300.000000 FUT=126500.000000
+2023-03-16 16:15:35,042 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 347 diff equals -100.000000, ETF=126300.000000 FUT=126450.000000
+2023-03-16 16:15:35,105 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 348 diff equals -200.000000, ETF=126250.000000 FUT=126500.000000
+2023-03-16 16:15:35,224 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 349 diff equals -200.000000, ETF=126300.000000 FUT=126500.000000
+2023-03-16 16:15:35,273 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 350 diff equals -100.000000, ETF=126250.000000 FUT=126350.000000
+2023-03-16 16:15:35,365 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 351 diff equals -100.000000, ETF=126250.000000 FUT=126400.000000
+2023-03-16 16:15:35,386 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 85
+2023-03-16 16:15:35,411 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 86
+2023-03-16 16:15:35,450 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 352 diff equals 0.000000, ETF=126400.000000 FUT=126400.000000
+2023-03-16 16:15:35,520 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 353 diff equals -200.000000, ETF=126250.000000 FUT=126450.000000
+2023-03-16 16:15:35,618 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 354 diff equals -200.000000, ETF=126300.000000 FUT=126500.000000
+2023-03-16 16:15:35,710 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 355 diff equals -100.000000, ETF=126250.000000 FUT=126400.000000
+2023-03-16 16:15:35,763 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 356 diff equals -200.000000, ETF=126300.000000 FUT=126500.000000
+2023-03-16 16:15:35,865 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 357 diff equals -100.000000, ETF=126200.000000 FUT=126300.000000
+2023-03-16 16:15:35,959 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 358 diff equals -100.000000, ETF=126200.000000 FUT=126300.000000
+2023-03-16 16:15:36,007 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 359 diff equals 0.000000, ETF=126200.000000 FUT=126250.000000
+2023-03-16 16:15:36,067 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 87
+2023-03-16 16:15:36,106 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 360 diff equals -300.000000, ETF=126250.000000 FUT=126550.000000
+2023-03-16 16:15:36,106 [INFO   ] [TRADER] long enter at price of 126200.000000 at volume 20 ETF position being -90
+2023-03-16 16:15:36,106 [INFO   ] [TRADER] received order status for order 291 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:36,217 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 361 diff equals -100.000000, ETF=126450.000000 FUT=126550.000000
+2023-03-16 16:15:36,218 [INFO   ] [TRADER] received order status for order 291 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:36,267 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 362 diff equals -200.000000, ETF=126350.000000 FUT=126550.000000
+2023-03-16 16:15:36,347 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 363 diff equals -300.000000, ETF=126350.000000 FUT=126650.000000
+2023-03-16 16:15:36,347 [INFO   ] [TRADER] long enter at price of 126300.000000 at volume 20 ETF position being -90
+2023-03-16 16:15:36,348 [INFO   ] [TRADER] received order status for order 292 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:36,436 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 364 diff equals -100.000000, ETF=126500.000000 FUT=126650.000000
+2023-03-16 16:15:36,436 [INFO   ] [TRADER] received order status for order 292 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:36,483 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 119
+2023-03-16 16:15:36,515 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 365 diff equals -300.000000, ETF=126350.000000 FUT=126650.000000
+2023-03-16 16:15:36,515 [INFO   ] [TRADER] long enter at price of 126300.000000 at volume 20 ETF position being -90
+2023-03-16 16:15:36,515 [INFO   ] [TRADER] received order status for order 293 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:36,610 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 366 diff equals -200.000000, ETF=126450.000000 FUT=126650.000000
+2023-03-16 16:15:36,611 [INFO   ] [TRADER] received order status for order 293 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:36,665 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 88
+2023-03-16 16:15:36,666 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 367 diff equals -300.000000, ETF=126300.000000 FUT=126650.000000
+2023-03-16 16:15:36,666 [INFO   ] [TRADER] long enter at price of 126300.000000 at volume 20 ETF position being -90
+2023-03-16 16:15:36,666 [INFO   ] [TRADER] received order status for order 294 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:36,709 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 89
+2023-03-16 16:15:36,709 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 120
+2023-03-16 16:15:36,747 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 90
+2023-03-16 16:15:36,747 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 368 diff equals -200.000000, ETF=126450.000000 FUT=126650.000000
+2023-03-16 16:15:36,747 [INFO   ] [TRADER] received order status for order 294 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:36,800 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 121
+2023-03-16 16:15:36,860 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 369 diff equals 0.000000, ETF=126600.000000 FUT=126650.000000
+2023-03-16 16:15:36,939 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 370 diff equals 0.000000, ETF=126600.000000 FUT=126650.000000
+2023-03-16 16:15:36,977 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 91
+2023-03-16 16:15:37,017 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 371 diff equals 0.000000, ETF=126600.000000 FUT=126650.000000
+2023-03-16 16:15:37,112 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 372 diff equals 0.000000, ETF=126600.000000 FUT=126650.000000
+2023-03-16 16:15:37,163 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 92
+2023-03-16 16:15:37,175 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 93
+2023-03-16 16:15:37,211 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 373 diff equals -100.000000, ETF=126750.000000 FUT=126850.000000
+2023-03-16 16:15:37,211 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 94
+2023-03-16 16:15:37,256 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 374 diff equals -200.000000, ETF=126750.000000 FUT=126950.000000
+2023-03-16 16:15:37,347 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 375 diff equals -100.000000, ETF=126750.000000 FUT=126850.000000
+2023-03-16 16:15:37,440 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 376 diff equals -300.000000, ETF=126750.000000 FUT=127050.000000
+2023-03-16 16:15:37,440 [INFO   ] [TRADER] long enter at price of 126700.000000 at volume 20 ETF position being -90
+2023-03-16 16:15:37,440 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 95
+2023-03-16 16:15:37,450 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 96
+2023-03-16 16:15:37,458 [INFO   ] [TRADER] received order status for order 295 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:37,509 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 377 diff equals -300.000000, ETF=127000.000000 FUT=127350.000000
+2023-03-16 16:15:37,509 [INFO   ] [TRADER] long enter at price of 127000.000000 at volume 20 ETF position being -90
+2023-03-16 16:15:37,509 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 97
+2023-03-16 16:15:37,510 [INFO   ] [TRADER] received order status for order 295 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:37,510 [INFO   ] [TRADER] received order status for order 296 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:37,594 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 98
+2023-03-16 16:15:37,614 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 378 diff equals 0.000000, ETF=127150.000000 FUT=127150.000000
+2023-03-16 16:15:37,614 [INFO   ] [TRADER] received order status for order 296 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:37,691 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 379 diff equals -200.000000, ETF=126950.000000 FUT=127150.000000
+2023-03-16 16:15:37,753 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 380 diff equals -200.000000, ETF=126950.000000 FUT=127150.000000
+2023-03-16 16:15:37,864 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 381 diff equals -200.000000, ETF=126850.000000 FUT=127050.000000
+2023-03-16 16:15:37,926 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 382 diff equals -300.000000, ETF=126850.000000 FUT=127150.000000
+2023-03-16 16:15:37,926 [INFO   ] [TRADER] long enter at price of 126800.000000 at volume 20 ETF position being -90
+2023-03-16 16:15:37,928 [INFO   ] [TRADER] received order status for order 297 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:38,008 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 383 diff equals -100.000000, ETF=127050.000000 FUT=127150.000000
+2023-03-16 16:15:38,008 [INFO   ] [TRADER] received order status for order 297 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:38,084 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 99
+2023-03-16 16:15:38,115 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 384 diff equals -200.000000, ETF=126850.000000 FUT=127050.000000
+2023-03-16 16:15:38,183 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 385 diff equals -100.000000, ETF=126850.000000 FUT=127000.000000
+2023-03-16 16:15:38,265 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 386 diff equals 0.000000, ETF=126850.000000 FUT=126850.000000
+2023-03-16 16:15:38,265 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 100
+2023-03-16 16:15:38,314 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 122
+2023-03-16 16:15:38,314 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 101
+2023-03-16 16:15:38,332 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 387 diff equals 0.000000, ETF=126800.000000 FUT=126750.000000
+2023-03-16 16:15:38,389 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 102
+2023-03-16 16:15:38,460 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 388 diff equals -500.000000, ETF=126550.000000 FUT=127050.000000
+2023-03-16 16:15:38,460 [INFO   ] [TRADER] long enter at price of 126500.000000 at volume 20 ETF position being -90
+2023-03-16 16:15:38,461 [INFO   ] [TRADER] received order status for order 298 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:38,523 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 389 diff equals -400.000000, ETF=126650.000000 FUT=127050.000000
+2023-03-16 16:15:38,523 [INFO   ] [TRADER] long enter at price of 126600.000000 at volume 20 ETF position being -90
+2023-03-16 16:15:38,525 [INFO   ] [TRADER] received order status for order 298 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:38,526 [INFO   ] [TRADER] received order status for order 299 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:38,591 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 390 diff equals -200.000000, ETF=126700.000000 FUT=126950.000000
+2023-03-16 16:15:38,591 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 103
+2023-03-16 16:15:38,607 [INFO   ] [TRADER] received order status for order 299 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:38,697 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 391 diff equals -200.000000, ETF=126550.000000 FUT=126750.000000
+2023-03-16 16:15:38,754 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 392 diff equals -200.000000, ETF=126550.000000 FUT=126750.000000
+2023-03-16 16:15:38,835 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 123
+2023-03-16 16:15:38,835 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 393 diff equals -200.000000, ETF=126400.000000 FUT=126650.000000
+2023-03-16 16:15:38,942 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 394 diff equals -200.000000, ETF=126400.000000 FUT=126650.000000
+2023-03-16 16:15:38,942 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 124
+2023-03-16 16:15:39,038 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 395 diff equals -200.000000, ETF=126400.000000 FUT=126650.000000
+2023-03-16 16:15:39,118 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 396 diff equals -400.000000, ETF=126150.000000 FUT=126550.000000
+2023-03-16 16:15:39,118 [INFO   ] [TRADER] long enter at price of 126100.000000 at volume 20 ETF position being -90
+2023-03-16 16:15:39,118 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 125
+2023-03-16 16:15:39,119 [INFO   ] [TRADER] received order status for order 300 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:39,204 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 397 diff equals -100.000000, ETF=126200.000000 FUT=126350.000000
+2023-03-16 16:15:39,204 [INFO   ] [TRADER] received order status for order 300 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:39,234 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 126
+2023-03-16 16:15:39,274 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 398 diff equals -400.000000, ETF=126050.000000 FUT=126450.000000
+2023-03-16 16:15:39,275 [INFO   ] [TRADER] long enter at price of 126000.000000 at volume 20 ETF position being -90
+2023-03-16 16:15:39,276 [INFO   ] [TRADER] received order status for order 301 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:39,338 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 399 diff equals -400.000000, ETF=126150.000000 FUT=126550.000000
+2023-03-16 16:15:39,339 [INFO   ] [TRADER] long enter at price of 126100.000000 at volume 20 ETF position being -90
+2023-03-16 16:15:39,339 [INFO   ] [TRADER] received order status for order 301 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:39,339 [INFO   ] [TRADER] received order status for order 302 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:39,417 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 400 diff equals -300.000000, ETF=126200.000000 FUT=126550.000000
+2023-03-16 16:15:39,417 [INFO   ] [TRADER] long enter at price of 126200.000000 at volume 20 ETF position being -90
+2023-03-16 16:15:39,417 [INFO   ] [TRADER] received order status for order 302 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:39,417 [INFO   ] [TRADER] received order status for order 303 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:39,508 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 401 diff equals -300.000000, ETF=126250.000000 FUT=126550.000000
+2023-03-16 16:15:39,602 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 402 diff equals -300.000000, ETF=126250.000000 FUT=126550.000000
+2023-03-16 16:15:39,656 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 104
+2023-03-16 16:15:39,679 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 403 diff equals -400.000000, ETF=126250.000000 FUT=126650.000000
+2023-03-16 16:15:39,694 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 105
+2023-03-16 16:15:39,803 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 404 diff equals -600.000000, ETF=126250.000000 FUT=126900.000000
+2023-03-16 16:15:39,852 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 405 diff equals -600.000000, ETF=126250.000000 FUT=126850.000000
+2023-03-16 16:15:39,919 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 406 diff equals -400.000000, ETF=126500.000000 FUT=126950.000000
+2023-03-16 16:15:39,919 [INFO   ] [TRADER] long enter at price of 126500.000000 at volume 20 ETF position being -90
+2023-03-16 16:15:39,919 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 127
+2023-03-16 16:15:39,919 [INFO   ] [TRADER] received order status for order 303 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:39,920 [INFO   ] [TRADER] received order status for order 304 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:40,013 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 407 diff equals -200.000000, ETF=126650.000000 FUT=126900.000000
+2023-03-16 16:15:40,013 [INFO   ] [TRADER] received order status for order 304 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:40,103 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 408 diff equals -300.000000, ETF=126550.000000 FUT=126900.000000
+2023-03-16 16:15:40,104 [INFO   ] [TRADER] long enter at price of 126500.000000 at volume 20 ETF position being -90
+2023-03-16 16:15:40,104 [INFO   ] [TRADER] received order status for order 305 with fill volume 0 remaining 20 and fees 0
+2023-03-16 16:15:40,182 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 128
+2023-03-16 16:15:40,183 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 409 diff equals 200.000000, ETF=127200.000000 FUT=126950.000000
+2023-03-16 16:15:40,183 [INFO   ] [TRADER] received order status for order 305 with fill volume 0 remaining 0 and fees 0
+2023-03-16 16:15:40,274 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 410 diff equals 300.000000, ETF=127200.000000 FUT=126900.000000
+2023-03-16 16:15:40,381 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 411 diff equals 500.000000, ETF=127200.000000 FUT=126650.000000
+2023-03-16 16:15:40,463 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 412 diff equals 400.000000, ETF=127150.000000 FUT=126700.000000
+2023-03-16 16:15:40,528 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 413 diff equals 400.000000, ETF=127150.000000 FUT=126750.000000
+2023-03-16 16:15:40,616 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 414 diff equals 400.000000, ETF=127200.000000 FUT=126750.000000
+2023-03-16 16:15:40,699 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 415 diff equals 400.000000, ETF=127250.000000 FUT=126850.000000
+2023-03-16 16:15:40,702 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 129
+2023-03-16 16:15:40,771 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 416 diff equals 300.000000, ETF=127250.000000 FUT=126950.000000
+2023-03-16 16:15:40,786 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 130
+2023-03-16 16:15:40,839 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 417 diff equals 400.000000, ETF=127200.000000 FUT=126800.000000
+2023-03-16 16:15:40,958 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 418 diff equals 400.000000, ETF=127200.000000 FUT=126800.000000
+2023-03-16 16:15:40,958 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 131
+2023-03-16 16:15:40,995 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 132
+2023-03-16 16:15:41,024 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 419 diff equals 300.000000, ETF=127150.000000 FUT=126850.000000
+2023-03-16 16:15:41,119 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 420 diff equals 300.000000, ETF=127150.000000 FUT=126850.000000
+2023-03-16 16:15:41,119 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 106
