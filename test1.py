@@ -84,7 +84,7 @@ class AutoTrader(BaseAutoTrader):
             bidprice_FUT = bid_prices[0]
             askprice_FUT = ask_prices[0]
             TP_FUT.append((bidprice_FUT + askprice_FUT) /2)
-        
+            
         if instrument == Instrument.ETF:
             
             #storing prices for ETF
@@ -122,7 +122,6 @@ class AutoTrader(BaseAutoTrader):
                          LOT_SIZE,self.position)
 
             if self.ask_id == 0 and new_ask_price != 0 and self.position > -POSITION_LIMIT+20 and diff > 1*sigma:
-
                 self.ask_id = next(self.order_ids)
                 self.ask_price = new_ask_price
                 self.send_insert_order(self.ask_id, Side.SELL, new_ask_price, LOT_SIZE, Lifespan.FILL_AND_KILL)
@@ -130,23 +129,23 @@ class AutoTrader(BaseAutoTrader):
                 self.logger.info("short enter at price of %f at volume %d ETF position being %d", new_ask_price,
                          LOT_SIZE,self.position)
                 
-            if self.bid_id == 0 and new_bid_price != 0 and 0 > self.position > -POSITION_LIMIT+20 and 0.5*sigma > diff:
-
+            if self.bid_id == 0 and new_bid_price != 0 and 0 > self.position > -POSITION_LIMIT+10 and 0.5*sigma > diff:
+                new_bid_price = ask_prices[0]
                 self.bid_id = next(self.order_ids)
                 self.bid_price = new_bid_price
-                self.send_insert_order(self.bid_id, Side.BUY, new_bid_price, LOT_SIZE, Lifespan.FILL_AND_KILL)
+                self.send_insert_order(self.bid_id, Side.BUY, new_bid_price, 10, Lifespan.FILL_AND_KILL)
                 self.bids.add(self.bid_id)
                 self.logger.info("short exit at price of %f at volume %d ETF position being %d", new_bid_price,
-                         LOT_SIZE,self.position)
+                         10,self.position)
 
-            if self.ask_id == 0 and new_ask_price != 0 and 0 < self.position < POSITION_LIMIT-20 and -0.5*sigma< diff:
-
+            if self.ask_id == 0 and new_ask_price != 0 and 0 < self.position < POSITION_LIMIT-10 and -0.5*sigma< diff:
+                new_ask_price = bid_prices[0]
                 self.ask_id = next(self.order_ids)
                 self.ask_price = new_ask_price
-                self.send_insert_order(self.ask_id, Side.SELL, new_ask_price, LOT_SIZE, Lifespan.FILL_AND_KILL)
+                self.send_insert_order(self.ask_id, Side.SELL, new_ask_price, 10, Lifespan.FILL_AND_KILL)
                 self.asks.add(self.ask_id)
                 self.logger.info("long exit at price of %f at volume %d ETF position being %d", new_ask_price,
-                         LOT_SIZE,self.position)
+                         10,self.position)
                 
            
             

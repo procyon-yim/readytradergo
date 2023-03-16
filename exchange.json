@@ -36,6 +36,7 @@
     "PositionLimit": 100
   },
   "Traders": {
-    "test1": "secret"
+    "test2": "secret",
+    "minusOne": "secret"
   }
 }
