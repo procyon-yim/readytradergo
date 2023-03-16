@@ -5,7 +5,7 @@
     "MarketOpenDelay": 5.0,
     "MatchEventsFile": "match_events.csv",
     "ScoreBoardFile": "score_board.csv",
-    "Speed": 5.0,
+    "Speed": 6.0,
     "TickInterval": 0.25
   },
   "Execution": {
@@ -39,6 +39,7 @@
     "test2": "secret",
     "minusOne": "secret",
     "test1": "secret",
-    "UUB_final": "secret"
+    "UUB_final": "secret",
+    "minusOneV2": "secret"
   }
 }

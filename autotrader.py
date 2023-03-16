@@ -95,11 +95,15 @@ class AutoTrader(BaseAutoTrader):
                     self.bid_price = new_bid_price
                     self.send_insert_order(self.bid_id, Side.BUY, new_bid_price, TEMP_LOT_SIZE, Lifespan.GOOD_FOR_DAY)
                     self.bids.add(self.bid_id)
+                    self.logger.info("sequence number %f current volume %f temp lot size %f", 
+                                     sequence_number, self.etf_volume, TEMP_LOT_SIZE)
                 else:
                     self.bid_id = next(self.order_ids)
                     self.bid_price = new_bid_price
                     self.send_insert_order(self.bid_id, Side.BUY, new_bid_price, LOT_SIZE, Lifespan.GOOD_FOR_DAY)
                     self.bids.add(self.bid_id)
+                    self.logger.info("sequence number %f current volume %f lot size %f", 
+                                     sequence_number, self.etf_volume, LOT_SIZE)
 
             if self.ask_id == 0 and new_ask_price != 0:
                 if abs(self.etf_volume) + LOT_SIZE > POSITION_LIMIT:
@@ -108,11 +112,15 @@ class AutoTrader(BaseAutoTrader):
                     self.ask_price = new_ask_price
                     self.send_insert_order(self.ask_id, Side.SELL, new_ask_price, TEMP_LOT_SIZE, Lifespan.GOOD_FOR_DAY)
                     self.asks.add(self.ask_id)
+                    self.logger.info("sequence number %f current volume %f temp lot size %f", 
+                                     sequence_number, self.etf_volume, TEMP_LOT_SIZE)
                 else:
                     self.ask_id = next(self.order_ids)
                     self.ask_price = new_ask_price
                     self.send_insert_order(self.ask_id, Side.SELL, new_ask_price, LOT_SIZE, Lifespan.GOOD_FOR_DAY)
                     self.asks.add(self.ask_id)
+                    self.logger.info("sequence number %f current volume %f lot size %f", 
+                                     sequence_number, self.etf_volume, LOT_SIZE)
 
     def on_order_filled_message(self, client_order_id: int, price: int, volume: int) -> None:
         """Called when one of your orders is filled, partially or fully.
