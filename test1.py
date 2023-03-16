@@ -79,7 +79,6 @@ class AutoTrader(BaseAutoTrader):
         sigma=310
         
         if instrument == Instrument.FUTURE:
-<<<<<<< HEAD
             # storing prices for Future
             bidprice_FUT = bid_prices[0]
             askprice_FUT = ask_prices[0]
@@ -87,13 +86,6 @@ class AutoTrader(BaseAutoTrader):
             with open('test1.txt', 'a') as f:
                 f.write('FUTbid0:{0},FUTask0:{1}\n'.format(bidprice_FUT, askprice_FUT))
 
-=======
-            #storing prices for ETF
-            midf = 0.5*(bid_prices[0]+ask_prices[0])
-            FUTURE_mid.append(midf)
-            self.logger.info("future mid is %f", midf)
-            
->>>>>>> ce437b608b608cd8128de33e4578389bc159a2e8
         if instrument == Instrument.ETF:
             #storing prices for Future
             mid = 0.5*(bid_prices[0]+ask_prices[0])
