@@ -37,6 +37,7 @@
   },
   "Traders": {
     "test2": "secret",
-    "minusOne": "secret"
+    "minusOne": "secret",
+    "test1": "secret"
   }
 }
