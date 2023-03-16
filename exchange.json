@@ -5,7 +5,7 @@
     "MarketOpenDelay": 5.0,
     "MatchEventsFile": "match_events.csv",
     "ScoreBoardFile": "score_board.csv",
-    "Speed": 5.0,
+    "Speed": 6.0,
     "TickInterval": 0.25
   },
   "Execution": {
@@ -38,5 +38,19 @@
   "Traders": {
     "test3": "secret",
     "minusOne": "secret"
+<<<<<<< HEAD
+=======
+=======
+    "test2": "secret",
+    "minusOne": "secret",
+    "test1": "secret",
+<<<<<<< HEAD
+    "UUB_final": "secret",
+    "minusOneV2": "secret"
+=======
+    "UUB_final": "secret"
+>>>>>>> ce437b608b608cd8128de33e4578389bc159a2e8
+>>>>>>> origin/master
+>>>>>>> d053f6332f8b4dd05db6cedac4c975f3f7b9eb9d
   }
 }
