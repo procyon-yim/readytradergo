@@ -100,6 +100,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 0.0,,Insert,268517855,0,B,800,140300,G,
 0.0,,Insert,268517863,0,B,1000,140300,G,
 0.0,,Insert,268517875,0,A,2000,141400,G,
+<<<<<<< HEAD
+=======
+0.002803,minusOne,Insert,1,1,B,50,139800,G,
+0.0031,minusOne,Insert,2,1,A,50,141400,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 0.201557,,Insert,5096556,1,B,35,139300,G,
 0.219,minusOne,Insert,1,1,B,20,139800,G,
 0.219,minusOne,Insert,2,1,A,20,141400,G,
@@ -201,6 +206,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 0.499461,,Cancel,7016900,,,-10000,,,
 0.499461,,Insert,7016901,1,A,10000,141000,G,
 0.499461,,Insert,7016902,1,B,10000,139800,G,
+<<<<<<< HEAD
+=======
+0.499673,minusOne,Cancel,2,,,-50,,,
+0.499817,minusOne,Insert,3,1,A,50,140600,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 0.50871,,Insert,268530907,0,A,1000,141000,G,
 0.509994,,Insert,268531439,0,A,1000,161500,G,
 0.518267,,Insert,268531991,0,B,800,140300,G,
@@ -374,6 +384,10 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 1.015,minusOne,Insert,7,1,A,20,140800,G,
 1.015975,,Insert,268547503,0,A,1000,140600,G,
 1.016678,,Cancel,268546915,,,-8000,,,
+1.01982,minusOne,Cancel,1,,,-50,,,
+1.020145,minusOne,Cancel,3,,,-50,,,
+1.020186,minusOne,Insert,4,1,B,50,140200,G,
+1.020239,minusOne,Insert,5,1,A,50,140800,G,
 1.023539,,Insert,268547747,0,A,790,140600,G,
 1.023767,,Cancel,268546359,,,-790,,,
 1.02404,,Cancel,268547747,,,-790,,,
@@ -414,8 +428,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 1.271642,,Cancel,268552935,,,-8000,,,
 1.271938,,Insert,268553219,0,B,1000,140300,G,
 1.282174,,Insert,268553531,0,A,2000,141700,G,
+<<<<<<< HEAD
 1.297,minusOne,Cancel,7,,,-20,,,
 1.297,minusOne,Insert,8,1,A,20,140700,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 1.31492,,Insert,268554639,0,A,1000,140500,G,
 1.314941,,Cancel,268548159,,,-1000,,,
 1.334234,,Cancel,268553219,,,-1000,,,
@@ -473,8 +490,15 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 1.483244,,Cancel,268547943,,,-790,,,
 1.483246,,Cancel,268552499,,,-1000,,,
 1.483295,,Insert,268558679,0,B,1000,138900,G,
+<<<<<<< HEAD
 1.515,minusOne,Cancel,6,,,-20,,,
 1.515,minusOne,Insert,9,1,B,20,140100,G,
+=======
+1.530899,minusOne,Cancel,4,,,-50,,,
+1.530929,minusOne,Cancel,5,,,-50,,,
+1.530965,minusOne,Insert,6,1,B,50,140100,G,
+1.531021,minusOne,Insert,7,1,A,50,140700,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 1.652129,,Insert,268561531,0,A,1000,140500,G,
 1.652155,,Insert,268561535,0,B,1000,110700,G,
 1.65216,,Cancel,268557959,,,-1000,,,
@@ -496,8 +520,13 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 1.751666,,Cancel,268562911,,,-1000,,,
 1.754925,,Insert,268563239,0,B,1000,140000,G,
 1.776208,,Insert,5096557,1,B,125,141900,G,
+<<<<<<< HEAD
 1.776208,minusOne,Trade,8,1,A,20,140700,,-281
 1.812,minusOne,Hedge,10,0,B,20,140500,,
+=======
+1.776208,minusOne,Trade,7,1,A,50,140700,,-704
+1.803809,minusOne,Hedge,8,0,B,50,140500,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 1.82872,,Insert,268565543,0,B,1000,140300,G,
 1.83655,,Cancel,268562891,,,-1000,,,
 1.870951,,Cancel,268562907,,,-1000,,,
@@ -536,7 +565,12 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 1.980773,,Cancel,268567451,,,-1000,,,
 1.984715,,Cancel,268568411,,,-210,,,
 1.986236,,Cancel,268568175,,,-1000,,,
+<<<<<<< HEAD
 1.997969,,Cancel,7016909,,,-9895,,,
+=======
+1.988852,minusOne,Insert,9,1,A,30,140700,G,
+1.997969,,Cancel,7016909,,,-9925,,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 1.997969,,Cancel,7016910,,,-10000,,,
 1.997969,,Insert,7016911,1,A,10000,141000,G,
 1.997969,,Insert,7016912,1,B,10000,139800,G,
@@ -562,6 +596,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 2.232689,,Insert,268572619,0,A,1000,142000,G,
 2.233115,,Insert,268572643,0,B,8000,140400,G,
 2.243473,,Insert,268572831,0,A,20000,143000,G,
+<<<<<<< HEAD
+=======
+2.250095,minusOne,Cancel,6,,,-50,,,
+2.250127,minusOne,Insert,10,1,B,130,140200,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 2.26429,,Insert,268573079,0,A,20000,143000,G,
 2.282353,,Cancel,268572643,,,-8000,,,
 2.286675,,Cancel,268572243,,,-1000,,,
@@ -570,8 +609,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 2.295929,,Insert,268573371,0,B,1000,140400,G,
 2.296279,,Cancel,268573079,,,-20000,,,
 2.296427,,Cancel,268572831,,,-20000,,,
+<<<<<<< HEAD
 2.297,minusOne,Cancel,9,,,-20,,,
 2.297,minusOne,Insert,12,1,B,20,140200,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 2.309389,,Cancel,7016911,,,-10000,,,
 2.309389,,Cancel,7016912,,,-10000,,,
 2.309389,,Insert,7016913,1,A,10000,141000,G,
@@ -732,6 +774,8 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 2.452927,,Cancel,268583859,,,-1000,,,
 2.454519,,Insert,268584047,0,A,1000,140600,G,
 2.455333,,Cancel,268584047,,,-1000,,,
+2.456542,minusOne,Cancel,9,,,-30,,,
+2.456713,minusOne,Insert,11,1,A,30,140800,G,
 2.46324,,Insert,268584255,0,A,20000,143000,G,
 2.463391,,Insert,268584259,0,A,2000,140900,G,
 2.499288,,Insert,268584859,0,A,1000,140600,G,
@@ -804,12 +848,20 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 2.691773,,Insert,268588543,0,A,1000,140600,G,
 2.707481,,Insert,268588699,0,A,10,140600,G,
 2.709065,,Insert,5096560,1,B,47,141100,G,
+<<<<<<< HEAD
 2.709065,minusOne,Trade,13,1,A,20,140800,,-282
 2.722446,,Insert,268588815,0,A,1000,142100,G,
 2.73189,,Cancel,268588815,,,-1000,,,
 2.746324,,Cancel,268588299,,,-8000,,,
 2.765,minusOne,Hedge,14,0,B,20,140600,,
 2.765,minusOne,Insert,15,1,A,20,140800,G,
+=======
+2.709065,minusOne,Trade,11,1,A,30,140800,,-422
+2.722446,,Insert,268588815,0,A,1000,142100,G,
+2.73189,,Cancel,268588815,,,-1000,,,
+2.746324,,Cancel,268588299,,,-8000,,,
+2.757905,minusOne,Hedge,12,0,B,30,140600,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 2.786856,,Insert,268589711,0,A,1000,140600,G,
 2.791554,,Cancel,268587183,,,-790,,,
 2.792205,,Cancel,268568007,,,-1000,,,
@@ -824,7 +876,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 2.822357,,Insert,268590435,0,A,1000,140600,G,
 2.842441,,Insert,268590695,0,A,1000,142100,G,
 2.866125,,Cancel,268590435,,,-1000,,,
+<<<<<<< HEAD
 2.897594,,Cancel,7016915,,,-9973,,,
+=======
+2.897594,,Cancel,7016915,,,-9983,,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 2.897594,,Cancel,7016916,,,-10000,,,
 2.897594,,Insert,7016917,1,A,10000,141100,G,
 2.897594,,Insert,7016918,1,B,10000,139900,G,
@@ -1136,11 +1192,16 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 3.742553,,Insert,268615287,0,B,1000,140200,G,
 3.748109,,Insert,268615511,0,B,1000,140500,G,
 3.748134,,Cancel,268613855,,,-1000,,,
+<<<<<<< HEAD
 3.75,minusOne,Cancel,12,,,-20,,,
 3.75,minusOne,Cancel,16,,,-20,,,
 3.75,minusOne,Insert,17,1,B,20,140300,G,
 3.75,minusOne,Insert,18,1,A,20,140900,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 3.753433,,Insert,268615615,0,B,2000,140100,G,
+3.753607,minusOne,Cancel,10,,,-130,,,
+3.753712,minusOne,Insert,17,1,B,160,140300,G,
 3.75956,,Cancel,268615511,,,-1000,,,
 3.759586,,Insert,268615671,0,B,1000,110900,G,
 3.759744,,Cancel,268615615,,,-2000,,,
@@ -1272,6 +1333,8 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 4.04225,,Cancel,268621627,,,-8000,,,
 4.043747,,Insert,268621819,0,B,1000,140200,G,
 4.044103,,Cancel,268621819,,,-1000,,,
+4.047143,minusOne,Cancel,17,,,-160,,,
+4.047442,minusOne,Insert,19,1,B,160,140200,G,
 4.048656,,Cancel,268621163,,,-1000,,,
 4.048681,,Insert,268621899,0,B,1000,96200,G,
 4.048892,,Insert,268621903,0,B,1000,140400,G,
@@ -1281,7 +1344,10 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 4.054875,,Cancel,268621903,,,-1000,,,
 4.09061,,Insert,268623127,0,B,1000,140400,G,
 4.091198,,Insert,5096562,1,B,112,141500,G,
+<<<<<<< HEAD
 4.091198,minusOne,Trade,20,1,A,20,140800,,-282
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 4.091281,,Cancel,268622235,,,-2000,,,
 4.09173,,Insert,268623175,0,B,1000,140400,G,
 4.091756,,Cancel,268622239,,,-1000,,,
@@ -1291,7 +1357,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 4.099888,,Cancel,268617267,,,-1000,,,
 4.09989,,Insert,268623351,0,A,1000,140600,G,
 4.099935,,Insert,268623359,0,B,8000,140400,G,
+<<<<<<< HEAD
 4.100537,,Cancel,7016923,,,-9908,,,
+=======
+4.100537,,Cancel,7016923,,,-9888,,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 4.100537,,Cancel,7016924,,,-10000,,,
 4.100537,,Insert,7016925,1,A,10000,141100,G,
 4.100537,,Insert,7016926,1,B,10000,139900,G,
@@ -1538,9 +1608,14 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 4.7905,,Insert,268638107,0,A,1000,140600,G,
 4.790814,,Cancel,268637815,,,-20000,,,
 4.798878,,Insert,5096563,1,A,54,139100,G,
+<<<<<<< HEAD
 4.798878,minusOne,Trade,19,1,B,20,140200,,-280
+=======
+4.798878,minusOne,Trade,19,1,B,45,140200,,-631
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 4.80005,,Cancel,268637883,,,-1000,,,
 4.800146,,Insert,268638259,0,A,1000,140600,G,
+4.803822,minusOne,Hedge,24,0,A,45,140500,,
 4.803829,,Cancel,268605015,,,-800,,,
 4.806541,,Insert,268638623,0,A,800,140600,G,
 4.808012,,Cancel,268638079,,,-8000,,,
@@ -1548,7 +1623,10 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 4.808632,,Insert,268638971,0,B,8000,140400,G,
 4.811774,,Cancel,268638971,,,-8000,,,
 4.811984,,Insert,268639103,0,A,20000,143000,G,
+<<<<<<< HEAD
 4.812,minusOne,Hedge,25,0,A,20,140500,,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 4.845744,,Insert,268639971,0,B,8000,140400,G,
 4.845767,,Cancel,268636567,,,-1000,,,
 4.845773,,Insert,268639983,0,B,1000,138900,G,
@@ -1667,10 +1745,17 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 4.994417,,Insert,268644519,0,B,1000,139000,G,
 4.999636,,Cancel,268553531,,,-2000,,,
 5.0011,,Cancel,7016929,,,-10000,,,
+<<<<<<< HEAD
 5.0011,,Cancel,7016930,,,-9975,,,
+=======
+5.0011,,Cancel,7016930,,,-10000,,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 5.0011,,Insert,7016931,1,A,10000,140900,G,
 5.0011,,Insert,7016932,1,B,10000,139700,G,
 5.001148,,Insert,268644631,0,B,8000,140200,G,
+5.02163,minusOne,Cancel,19,,,-115,,,
+5.021773,minusOne,Insert,25,1,B,115,139800,G,
+5.021821,minusOne,Insert,26,1,A,45,140600,G,
 5.032457,,Insert,268645151,0,B,1000,138700,G,
 5.032483,,Insert,268645155,0,A,1000,184700,G,
 5.061525,,Cancel,268644499,,,-1000,,,
@@ -1695,6 +1780,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 5.152419,,Cancel,268645623,,,-1000,,,
 5.195353,,Insert,5096565,1,B,53,138800,G,
 5.212421,,Insert,268648179,0,B,1000,138800,G,
+<<<<<<< HEAD
+=======
+5.220718,minusOne,Cancel,25,,,-115,,,
+5.22076,minusOne,Insert,27,1,B,115,139900,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 5.242464,,Insert,268648971,0,A,1000,141900,G,
 5.242486,,Cancel,268643223,,,-1000,,,
 5.257637,,Insert,268649203,0,A,1000,140800,G,
@@ -1723,11 +1813,19 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 5.38755,,Insert,268652663,0,B,2000,140100,G,
 5.387556,,Insert,268652667,0,B,1000,140300,G,
 5.3901,,Insert,5096566,1,A,3,138500,G,
+<<<<<<< HEAD
 5.3901,minusOne,Trade,28,1,B,3,139900,,-42
 5.399133,,Cancel,268652667,,,-1000,,,
 5.399348,,Cancel,268652663,,,-2000,,,
 5.399348,,Insert,268653195,0,B,2000,139100,G,
 5.406,minusOne,Hedge,30,0,A,3,140200,,
+=======
+5.3901,minusOne,Trade,27,1,B,3,139900,,-42
+5.399133,,Cancel,268652667,,,-1000,,,
+5.399348,,Cancel,268652663,,,-2000,,,
+5.399348,,Insert,268653195,0,B,2000,139100,G,
+5.401101,minusOne,Hedge,28,0,A,3,140200,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 5.423014,,Insert,268654267,0,B,790,140300,G,
 5.423021,,Cancel,268642879,,,-1000,,,
 5.423046,,Cancel,268643579,,,-1000,,,
@@ -1741,19 +1839,33 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 5.454696,,Cancel,268654283,,,-1000,,,
 5.454812,,Insert,268654875,0,A,1000,140500,G,
 5.459221,,Insert,5096567,1,B,55,140600,G,
+<<<<<<< HEAD
 5.459221,minusOne,Trade,29,1,A,20,140600,,-281
 5.47785,,Insert,268655315,0,B,780,140300,G,
 5.477882,,Insert,268655319,0,B,1000,140300,G,
 5.478033,,Cancel,268655315,,,-780,,,
 5.515,minusOne,Hedge,31,0,B,20,140400,,
+=======
+5.459221,minusOne,Trade,26,1,A,45,140600,,-633
+5.47785,,Insert,268655315,0,B,780,140300,G,
+5.477882,,Insert,268655319,0,B,1000,140300,G,
+5.478033,,Cancel,268655315,,,-780,,,
+5.503856,minusOne,Hedge,29,0,B,45,140400,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 5.515977,,Cancel,268654279,,,-8000,,,
 5.516004,,Cancel,268655319,,,-1000,,,
 5.516311,,Insert,268657531,0,A,1000,140600,G,
 5.523279,,Cancel,268654291,,,-1000,,,
 5.523306,,Insert,268657755,0,A,2000,140700,G,
+<<<<<<< HEAD
 5.547,minusOne,Insert,32,1,A,20,140600,G,
 5.547,minusOne,Trade,32,1,A,20,140600,,562
 5.547,minusOne,Hedge,33,0,B,20,140400,,
+=======
+5.532475,minusOne,Insert,30,1,A,3,140600,G,
+5.532475,minusOne,Trade,30,1,A,3,140600,,84
+5.532833,minusOne,Hedge,31,0,B,3,140400,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 5.566876,,Cancel,268642519,,,-8000,,,
 5.566919,,Cancel,268654815,,,-1000,,,
 5.567198,,Insert,268658911,0,B,1000,140300,G,
@@ -1809,10 +1921,15 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 5.945678,,Cancel,268643291,,,-1000,,,
 5.945742,,Insert,268670071,0,B,1000,140300,G,
 5.962422,,Insert,268670523,0,A,1000,142000,G,
+<<<<<<< HEAD
 5.969,minusOne,Cancel,28,,,-17,,,
 5.969,minusOne,Insert,36,1,B,160,140100,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 5.996886,,Cancel,268670031,,,-1000,,,
 5.999612,,Cancel,268670071,,,-1000,,,
+6.014221,minusOne,Cancel,27,,,-112,,,
+6.014248,minusOne,Insert,33,1,B,160,140100,G,
 6.017499,,Insert,268671747,0,B,1000,139800,G,
 6.039725,,Insert,268672103,0,B,2000,140000,G,
 6.041942,,Cancel,268660747,,,-8000,,,
@@ -1950,6 +2067,8 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 6.408526,,Insert,268681387,0,B,100,124700,G,
 6.408552,,Insert,268681391,0,A,1000,184800,G,
 6.421166,,Cancel,268680679,,,-8000,,,
+6.453232,minusOne,Cancel,33,,,-160,,,
+6.453259,minusOne,Insert,36,1,B,160,140200,G,
 6.456419,,Cancel,268678327,,,-2000,,,
 6.456419,,Insert,268682871,0,B,2000,140200,G,
 6.48533,,Cancel,7016939,,,-10000,,,
@@ -1970,8 +2089,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 6.516002,,Cancel,268683807,,,-1000,,,
 6.51602,,Cancel,268683927,,,-1000,,,
 6.517566,,Cancel,268683931,,,-1000,,,
+<<<<<<< HEAD
 6.547,minusOne,Cancel,36,,,-160,,,
 6.547,minusOne,Insert,39,1,B,160,140200,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 6.562458,,Insert,268685127,0,A,1000,142100,G,
 6.580144,,Insert,268685331,0,A,1000,140600,G,
 6.580172,,Insert,268685339,0,A,1000,140500,G,
@@ -2009,6 +2131,8 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 6.676444,,Insert,268687327,0,B,1000,140300,G,
 6.712432,,Insert,268688355,0,A,1000,142000,G,
 6.713614,,Insert,268688367,0,B,1000,140300,G,
+6.721796,minusOne,Cancel,36,,,-160,,,
+6.721897,minusOne,Insert,38,1,B,160,140100,G,
 6.72969,,Cancel,268688367,,,-1000,,,
 6.739573,,Cancel,268675579,,,-1000,,,
 6.73978,,Cancel,268676175,,,-3000,,,
@@ -2120,8 +2244,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 7.033851,,Insert,268696639,0,A,1000,140500,G,
 7.033924,,Insert,268696651,0,B,1000,140300,G,
 7.03473,,Cancel,268696651,,,-1000,,,
+<<<<<<< HEAD
 7.047,minusOne,Cancel,41,,,-160,,,
 7.047,minusOne,Insert,43,1,B,160,140200,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 7.056725,,Cancel,268693039,,,-1000,,,
 7.067452,,Insert,268697339,0,A,8000,140500,G,
 7.067677,,Cancel,268694779,,,-1000,,,
@@ -2199,6 +2326,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 7.389199,,Insert,7016947,1,A,10000,141000,G,
 7.389199,,Insert,7016948,1,B,10000,139800,G,
 7.402458,,Insert,268706667,0,A,1000,141900,G,
+<<<<<<< HEAD
+=======
+7.507367,minusOne,Cancel,38,,,-160,,,
+7.507401,minusOne,Insert,42,1,B,160,139900,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 7.540448,,Insert,268708559,0,B,1000,140200,G,
 7.540472,,Cancel,268681199,,,-1000,,,
 7.547,minusOne,Cancel,45,,,-160,,,
@@ -2208,10 +2340,17 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 7.575776,,Cancel,268650227,,,-1000,,,
 7.5758,,Insert,268709095,0,B,1000,96000,G,
 7.601349,,Insert,5096571,1,A,86,139300,G,
+<<<<<<< HEAD
 7.601349,minusOne,Trade,47,1,B,86,139900,,-1203
 7.604312,,Cancel,268708559,,,-1000,,,
 7.609,minusOne,Hedge,49,0,A,66,140300,,
 7.609,minusOne,Hedge,50,0,A,86,140300,,
+=======
+7.601349,minusOne,Trade,42,1,B,86,139900,,-1203
+7.604312,,Cancel,268708559,,,-1000,,,
+7.611061,minusOne,Hedge,44,0,A,66,140300,,
+7.611136,minusOne,Hedge,45,0,A,86,140300,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 7.61483,,Insert,268709623,0,B,1000,140200,G,
 7.617765,,Cancel,268701211,,,-780,,,
 7.619976,,Insert,268709727,0,A,1000,140400,G,
@@ -2222,9 +2361,15 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 7.714974,,Insert,7016949,1,A,10000,141000,G,
 7.714974,,Insert,7016950,1,B,10000,139800,G,
 7.715819,,Insert,268711495,0,B,8000,140000,G,
+<<<<<<< HEAD
 7.75,minusOne,Cancel,47,,,-8,,,
 7.75,minusOne,Insert,51,1,B,8,140000,G,
 7.75,minusOne,Insert,52,1,A,152,140600,G,
+=======
+7.758903,minusOne,Cancel,42,,,-8,,,
+7.758931,minusOne,Insert,46,1,B,8,140000,G,
+7.758975,minusOne,Insert,47,1,A,152,140600,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 7.780745,,Cancel,268703379,,,-1000,,,
 7.905703,,Insert,5096573,1,B,89,139800,G,
 7.988238,,Insert,268716423,0,B,500,115700,G,
@@ -2239,8 +2384,13 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 8.113726,,Insert,5096574,1,B,2,141000,G,
 8.161939,,Cancel,268709623,,,-1000,,,
 8.175289,,Insert,268721231,0,A,1000,140400,G,
+<<<<<<< HEAD
 8.203,minusOne,Cancel,51,,,-8,,,
 8.203,minusOne,Insert,53,1,B,8,140100,G,
+=======
+8.238157,minusOne,Cancel,46,,,-8,,,
+8.238226,minusOne,Insert,48,1,B,8,140100,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 8.245003,,Cancel,7016951,,,-10000,,,
 8.245003,,Cancel,7016952,,,-10000,,,
 8.245003,,Insert,7016953,1,A,10000,141000,G,
@@ -2288,6 +2438,8 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 8.396663,,Cancel,268727703,,,-1000,,,
 8.448217,,Insert,268728107,0,B,2000,140000,G,
 8.452421,,Insert,268728159,0,B,1000,138800,G,
+8.474395,minusOne,Cancel,48,,,-8,,,
+8.474425,minusOne,Insert,49,1,B,8,140000,G,
 8.482458,,Insert,268728751,0,A,1000,141900,G,
 8.492945,,Cancel,268703371,,,-1000,,,
 8.493022,,Cancel,268701075,,,-1000,,,
@@ -2360,6 +2512,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 8.659575,,Insert,268733555,0,B,2000,106400,G,
 8.66939,,Cancel,268733467,,,-1000,,,
 8.693104,,Insert,268733959,0,B,1000,139800,G,
+<<<<<<< HEAD
+=======
+8.711642,minusOne,Cancel,49,,,-8,,,
+8.711681,minusOne,Insert,50,1,B,8,140100,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 8.722421,,Insert,268734311,0,B,1000,138900,G,
 8.766098,,Insert,5096575,1,A,54,141900,G,
 8.840744,,Insert,268735991,0,A,2000,141700,G,
@@ -2480,10 +2637,13 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 9.692227,,Insert,268753171,0,A,1000,140900,G,
 9.708811,,Cancel,268752623,,,-1000,,,
 9.712378,,Cancel,268686939,,,-2000,,,
+<<<<<<< HEAD
 9.719,minusOne,Cancel,53,,,-8,,,
 9.719,minusOne,Cancel,52,,,-152,,,
 9.719,minusOne,Insert,54,1,B,8,140200,G,
 9.719,minusOne,Insert,55,1,A,152,140800,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 9.753662,,Cancel,268752775,,,-1000,,,
 9.753687,,Cancel,268704691,,,-1000,,,
 9.753687,,Cancel,268709095,,,-1000,,,
@@ -2538,6 +2698,8 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 9.788156,,Insert,7016963,1,A,10000,141000,G,
 9.788156,,Insert,7016964,1,B,10000,139800,G,
 9.80221,,Cancel,268755211,,,-1000,,,
+9.802611,minusOne,Cancel,47,,,-152,,,
+9.802654,minusOne,Insert,51,1,A,152,140700,G,
 9.836282,,Insert,268756007,0,A,2000,140800,G,
 9.862426,,Insert,268756407,0,B,1000,138900,G,
 9.922425,,Insert,268757503,0,A,1000,142000,G,
@@ -2744,6 +2906,8 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 10.232677,,Cancel,268768119,,,-1000,,,
 10.233911,,Cancel,268766983,,,-1000,,,
 10.233942,,Insert,268768731,0,B,1000,140400,G,
+10.235109,minusOne,Cancel,50,,,-8,,,
+10.236268,minusOne,Insert,52,1,B,8,140200,G,
 10.238377,,Cancel,268768599,,,-770,,,
 10.23838,,Insert,268768895,0,B,770,140400,G,
 10.242615,,Insert,268768983,0,A,20000,143000,G,
@@ -2776,8 +2940,13 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 10.325842,,Cancel,268770999,,,-8000,,,
 10.334971,,Insert,268771511,0,A,40000,143000,G,
 10.338705,,Insert,5096580,1,B,30,140900,G,
+<<<<<<< HEAD
 10.338705,minusOne,Trade,55,1,A,30,140800,,-422
 10.359,minusOne,Hedge,56,0,B,30,140533,,
+=======
+10.338705,minusOne,Trade,51,1,A,30,140700,,-422
+10.356271,minusOne,Hedge,53,0,B,30,140533,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 10.360991,,Cancel,268768987,,,-1000,,,
 10.372424,,Insert,268771887,0,B,1000,138900,G,
 10.388802,,Cancel,7016965,,,-10000,,,
@@ -2889,8 +3058,10 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 10.506552,,Cancel,268636699,,,-1000,,,
 10.506582,,Insert,268777071,0,A,1000,140800,G,
 10.50756,,Insert,268777091,0,A,1000,141700,G,
+10.515572,minusOne,Cancel,51,,,-122,,,
 10.515637,,Insert,268777279,0,B,1000,139000,G,
 10.51566,,Cancel,268776251,,,-1000,,,
+10.515692,minusOne,Insert,54,1,A,122,140900,G,
 10.532252,,Cancel,268617063,,,-1000,,,
 10.583563,,Cancel,268776739,,,-1000,,,
 10.59045,,Cancel,268776747,,,-1000,,,
@@ -3039,6 +3210,13 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 10.723429,,Insert,268785319,0,B,2000,139400,G,
 10.727203,,Cancel,268782943,,,-2000,,,
 10.728561,,Cancel,268785063,,,-1000,,,
+<<<<<<< HEAD
+=======
+10.733173,minusOne,Cancel,52,,,-8,,,
+10.734281,minusOne,Cancel,54,,,-122,,,
+10.734299,minusOne,Insert,55,1,B,38,140400,G,
+10.734346,minusOne,Insert,56,1,A,122,141000,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 10.758229,,Cancel,268784399,,,-1000,,,
 10.762419,,Insert,268785711,0,B,1000,139000,G,
 10.782957,,Insert,5096581,1,B,71,138700,G,
@@ -3076,6 +3254,10 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 10.994897,,Insert,268789455,0,B,1000,140500,G,
 10.994918,,Cancel,268784407,,,-1000,,,
 10.994921,,Cancel,268784151,,,-1000,,,
+10.997518,minusOne,Cancel,55,,,-38,,,
+10.99781,minusOne,Cancel,56,,,-122,,,
+10.997843,minusOne,Insert,57,1,B,38,140300,G,
+10.997904,minusOne,Insert,58,1,A,122,140900,G,
 10.999289,,Insert,268789547,0,B,1000,140200,G,
 10.999296,,Cancel,268785199,,,-1000,,,
 10.999313,,Insert,268789555,0,A,1000,170300,G,
@@ -3193,6 +3375,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 11.539373,,Cancel,268797971,,,-2000,,,
 11.539374,,Insert,268798891,0,B,2000,140100,G,
 11.54172,,Cancel,268798847,,,-8000,,,
+<<<<<<< HEAD
+=======
+11.544604,minusOne,Cancel,58,,,-122,,,
+11.544634,minusOne,Insert,59,1,A,122,140800,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 11.550387,,Cancel,268798887,,,-750,,,
 11.550411,,Insert,268799099,0,B,1000,139000,G,
 11.550834,,Insert,268799123,0,B,750,140500,G,
@@ -3245,6 +3432,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 11.749162,,Insert,268802123,0,A,1000,140800,G,
 11.749183,,Insert,268802127,0,A,1000,140700,G,
 11.749187,,Cancel,268800723,,,-1000,,,
+<<<<<<< HEAD
+=======
+11.75223,minusOne,Cancel,59,,,-122,,,
+11.752436,minusOne,Insert,60,1,A,122,140900,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 11.763028,,Insert,268802299,0,A,8000,140700,G,
 11.763311,,Cancel,268802119,,,-1000,,,
 11.765858,,Cancel,268802299,,,-8000,,,
@@ -3342,6 +3534,8 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 11.942036,,Insert,268806039,0,B,2000,140100,G,
 11.953419,,Insert,268806363,0,B,1000,140400,G,
 11.962417,,Insert,268806439,0,B,1000,139000,G,
+11.979961,minusOne,Cancel,57,,,-38,,,
+11.980045,minusOne,Insert,61,1,B,38,140200,G,
 11.988381,,Insert,268806703,0,B,2000,140300,G,
 11.990214,,Cancel,268804127,,,-8000,,,
 11.990214,,Cancel,268805519,,,-1000,,,
@@ -3422,7 +3616,9 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 12.221373,,Insert,268810539,0,B,1000,140500,G,
 12.23935,,Insert,268810875,0,A,1000,140800,G,
 12.239386,,Insert,268810879,0,A,8000,140700,G,
+12.265972,minusOne,Cancel,61,,,-38,,,
 12.265979,,Insert,5096583,1,A,55,140800,G,
+12.266001,minusOne,Insert,62,1,B,38,140300,G,
 12.276005,,Cancel,268806779,,,-770,,,
 12.276008,,Insert,268811287,0,A,770,140700,G,
 12.276008,,Insert,268811291,0,B,8000,140500,G,
@@ -3730,7 +3926,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 12.659542,,Cancel,268822223,,,-2000,,,
 12.70409,,Cancel,268825115,,,-1000,,,
 12.70453,,Insert,5096585,1,A,94,138000,G,
+<<<<<<< HEAD
 12.70453,minusOne,Trade,61,1,B,20,140300,,-281
+=======
+12.70453,minusOne,Trade,62,1,B,34,140300,,-477
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 12.713938,,Cancel,268819463,,,-8000,,,
 12.719,minusOne,Cancel,59,,,-20,,,
 12.719,minusOne,Insert,62,1,B,20,140200,G,
@@ -3755,14 +3955,17 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 12.734486,,Cancel,268826795,,,-1000,,,
 12.734568,,Cancel,268822219,,,-1000,,,
 12.734573,,Insert,268827023,0,B,1000,140500,G,
+12.734584,minusOne,Cancel,60,,,-122,,,
 12.734773,,Insert,268827047,0,B,2000,140300,G,
 12.734778,,Insert,268827055,0,B,8000,140500,G,
 12.734781,,Cancel,268824587,,,-2000,,,
 12.734783,,Cancel,268824591,,,-1000,,,
 12.734816,,Insert,268827067,0,B,1000,140000,G,
+12.735014,minusOne,Insert,63,1,A,122,140800,G,
 12.735059,,Insert,268827091,0,B,1000,140500,G,
 12.735117,,Insert,268827103,0,B,1000,140200,G,
 12.735143,,Cancel,268818355,,,-1000,,,
+12.735163,minusOne,Hedge,64,0,A,34,140500,,
 12.735225,,Insert,268827119,0,B,1000,140500,G,
 12.735263,,Insert,268827135,0,B,1000,140300,G,
 12.735552,,Cancel,268827135,,,-1000,,,
@@ -3828,9 +4031,16 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 12.971832,,Cancel,268833483,,,-1000,,,
 12.971854,,Cancel,268833415,,,-1000,,,
 12.982444,,Insert,268833707,0,A,1000,142200,G,
+<<<<<<< HEAD
 12.984,minusOne,Cancel,63,,,-20,,,
 12.984,minusOne,Insert,65,1,B,18,140400,G,
 12.984,minusOne,Insert,66,1,A,142,141000,G,
+=======
+13.001245,minusOne,Cancel,62,,,-4,,,
+13.001272,minusOne,Cancel,63,,,-122,,,
+13.001282,minusOne,Insert,65,1,B,4,140400,G,
+13.001348,minusOne,Insert,66,1,A,156,141000,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 13.095136,,Cancel,268828027,,,-1000,,,
 13.095159,,Cancel,268822127,,,-1000,,,
 13.100374,,Cancel,7016983,,,-10000,,,
@@ -3881,6 +4091,13 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 13.266495,,Insert,268837495,0,B,1000,140200,G,
 13.270255,,Cancel,268832875,,,-2000,,,
 13.270255,,Insert,268837611,0,B,2000,139400,G,
+<<<<<<< HEAD
+=======
+13.273139,minusOne,Cancel,65,,,-4,,,
+13.273414,minusOne,Cancel,66,,,-156,,,
+13.273439,minusOne,Insert,67,1,B,4,140300,G,
+13.273515,minusOne,Insert,68,1,A,156,140900,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 13.274448,,Insert,268837763,0,B,1000,140500,G,
 13.274483,,Insert,268837771,0,B,1000,140500,G,
 13.274582,,Cancel,268837763,,,-1000,,,
@@ -3987,6 +4204,7 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 13.450708,,Cancel,268841871,,,-8000,,,
 13.451848,,Cancel,268841891,,,-1000,,,
 13.454659,,Insert,5096587,1,A,79,137500,G,
+<<<<<<< HEAD
 13.454659,minusOne,Trade,67,1,B,18,140300,,-253
 13.469,minusOne,Cancel,68,,,-142,,,
 13.469,minusOne,Insert,69,1,B,18,140400,G,
@@ -3995,6 +4213,12 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 13.469,minusOne,Cancel,69,,,-18,,,
 13.483064,,Insert,268842751,0,A,2000,141000,G,
 13.483985,,Cancel,268837451,,,-2000,,,
+=======
+13.454659,minusOne,Trade,67,1,B,4,140300,,-56
+13.483064,,Insert,268842751,0,A,2000,141000,G,
+13.483985,,Cancel,268837451,,,-2000,,,
+13.493393,minusOne,Hedge,69,0,A,4,140500,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 13.522425,,Insert,268843675,0,B,1000,139000,G,
 13.522447,,Cancel,268839879,,,-1000,,,
 13.522448,,Cancel,268839595,,,-1000,,,
@@ -4138,7 +4362,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 13.566079,,Cancel,268847335,,,-760,,,
 13.577848,,Cancel,268845995,,,-1000,,,
 13.584039,,Insert,5096588,1,B,46,142900,G,
+<<<<<<< HEAD
 13.584039,minusOne,Trade,70,1,A,32,141000,,-451
+=======
+13.584039,minusOne,Trade,68,1,A,32,140900,,-451
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 13.58779,,Insert,5096589,1,B,76,140100,G,
 13.593953,,Insert,268848235,0,A,1000,140500,G,
 13.594452,,Insert,268848271,0,A,8000,140500,G,
@@ -4161,6 +4389,7 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 13.604378,,Cancel,268841519,,,-3000,,,
 13.604428,,Cancel,268752083,,,-2000,,,
 13.604447,,Cancel,268844679,,,-1000,,,
+13.604539,minusOne,Hedge,71,0,B,32,140400,,
 13.604574,,Cancel,268848919,,,-1000,,,
 13.604574,,Cancel,268848799,,,-1000,,,
 13.604731,,Insert,268849171,0,B,1000,140200,G,
@@ -4232,6 +4461,7 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 13.692993,,Insert,268851991,0,B,8000,140300,G,
 13.692996,,Insert,268851995,0,A,8000,140600,G,
 13.698073,,Cancel,7016987,,,-10000,,,
+<<<<<<< HEAD
 13.698073,,Cancel,7016988,,,-9939,,,
 13.698073,,Insert,7016989,1,A,10000,141000,G,
 13.698073,,Insert,7016990,1,B,10000,139800,G,
@@ -4239,6 +4469,15 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 13.719,minusOne,Cancel,70,,,-110,,,
 13.719,minusOne,Insert,73,1,B,20,140100,G,
 13.719,minusOne,Insert,74,1,A,20,140700,G,
+=======
+13.698073,,Cancel,7016988,,,-9925,,,
+13.698073,,Insert,7016989,1,A,10000,141000,G,
+13.698073,,Insert,7016990,1,B,10000,139800,G,
+13.708513,,Cancel,268844135,,,-90,,,
+13.720979,minusOne,Cancel,68,,,-124,,,
+13.721061,minusOne,Insert,72,1,B,32,140100,G,
+13.721127,minusOne,Insert,73,1,A,128,140700,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 13.72798,,Cancel,268851467,,,-1000,,,
 13.752818,,Insert,268852699,0,A,2000,141800,G,
 13.772283,,Insert,268852931,0,B,120,140300,G,
@@ -4432,10 +4671,17 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 14.19003,,Cancel,268863883,,,-1000,,,
 14.190055,,Insert,268865243,0,A,1000,170200,G,
 14.19118,,Cancel,268847683,,,-1000,,,
+<<<<<<< HEAD
 14.25,minusOne,Cancel,73,,,-20,,,
 14.25,minusOne,Cancel,74,,,-20,,,
 14.25,minusOne,Insert,75,1,B,20,140200,G,
 14.265,minusOne,Insert,76,1,A,20,140800,G,
+=======
+14.240427,minusOne,Cancel,72,,,-32,,,
+14.240455,minusOne,Cancel,73,,,-128,,,
+14.240468,minusOne,Insert,74,1,B,32,140200,G,
+14.240505,minusOne,Insert,75,1,A,128,140800,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 14.270372,,Cancel,268844007,,,-770,,,
 14.270402,,Insert,268867023,0,B,1000,140400,G,
 14.271468,,Cancel,268867023,,,-1000,,,
@@ -4503,7 +4749,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 14.670868,,Insert,268873159,0,B,1000,140400,G,
 14.714235,,Insert,268873915,0,B,1000,140400,G,
 14.762497,,Insert,5096593,1,B,33,143200,G,
+<<<<<<< HEAD
 14.762497,minusOne,Trade,76,1,A,20,140800,,-282
+=======
+14.762497,minusOne,Trade,75,1,A,33,140800,,-465
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 14.765723,,Cancel,268862319,,,-1000,,,
 14.765723,,Cancel,268862323,,,-1000,,,
 14.765749,,Cancel,268865243,,,-1000,,,
@@ -4552,12 +4802,20 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 14.768687,,Cancel,268847443,,,-1000,,,
 14.773523,,Cancel,268875567,,,-760,,,
 14.793386,,Cancel,268875203,,,-1000,,,
+<<<<<<< HEAD
+=======
+14.808803,minusOne,Hedge,76,0,B,33,140700,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 14.812469,,Insert,268876471,0,A,1000,142200,G,
 14.828,minusOne,Hedge,77,0,B,20,140700,,
 14.85563,,Cancel,268876471,,,-1000,,,
 14.859494,,Cancel,268875471,,,-2000,,,
 14.871857,,Insert,268877439,0,A,2000,141900,G,
+<<<<<<< HEAD
 14.891008,,Cancel,7016995,,,-9987,,,
+=======
+14.891008,,Cancel,7016995,,,-10000,,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 14.891008,,Cancel,7016996,,,-10000,,,
 14.891008,,Insert,7016997,1,A,10000,141200,G,
 14.891008,,Insert,7016998,1,B,10000,140000,G,
@@ -4615,6 +4873,10 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 15.048325,,Insert,268880351,0,B,8000,140300,G,
 15.048328,,Insert,268880355,0,B,1000,140400,G,
 15.048367,,Insert,268880359,0,B,8000,140400,G,
+15.050957,minusOne,Cancel,74,,,-32,,,
+15.052151,minusOne,Cancel,75,,,-95,,,
+15.052215,minusOne,Insert,77,1,B,50,140300,G,
+15.052264,minusOne,Insert,78,1,A,50,140900,G,
 15.060168,,Cancel,268879419,,,-760,,,
 15.060192,,Cancel,268875103,,,-1000,,,
 15.060913,,Cancel,268879839,,,-1000,,,
@@ -4665,6 +4927,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 15.246773,,Cancel,268878599,,,-1000,,,
 15.247689,,Insert,268883859,0,B,2000,139500,G,
 15.247713,,Insert,268883867,0,B,1000,110800,G,
+<<<<<<< HEAD
+=======
+15.25372,minusOne,Cancel,78,,,-50,,,
+15.253845,minusOne,Insert,79,1,A,50,140800,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 15.259985,,Insert,268883935,0,B,1000,140500,G,
 15.260009,,Cancel,268883859,,,-2000,,,
 15.260023,,Insert,268883939,0,B,3000,140300,G,
@@ -4725,8 +4992,13 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 15.387187,,Cancel,268885971,,,-1000,,,
 15.458206,,Insert,5096597,1,B,13,142000,G,
 15.463498,,Insert,268886731,0,B,1000,140400,G,
+<<<<<<< HEAD
 15.484,minusOne,Cancel,78,,,-20,,,
 15.484,minusOne,Insert,81,1,B,20,140200,G,
+=======
+15.477363,minusOne,Cancel,77,,,-50,,,
+15.477522,minusOne,Insert,80,1,B,50,140200,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 15.487168,,Cancel,268886731,,,-1000,,,
 15.493977,,Cancel,7016999,,,-10000,,,
 15.493977,,Cancel,7017000,,,-10000,,,
@@ -4819,6 +5091,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 15.754892,,Insert,268891803,0,A,20000,143000,G,
 15.758423,,Cancel,268859531,,,-760,,,
 15.768018,,Insert,268892015,0,A,20000,143000,G,
+<<<<<<< HEAD
+=======
+15.77892,minusOne,Cancel,79,,,-50,,,
+15.779077,minusOne,Insert,81,1,A,50,140700,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 15.826552,,Cancel,7017001,,,-10000,,,
 15.826552,,Cancel,7017002,,,-10000,,,
 15.826552,,Insert,7017003,1,A,10000,141000,G,
@@ -4908,6 +5185,10 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 15.937462,,Cancel,268900171,,,-8000,,,
 15.946138,,Insert,268902987,0,B,8000,140300,G,
 15.948928,,Cancel,268902987,,,-8000,,,
+15.955198,minusOne,Cancel,80,,,-50,,,
+15.955362,minusOne,Cancel,81,,,-50,,,
+15.955404,minusOne,Insert,82,1,B,50,140100,G,
+15.955457,minusOne,Insert,83,1,A,50,140600,G,
 15.960078,,Insert,268903395,0,B,8000,140300,G,
 15.961263,,Cancel,268892891,,,-1000,,,
 15.961285,,Cancel,268892903,,,-1000,,,
@@ -4935,10 +5216,13 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 15.990451,,Insert,268904963,0,A,1000,140500,G,
 15.990604,,Cancel,268904563,,,-1000,,,
 16.012432,,Insert,268905459,0,B,1000,138800,G,
+<<<<<<< HEAD
 16.015,minusOne,Cancel,81,,,-20,,,
 16.015,minusOne,Cancel,82,,,-20,,,
 16.015,minusOne,Insert,83,1,B,20,140100,G,
 16.015,minusOne,Insert,84,1,A,20,140600,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 16.030038,,Insert,268906043,0,A,1000,140400,G,
 16.030097,,Cancel,268906043,,,-1000,,,
 16.043921,,Insert,268906307,0,A,8000,140500,G,
@@ -5249,6 +5533,8 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 17.765395,,Insert,268946519,0,B,20,140300,G,
 17.765921,,Cancel,268946519,,,-20,,,
 17.765921,,Insert,268946531,0,B,20,140400,G,
+17.770961,minusOne,Cancel,83,,,-50,,,
+17.771364,minusOne,Insert,84,1,A,50,140700,G,
 17.774613,,Cancel,268944215,,,-1000,,,
 17.77462,,Cancel,268946355,,,-1000,,,
 17.774634,,Cancel,268923407,,,-1000,,,
@@ -5388,6 +5674,8 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 18.16471,,Cancel,268954095,,,-1000,,,
 18.175173,,Insert,268954183,0,A,20000,143000,G,
 18.175354,,Insert,5096604,1,A,45,137200,G,
+18.215064,minusOne,Cancel,82,,,-50,,,
+18.215086,minusOne,Insert,85,1,B,50,140200,G,
 18.234311,,Cancel,7017017,,,-10000,,,
 18.234311,,Cancel,7017018,,,-10000,,,
 18.234311,,Insert,7017019,1,A,10000,141000,G,
@@ -5492,6 +5780,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 18.526825,,Insert,268959467,0,B,1000,140300,G,
 18.527611,,Insert,268959539,0,B,1000,140000,G,
 18.52794,,Cancel,268959539,,,-1000,,,
+<<<<<<< HEAD
+=======
+18.551482,minusOne,Cancel,85,,,-50,,,
+18.551509,minusOne,Insert,86,1,B,50,140100,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 18.56598,,Cancel,268959447,,,-8000,,,
 18.679357,,Insert,268961419,0,A,1000,140500,G,
 18.679394,,Insert,268961459,0,A,8000,140500,G,
@@ -5673,7 +5966,12 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 19.480326,,Cancel,268957431,,,-1000,,,
 19.484,minusOne,Cancel,87,,,-20,,,
 19.487495,,Insert,268980231,0,A,8000,140500,G,
+<<<<<<< HEAD
 19.5,minusOne,Insert,88,1,A,20,140600,G,
+=======
+19.488126,minusOne,Cancel,84,,,-50,,,
+19.488666,minusOne,Insert,87,1,A,50,140600,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 19.515247,,Insert,268980979,0,A,1000,140500,G,
 19.515274,,Cancel,268979535,,,-1000,,,
 19.518623,,Cancel,268979439,,,-8000,,,
@@ -5924,6 +6222,12 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 20.468806,,Insert,269009067,0,B,8000,140400,G,
 20.468855,,Cancel,269009067,,,-8000,,,
 20.476026,,Insert,269009231,0,B,8000,140400,G,
+20.478068,minusOne,Cancel,86,,,-50,,,
+20.478553,minusOne,Cancel,87,,,-50,,,
+20.478578,minusOne,Insert,88,1,B,50,140200,G,
+20.478578,minusOne,Trade,88,1,B,7,140200,,196
+20.47867,minusOne,Insert,89,1,A,50,140800,G,
+20.478723,minusOne,Hedge,90,0,A,7,140400,,
 20.479332,,Cancel,269008031,,,-1000,,,
 20.479365,,Cancel,269007959,,,-8000,,,
 20.479699,,Insert,269009327,0,A,1000,140600,G,
@@ -6017,10 +6321,13 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 20.695807,,Cancel,269013663,,,-2000,,,
 20.69583,,Insert,269014063,0,A,1000,170100,G,
 20.707747,,Cancel,269012291,,,-1000,,,
+<<<<<<< HEAD
 20.734,minusOne,Cancel,89,,,-13,,,
 20.734,minusOne,Cancel,90,,,-20,,,
 20.734,minusOne,Insert,92,1,B,20,140100,G,
 20.734,minusOne,Insert,93,1,A,20,140700,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 20.74104,,Cancel,269012799,,,-1000,,,
 20.741044,,Insert,269014651,0,B,1000,140400,G,
 20.741068,,Cancel,269013343,,,-1000,,,
@@ -6047,6 +6354,8 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 20.749152,,Cancel,269014691,,,-8000,,,
 20.759534,,Cancel,269014651,,,-1000,,,
 20.764229,,Insert,269015323,0,A,20000,143000,G,
+20.76591,minusOne,Cancel,89,,,-50,,,
+20.76599,minusOne,Insert,91,1,A,50,140700,G,
 20.782427,,Insert,269015627,0,A,1000,142000,G,
 20.839704,,Cancel,269014655,,,-2000,,,
 20.839765,,Cancel,269000651,,,-1000,,,
@@ -6155,6 +6464,8 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 20.97524,,Cancel,269020223,,,-1000,,,
 20.975738,,Insert,269020471,0,A,1000,140900,G,
 20.979847,,Insert,269020491,0,A,1000,140500,G,
+20.994517,minusOne,Cancel,88,,,-43,,,
+20.994913,minusOne,Insert,92,1,B,50,140100,G,
 20.997861,,Cancel,269003371,,,-1000,,,
 21.001721,,Insert,269020795,0,B,1000,138800,G,
 21.018806,,Insert,269020951,0,A,1000,140700,G,
@@ -6221,6 +6532,10 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 21.199731,,Insert,7017039,1,A,10000,141000,G,
 21.199731,,Insert,7017040,1,B,10000,139800,G,
 21.209237,,Cancel,269025671,,,-1000,,,
+21.243031,minusOne,Cancel,92,,,-50,,,
+21.243111,minusOne,Cancel,91,,,-50,,,
+21.243133,minusOne,Insert,93,1,B,50,140000,G,
+21.243192,minusOne,Insert,94,1,A,50,140600,G,
 21.246092,,Cancel,269025911,,,-1000,,,
 21.24614,,Cancel,269025639,,,-1000,,,
 21.246269,,Insert,269027187,0,B,8000,140200,G,
@@ -6430,6 +6745,8 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 21.703,minusOne,Insert,96,1,A,20,140500,G,
 21.712419,,Insert,269037023,0,A,1000,141800,G,
 21.712445,,Insert,269037027,0,A,1000,184600,G,
+21.735324,minusOne,Cancel,94,,,-50,,,
+21.735493,minusOne,Insert,95,1,A,50,140500,G,
 21.755846,,Insert,269037623,0,A,580,142500,G,
 21.774887,,Insert,269037815,0,A,2000,140600,G,
 21.778838,,Cancel,7017041,,,-10000,,,
@@ -6836,12 +7153,19 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 22.17165,,Insert,269054035,0,B,2000,139800,G,
 22.183308,,Cancel,269053891,,,-1000,,,
 22.18332,,Insert,269054303,0,A,1000,140200,G,
+<<<<<<< HEAD
 22.219,minusOne,Cancel,94,,,-20,,,
 22.219,minusOne,Cancel,96,,,-20,,,
 22.219,minusOne,Insert,97,1,B,20,139800,G,
 22.219,minusOne,Insert,98,1,A,20,140400,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 22.24501,,Insert,269056319,0,A,2000,140500,G,
 22.252416,,Cancel,269053147,,,-1000,,,
+22.254708,minusOne,Cancel,93,,,-50,,,
+22.254736,minusOne,Cancel,95,,,-50,,,
+22.254755,minusOne,Insert,96,1,B,50,139800,G,
+22.254835,minusOne,Insert,97,1,A,50,140400,G,
 22.263394,,Insert,269056579,0,A,1000,140200,G,
 22.263394,,Insert,269056583,0,A,1000,140200,G,
 22.263434,,Cancel,269054027,,,-1000,,,
@@ -6960,8 +7284,13 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 22.45974,,Cancel,269063119,,,-2000,,,
 22.45974,,Insert,269063131,0,B,2000,106100,G,
 22.459887,,Cancel,269063103,,,-1000,,,
+<<<<<<< HEAD
 22.469,minusOne,Cancel,98,,,-20,,,
 22.469,minusOne,Insert,99,1,A,20,140300,G,
+=======
+22.464204,minusOne,Cancel,97,,,-50,,,
+22.464476,minusOne,Insert,98,1,A,50,140300,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 22.520098,,Insert,269064907,0,A,2000,140400,G,
 22.520132,,Insert,269064931,0,A,790,140100,G,
 22.520183,,Cancel,269059343,,,-1000,,,
@@ -7260,10 +7589,13 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 22.951349,,Insert,269078963,0,B,1000,95600,G,
 22.963942,,Insert,269079379,0,A,1000,140600,G,
 22.964645,,Insert,269079387,0,B,1000,138400,G,
+<<<<<<< HEAD
 22.969,minusOne,Cancel,97,,,-20,,,
 22.969,minusOne,Cancel,99,,,-20,,,
 22.969,minusOne,Insert,100,1,B,20,139700,G,
 22.969,minusOne,Insert,101,1,A,20,140200,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 22.999311,,Insert,269080179,0,A,2000,140300,G,
 22.9996,,Cancel,269067719,,,-1000,,,
 22.999843,,Insert,269080223,0,B,1000,139800,G,
@@ -7278,6 +7610,7 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 23.038699,,Cancel,269067811,,,-1000,,,
 23.038784,,Cancel,269074163,,,-2000,,,
 23.038784,,Insert,269081295,0,B,2000,105900,G,
+23.03918,minusOne,Cancel,96,,,-50,,,
 23.039284,,Insert,269081347,0,B,8000,139900,G,
 23.039363,,Cancel,269071287,,,-1000,,,
 23.039363,,Insert,269081359,0,A,1000,140000,G,
@@ -7285,6 +7618,9 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 23.039364,,Insert,269081363,0,B,2000,106000,G,
 23.039413,,Cancel,269081271,,,-1000,,,
 23.03942,,Insert,269081367,0,B,1000,139800,G,
+23.039554,minusOne,Cancel,98,,,-50,,,
+23.039736,minusOne,Insert,99,1,B,50,139700,G,
+23.039786,minusOne,Insert,100,1,A,50,140200,G,
 23.040516,,Cancel,269081347,,,-8000,,,
 23.040582,,Cancel,269081359,,,-1000,,,
 23.040744,,Insert,269081463,0,A,770,140000,G,
@@ -7571,6 +7907,13 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 23.281669,,Cancel,269094887,,,-1000,,,
 23.287093,,Insert,269095303,0,A,1250,385000,G,
 23.291634,,Insert,269095415,0,A,1000,305000,G,
+<<<<<<< HEAD
+=======
+23.294948,minusOne,Cancel,99,,,-50,,,
+23.294973,minusOne,Cancel,100,,,-50,,,
+23.294986,minusOne,Insert,101,1,B,50,139500,G,
+23.295035,minusOne,Insert,102,1,A,50,140100,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 23.30151,,Cancel,7017051,,,-10000,,,
 23.30151,,Cancel,7017052,,,-10000,,,
 23.30151,,Insert,7017053,1,A,10000,140400,G,
@@ -7636,8 +7979,13 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 23.438658,,Cancel,269098655,,,-760,,,
 23.439009,,Insert,269100503,0,B,760,139800,G,
 23.439061,,Insert,269100507,0,B,1000,138300,G,
+<<<<<<< HEAD
 23.453,minusOne,Cancel,102,,,-20,,,
 23.453,minusOne,Insert,104,1,B,20,139600,G,
+=======
+23.468203,minusOne,Cancel,101,,,-50,,,
+23.468233,minusOne,Insert,103,1,B,50,139600,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 23.483105,,Insert,269101091,0,A,2000,141100,G,
 23.483129,,Cancel,269062643,,,-1000,,,
 23.537596,,Cancel,269091431,,,-2000,,,
@@ -7716,15 +8064,24 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 23.761327,,Insert,269109675,0,A,2000,140000,G,
 23.761698,,Insert,269109695,0,A,1000,140200,G,
 23.761977,,Insert,269109723,0,A,1000,140400,G,
+23.766019,minusOne,Cancel,103,,,-50,,,
+23.766237,minusOne,Insert,104,1,B,50,139500,G,
 23.802816,,Insert,269110619,0,B,750,139700,G,
 23.80282,,Insert,269110623,0,B,8000,139700,G,
 23.803057,,Cancel,269105879,,,-1000,,,
 23.80312,,Cancel,269107663,,,-1000,,,
 23.818676,,Insert,5096615,1,B,22,140600,G,
+<<<<<<< HEAD
 23.818676,minusOne,Trade,103,1,A,20,140100,,-280
 23.857746,,Cancel,269058759,,,-1000,,,
 23.858646,,Insert,269111683,0,A,1000,160800,G,
 23.875,minusOne,Hedge,105,0,B,20,139900,,
+=======
+23.818676,minusOne,Trade,102,1,A,22,140100,,-308
+23.847877,minusOne,Hedge,105,0,B,22,139900,,
+23.857746,,Cancel,269058759,,,-1000,,,
+23.858646,,Insert,269111683,0,A,1000,160800,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 23.879115,,Cancel,269107703,,,-750,,,
 23.879115,,Cancel,269107651,,,-1000,,,
 23.879124,,Insert,269112011,0,B,1000,139700,G,
@@ -7849,7 +8206,12 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 23.961269,,Cancel,269113327,,,-1000,,,
 24.022422,,Insert,269116035,0,B,1000,138300,G,
 24.022444,,Cancel,269109551,,,-1000,,,
+<<<<<<< HEAD
 24.047,minusOne,Insert,106,1,A,20,140100,G,
+=======
+24.051062,minusOne,Cancel,104,,,-50,,,
+24.051181,minusOne,Insert,106,1,B,50,139600,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 24.05135,,Cancel,269113215,,,-1000,,,
 24.056614,,Insert,269117747,0,B,1000,139500,G,
 24.056638,,Insert,269117751,0,B,1000,110200,G,
@@ -8262,13 +8624,22 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 26.561041,,Insert,269170127,0,A,1000,139900,G,
 26.561094,,Cancel,269169159,,,-1000,,,
 26.583764,,Insert,5096617,1,B,69,141700,G,
+<<<<<<< HEAD
 26.583764,minusOne,Trade,106,1,A,20,140100,,-280
+=======
+26.583764,minusOne,Trade,102,1,A,28,140100,,-392
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 26.585961,,Cancel,7017073,,,-10000,,,
 26.585961,,Cancel,7017074,,,-10000,,,
 26.585961,,Insert,7017075,1,A,10000,140400,G,
 26.585961,,Insert,7017076,1,B,10000,139200,G,
+<<<<<<< HEAD
 26.602425,,Insert,269170831,0,B,1000,138300,G,
 26.625,minusOne,Hedge,107,0,B,20,139900,,
+=======
+26.595101,minusOne,Hedge,107,0,B,28,139900,,
+26.602425,,Insert,269170831,0,B,1000,138300,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 26.670748,,Cancel,269170115,,,-8000,,,
 26.672048,,Cancel,269164167,,,-1000,,,
 26.672053,,Insert,269171587,0,A,1000,139900,G,
@@ -8303,6 +8674,10 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 26.738888,,Cancel,269167307,,,-1000,,,
 26.739896,,Insert,269173147,0,B,1000,139600,G,
 26.746865,,Cancel,269171635,,,-1000,,,
+<<<<<<< HEAD
+=======
+26.756143,minusOne,Insert,108,1,A,50,140100,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 26.774885,,Insert,269173767,0,B,2000,139500,G,
 26.792093,,Cancel,269173147,,,-1000,,,
 26.797,minusOne,Insert,108,1,A,20,140100,G,
@@ -8676,11 +9051,19 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 27.682443,,Insert,269189459,0,A,1000,141300,G,
 27.686912,,Insert,5096619,1,B,10,139100,G,
 27.697465,,Cancel,269187607,,,-1000,,,
+<<<<<<< HEAD
 27.736086,,Insert,269190267,0,B,8000,139400,G,
 27.75,minusOne,Cancel,104,,,-20,,,
 27.75,minusOne,Cancel,108,,,-20,,,
 27.75,minusOne,Insert,109,1,B,20,139500,G,
 27.75,minusOne,Insert,110,1,A,20,140000,G,
+=======
+27.715849,minusOne,Cancel,106,,,-50,,,
+27.715874,minusOne,Cancel,108,,,-50,,,
+27.715906,minusOne,Insert,109,1,B,50,139500,G,
+27.715961,minusOne,Insert,110,1,A,50,140000,G,
+27.736086,,Insert,269190267,0,B,8000,139400,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 27.77339,,Insert,6227067,0,A,300,139700,F,
 27.773418,,Insert,269190879,0,A,1000,139800,G,
 27.773466,,Cancel,269189023,,,-1000,,,
@@ -8809,13 +9192,21 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 27.949034,,Insert,269193839,0,B,8000,139700,G,
 27.949084,,Insert,269193851,0,B,1000,139500,G,
 27.952566,,Cancel,269193839,,,-8000,,,
+<<<<<<< HEAD
 27.953,minusOne,Cancel,110,,,-20,,,
 27.953,minusOne,Insert,111,1,A,20,140100,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 27.959468,,Cancel,269193851,,,-1000,,,
 27.988024,,Insert,269194283,0,A,2000,141100,G,
 27.988046,,Cancel,269191839,,,-1000,,,
 27.988048,,Cancel,269191855,,,-1000,,,
 27.98805,,Cancel,269191851,,,-1000,,,
+<<<<<<< HEAD
+=======
+28.010071,minusOne,Cancel,110,,,-50,,,
+28.010105,minusOne,Insert,111,1,A,50,140100,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 28.012447,,Insert,269194495,0,A,1000,141400,G,
 28.012475,,Insert,269194503,0,B,1000,110100,G,
 28.012498,,Insert,269194507,0,A,1000,169500,G,
@@ -8870,11 +9261,19 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 28.140352,,Cancel,269196183,,,-1000,,,
 28.140358,,Insert,269196347,0,A,1000,140000,G,
 28.140375,,Insert,5096621,1,B,93,140100,G,
+<<<<<<< HEAD
 28.140375,minusOne,Trade,111,1,A,20,140100,,-280
 28.140804,,Cancel,269196175,,,-1490,,,
 28.141213,,Insert,269196411,0,A,2000,140200,G,
 28.141495,,Cancel,269196147,,,-8000,,,
 28.156,minusOne,Hedge,112,0,B,20,139900,,
+=======
+28.140375,minusOne,Trade,111,1,A,50,140100,,-700
+28.140804,,Cancel,269196175,,,-1490,,,
+28.141213,,Insert,269196411,0,A,2000,140200,G,
+28.141495,,Cancel,269196147,,,-8000,,,
+28.149753,minusOne,Hedge,112,0,B,50,139900,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 28.157618,,Insert,269196787,0,B,8000,139800,G,
 28.157632,,Cancel,269196411,,,-2000,,,
 28.160343,,Cancel,269167383,,,-8000,,,
@@ -8889,11 +9288,19 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 28.205837,,Cancel,269195927,,,-710,,,
 28.206501,,Insert,269197627,0,B,1000,139500,G,
 28.206794,,Cancel,269197627,,,-1000,,,
+<<<<<<< HEAD
 28.234,minusOne,Cancel,109,,,-20,,,
 28.234,minusOne,Insert,113,1,B,20,139600,G,
 28.234,minusOne,Insert,114,1,A,20,140100,G,
 28.234,minusOne,Trade,114,1,A,20,140100,,560
 28.234,minusOne,Hedge,115,0,B,20,139900,,
+=======
+28.250405,minusOne,Cancel,109,,,-50,,,
+28.250469,minusOne,Insert,113,1,B,158,139600,G,
+28.250515,minusOne,Insert,114,1,A,2,140100,G,
+28.250515,minusOne,Trade,114,1,A,2,140100,,56
+28.25069,minusOne,Hedge,115,0,B,2,139900,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 28.282419,,Insert,269198471,0,B,1000,138300,G,
 28.31244,,Insert,269198807,0,A,1000,141400,G,
 28.363109,,Cancel,269196247,,,-1000,,,
@@ -8929,6 +9336,8 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 28.410727,,Insert,269199627,0,B,2000,138600,G,
 28.410754,,Cancel,269199543,,,-1000,,,
 28.436078,,Insert,269199951,0,B,1000,139500,G,
+28.455232,minusOne,Cancel,113,,,-158,,,
+28.45526,minusOne,Insert,116,1,B,160,139500,G,
 28.474014,,Cancel,269199267,,,-1000,,,
 28.474017,,Insert,269200283,0,B,1000,139800,G,
 28.474044,,Cancel,269199235,,,-2000,,,
@@ -8941,9 +9350,12 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 28.474498,,Insert,269200335,0,B,1000,139800,G,
 28.474669,,Cancel,269200319,,,-700,,,
 28.482204,,Cancel,269200323,,,-8000,,,
+<<<<<<< HEAD
 28.5,minusOne,Insert,116,1,A,20,140100,G,
 28.5,minusOne,Trade,116,1,A,20,140100,,560
 28.5,minusOne,Hedge,117,0,B,20,139900,,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 28.516622,,Cancel,269199951,,,-1000,,,
 28.516644,,Cancel,269199243,,,-1000,,,
 28.516645,,Cancel,269199247,,,-1000,,,
@@ -9199,6 +9611,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 28.75,minusOne,Hedge,120,0,B,15,139700,,
 28.762416,,Cancel,269198807,,,-1000,,,
 28.762465,,Insert,269206779,0,A,1000,141300,G,
+<<<<<<< HEAD
+=======
+28.782836,minusOne,Cancel,116,,,-160,,,
+28.783035,minusOne,Insert,118,1,B,160,139400,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 28.849934,,Cancel,269204971,,,-1000,,,
 28.849955,,Cancel,269203227,,,-1000,,,
 28.849956,,Cancel,269200875,,,-1000,,,
@@ -9422,6 +9839,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 29.182495,,Insert,269218027,0,B,1000,138200,G,
 29.212423,,Cancel,269218027,,,-1000,,,
 29.212431,,Insert,269218435,0,B,1000,138300,G,
+<<<<<<< HEAD
+=======
+29.226112,minusOne,Cancel,118,,,-160,,,
+29.226231,minusOne,Insert,121,1,B,160,139600,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 29.242459,,Insert,269218923,0,A,1000,141500,G,
 29.25,minusOne,Cancel,118,,,-145,,,
 29.25,minusOne,Insert,122,1,B,160,139600,G,
@@ -9458,7 +9880,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 29.289192,,Cancel,269219779,,,-680,,,
 29.289209,,Insert,269219787,0,A,1000,141500,G,
 29.296421,,Insert,269219903,0,A,1000,140200,G,
+<<<<<<< HEAD
 29.313778,,Cancel,7017091,,,-9957,,,
+=======
+29.313778,,Cancel,7017091,,,-9964,,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 29.313778,,Cancel,7017092,,,-10000,,,
 29.313778,,Insert,7017093,1,A,10000,140400,G,
 29.313778,,Insert,7017094,1,B,10000,139200,G,
@@ -9628,6 +10054,8 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 29.485587,,Insert,269233639,0,A,1000,169700,G,
 29.506839,,Cancel,269232447,,,-2000,,,
 29.516628,,Insert,5096625,1,B,5,140500,G,
+29.523019,minusOne,Cancel,121,,,-160,,,
+29.523079,minusOne,Insert,123,1,B,160,139800,G,
 29.536909,,Insert,269234735,0,A,8000,140200,G,
 29.536935,,Insert,269234751,0,A,2000,141100,G,
 29.536935,,Cancel,269216991,,,-1000,,,
@@ -10248,6 +10676,8 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 30.742447,,Insert,269271971,0,A,1000,141600,G,
 30.753862,,Cancel,269267971,,,-1000,,,
 30.761934,,Cancel,269270923,,,-680,,,
+30.766876,minusOne,Cancel,123,,,-160,,,
+30.766927,minusOne,Insert,129,1,B,160,139700,G,
 30.771452,,Insert,5096629,1,A,114,139800,G,
 30.77789,,Insert,269272539,0,A,2000,141300,G,
 30.777936,,Insert,269272543,0,B,680,139900,G,
@@ -10670,8 +11100,13 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 32.027717,,Insert,269306215,0,B,1000,139500,G,
 32.027718,,Cancel,269255499,,,-1000,,,
 32.027725,,Insert,269306219,0,A,1000,140600,G,
+<<<<<<< HEAD
 32.047,minusOne,Cancel,130,,,-160,,,
 32.047,minusOne,Insert,136,1,B,160,139800,G,
+=======
+32.038967,minusOne,Cancel,129,,,-160,,,
+32.040988,minusOne,Insert,135,1,B,160,139800,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 32.054596,,Cancel,269305347,,,-8000,,,
 32.054638,,Insert,269307091,0,A,1000,141800,G,
 32.054661,,Insert,269307095,0,A,8000,140300,G,
@@ -10750,9 +11185,15 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 32.199642,,Insert,269315187,0,A,1000,140500,G,
 32.20238,,Cancel,269315187,,,-1000,,,
 32.212428,,Cancel,269305139,,,-1000,,,
+<<<<<<< HEAD
 32.25,minusOne,Cancel,136,,,-160,,,
 32.25,minusOne,Insert,138,1,B,160,140000,G,
 32.260801,,Insert,269316535,0,A,2000,141500,G,
+=======
+32.260801,,Insert,269316535,0,A,2000,141500,G,
+32.274188,minusOne,Cancel,135,,,-160,,,
+32.274263,minusOne,Insert,137,1,B,160,140000,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 32.274576,,Cancel,269306055,,,-1400,,,
 32.274576,,Insert,269317043,0,A,1400,140400,G,
 32.283037,,Cancel,7017111,,,-10000,,,
@@ -10824,6 +11265,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 32.502291,,Cancel,269305363,,,-1000,,,
 32.518028,,Insert,269324031,0,B,680,140100,G,
 32.518082,,Cancel,269323059,,,-8000,,,
+<<<<<<< HEAD
+=======
+32.546093,minusOne,Cancel,137,,,-160,,,
+32.546119,minusOne,Insert,139,1,B,160,139900,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 32.555323,,Insert,269324499,0,B,1000,138600,G,
 32.55541,,Cancel,269324499,,,-1000,,,
 32.55921,,Insert,269324567,0,B,1000,140100,G,
@@ -11031,8 +11477,13 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 32.926347,,Insert,269337267,0,B,8000,140000,G,
 32.926395,,Cancel,269337239,,,-1000,,,
 32.926542,,Insert,269337307,0,B,1000,140000,G,
+<<<<<<< HEAD
 32.969,minusOne,Cancel,140,,,-160,,,
 32.969,minusOne,Insert,143,1,B,160,139800,G,
+=======
+32.972086,minusOne,Cancel,139,,,-160,,,
+32.97212,minusOne,Insert,142,1,B,160,139800,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 32.979281,,Insert,269337787,0,B,1000,138600,G,
 32.981948,,Cancel,269336363,,,-1000,,,
 32.981975,,Insert,269337887,0,B,2000,139900,G,
@@ -11337,6 +11788,8 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 33.498722,,Insert,7017122,1,B,10000,139600,G,
 33.511912,,Cancel,269352303,,,-1000,,,
 33.511934,,Cancel,269347647,,,-1000,,,
+33.535733,minusOne,Cancel,142,,,-160,,,
+33.535827,minusOne,Insert,145,1,B,160,139900,G,
 33.540356,,Cancel,269352315,,,-1000,,,
 33.540381,,Insert,269353267,0,A,1000,184500,G,
 33.660559,,Cancel,269351047,,,-650,,,
@@ -11387,6 +11840,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 33.763628,,Insert,269357275,0,A,2000,141500,G,
 33.763632,,Insert,269357279,0,B,660,140100,G,
 33.764578,,Cancel,269356959,,,-2000,,,
+<<<<<<< HEAD
+=======
+33.773953,minusOne,Cancel,145,,,-160,,,
+33.774153,minusOne,Insert,147,1,B,160,139800,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 33.77621,,Cancel,7017121,,,-10000,,,
 33.77621,,Cancel,7017122,,,-10000,,,
 33.77621,,Insert,7017123,1,A,10000,140800,G,
@@ -11415,6 +11873,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 34.004765,,Cancel,269348151,,,-2000,,,
 34.004774,,Cancel,269346927,,,-3000,,,
 34.038072,,Cancel,269251747,,,-1000,,,
+<<<<<<< HEAD
+=======
+34.051668,minusOne,Cancel,147,,,-160,,,
+34.051694,minusOne,Insert,149,1,B,160,139900,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 34.071464,,Cancel,269345571,,,-1000,,,
 34.086106,,Insert,269363003,0,B,1000,139800,G,
 34.089053,,Cancel,269363003,,,-1000,,,
@@ -11696,10 +12159,17 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 34.282484,,Insert,269387559,0,A,1000,142100,G,
 34.28251,,Insert,269387563,0,B,1000,110800,G,
 34.28251,,Cancel,269356923,,,-1000,,,
+<<<<<<< HEAD
 34.297,minusOne,Cancel,148,,,-160,,,
 34.297,minusOne,Insert,150,1,B,160,140200,G,
 34.297,minusOne,Trade,150,1,B,19,140200,,533
 34.297,minusOne,Hedge,152,0,A,19,140400,,
+=======
+34.283037,minusOne,Cancel,149,,,-160,,,
+34.283259,minusOne,Insert,151,1,B,160,140200,G,
+34.283259,minusOne,Trade,151,1,B,19,140200,,533
+34.283464,minusOne,Hedge,153,0,A,19,140400,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 34.30999,,Insert,269388459,0,A,2000,141700,G,
 34.310001,,Insert,269388471,0,B,1000,140400,G,
 34.310151,,Cancel,269386027,,,-1000,,,
@@ -11781,6 +12251,7 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 34.513432,,Insert,269392835,0,B,1000,140500,G,
 34.513512,,Cancel,269368539,,,-1000,,,
 34.513518,,Cancel,269357191,,,-1000,,,
+34.51357,minusOne,Cancel,151,,,-141,,,
 34.513732,,Cancel,269211059,,,-2000,,,
 34.513776,,Insert,269393295,0,B,1620,140500,G,
 34.513786,,Cancel,269385847,,,-8000,,,
@@ -11791,9 +12262,13 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 34.51401,,Insert,269393659,0,B,1000,140500,G,
 34.514031,,Insert,269393691,0,B,670,140600,G,
 34.514061,,Insert,269393715,0,A,1000,141100,G,
+34.514112,minusOne,Insert,154,1,B,141,140300,G,
+34.514112,minusOne,Trade,154,1,B,73,140300,,2048
 34.514294,,Cancel,269210847,,,-2000,,,
+34.514358,minusOne,Insert,155,1,A,19,140800,G,
 34.514385,,Cancel,269392791,,,-2000,,,
 34.514385,,Insert,269394151,0,A,2000,175400,G,
+34.514451,minusOne,Hedge,156,0,A,73,140600,,
 34.514452,,Cancel,269385871,,,-1000,,,
 34.514506,,Insert,269394299,0,A,1000,141700,G,
 34.514577,,Insert,269394407,0,A,1000,141200,G,
@@ -11992,6 +12467,7 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 34.737013,,Insert,269411179,0,A,1000,140800,G,
 34.737119,,Cancel,269411179,,,-1000,,,
 34.737134,,Cancel,269411067,,,-1000,,,
+<<<<<<< HEAD
 34.75,minusOne,Cancel,150,,,-141,,,
 34.75,minusOne,Cancel,153,,,-19,,,
 34.75,minusOne,Insert,154,1,B,141,140400,G,
@@ -12000,7 +12476,15 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 34.75,minusOne,Insert,155,1,A,19,141000,G,
 34.75,minusOne,Hedge,156,0,A,51,140600,,
 34.75,minusOne,Hedge,157,0,A,24,140600,,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 34.758971,,Insert,269414111,0,A,1000,140800,G,
+34.759583,minusOne,Cancel,154,,,-68,,,
+34.759655,minusOne,Cancel,155,,,-19,,,
+34.759667,minusOne,Insert,157,1,B,50,140400,G,
+34.759667,minusOne,Trade,157,1,B,5,140400,,140
+34.759759,minusOne,Insert,158,1,A,50,141000,G,
+34.759828,minusOne,Hedge,159,0,A,5,140600,,
 34.761783,,Insert,5096635,1,A,70,141800,G,
 34.773019,,Cancel,269400379,,,-8000,,,
 34.773025,,Cancel,269414111,,,-1000,,,
@@ -12141,15 +12625,22 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 34.997016,,Insert,7017131,1,A,10000,141400,G,
 34.997016,,Insert,7017132,1,B,10000,140200,G,
 35.002496,,Insert,269432675,0,B,1000,139200,G,
+<<<<<<< HEAD
 35.015,minusOne,Cancel,154,,,-66,,,
 35.015,minusOne,Cancel,155,,,-19,,,
 35.015,minusOne,Insert,158,1,B,20,140500,G,
 35.015,minusOne,Insert,159,1,A,20,141100,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 35.03206,,Insert,269433807,0,A,1000,140900,G,
 35.032169,,Insert,269433811,0,A,1000,142400,G,
 35.032621,,Insert,269433843,0,A,1000,141200,G,
 35.032958,,Cancel,269432239,,,-1000,,,
 35.032959,,Cancel,269433843,,,-1000,,,
+35.034389,minusOne,Cancel,157,,,-45,,,
+35.03455,minusOne,Cancel,158,,,-50,,,
+35.034568,minusOne,Insert,160,1,B,50,140500,G,
+35.034619,minusOne,Insert,161,1,A,50,141100,G,
 35.035526,,Cancel,269433807,,,-1000,,,
 35.035538,,Insert,269433971,0,B,1000,140400,G,
 35.071481,,Insert,269435307,0,B,2000,140500,G,
@@ -12353,6 +12844,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 35.422488,,Insert,269450567,0,B,1000,96400,G,
 35.489625,,Insert,5096636,1,B,60,140200,G,
 35.501262,,Cancel,269450031,,,-8000,,,
+<<<<<<< HEAD
+=======
+35.525748,minusOne,Cancel,161,,,-50,,,
+35.525789,minusOne,Insert,162,1,A,50,141000,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 35.532555,,Insert,269454091,0,B,8000,140700,G,
 35.532594,,Insert,269454095,0,A,1000,140800,G,
 35.547,minusOne,Cancel,159,,,-20,,,
@@ -12390,6 +12886,8 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 35.707355,,Insert,269457279,0,B,1000,140700,G,
 35.707373,,Cancel,269456947,,,-2000,,,
 35.707373,,Insert,269457287,0,B,1000,140700,G,
+35.719045,minusOne,Cancel,160,,,-50,,,
+35.719178,minusOne,Insert,163,1,B,50,140400,G,
 35.72979,,Cancel,269457275,,,-8000,,,
 35.73026,,Cancel,269457279,,,-1000,,,
 35.730286,,Insert,269457867,0,A,1000,140800,G,
@@ -12465,8 +12963,12 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 35.831805,,Cancel,269458035,,,-1000,,,
 35.842423,,Insert,269462619,0,B,1000,139100,G,
 35.899181,,Insert,5096639,1,A,23,139900,G,
+<<<<<<< HEAD
 35.899181,minusOne,Trade,158,1,B,20,140500,,-281
 35.906,minusOne,Hedge,161,0,A,20,140600,,
+=======
+35.899181,minusOne,Trade,163,1,B,23,140400,,-323
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 35.906705,,Cancel,7017135,,,-10000,,,
 35.906705,,Cancel,7017136,,,-10000,,,
 35.906705,,Insert,7017137,1,A,10000,141200,G,
@@ -12479,6 +12981,7 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 35.948526,,Insert,269464587,0,B,1000,140600,G,
 35.948606,,Cancel,269458203,,,-3000,,,
 35.948743,,Cancel,269464587,,,-1000,,,
+35.959276,minusOne,Hedge,164,0,A,23,140600,,
 35.965554,,Insert,269465107,0,B,1000,140600,G,
 35.965556,,Insert,269465111,0,B,2000,140400,G,
 35.965577,,Cancel,269450567,,,-1000,,,
@@ -12520,6 +13023,8 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 36.040036,,Insert,269467879,0,B,1000,140700,G,
 36.040061,,Cancel,269466975,,,-1000,,,
 36.04023,,Insert,269467895,0,A,1000,140800,G,
+36.040784,minusOne,Cancel,162,,,-50,,,
+36.041608,minusOne,Insert,165,1,A,120,140900,G,
 36.041888,,Cancel,269467895,,,-1000,,,
 36.044328,,Insert,269468011,0,B,1000,140400,G,
 36.044365,,Cancel,269457991,,,-2000,,,
@@ -12577,10 +13082,17 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 36.206153,,Insert,269471763,0,A,2000,175400,G,
 36.206281,,Cancel,269471355,,,-2000,,,
 36.206548,,Cancel,269471755,,,-1000,,,
+<<<<<<< HEAD
 36.25,minusOne,Cancel,162,,,-20,,,
 36.25,minusOne,Cancel,163,,,-20,,,
 36.25,minusOne,Insert,164,1,B,20,140500,G,
 36.25,minusOne,Insert,165,1,A,20,141000,G,
+=======
+36.263253,minusOne,Cancel,163,,,-27,,,
+36.263282,minusOne,Cancel,165,,,-120,,,
+36.263312,minusOne,Insert,166,1,B,40,140500,G,
+36.26336,minusOne,Insert,167,1,A,120,141000,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 36.266658,,Cancel,269467563,,,-8000,,,
 36.26668,,Cancel,269470343,,,-1000,,,
 36.27062,,Cancel,269467551,,,-1000,,,
@@ -12610,9 +13122,16 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 36.485633,,Insert,269477467,0,A,2000,175400,G,
 36.485919,,Cancel,269477423,,,-2000,,,
 36.490584,,Insert,5096641,1,A,128,140500,G,
+<<<<<<< HEAD
 36.490584,minusOne,Trade,164,1,B,20,140500,,-281
 36.49099,,Cancel,269477411,,,-1000,,,
 36.491013,,Cancel,269477359,,,-1000,,,
+=======
+36.490584,minusOne,Trade,166,1,B,40,140500,,-562
+36.49099,,Cancel,269477411,,,-1000,,,
+36.491013,,Cancel,269477359,,,-1000,,,
+36.493691,minusOne,Hedge,168,0,A,40,140700,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 36.504356,,Cancel,7017139,,,-10000,,,
 36.504356,,Cancel,7017140,,,-10000,,,
 36.504356,,Insert,7017141,1,A,10000,141400,G,
@@ -12728,6 +13247,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 36.758505,,Insert,269482675,0,A,1000,140900,G,
 36.758531,,Insert,269482679,0,B,1000,111100,G,
 36.759762,,Cancel,269478483,,,-1000,,,
+<<<<<<< HEAD
+=======
+36.779945,minusOne,Cancel,167,,,-120,,,
+36.780202,minusOne,Insert,170,1,A,160,141100,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 36.787254,,Cancel,269482299,,,-1000,,,
 36.800093,,Cancel,7017141,,,-10000,,,
 36.800093,,Cancel,7017142,,,-10000,,,
@@ -12761,6 +13285,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 36.946966,,Insert,269487663,0,B,2000,139700,G,
 36.947047,,Insert,269487679,0,B,1000,140600,G,
 36.952412,,Cancel,269484403,,,-1000,,,
+<<<<<<< HEAD
+=======
+36.953788,minusOne,Cancel,170,,,-160,,,
+36.953935,minusOne,Insert,172,1,A,160,141000,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 36.966054,,Insert,5096642,1,B,22,142200,G,
 37.012452,,Insert,269488787,0,A,1000,142300,G,
 37.01253,,Insert,269488803,0,B,1000,140600,G,
@@ -13002,7 +13531,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 37.99146,,Insert,269506851,0,A,1000,140800,G,
 37.991488,,Insert,269506855,0,A,1000,185100,G,
 37.996252,,Cancel,7017149,,,-10000,,,
+<<<<<<< HEAD
 37.996252,,Cancel,7017150,,,-9982,,,
+=======
+37.996252,,Cancel,7017150,,,-9979,,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 37.996252,,Insert,7017151,1,A,10000,141400,G,
 37.996252,,Insert,7017152,1,B,10000,140200,G,
 38.001944,,Cancel,269506719,,,-8000,,,
@@ -13342,6 +13875,8 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 38.942688,,Insert,269527855,0,B,1000,111000,G,
 38.942712,,Insert,269527867,0,B,1000,96300,G,
 38.942769,,Cancel,269526091,,,-1000,,,
+38.963133,minusOne,Cancel,172,,,-160,,,
+38.963235,minusOne,Insert,181,1,A,160,140900,G,
 38.968512,,Insert,269529635,0,A,1000,140700,G,
 38.970116,,Cancel,269529635,,,-1000,,,
 38.970331,,Cancel,269519611,,,-8000,,,
@@ -13504,6 +14039,8 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 39.352474,,Insert,269539563,0,A,1000,184900,G,
 39.393043,,Cancel,269536547,,,-8000,,,
 39.437273,,Insert,269541035,0,A,8000,140600,G,
+39.453684,minusOne,Cancel,181,,,-160,,,
+39.453832,minusOne,Insert,184,1,A,160,140800,G,
 39.454934,,Cancel,269536923,,,-1000,,,
 39.479787,,Insert,269541935,0,A,1000,141000,G,
 39.480596,,Cancel,7017159,,,-10000,,,
@@ -13623,6 +14160,8 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 39.732501,,Cancel,269549111,,,-1000,,,
 39.732507,,Insert,269550287,0,A,1000,140600,G,
 39.732525,,Cancel,269534955,,,-1000,,,
+39.743312,minusOne,Cancel,184,,,-160,,,
+39.744112,minusOne,Insert,186,1,A,160,140700,G,
 39.744427,,Cancel,269549807,,,-1000,,,
 39.765,minusOne,Cancel,183,,,-160,,,
 39.765,minusOne,Insert,186,1,A,160,140700,G,
@@ -13839,10 +14378,17 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 40.221983,,Insert,5096651,1,B,101,142500,G,
 40.221983,minusOne,Trade,186,1,A,6,140700,,-84
 40.232893,,Cancel,269559507,,,-8000,,,
+<<<<<<< HEAD
 40.25,minusOne,Cancel,186,,,-154,,,
 40.25,minusOne,Insert,189,1,A,160,140800,G,
 40.25,minusOne,Hedge,190,0,B,6,140600,,
 40.265,minusOne,Cancel,189,,,-160,,,
+=======
+40.241746,minusOne,Cancel,186,,,-154,,,
+40.242036,minusOne,Insert,189,1,A,160,140800,G,
+40.242076,minusOne,Hedge,190,0,B,6,140600,,
+40.242194,minusOne,Cancel,189,,,-160,,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 40.282416,,Cancel,269559519,,,-1000,,,
 40.282452,,Insert,269561887,0,A,1000,142100,G,
 40.296191,,Insert,269562023,0,A,8000,140700,G,
@@ -13939,8 +14485,13 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 40.480636,,Cancel,269565515,,,-1000,,,
 40.481069,,Cancel,269562483,,,-1000,,,
 40.481203,,Insert,269566867,0,B,1000,140400,G,
+<<<<<<< HEAD
 40.515,minusOne,Insert,191,1,B,6,140300,G,
 40.515,minusOne,Insert,192,1,A,154,140800,G,
+=======
+40.497743,minusOne,Insert,191,1,B,6,140300,G,
+40.498185,minusOne,Insert,192,1,A,154,140900,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 40.522444,,Insert,269568031,0,A,1000,142100,G,
 40.540953,,Cancel,269566831,,,-1000,,,
 40.540976,,Cancel,269565511,,,-1000,,,
@@ -13961,6 +14512,8 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 40.696886,,Cancel,7017168,,,-10000,,,
 40.696886,,Insert,7017169,1,A,10000,141200,G,
 40.696886,,Insert,7017170,1,B,10000,140000,G,
+40.709098,minusOne,Cancel,192,,,-154,,,
+40.70912,minusOne,Insert,193,1,A,154,140800,G,
 40.731651,,Cancel,269565519,,,-1000,,,
 40.733358,,Cancel,269536283,,,-1000,,,
 40.733363,,Insert,269571815,0,A,1000,141100,G,
@@ -14106,6 +14659,8 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 40.935001,,Insert,269579911,0,A,1000,142100,G,
 40.939138,,Cancel,269565199,,,-2000,,,
 40.939148,,Insert,269579939,0,A,2000,140900,G,
+40.977373,minusOne,Cancel,191,,,-6,,,
+40.977402,minusOne,Insert,194,1,B,6,140200,G,
 40.987039,,Cancel,269578675,,,-8000,,,
 40.987061,,Cancel,269539563,,,-1000,,,
 41.007116,,Cancel,7017169,,,-10000,,,
@@ -14430,6 +14985,10 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 41.5101,,Insert,269597975,0,B,1000,140100,G,
 41.510126,,Insert,269597979,0,B,8000,140100,G,
 41.510129,,Cancel,269597767,,,-710,,,
+41.511378,minusOne,Cancel,194,,,-6,,,
+41.511788,minusOne,Cancel,193,,,-154,,,
+41.511873,minusOne,Insert,195,1,B,6,140000,G,
+41.51201,minusOne,Insert,196,1,A,154,140600,G,
 41.513685,,Cancel,269597971,,,-1000,,,
 41.52138,,Insert,269598203,0,B,8000,140100,G,
 41.52143,,Insert,269598223,0,B,1000,138700,G,
@@ -14486,8 +15045,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 41.712831,,Insert,269602431,0,A,2000,140800,G,
 41.722278,,Insert,269602607,0,A,8000,140400,G,
 41.722301,,Cancel,269581815,,,-1000,,,
+<<<<<<< HEAD
 41.734,minusOne,Cancel,198,,,-154,,,
 41.734,minusOne,Insert,199,1,A,154,140500,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 41.778406,,Cancel,269601935,,,-710,,,
 41.778434,,Insert,269603231,0,A,1000,184600,G,
 41.786456,,Insert,269603619,0,A,1000,140300,G,
@@ -14508,6 +15070,8 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 41.790109,,Insert,269604207,0,B,8000,140100,G,
 41.790142,,Cancel,269603699,,,-1000,,,
 41.790415,,Cancel,269603671,,,-2000,,,
+41.790746,minusOne,Cancel,196,,,-154,,,
+41.791158,minusOne,Insert,197,1,A,154,140500,G,
 41.816337,,Insert,269604699,0,B,8000,140000,G,
 41.892963,,Cancel,269603755,,,-1000,,,
 41.893009,,Insert,269606043,0,B,1000,140100,G,
@@ -14572,8 +15136,13 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 42.086089,,Insert,269610907,0,A,1000,140400,G,
 42.112476,,Insert,269611407,0,A,1000,141900,G,
 42.1519,,Insert,5096654,1,A,41,139200,G,
+<<<<<<< HEAD
 42.1519,minusOne,Trade,197,1,B,6,140000,,-84
 42.156,minusOne,Hedge,200,0,A,6,140200,,
+=======
+42.1519,minusOne,Trade,195,1,B,6,140000,,-84
+42.153004,minusOne,Hedge,198,0,A,6,140200,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 42.170726,,Cancel,269600847,,,-1000,,,
 42.170743,,Insert,269612127,0,A,1000,141000,G,
 42.182358,,Insert,269612335,0,B,8000,140300,G,
@@ -14592,12 +15161,20 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 42.186857,,Cancel,269603231,,,-1000,,,
 42.186859,,Cancel,269597931,,,-1000,,,
 42.186861,,Cancel,269592627,,,-1000,,,
+<<<<<<< HEAD
 42.219,minusOne,Cancel,199,,,-154,,,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 42.223696,,Cancel,7017177,,,-10000,,,
 42.223696,,Cancel,7017178,,,-10000,,,
 42.223696,,Insert,7017179,1,A,10000,141000,G,
 42.223696,,Insert,7017180,1,B,10000,139800,G,
+<<<<<<< HEAD
 42.234,minusOne,Insert,202,1,A,160,140600,G,
+=======
+42.256154,minusOne,Cancel,197,,,-154,,,
+42.256287,minusOne,Insert,200,1,A,160,140600,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 42.262414,,Cancel,269598223,,,-1000,,,
 42.262427,,Insert,269613095,0,B,1000,138800,G,
 42.262438,,Insert,269613099,0,B,1000,110700,G,
@@ -14735,7 +15312,15 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 42.531,minusOne,Insert,204,1,A,160,140700,G,
 42.532419,,Insert,269624635,0,A,1000,142000,G,
 42.533839,,Insert,5096655,1,B,27,143200,G,
+<<<<<<< HEAD
 42.533839,minusOne,Trade,204,1,A,27,140700,,-380
+=======
+42.533839,minusOne,Trade,200,1,A,27,140600,,-380
+42.539839,minusOne,Cancel,200,,,-133,,,
+42.540119,minusOne,Insert,202,1,A,160,140700,G,
+42.540161,minusOne,Hedge,203,0,B,27,140500,,
+42.540316,minusOne,Cancel,202,,,-160,,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 42.548579,,Insert,269624835,0,B,2000,140100,G,
 42.548823,,Insert,269624859,0,A,1000,140500,G,
 42.562,minusOne,Hedge,205,0,B,27,140500,,
@@ -14766,6 +15351,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 42.662031,,Cancel,269626691,,,-1000,,,
 42.6661,,Cancel,269623231,,,-1000,,,
 42.682418,,Insert,269627415,0,A,1000,142000,G,
+<<<<<<< HEAD
+=======
+42.740764,minusOne,Insert,204,1,B,27,140100,G,
+42.740838,minusOne,Insert,205,1,A,133,140600,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 42.782774,,Cancel,7017181,,,-10000,,,
 42.782774,,Cancel,7017182,,,-10000,,,
 42.782774,,Insert,7017183,1,A,10000,141000,G,
@@ -14821,17 +15411,29 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 43.013187,,Cancel,269630043,,,-2000,,,
 43.013191,,Insert,269633907,0,B,3000,140000,G,
 43.01326,,Cancel,269630059,,,-1000,,,
+<<<<<<< HEAD
+=======
+43.042142,minusOne,Cancel,204,,,-27,,,
+43.042291,minusOne,Insert,206,1,B,27,140000,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 43.042833,,Cancel,269633899,,,-1000,,,
 43.042855,,Cancel,269613103,,,-1000,,,
 43.042886,,Insert,269634499,0,B,1000,140200,G,
 43.042919,,Insert,269634511,0,B,2000,139300,G,
 43.043132,,Insert,269634519,0,B,1000,139600,G,
+<<<<<<< HEAD
 43.047,minusOne,Cancel,206,,,-20,,,
 43.047,minusOne,Insert,208,1,B,20,140000,G,
 43.051962,,Cancel,269629911,,,-1000,,,
 43.078059,,Insert,269634875,0,B,1000,140200,G,
 43.079959,,Insert,5096656,1,A,9,139600,G,
 43.079959,minusOne,Trade,208,1,B,9,140000,,-126
+=======
+43.051962,,Cancel,269629911,,,-1000,,,
+43.078059,,Insert,269634875,0,B,1000,140200,G,
+43.079959,,Insert,5096656,1,A,9,139600,G,
+43.079959,minusOne,Trade,206,1,B,9,140000,,-126
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 43.084622,,Cancel,269634875,,,-1000,,,
 43.084647,,Insert,269634923,0,A,1000,184600,G,
 43.084671,,Insert,269634927,0,A,1000,140400,G,
@@ -14861,6 +15463,7 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 43.097065,,Insert,7017185,1,A,10000,141000,G,
 43.097065,,Insert,7017186,1,B,10000,139800,G,
 43.100083,,Insert,269635423,0,A,1000,140400,G,
+43.101047,minusOne,Hedge,207,0,A,9,140300,,
 43.106832,,Cancel,269635423,,,-1000,,,
 43.109,minusOne,Hedge,209,0,A,9,140300,,
 43.109078,,Insert,269635535,0,B,1000,140200,G,
@@ -14950,10 +15553,16 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 43.222805,,Insert,269638627,0,A,2000,141700,G,
 43.22283,,Insert,269638631,0,B,1000,110600,G,
 43.247135,,Insert,5096658,1,A,96,139100,G,
+<<<<<<< HEAD
 43.247135,minusOne,Trade,208,1,B,11,140000,,-154
 43.25,minusOne,Hedge,210,0,A,11,140200,,
 43.252442,,Insert,269638935,0,A,1000,141900,G,
 43.297,minusOne,Insert,211,1,B,7,140000,G,
+=======
+43.247135,minusOne,Trade,206,1,B,18,140000,,-252
+43.252442,,Insert,269638935,0,A,1000,141900,G,
+43.301131,minusOne,Hedge,208,0,A,18,140200,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 43.317897,,Insert,269639987,0,B,8000,140300,G,
 43.317901,,Insert,269639991,0,B,8000,140200,G,
 43.317905,,Cancel,269638075,,,-1000,,,
@@ -14995,7 +15604,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 43.39945,,Cancel,269636695,,,-1000,,,
 43.399472,,Cancel,269636699,,,-1000,,,
 43.399616,,Cancel,7017185,,,-10000,,,
+<<<<<<< HEAD
 43.399616,,Cancel,7017186,,,-9915,,,
+=======
+43.399616,,Cancel,7017186,,,-9922,,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 43.399616,,Insert,7017187,1,A,10000,141000,G,
 43.399616,,Insert,7017188,1,B,10000,139800,G,
 43.402418,,Insert,269641531,0,A,1000,142000,G,
@@ -15018,10 +15631,15 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 43.517049,,Insert,269643363,0,A,2000,175000,G,
 43.521889,,Cancel,269643363,,,-2000,,,
 43.521889,,Insert,269643491,0,A,2000,175100,G,
+<<<<<<< HEAD
 43.547,minusOne,Cancel,211,,,-7,,,
 43.547,minusOne,Cancel,207,,,-20,,,
 43.547,minusOne,Insert,212,1,B,7,140100,G,
 43.547,minusOne,Insert,213,1,A,153,140700,G,
+=======
+43.548175,minusOne,Cancel,205,,,-133,,,
+43.548441,minusOne,Insert,210,1,A,160,140700,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 43.591178,,Insert,269644359,0,B,2000,140200,G,
 43.591181,,Cancel,269642179,,,-1000,,,
 43.591185,,Cancel,269642339,,,-1000,,,
@@ -15102,15 +15720,23 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 43.711762,,Cancel,269648187,,,-1000,,,
 43.728313,,Cancel,269648123,,,-8000,,,
 43.728339,,Cancel,269648083,,,-1000,,,
+<<<<<<< HEAD
 43.75,minusOne,Cancel,212,,,-7,,,
 43.75,minusOne,Cancel,213,,,-153,,,
 43.75,minusOne,Insert,214,1,B,7,140200,G,
 43.75,minusOne,Insert,215,1,A,153,140800,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 43.752812,,Insert,269649507,0,A,2000,141800,G,
 43.757362,,Insert,269649567,0,A,1000,140600,G,
 43.757384,,Cancel,269634923,,,-1000,,,
 43.760105,,Insert,269649627,0,A,8000,140600,G,
 43.760131,,Insert,269649631,0,A,1000,184800,G,
+<<<<<<< HEAD
+=======
+43.780027,minusOne,Cancel,210,,,-160,,,
+43.780248,minusOne,Insert,212,1,A,160,140800,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 43.811747,,Cancel,269649627,,,-8000,,,
 43.821771,,Insert,269650411,0,A,8000,140600,G,
 43.895704,,Insert,269651667,0,A,1000,140900,G,
@@ -15149,7 +15775,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 44.061857,,Insert,269654167,0,B,1000,110800,G,
 44.061881,,Insert,269654171,0,A,1000,170200,G,
 44.082783,,Insert,5096659,1,B,39,141700,G,
+<<<<<<< HEAD
 44.082783,minusOne,Trade,215,1,A,5,140800,,-70
+=======
+44.082783,minusOne,Trade,212,1,A,5,140800,,-70
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 44.088621,,Cancel,269646427,,,-8000,,,
 44.088621,,Cancel,269644371,,,-1000,,,
 44.088652,,Cancel,269646871,,,-1000,,,
@@ -15168,7 +15798,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 44.102776,,Insert,269655111,0,A,1000,140500,G,
 44.102945,,Cancel,269644403,,,-2000,,,
 44.102945,,Insert,269655127,0,B,2000,106400,G,
+<<<<<<< HEAD
 44.109,minusOne,Hedge,216,0,B,5,140500,,
+=======
+44.110572,minusOne,Hedge,214,0,B,5,140500,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 44.112792,,Cancel,269655047,,,-1000,,,
 44.112796,,Insert,269655223,0,B,1000,140400,G,
 44.112841,,Cancel,269655079,,,-1000,,,
@@ -15302,6 +15936,9 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 44.211245,,Insert,269662843,0,A,1000,170300,G,
 44.215953,,Cancel,269661543,,,-8000,,,
 44.216299,,Cancel,269662687,,,-1000,,,
+44.221295,minusOne,Cancel,212,,,-155,,,
+44.221412,minusOne,Insert,215,1,B,5,140400,G,
+44.22147,minusOne,Insert,216,1,A,155,140900,G,
 44.223079,,Insert,269663123,0,B,8000,140600,G,
 44.223156,,Insert,269663135,0,B,1000,140500,G,
 44.230362,,Insert,269663215,0,A,2000,141900,G,
@@ -15482,6 +16119,8 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 44.510468,,Cancel,269671219,,,-8000,,,
 44.510559,,Insert,269672547,0,B,1000,139200,G,
 44.520835,,Cancel,269672547,,,-1000,,,
+44.545976,minusOne,Cancel,216,,,-155,,,
+44.546138,minusOne,Insert,217,1,A,155,141000,G,
 44.550428,,Cancel,269669875,,,-1000,,,
 44.550466,,Insert,269673651,0,A,8000,140800,G,
 44.555093,,Insert,269673771,0,A,1000,144600,G,
@@ -15758,6 +16397,10 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 45.244493,,Cancel,269699855,,,-8000,,,
 45.244498,,Insert,269700707,0,B,8000,140800,G,
 45.244518,,Insert,269700711,0,A,1000,170500,G,
+45.249918,minusOne,Cancel,215,,,-5,,,
+45.250826,minusOne,Cancel,217,,,-155,,,
+45.25085,minusOne,Insert,218,1,B,5,140600,G,
+45.250895,minusOne,Insert,219,1,A,155,141200,G,
 45.280071,,Insert,269701559,0,A,1000,141200,G,
 45.280396,,Cancel,269695211,,,-1000,,,
 45.290476,,Insert,269701783,0,A,2000,142100,G,
@@ -15803,6 +16446,10 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 45.470725,,Cancel,269705879,,,-8000,,,
 45.470749,,Insert,269706451,0,B,1000,111100,G,
 45.470774,,Insert,269706455,0,A,1000,185100,G,
+45.483371,minusOne,Cancel,218,,,-5,,,
+45.483754,minusOne,Cancel,219,,,-155,,,
+45.483766,minusOne,Insert,220,1,B,5,140500,G,
+45.483908,minusOne,Insert,221,1,A,155,141100,G,
 45.485267,,Insert,269707191,0,B,8000,140700,G,
 45.48527,,Insert,269707195,0,B,8000,140700,G,
 45.485289,,Cancel,269704967,,,-1000,,,
@@ -15956,6 +16603,8 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 46.281,minusOne,Cancel,222,,,-12,,,
 46.281,minusOne,Insert,223,1,B,12,140600,G,
 46.282427,,Insert,269720199,0,A,1000,142500,G,
+46.288081,minusOne,Cancel,220,,,-5,,,
+46.288282,minusOne,Insert,222,1,B,5,140600,G,
 46.290931,,Insert,269720391,0,A,2000,142200,G,
 46.307505,,Cancel,269698459,,,-1000,,,
 46.307505,,Cancel,269698463,,,-1000,,,
@@ -16017,13 +16666,18 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 46.47165,,Cancel,269724131,,,-1000,,,
 46.47255,,Insert,269724255,0,B,1000,140400,G,
 46.473042,,Cancel,269724255,,,-1000,,,
+<<<<<<< HEAD
 46.5,minusOne,Cancel,221,,,-148,,,
 46.5,minusOne,Insert,224,1,A,148,141200,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 46.545984,,Insert,269725359,0,B,1000,140400,G,
 46.546007,,Cancel,269718799,,,-1000,,,
 46.546008,,Cancel,269724119,,,-1000,,,
 46.546041,,Insert,269725363,0,B,1000,140700,G,
 46.546067,,Insert,269725367,0,A,1000,185100,G,
+46.54958,minusOne,Cancel,222,,,-5,,,
+46.54978,minusOne,Insert,223,1,B,5,140500,G,
 46.55406,,Cancel,269725363,,,-1000,,,
 46.570017,,Insert,269725679,0,A,1000,140900,G,
 46.570045,,Insert,269725687,0,A,1000,140900,G,
@@ -16076,8 +16730,13 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 46.732387,,Insert,269728003,0,A,2000,142200,G,
 46.73241,,Cancel,269720639,,,-1000,,,
 46.732413,,Insert,269728007,0,A,1000,185200,G,
+<<<<<<< HEAD
 46.75,minusOne,Cancel,224,,,-148,,,
 46.75,minusOne,Insert,225,1,A,148,141100,G,
+=======
+46.752464,minusOne,Cancel,223,,,-5,,,
+46.752694,minusOne,Insert,224,1,B,5,140600,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 46.774898,,Cancel,269727095,,,-8000,,,
 46.774898,,Insert,269728423,0,B,8000,140800,G,
 46.774919,,Cancel,269720635,,,-1000,,,
@@ -16295,10 +16954,17 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 47.242421,,Insert,269740751,0,B,1000,139100,G,
 47.242444,,Cancel,269728443,,,-1000,,,
 47.244954,,Insert,269740767,0,A,2000,141100,G,
+<<<<<<< HEAD
 47.25,minusOne,Cancel,223,,,-12,,,
 47.25,minusOne,Cancel,225,,,-148,,,
 47.25,minusOne,Insert,226,1,B,12,140500,G,
 47.25,minusOne,Insert,227,1,A,148,141000,G,
+=======
+47.24742,minusOne,Cancel,224,,,-5,,,
+47.24751,minusOne,Cancel,221,,,-155,,,
+47.247576,minusOne,Insert,225,1,B,5,140500,G,
+47.247613,minusOne,Insert,226,1,A,155,141000,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 47.272452,,Insert,269741363,0,A,1000,142300,G,
 47.272476,,Cancel,269727831,,,-1000,,,
 47.272505,,Insert,269741367,0,A,1000,170400,G,
@@ -16402,8 +17068,13 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 47.492913,,Cancel,269747011,,,-1000,,,
 47.497877,,Insert,269747039,0,A,1000,141200,G,
 47.502205,,Insert,269747063,0,A,1000,140900,G,
+<<<<<<< HEAD
 47.515,minusOne,Cancel,227,,,-148,,,
 47.515,minusOne,Insert,228,1,A,148,141100,G,
+=======
+47.509106,minusOne,Cancel,226,,,-155,,,
+47.509189,minusOne,Insert,227,1,A,155,141100,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 47.528713,,Insert,269747443,0,B,2000,140500,G,
 47.528736,,Cancel,269741367,,,-1000,,,
 47.554769,,Insert,269748159,0,A,2000,142100,G,
@@ -16491,8 +17162,13 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 47.988875,,Cancel,269753751,,,-1000,,,
 47.992429,,Cancel,269753027,,,-1000,,,
 47.998772,,Insert,269753959,0,B,1000,140600,G,
+<<<<<<< HEAD
 48.047,minusOne,Cancel,228,,,-148,,,
 48.047,minusOne,Insert,229,1,A,148,141000,G,
+=======
+48.047441,minusOne,Cancel,227,,,-155,,,
+48.04747,minusOne,Insert,228,1,A,155,141000,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 48.052442,,Insert,269754523,0,A,1000,142300,G,
 48.067205,,Cancel,269753959,,,-1000,,,
 48.0673,,Insert,269754631,0,A,8000,140800,G,
@@ -16567,14 +17243,24 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 48.232425,,Insert,269759067,0,B,1000,139300,G,
 48.233145,,Cancel,269749399,,,-1000,,,
 48.233455,,Cancel,269750123,,,-8000,,,
+<<<<<<< HEAD
 48.25,minusOne,Cancel,229,,,-148,,,
 48.25,minusOne,Insert,230,1,A,148,141100,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 48.257197,,Cancel,269755067,,,-1000,,,
 48.259674,,Cancel,269754663,,,-1000,,,
 48.259815,,Insert,269759663,0,B,1000,140700,G,
 48.259841,,Cancel,269735203,,,-1000,,,
+48.26638,minusOne,Cancel,228,,,-155,,,
 48.266429,,Insert,5096669,1,A,70,139200,G,
+<<<<<<< HEAD
 48.266429,minusOne,Trade,226,1,B,12,140500,,-169
+=======
+48.266429,minusOne,Trade,225,1,B,5,140500,,-70
+48.2665,minusOne,Insert,229,1,A,155,141100,G,
+48.266716,minusOne,Hedge,230,0,A,5,140700,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 48.289075,,Insert,269760231,0,B,8000,140700,G,
 48.289143,,Cancel,269755647,,,-1000,,,
 48.28931,,Cancel,269760231,,,-8000,,,
@@ -16593,7 +17279,10 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 48.29759,,Insert,269760747,0,A,1000,140900,G,
 48.297743,,Insert,269760775,0,B,8000,140700,G,
 48.299958,,Cancel,269760775,,,-8000,,,
+<<<<<<< HEAD
 48.312,minusOne,Hedge,231,0,A,12,140700,,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 48.323897,,Insert,269761151,0,A,2000,141200,G,
 48.478564,,Cancel,269755623,,,-8000,,,
 48.478587,,Cancel,269759067,,,-1000,,,
@@ -16627,7 +17316,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 48.487723,,Insert,269764331,0,A,1000,140800,G,
 48.488088,,Cancel,269764307,,,-1000,,,
 48.507281,,Cancel,7017219,,,-10000,,,
+<<<<<<< HEAD
 48.507281,,Cancel,7017220,,,-9942,,,
+=======
+48.507281,,Cancel,7017220,,,-9935,,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 48.507281,,Insert,7017221,1,A,10000,141400,G,
 48.507281,,Insert,7017222,1,B,10000,140200,G,
 48.519494,,Cancel,269763963,,,-1000,,,
@@ -16637,6 +17330,8 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 48.532005,,Insert,269765371,0,A,1000,141100,G,
 48.532296,,Cancel,269765371,,,-1000,,,
 48.533864,,Cancel,269765347,,,-8000,,,
+48.535014,minusOne,Cancel,229,,,-155,,,
+48.535476,minusOne,Insert,232,1,A,160,141000,G,
 48.54323,,Cancel,269765339,,,-1000,,,
 48.543258,,Insert,269765615,0,B,1000,140600,G,
 48.562422,,Insert,269765787,0,B,1000,139100,G,
@@ -16663,8 +17358,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 48.766503,,Insert,269768839,0,A,8000,140800,G,
 48.79131,,Cancel,269768831,,,-710,,,
 48.791413,,Cancel,269768839,,,-8000,,,
+<<<<<<< HEAD
 48.797,minusOne,Cancel,230,,,-148,,,
 48.797,minusOne,Insert,234,1,A,160,141000,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 48.798823,,Insert,269769119,0,A,8000,140800,G,
 48.799142,,Cancel,7017221,,,-10000,,,
 48.799142,,Cancel,7017222,,,-10000,,,
@@ -16733,6 +17431,8 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 48.954218,,Insert,269772751,0,A,1000,141000,G,
 48.954291,,Insert,269772763,0,A,2000,141900,G,
 48.954981,,Cancel,269772691,,,-8000,,,
+48.962536,minusOne,Cancel,232,,,-160,,,
+48.963068,minusOne,Insert,235,1,A,160,141100,G,
 48.964647,,Cancel,269772739,,,-1000,,,
 48.966098,,Cancel,269772727,,,-1000,,,
 48.966214,,Insert,269773279,0,B,1000,140700,G,
@@ -17024,6 +17724,8 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 50.425205,,Insert,269794635,0,B,1000,140500,G,
 50.425512,,Cancel,269794635,,,-1000,,,
 50.426476,,Cancel,269794583,,,-8000,,,
+50.462513,minusOne,Cancel,235,,,-160,,,
+50.462626,minusOne,Insert,242,1,A,160,141200,G,
 50.474885,,Insert,269795951,0,A,2000,142200,G,
 50.484,minusOne,Cancel,236,,,-160,,,
 50.484,minusOne,Insert,243,1,A,160,141200,G,
@@ -17079,6 +17781,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 50.664586,,Insert,5096670,1,B,57,141400,G,
 50.69136,,Insert,269799367,0,B,1000,140400,G,
 50.691382,,Cancel,269793579,,,-1000,,,
+<<<<<<< HEAD
+=======
+50.736083,minusOne,Cancel,242,,,-160,,,
+50.736212,minusOne,Insert,244,1,A,160,141100,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 50.758665,,Cancel,269797527,,,-1000,,,
 50.758692,,Cancel,269698067,,,-1000,,,
 50.758692,,Cancel,269797531,,,-1000,,,
@@ -17224,6 +17931,7 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 51.520366,,Insert,7017242,1,B,10000,140200,G,
 51.544616,,Insert,269814131,0,A,1000,140900,G,
 51.550372,,Insert,5096671,1,B,50,142500,G,
+<<<<<<< HEAD
 51.550372,minusOne,Trade,245,1,A,30,141100,,-423
 51.609,minusOne,Hedge,249,0,B,30,140900,,
 51.650499,,Cancel,269812051,,,-1000,,,
@@ -17231,6 +17939,15 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 51.664195,,Insert,5096672,1,B,16,141700,G,
 51.664195,minusOne,Trade,245,1,A,16,141100,,-226
 51.703,minusOne,Hedge,250,0,B,16,140900,,
+=======
+51.550372,minusOne,Trade,244,1,A,30,141100,,-423
+51.551839,minusOne,Hedge,248,0,B,30,140900,,
+51.650499,,Cancel,269812051,,,-1000,,,
+51.66338,,Insert,269815411,0,B,1000,140700,G,
+51.664195,,Insert,5096672,1,B,16,141700,G,
+51.664195,minusOne,Trade,244,1,A,16,141100,,-226
+51.699981,minusOne,Hedge,249,0,B,16,140900,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 51.752988,,Cancel,269807835,,,-1000,,,
 51.75302,,Cancel,269807459,,,-1000,,,
 51.753065,,Insert,269816207,0,B,1000,140700,G,
@@ -17304,6 +18021,10 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 51.776889,,Cancel,7017242,,,-10000,,,
 51.776889,,Insert,7017243,1,A,10000,141400,G,
 51.776889,,Insert,7017244,1,B,10000,140200,G,
+<<<<<<< HEAD
+=======
+51.788958,minusOne,Insert,250,1,B,46,140500,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 51.807321,,Insert,269817803,0,B,1000,140700,G,
 51.807333,,Cancel,269817227,,,-8000,,,
 51.807408,,Insert,269817807,0,A,1000,142400,G,
@@ -17333,8 +18054,15 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 52.002803,,Cancel,269802887,,,-1000,,,
 52.003025,,Insert,269820975,0,A,8000,141000,G,
 52.003049,,Insert,269820979,0,B,1000,96600,G,
+<<<<<<< HEAD
 52.015,minusOne,Cancel,245,,,-114,,,
 52.015,minusOne,Insert,252,1,A,20,141200,G,
+=======
+52.042398,minusOne,Cancel,250,,,-46,,,
+52.042516,minusOne,Cancel,244,,,-114,,,
+52.042531,minusOne,Insert,251,1,B,46,140600,G,
+52.042599,minusOne,Insert,252,1,A,114,141200,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 52.071577,,Cancel,269820975,,,-8000,,,
 52.071582,,Insert,269822015,0,B,8000,140800,G,
 52.071598,,Cancel,269797559,,,-1000,,,
@@ -17475,7 +18203,14 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 52.487984,,Insert,269831299,0,A,1000,140900,G,
 52.488019,,Insert,269831311,0,A,1000,141100,G,
 52.488309,,Cancel,269831311,,,-1000,,,
+<<<<<<< HEAD
+=======
+52.496064,minusOne,Cancel,252,,,-99,,,
+52.496491,minusOne,Insert,253,1,A,114,141100,G,
+52.496558,minusOne,Hedge,254,0,B,15,140900,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 52.496603,,Insert,269831547,0,A,8000,140900,G,
+52.496629,minusOne,Cancel,253,,,-114,,,
 52.496631,,Insert,269831551,0,A,1000,140900,G,
 52.500152,,Insert,269831627,0,A,2000,141200,G,
 52.514128,,Cancel,269831279,,,-1000,,,
@@ -17593,8 +18328,14 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 52.76344,,Insert,269835639,0,B,8000,140800,G,
 52.763675,,Insert,269835651,0,A,1000,140900,G,
 52.764358,,Cancel,269835275,,,-1000,,,
+<<<<<<< HEAD
 52.765,minusOne,Cancel,254,,,-20,,,
 52.765,minusOne,Insert,256,1,B,20,140600,G,
+=======
+52.790534,minusOne,Cancel,251,,,-46,,,
+52.790894,minusOne,Insert,255,1,B,50,140500,G,
+52.806398,minusOne,Insert,256,1,A,50,141100,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 52.822445,,Insert,269836227,0,A,1000,142400,G,
 52.840759,,Insert,269836327,0,A,2000,142200,G,
 52.867428,,Cancel,269835651,,,-1000,,,
@@ -17609,11 +18350,16 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 52.876965,,Insert,269836839,0,B,8000,140800,G,
 52.912423,,Insert,269837239,0,A,1000,142500,G,
 52.927194,,Insert,5096674,1,B,66,141200,G,
+<<<<<<< HEAD
 52.927194,minusOne,Trade,255,1,A,20,141100,,-282
 52.953,minusOne,Hedge,257,0,B,20,140900,,
 52.984,minusOne,Insert,258,1,A,20,141100,G,
 52.984,minusOne,Trade,258,1,A,20,141200,,565
 52.984,minusOne,Hedge,259,0,B,20,140900,,
+=======
+52.927194,minusOne,Trade,256,1,A,50,141100,,-706
+52.947758,minusOne,Hedge,257,0,B,50,140900,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 52.989309,,Insert,269838639,0,B,10,140800,G,
 52.999193,,Cancel,7017249,,,-10000,,,
 52.999193,,Cancel,7017250,,,-10000,,,
@@ -17641,9 +18387,14 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 53.051201,,Cancel,269840631,,,-1000,,,
 53.051211,,Cancel,269840259,,,-1000,,,
 53.051543,,Insert,269840751,0,A,1000,141000,G,
+53.052774,minusOne,Cancel,255,,,-50,,,
 53.052795,,Cancel,269837239,,,-1000,,,
+53.052801,minusOne,Insert,258,1,B,111,140600,G,
 53.052828,,Cancel,269840751,,,-1000,,,
+53.052884,minusOne,Insert,259,1,A,49,141200,G,
+53.052884,minusOne,Trade,259,1,A,16,141200,,452
 53.052994,,Insert,269840867,0,A,1000,141000,G,
+53.053013,minusOne,Hedge,260,0,B,16,141000,,
 53.053048,,Cancel,269836731,,,-1000,,,
 53.053059,,Insert,269840891,0,B,1000,140800,G,
 53.053059,,Cancel,269826331,,,-2000,,,
@@ -17659,9 +18410,12 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 53.092427,,Insert,269841823,0,A,1000,142500,G,
 53.111014,,Cancel,269841003,,,-1000,,,
 53.12857,,Insert,269842387,0,A,1000,141000,G,
+<<<<<<< HEAD
 53.234,minusOne,Insert,260,1,A,20,141200,G,
 53.234,minusOne,Trade,260,1,A,20,141200,,565
 53.234,minusOne,Hedge,261,0,B,20,141000,,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 53.265846,,Cancel,7017251,,,-10000,,,
 53.265846,,Cancel,7017252,,,-10000,,,
 53.265846,,Insert,7017253,1,A,10000,141500,G,
@@ -17928,11 +18682,18 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 54.013612,,Cancel,269861763,,,-1000,,,
 54.013679,,Cancel,269855723,,,-1000,,,
 54.014791,,Insert,269862683,0,A,1000,141400,G,
+54.020407,minusOne,Cancel,258,,,-111,,,
 54.020596,,Insert,269862751,0,B,2000,140800,G,
+<<<<<<< HEAD
 54.047,minusOne,Cancel,256,,,-20,,,
 54.047,minusOne,Cancel,262,,,-14,,,
 54.047,minusOne,Insert,264,1,B,20,140700,G,
 54.047,minusOne,Insert,265,1,A,20,141300,G,
+=======
+54.020653,minusOne,Cancel,259,,,-33,,,
+54.020719,minusOne,Insert,261,1,B,127,140700,G,
+54.020769,minusOne,Insert,262,1,A,33,141300,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 54.052427,,Insert,269863563,0,A,1000,142600,G,
 54.05799,,Insert,269863647,0,B,1000,140800,G,
 54.066816,,Cancel,269862451,,,-8000,,,
@@ -17940,11 +18701,18 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 54.10025,,Insert,269864515,0,A,8000,141100,G,
 54.170513,,Cancel,269864515,,,-8000,,,
 54.182409,,Insert,5096675,1,A,57,140100,G,
+<<<<<<< HEAD
 54.182409,minusOne,Trade,264,1,B,20,140700,,-281
 54.203,minusOne,Hedge,266,0,A,20,140900,,
 54.297,minusOne,Insert,267,1,B,20,140700,G,
 54.3782,,Cancel,7017257,,,-10000,,,
 54.3782,,Cancel,7017258,,,-9963,,,
+=======
+54.182409,minusOne,Trade,261,1,B,57,140700,,-802
+54.209565,minusOne,Hedge,263,0,A,57,140900,,
+54.3782,,Cancel,7017257,,,-10000,,,
+54.3782,,Cancel,7017258,,,-10000,,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 54.3782,,Insert,7017259,1,A,10000,141600,G,
 54.3782,,Insert,7017260,1,B,10000,140400,G,
 54.432581,,Insert,269870347,0,A,8000,141100,G,
@@ -18103,6 +18871,8 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 55.048182,,Cancel,269881911,,,-1000,,,
 55.048205,,Cancel,269856271,,,-1000,,,
 55.048206,,Cancel,269856275,,,-1000,,,
+55.049278,minusOne,Cancel,261,,,-70,,,
+55.049377,minusOne,Insert,264,1,B,50,140800,G,
 55.074247,,Cancel,269337887,,,-2000,,,
 55.074247,,Insert,269883843,0,B,2000,140800,G,
 55.074271,,Insert,269883847,0,B,1000,111400,G,
@@ -18180,6 +18950,8 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 55.180912,,Cancel,269886439,,,-1000,,,
 55.180938,,Insert,269886451,0,A,1000,185300,G,
 55.183148,,Insert,269886467,0,B,1000,140900,G,
+55.214759,minusOne,Cancel,264,,,-50,,,
+55.214789,minusOne,Insert,265,1,B,50,140700,G,
 55.22242,,Insert,269886991,0,A,1000,142600,G,
 55.222444,,Cancel,269883847,,,-1000,,,
 55.232343,,Insert,269887111,0,A,1000,145700,G,
@@ -18300,8 +19072,13 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 55.473677,,Cancel,269888315,,,-8000,,,
 55.473979,,Cancel,269887855,,,-1000,,,
 55.475245,,Insert,269892187,0,B,1000,140400,G,
+<<<<<<< HEAD
 55.531,minusOne,Cancel,265,,,-20,,,
 55.531,minusOne,Insert,270,1,A,20,141200,G,
+=======
+55.544563,minusOne,Cancel,262,,,-33,,,
+55.544589,minusOne,Insert,266,1,A,50,141200,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 55.613496,,Cancel,269888339,,,-300,,,
 55.613496,,Cancel,269888351,,,-1000,,,
 55.613496,,Cancel,269887639,,,-1000,,,
@@ -18349,12 +19126,21 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 55.700829,,Insert,7017269,1,A,10000,141600,G,
 55.700829,,Insert,7017270,1,B,10000,140400,G,
 55.702071,,Insert,269895863,0,B,2000,140700,G,
+<<<<<<< HEAD
 55.732422,,Insert,269896227,0,A,1000,142700,G,
 55.732444,,Cancel,269890375,,,-1000,,,
 55.765,minusOne,Cancel,269,,,-20,,,
 55.765,minusOne,Cancel,270,,,-20,,,
 55.765,minusOne,Insert,271,1,B,20,140800,G,
 55.765,minusOne,Insert,272,1,A,20,141300,G,
+=======
+55.70785,minusOne,Cancel,265,,,-50,,,
+55.707876,minusOne,Cancel,266,,,-50,,,
+55.707889,minusOne,Insert,267,1,B,50,140800,G,
+55.707941,minusOne,Insert,268,1,A,50,141300,G,
+55.732422,,Insert,269896227,0,A,1000,142700,G,
+55.732444,,Cancel,269890375,,,-1000,,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 55.773701,,Cancel,269895863,,,-2000,,,
 55.773728,,Insert,269896535,0,A,1000,170700,G,
 55.773728,,Cancel,269886451,,,-1000,,,
@@ -18453,8 +19239,10 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 56.208224,,Insert,269910367,0,B,8000,141100,G,
 56.208661,,Cancel,269910367,,,-8000,,,
 56.210024,,Cancel,269642159,,,-1000,,,
+56.210764,minusOne,Cancel,268,,,-50,,,
 56.211023,,Cancel,269878371,,,-1190,,,
 56.211261,,Insert,269911551,0,A,1000,141800,G,
+56.211784,minusOne,Insert,269,1,A,50,141400,G,
 56.212039,,Cancel,269909939,,,-1000,,,
 56.212072,,Cancel,269908519,,,-1000,,,
 56.212076,,Insert,269911851,0,B,1000,141100,G,
@@ -18629,6 +19417,8 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 56.523273,,Insert,269923563,0,A,1000,141300,G,
 56.526189,,Cancel,269905087,,,-2000,,,
 56.526189,,Cancel,269919051,,,-2000,,,
+56.527094,minusOne,Cancel,267,,,-50,,,
+56.527512,minusOne,Insert,270,1,B,50,140900,G,
 56.542416,,Insert,269924051,0,B,1000,139500,G,
 56.548414,,Insert,269924103,0,B,2000,140700,G,
 56.568307,,Cancel,269923023,,,-8000,,,
@@ -18669,6 +19459,13 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 56.702206,,Cancel,269926495,,,-2000,,,
 56.702801,,Cancel,269895831,,,-1000,,,
 56.70401,,Insert,269927827,0,B,1000,140900,G,
+<<<<<<< HEAD
+=======
+56.70616,minusOne,Cancel,270,,,-50,,,
+56.706299,minusOne,Cancel,269,,,-50,,,
+56.706317,minusOne,Insert,271,1,B,50,140800,G,
+56.706353,minusOne,Insert,272,1,A,50,141300,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 56.750678,,Cancel,269927723,,,-8000,,,
 56.750762,,Insert,269928403,0,B,2000,140700,G,
 56.750762,,Insert,269928407,0,A,2000,141200,G,
@@ -18773,7 +19570,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 56.946404,,Insert,269935019,0,B,2000,107100,G,
 56.94655,,Insert,269935043,0,A,1000,141500,G,
 56.946725,,Cancel,269934887,,,-1000,,,
+56.954378,minusOne,Cancel,271,,,-50,,,
 56.95468,,Insert,269935463,0,B,50,135500,G,
+56.95471,minusOne,Cancel,272,,,-50,,,
+56.954747,minusOne,Insert,273,1,B,50,140900,G,
+56.954804,minusOne,Insert,274,1,A,50,141400,G,
 56.956037,,Insert,269935583,0,B,2000,141100,G,
 56.956115,,Cancel,269935019,,,-2000,,,
 56.956115,,Insert,269935591,0,B,2000,107200,G,
@@ -18849,12 +19650,19 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 57.172458,,Insert,269940075,0,A,1000,142800,G,
 57.18426,,Cancel,269940075,,,-1000,,,
 57.195146,,Insert,5096677,1,A,44,140300,G,
+<<<<<<< HEAD
 57.195146,minusOne,Trade,274,1,B,20,140900,,-282
 57.203,minusOne,Hedge,275,0,A,20,141100,,
 57.208274,,Cancel,7017277,,,-10000,,,
 57.208274,,Cancel,7017278,,,-9976,,,
+=======
+57.195146,minusOne,Trade,273,1,B,44,140900,,-620
+57.208274,,Cancel,7017277,,,-10000,,,
+57.208274,,Cancel,7017278,,,-10000,,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 57.208274,,Insert,7017279,1,A,10000,141800,G,
 57.208274,,Insert,7017280,1,B,10000,140600,G,
+57.209467,minusOne,Hedge,275,0,A,44,141100,,
 57.212204,,Insert,269940503,0,A,1000,142700,G,
 57.212401,,Cancel,269938483,,,-2000,,,
 57.212401,,Insert,269940531,0,B,2000,140000,G,
@@ -18866,7 +19674,10 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 57.236643,,Cancel,269940923,,,-2000,,,
 57.236669,,Insert,269941135,0,A,2000,141600,G,
 57.237579,,Insert,269941207,0,B,2000,140800,G,
+<<<<<<< HEAD
 57.25,minusOne,Insert,276,1,B,20,140900,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 57.292577,,Cancel,269492159,,,-1000,,,
 57.297492,,Cancel,269941207,,,-2000,,,
 57.329912,,Insert,269942547,0,B,2000,140800,G,
@@ -18964,7 +19775,17 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 57.493339,,Cancel,269946431,,,-710,,,
 57.494852,,Insert,269947147,0,A,1000,141400,G,
 57.509985,,Insert,5096679,1,A,36,140900,G,
+<<<<<<< HEAD
 57.509985,minusOne,Trade,277,1,B,20,141000,,-282
+=======
+57.509985,minusOne,Trade,273,1,B,6,140900,,-85
+57.515327,minusOne,Cancel,274,,,-50,,,
+57.515354,minusOne,Insert,276,1,B,26,141000,G,
+57.515354,minusOne,Trade,276,1,B,26,140900,,733
+57.515443,minusOne,Insert,277,1,A,134,141500,G,
+57.515462,minusOne,Hedge,278,0,A,6,141200,,
+57.515491,minusOne,Hedge,279,0,A,26,141200,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 57.519297,,Insert,5096680,1,B,62,142800,G,
 57.526119,,Cancel,7017279,,,-10000,,,
 57.526119,,Cancel,7017280,,,-10000,,,
@@ -18992,7 +19813,10 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 57.553116,,Cancel,269932711,,,-1000,,,
 57.55351,,Cancel,269948035,,,-710,,,
 57.556586,,Cancel,269948055,,,-8000,,,
+<<<<<<< HEAD
 57.562,minusOne,Hedge,279,0,A,20,141200,,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 57.563957,,Cancel,269948059,,,-1000,,,
 57.564548,,Insert,269948303,0,A,1000,141300,G,
 57.574527,,Insert,269948647,0,A,8000,141400,G,
@@ -19053,13 +19877,20 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 57.724593,,Insert,269951687,0,A,8000,141300,G,
 57.729439,,Insert,269952055,0,B,700,141100,G,
 57.729462,,Cancel,269951511,,,-1000,,,
+<<<<<<< HEAD
 57.734,minusOne,Cancel,278,,,-20,,,
 57.734,minusOne,Insert,280,1,B,20,140900,G,
 57.734,minusOne,Insert,281,1,A,20,141400,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 57.741711,,Cancel,269952055,,,-700,,,
 57.743047,,Insert,269952339,0,B,700,141100,G,
 57.743144,,Insert,269952351,0,B,1000,141000,G,
 57.744129,,Cancel,269951687,,,-8000,,,
+<<<<<<< HEAD
+=======
+57.7457,minusOne,Cancel,277,,,-134,,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 57.797008,,Insert,269952903,0,B,100,138000,G,
 57.798804,,Cancel,7017281,,,-10000,,,
 57.798804,,Cancel,7017282,,,-10000,,,
@@ -20079,10 +20910,13 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 59.748171,,Insert,270009459,0,A,1000,141000,G,
 59.759357,,Cancel,270009455,,,-1000,,,
 59.759392,,Cancel,270009459,,,-1000,,,
+<<<<<<< HEAD
 59.765,minusOne,Cancel,288,,,-20,,,
 59.765,minusOne,Cancel,289,,,-20,,,
 59.765,minusOne,Insert,290,1,B,20,140600,G,
 59.765,minusOne,Insert,291,1,A,20,141200,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 59.781057,,Insert,270010027,0,A,1000,142500,G,
 59.783756,,Insert,270010083,0,A,1000,141000,G,
 59.784714,,Insert,270010167,0,A,1000,141300,G,
@@ -20098,8 +20932,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 59.825273,,Cancel,270010623,,,-1000,,,
 59.825298,,Insert,270010631,0,B,1000,111200,G,
 59.858717,,Insert,5096685,1,B,5,142300,G,
+<<<<<<< HEAD
 59.858717,minusOne,Trade,291,1,A,5,141200,,-71
 59.875,minusOne,Hedge,292,0,B,5,141000,,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 59.887076,,Insert,270011075,0,A,8000,141100,G,
 59.887177,,Insert,270011091,0,B,1000,140800,G,
 59.887461,,Cancel,270006843,,,-2000,,,
@@ -20118,7 +20955,7 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 59.88774,,Insert,270011123,0,B,1000,96700,G,
 59.887768,,Insert,270011135,0,A,2000,142000,G,
 59.887876,,Insert,270011159,0,A,1000,141100,G,
-59.892192,,Cancel,7017295,,,-10000,,,
+59.892192,,Cancel,7017295,,,-9999,,,
 59.892192,,Cancel,7017296,,,-10000,,,
 59.892192,,Insert,7017297,1,A,10000,141600,G,
 59.892192,,Insert,7017298,1,B,10000,140400,G,
@@ -20477,14 +21314,20 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 60.345448,,Insert,270037183,0,B,1000,140200,G,
 60.349861,,Insert,270037263,0,B,8000,140700,G,
 60.377555,,Insert,5096686,1,B,42,142300,G,
+<<<<<<< HEAD
 60.377555,minusOne,Trade,296,1,A,20,141100,,-282
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 60.394155,,Cancel,270037263,,,-8000,,,
 60.394155,,Cancel,270036779,,,-1000,,,
 60.394171,,Cancel,270032575,,,-1000,,,
 60.394597,,Cancel,270034407,,,-2000,,,
 60.394597,,Insert,270038679,0,B,2000,106700,G,
 60.402823,,Cancel,269988639,,,-1000,,,
+<<<<<<< HEAD
 60.406,minusOne,Hedge,297,0,B,20,140800,,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 60.413462,,Cancel,270038679,,,-2000,,,
 60.413462,,Insert,270039059,0,B,2000,106800,G,
 60.418687,,Cancel,270034571,,,-670,,,
@@ -20535,7 +21378,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 60.454524,,Cancel,269861767,,,-1000,,,
 60.454524,,Insert,270040343,0,A,1000,141200,G,
 60.480225,,Insert,270040979,0,A,1000,141400,G,
+<<<<<<< HEAD
 60.489969,,Cancel,7017299,,,-9994,,,
+=======
+60.489969,,Cancel,7017299,,,-9958,,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 60.489969,,Cancel,7017300,,,-10000,,,
 60.489969,,Insert,7017301,1,A,10000,141400,G,
 60.489969,,Insert,7017302,1,B,10000,140200,G,
@@ -21238,7 +22085,10 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 62.128263,,Insert,270089187,0,A,1000,140700,G,
 62.128291,,Cancel,270081159,,,-8000,,,
 62.130308,,Insert,5096688,1,A,26,140500,G,
+<<<<<<< HEAD
 62.130308,minusOne,Trade,301,1,B,20,140500,,-281
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 62.13095,,Cancel,270080827,,,-1000,,,
 62.13282,,Insert,270089531,0,B,1000,140000,G,
 62.13586,,Cancel,270085339,,,-1000,,,
@@ -21253,7 +22103,10 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 62.138674,,Cancel,270085751,,,-2000,,,
 62.138674,,Insert,270089751,0,B,2000,139500,G,
 62.138888,,Cancel,270089671,,,-1000,,,
+<<<<<<< HEAD
 62.156,minusOne,Hedge,302,0,A,20,140500,,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 62.158474,,Insert,270090539,0,B,2000,139400,G,
 62.168774,,Insert,270090667,0,A,1000,141000,G,
 62.171686,,Cancel,270090667,,,-1000,,,
@@ -21428,7 +22281,10 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 62.711954,,Cancel,270099555,,,-1000,,,
 62.711986,,Cancel,270102199,,,-1000,,,
 62.712931,,Insert,5096689,1,B,64,141500,G,
+<<<<<<< HEAD
 62.712931,minusOne,Trade,304,1,A,20,140900,,-282
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 62.713976,,Insert,270102619,0,A,1000,140900,G,
 62.753541,,Cancel,270102131,,,-1000,,,
 62.753554,,Cancel,270102123,,,-8000,,,
@@ -21442,7 +22298,10 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 62.754559,,Cancel,270102135,,,-1000,,,
 62.755712,,Cancel,270103051,,,-1000,,,
 62.758743,,Insert,5096690,1,B,74,141200,G,
+<<<<<<< HEAD
 62.765,minusOne,Hedge,305,0,B,20,140700,,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 62.769628,,Cancel,270102619,,,-1000,,,
 62.781684,,Insert,270103523,0,A,1000,140700,G,
 62.781718,,Cancel,270103043,,,-8000,,,
@@ -21581,14 +22440,22 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 63.11822,,Insert,270110735,0,A,1000,140700,G,
 63.122171,,Insert,270110751,0,A,1000,140700,G,
 63.125606,,Insert,5096692,1,B,41,143300,G,
+<<<<<<< HEAD
 63.125606,minusOne,Trade,306,1,A,20,140900,,-282
 63.128359,,Cancel,270110735,,,-1000,,,
 63.156,minusOne,Hedge,307,0,B,20,140700,,
+=======
+63.128359,,Cancel,270110735,,,-1000,,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 63.158205,,Insert,270111903,0,A,1000,140700,G,
 63.1663,,Cancel,270111903,,,-1000,,,
 63.189873,,Cancel,270110751,,,-1000,,,
 63.190899,,Cancel,270110723,,,-1000,,,
+<<<<<<< HEAD
 63.199885,,Cancel,7017317,,,-9979,,,
+=======
+63.199885,,Cancel,7017317,,,-9959,,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 63.199885,,Cancel,7017318,,,-10000,,,
 63.199885,,Insert,7017319,1,A,10000,141200,G,
 63.199885,,Insert,7017320,1,B,10000,140000,G,
@@ -21870,10 +22737,13 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 63.470519,,Cancel,270127659,,,-1000,,,
 63.470543,,Cancel,270114075,,,-1000,,,
 63.480194,,Insert,270129559,0,A,1000,140700,G,
+<<<<<<< HEAD
 63.484,minusOne,Cancel,308,,,-20,,,
 63.484,minusOne,Cancel,309,,,-20,,,
 63.484,minusOne,Insert,310,1,B,20,140300,G,
 63.484,minusOne,Insert,311,1,A,20,140900,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 63.508486,,Cancel,7017319,,,-10000,,,
 63.508486,,Cancel,7017320,,,-10000,,,
 63.508486,,Insert,7017321,1,A,10000,141200,G,
@@ -21957,8 +22827,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 63.802425,,Insert,270134707,0,B,1000,139000,G,
 63.803505,,Cancel,270132095,,,-1000,,,
 63.813906,,Insert,5096693,1,B,11,142000,G,
+<<<<<<< HEAD
 63.813906,minusOne,Trade,311,1,A,11,140900,,-155
 63.875,minusOne,Hedge,313,0,B,11,140700,,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 63.950697,,Insert,270137231,0,A,1000,385000,G,
 63.991652,,Cancel,270134143,,,-1000,,,
 63.992126,,Cancel,270132835,,,-1000,,,
@@ -21966,8 +22839,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 63.992148,,Insert,270137643,0,B,8000,140500,G,
 63.992215,,Cancel,270132859,,,-1000,,,
 63.993042,,Cancel,270132831,,,-1000,,,
+<<<<<<< HEAD
 64.015,minusOne,Cancel,312,,,-20,,,
 64.015,minusOne,Insert,314,1,B,20,140300,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 64.056096,,Insert,270138607,0,A,1000,140700,G,
 64.056123,,Insert,270138611,0,A,1000,140700,G,
 64.056136,,Insert,270138615,0,A,1000,140700,G,
@@ -21995,7 +22871,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 64.067984,,Insert,270138971,0,A,2000,175200,G,
 64.073058,,Cancel,270138971,,,-2000,,,
 64.073058,,Insert,270139091,0,A,2000,175300,G,
+<<<<<<< HEAD
 64.080212,,Cancel,7017323,,,-10000,,,
+=======
+64.080212,,Cancel,7017323,,,-9989,,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 64.080212,,Cancel,7017324,,,-10000,,,
 64.080212,,Insert,7017325,1,A,10000,141200,G,
 64.080212,,Insert,7017326,1,B,10000,140000,G,
@@ -22009,7 +22889,10 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 64.127468,,Insert,270139943,0,B,1000,110900,G,
 64.132447,,Insert,270140183,0,A,1000,142200,G,
 64.160279,,Insert,5096694,1,B,26,142100,G,
+<<<<<<< HEAD
 64.160279,minusOne,Trade,311,1,A,9,140900,,-127
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 64.186983,,Cancel,270127775,,,-1000,,,
 64.187141,,Cancel,270139939,,,-1000,,,
 64.187155,,Cancel,270132239,,,-1000,,,
@@ -22125,7 +23008,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 64.391633,,Cancel,270150931,,,-640,,,
 64.397781,,Insert,270152235,0,A,2000,141800,G,
 64.39802,,Cancel,270151995,,,-1000,,,
+<<<<<<< HEAD
 64.398838,,Cancel,7017325,,,-9983,,,
+=======
+64.398838,,Cancel,7017325,,,-9974,,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 64.398838,,Cancel,7017326,,,-10000,,,
 64.398838,,Insert,7017327,1,A,10000,141100,G,
 64.398838,,Insert,7017328,1,B,10000,139900,G,
@@ -22202,7 +23089,10 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 64.672366,,Cancel,270160099,,,-1000,,,
 64.672584,,Cancel,270160095,,,-1000,,,
 64.677263,,Insert,5096698,1,A,92,140100,G,
+<<<<<<< HEAD
 64.677263,minusOne,Trade,316,1,B,20,140200,,-280
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 64.694304,,Insert,270160783,0,A,1000,140600,G,
 64.695742,,Cancel,7017327,,,-10000,,,
 64.695742,,Cancel,7017328,,,-10000,,,
@@ -22212,10 +23102,13 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 64.706138,,Insert,270161335,0,A,1000,140600,G,
 64.707987,,Insert,5096699,1,A,53,141100,G,
 64.711148,,Cancel,270161335,,,-1000,,,
+<<<<<<< HEAD
 64.719,minusOne,Hedge,318,0,A,20,140400,,
 64.734,minusOne,Insert,319,1,B,20,140200,G,
 64.734,minusOne,Trade,319,1,B,20,140100,,560
 64.734,minusOne,Hedge,320,0,A,20,140400,,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 64.774885,,Insert,270162519,0,A,2000,141800,G,
 64.844173,,Insert,270164119,0,A,1000,140600,G,
 64.844204,,Cancel,270159683,,,-1000,,,
@@ -22329,10 +23222,13 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 65.247986,,Cancel,270172819,,,-1000,,,
 65.248828,,Cancel,269658227,,,-1000,,,
 65.248828,,Insert,270174071,0,A,1000,140700,G,
+<<<<<<< HEAD
 65.265,minusOne,Cancel,321,,,-3,,,
 65.265,minusOne,Cancel,317,,,-20,,,
 65.265,minusOne,Insert,323,1,B,20,140100,G,
 65.265,minusOne,Insert,324,1,A,20,140700,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 65.277471,,Cancel,7017331,,,-10000,,,
 65.277471,,Cancel,7017332,,,-10000,,,
 65.277471,,Insert,7017333,1,A,10000,141000,G,
@@ -22442,14 +23338,20 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 65.676535,,Cancel,270192207,,,-2000,,,
 65.676535,,Insert,270196515,0,B,2000,106500,G,
 65.705357,,Insert,5096702,1,B,4,142500,G,
+<<<<<<< HEAD
 65.705357,minusOne,Trade,324,1,A,4,140700,,-56
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 65.711598,,Insert,5096703,1,A,44,140500,G,
 65.717993,,Insert,5096704,1,B,37,139000,G,
 65.719,minusOne,Hedge,325,0,B,4,140500,,
 65.720597,,Cancel,270196495,,,-1000,,,
 65.752444,,Cancel,270188431,,,-2000,,,
+<<<<<<< HEAD
 65.765,minusOne,Cancel,323,,,-20,,,
 65.765,minusOne,Insert,326,1,B,20,140200,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 65.841834,,Cancel,270196023,,,-1000,,,
 65.841834,,Cancel,270196491,,,-1000,,,
 65.841867,,Insert,270198355,0,A,2000,140500,G,
@@ -22963,11 +23865,14 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 67.192351,,Insert,270237767,0,A,1000,140200,G,
 67.192409,,Insert,270237779,0,A,1000,141700,G,
 67.205908,,Insert,5096706,1,B,102,141600,G,
+<<<<<<< HEAD
 67.205908,minusOne,Trade,329,1,A,20,140500,,-281
 67.219,minusOne,Hedge,330,0,B,20,140200,,
 67.219,minusOne,Cancel,328,,,-20,,,
 67.219,minusOne,Insert,331,1,B,20,139800,G,
 67.219,minusOne,Insert,332,1,A,20,140400,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 67.224195,,Insert,270239095,0,A,1000,140200,G,
 67.244191,,Cancel,270237767,,,-1000,,,
 67.244214,,Cancel,270223939,,,-1000,,,
@@ -22995,7 +23900,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 67.382996,,Cancel,270242119,,,-700,,,
 67.383018,,Cancel,270223931,,,-1000,,,
 67.385444,,Insert,5096707,1,B,41,138100,G,
+<<<<<<< HEAD
 67.386872,,Cancel,7017345,,,-9956,,,
+=======
+67.386872,,Cancel,7017345,,,-9989,,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 67.386872,,Cancel,7017346,,,-10000,,,
 67.386872,,Insert,7017347,1,A,10000,140700,G,
 67.386872,,Insert,7017348,1,B,10000,139500,G,
@@ -23068,8 +23977,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 67.963256,,Cancel,270251287,,,-690,,,
 67.971325,,Insert,270251899,0,A,8000,140200,G,
 67.971325,,Insert,270251903,0,A,1000,140200,G,
+<<<<<<< HEAD
 67.984,minusOne,Cancel,333,,,-20,,,
 67.984,minusOne,Insert,336,1,B,20,139800,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 68.002187,,Cancel,7017349,,,-10000,,,
 68.002187,,Cancel,7017350,,,-10000,,,
 68.002187,,Insert,7017351,1,A,10000,140700,G,
@@ -23172,8 +24084,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 68.458748,,Insert,270259215,0,A,1000,140600,G,
 68.465283,,Cancel,270258679,,,-1000,,,
 68.465424,,Insert,270259383,0,B,1000,139900,G,
+<<<<<<< HEAD
 68.5,minusOne,Cancel,335,,,-20,,,
 68.5,minusOne,Insert,337,1,A,20,140300,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 68.512421,,Insert,270260023,0,B,1000,138500,G,
 68.538962,,Cancel,270257815,,,-2000,,,
 68.538962,,Insert,270260547,0,B,2000,139800,G,
@@ -23543,8 +24458,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 69.706262,,Cancel,270290071,,,-1000,,,
 69.706367,,Cancel,270292819,,,-670,,,
 69.717127,,Insert,270292919,0,A,1000,140200,G,
+<<<<<<< HEAD
 69.75,minusOne,Cancel,339,,,-20,,,
 69.75,minusOne,Insert,341,1,B,20,139800,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 69.825166,,Cancel,7017361,,,-10000,,,
 69.825166,,Cancel,7017362,,,-10000,,,
 69.825166,,Insert,7017363,1,A,10000,140700,G,
@@ -23691,10 +24609,13 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 70.220521,,Insert,270306011,0,A,1000,140600,G,
 70.271569,,Insert,270307291,0,A,1000,143500,G,
 70.271594,,Insert,270307295,0,B,1000,95900,G,
+<<<<<<< HEAD
 70.297,minusOne,Cancel,341,,,-20,,,
 70.297,minusOne,Cancel,340,,,-20,,,
 70.297,minusOne,Insert,342,1,B,20,139900,G,
 70.297,minusOne,Insert,343,1,A,20,140500,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 70.307472,,Cancel,270306011,,,-1000,,,
 70.307669,,Cancel,270249675,,,-7000,,,
 70.309853,,Insert,270307855,0,B,1000,140100,G,
@@ -23967,10 +24888,13 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 71.167751,,Insert,270327567,0,A,1000,145400,G,
 71.206507,,Cancel,270326339,,,-1000,,,
 71.206529,,Cancel,270325435,,,-1000,,,
+<<<<<<< HEAD
 71.219,minusOne,Cancel,344,,,-20,,,
 71.219,minusOne,Cancel,345,,,-20,,,
 71.219,minusOne,Insert,346,1,B,20,140000,G,
 71.219,minusOne,Insert,347,1,A,20,140600,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 71.272416,,Cancel,270321327,,,-1000,,,
 71.27242,,Insert,270329007,0,B,1000,138700,G,
 71.272446,,Insert,270329011,0,A,1000,184600,G,
@@ -24400,12 +25324,15 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 71.750177,,Cancel,270354787,,,-8000,,,
 71.750182,,Cancel,270355159,,,-2000,,,
 71.750344,,Insert,270355299,0,A,2000,141600,G,
+<<<<<<< HEAD
 71.765,minusOne,Cancel,346,,,-20,,,
 71.765,minusOne,Cancel,347,,,-20,,,
 71.765,minusOne,Insert,348,1,B,20,140300,G,
 71.765,minusOne,Trade,348,1,B,20,140200,,561
 71.765,minusOne,Insert,349,1,A,20,140900,G,
 71.765,minusOne,Hedge,350,0,A,20,140500,,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 71.773193,,Insert,270355735,0,B,1000,140400,G,
 71.773268,,Cancel,270349807,,,-1000,,,
 71.773294,,Insert,270355747,0,A,1000,141000,G,
@@ -24827,7 +25754,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 72.484,minusOne,Cancel,354,,,-20,,,
 72.484,minusOne,Insert,356,1,B,20,140400,G,
 72.504355,,Cancel,7017379,,,-10000,,,
+<<<<<<< HEAD
 72.504355,,Cancel,7017380,,,-9973,,,
+=======
+72.504355,,Cancel,7017380,,,-9933,,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 72.504355,,Insert,7017381,1,A,10000,141400,G,
 72.504355,,Insert,7017382,1,B,10000,140200,G,
 72.505718,,Cancel,270383127,,,-1000,,,
@@ -25034,10 +25965,13 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 72.944651,,Insert,270397171,0,B,60,140600,G,
 72.944677,,Insert,270397175,0,A,1000,185000,G,
 72.944706,,Insert,270397179,0,B,1000,139100,G,
+<<<<<<< HEAD
 73.0,minusOne,Cancel,357,,,-20,,,
 73.0,minusOne,Cancel,355,,,-20,,,
 73.0,minusOne,Insert,358,1,B,20,140400,G,
 73.0,minusOne,Insert,359,1,A,20,141000,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 73.016232,,Cancel,270396503,,,-690,,,
 73.016297,,Cancel,270395203,,,-1000,,,
 73.016378,,Insert,270398331,0,A,1000,140800,G,
@@ -25123,7 +26057,10 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 73.146476,,Insert,270403035,0,A,2000,175300,G,
 73.150529,,Insert,270403159,0,A,1000,140700,G,
 73.153064,,Insert,5096715,1,B,48,141600,G,
+<<<<<<< HEAD
 73.153064,minusOne,Trade,359,1,A,20,141000,,-282
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 73.17152,,Insert,270403343,0,A,1000,141000,G,
 73.19242,,Insert,270403547,0,B,1000,139000,G,
 73.192442,,Cancel,270397175,,,-1000,,,
@@ -25770,7 +26707,10 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 74.444616,,Insert,270438927,0,B,1000,139900,G,
 74.44464,,Insert,270438931,0,B,1000,110900,G,
 74.445868,,Insert,5096720,1,A,39,139600,G,
+<<<<<<< HEAD
 74.445868,minusOne,Trade,366,1,B,20,140200,,-280
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 74.449476,,Cancel,270438779,,,-1000,,,
 74.4573,,Insert,270439091,0,B,2000,140100,G,
 74.457823,,Cancel,270439091,,,-2000,,,
@@ -25783,7 +26723,10 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 74.469,minusOne,Insert,373,1,A,20,140800,G,
 74.487987,,Insert,270439555,0,B,1000,140100,G,
 74.493313,,Insert,5096721,1,A,38,139000,G,
+<<<<<<< HEAD
 74.493313,minusOne,Trade,372,1,B,20,140300,,-281
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 74.499386,,Cancel,270436835,,,-8000,,,
 74.499412,,Cancel,270437867,,,-1000,,,
 74.5,minusOne,Hedge,374,0,A,20,140500,,
@@ -25817,7 +26760,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 74.541305,,Insert,270440855,0,B,2000,139300,G,
 74.57489,,Insert,270441375,0,A,2000,141900,G,
 74.645104,,Cancel,7017393,,,-10000,,,
+<<<<<<< HEAD
 74.645104,,Cancel,7017394,,,-9975,,,
+=======
+74.645104,,Cancel,7017394,,,-9987,,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 74.645104,,Insert,7017395,1,A,10000,141200,G,
 74.645104,,Insert,7017396,1,B,10000,140000,G,
 74.686429,,Insert,270443387,0,B,680,140500,G,
@@ -26276,7 +27223,10 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 75.92925,,Insert,270479407,0,A,1000,141000,G,
 75.935284,,Cancel,270479407,,,-1000,,,
 75.954101,,Insert,5096724,1,B,50,141400,G,
+<<<<<<< HEAD
 75.954101,minusOne,Trade,376,1,A,20,140900,,-282
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 75.999423,,Cancel,270479231,,,-1000,,,
 76.002818,,Cancel,270478323,,,-1000,,,
 76.002827,,Insert,270481599,0,B,2000,140200,G,
@@ -26360,7 +27310,7 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 76.073364,,Cancel,270484211,,,-2000,,,
 76.073364,,Cancel,270484379,,,-1000,,,
 76.073522,,Insert,270484939,0,B,1000,140500,G,
-76.080269,,Cancel,7017403,,,-10000,,,
+76.080269,,Cancel,7017403,,,-9989,,,
 76.080269,,Cancel,7017404,,,-10000,,,
 76.080269,,Insert,7017405,1,A,10000,141200,G,
 76.080269,,Insert,7017406,1,B,10000,140000,G,
@@ -26479,17 +27429,23 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 76.372443,,Insert,270491103,0,A,1000,170200,G,
 76.378781,,Cancel,270489951,,,-670,,,
 76.392009,,Insert,5096727,1,A,21,138500,G,
+<<<<<<< HEAD
 76.392009,minusOne,Trade,380,1,B,17,140300,,-239
 76.406,minusOne,Hedge,382,0,A,17,140500,,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 76.431042,,Cancel,7017405,,,-10000,,,
-76.431042,,Cancel,7017406,,,-10000,,,
+76.431042,,Cancel,7017406,,,-9983,,,
 76.431042,,Insert,7017407,1,A,10000,141200,G,
 76.431042,,Insert,7017408,1,B,10000,140000,G,
 76.46245,,Insert,270492563,0,A,1000,142100,G,
 76.538604,,Insert,270493463,0,A,2000,141000,G,
 76.538626,,Cancel,270449179,,,-1000,,,
+<<<<<<< HEAD
 76.547,minusOne,Cancel,381,,,-20,,,
 76.547,minusOne,Insert,383,1,A,20,140800,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 76.552477,,Insert,270493611,0,A,1000,140600,G,
 76.552501,,Insert,270493619,0,B,1000,96200,G,
 76.552537,,Insert,270493631,0,A,8000,140600,G,
@@ -26980,10 +27936,13 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 77.535459,,Cancel,270536375,,,-660,,,
 77.535518,,Insert,270537967,0,A,1000,142500,G,
 77.537616,,Insert,270538059,0,A,2000,142100,G,
+<<<<<<< HEAD
 77.547,minusOne,Cancel,384,,,-20,,,
 77.562,minusOne,Cancel,385,,,-20,,,
 77.562,minusOne,Insert,386,1,B,20,140700,G,
 77.562,minusOne,Insert,387,1,A,20,141200,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 77.57114,,Insert,270538999,0,B,660,140900,G,
 77.571162,,Cancel,270534711,,,-1000,,,
 77.57923,,Insert,270539715,0,B,8000,140900,G,
@@ -27007,7 +27966,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 77.593042,,Cancel,270539727,,,-1000,,,
 77.595451,,Cancel,270540319,,,-650,,,
 77.595454,,Insert,270540403,0,B,660,140900,G,
+<<<<<<< HEAD
 77.596197,,Cancel,7017413,,,-9998,,,
+=======
+77.596197,,Cancel,7017413,,,-9969,,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 77.596197,,Cancel,7017414,,,-10000,,,
 77.596197,,Insert,7017415,1,A,10000,141600,G,
 77.596197,,Insert,7017416,1,B,10000,140400,G,
@@ -28141,11 +29104,14 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 78.505194,,Cancel,270663703,,,-8000,,,
 78.505196,,Cancel,270663739,,,-8000,,,
 78.506053,,Insert,270663787,0,B,1000,141600,G,
+<<<<<<< HEAD
 78.515,minusOne,Cancel,394,,,-20,,,
 78.515,minusOne,Insert,396,1,B,20,141300,G,
 78.515,minusOne,Trade,396,1,B,20,141300,,565
 78.515,minusOne,Insert,397,1,A,20,141900,G,
 78.515,minusOne,Hedge,398,0,A,20,141600,,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 78.540978,,Insert,270666375,0,A,8000,141800,G,
 78.557031,,Cancel,270666375,,,-8000,,,
 78.571848,,Insert,270667427,0,B,1000,140000,G,
@@ -28247,7 +29213,7 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 78.796988,,Insert,270675663,0,A,2000,142600,G,
 78.797201,,Cancel,270546363,,,-1000,,,
 78.801482,,Cancel,7017421,,,-10000,,,
-78.801482,,Cancel,7017422,,,-10000,,,
+78.801482,,Cancel,7017422,,,-9976,,,
 78.801482,,Insert,7017423,1,A,10000,142400,G,
 78.801482,,Insert,7017424,1,B,10000,141200,G,
 78.806276,,Insert,270675871,0,A,8000,141900,G,
@@ -29208,7 +30174,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 80.295889,,Cancel,270754587,,,-1000,,,
 80.296176,,Cancel,270754611,,,-1000,,,
 80.297526,,Cancel,7017431,,,-10000,,,
+<<<<<<< HEAD
 80.297526,,Cancel,7017432,,,-9871,,,
+=======
+80.297526,,Cancel,7017432,,,-9801,,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 80.297526,,Insert,7017433,1,A,10000,142800,G,
 80.297526,,Insert,7017434,1,B,10000,141600,G,
 80.311343,,Cancel,270678731,,,-1000,,,
@@ -31744,8 +32714,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 84.671654,,Cancel,270852847,,,-1000,,,
 84.671658,,Insert,270898751,0,A,1000,142800,G,
 84.700569,,Insert,270899639,0,A,2000,143700,G,
+<<<<<<< HEAD
 84.703,minusOne,Cancel,435,,,-160,,,
 84.703,minusOne,Insert,438,1,A,160,142700,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 84.742706,,Insert,270900567,0,A,1000,144000,G,
 84.745856,,Insert,270900615,0,B,60,142300,G,
 84.751355,,Cancel,270896171,,,-1000,,,
@@ -32452,8 +33425,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 85.714194,,Insert,270946503,0,A,820,142800,G,
 85.732419,,Cancel,270946395,,,-1000,,,
 85.732427,,Insert,270947187,0,B,1000,141100,G,
+<<<<<<< HEAD
 85.75,minusOne,Cancel,442,,,-160,,,
 85.75,minusOne,Insert,445,1,A,160,143000,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 85.761737,,Insert,270947879,0,A,8000,143000,G,
 85.761759,,Cancel,270925371,,,-1000,,,
 85.762422,,Insert,270947891,0,A,1000,144200,G,
@@ -33098,8 +34074,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 87.496256,,Cancel,270980475,,,-2000,,,
 87.496256,,Insert,270990583,0,A,2000,177200,G,
 87.496271,,Insert,270990587,0,A,1000,142600,G,
+<<<<<<< HEAD
 87.547,minusOne,Cancel,454,,,-160,,,
 87.547,minusOne,Insert,457,1,A,160,142800,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 87.557491,,Cancel,7017479,,,-10000,,,
 87.557491,,Cancel,7017480,,,-9951,,,
 87.557491,,Insert,7017481,1,A,10000,143100,G,
@@ -33245,8 +34224,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 87.733675,,Cancel,270999051,,,-1000,,,
 87.740322,,Cancel,270998987,,,-810,,,
 87.740358,,Cancel,270998991,,,-1000,,,
+<<<<<<< HEAD
 87.75,minusOne,Cancel,457,,,-160,,,
 87.75,minusOne,Insert,459,1,A,160,142700,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 87.776901,,Insert,271000419,0,B,810,142200,G,
 87.777224,,Cancel,270998831,,,-1000,,,
 87.777256,,Insert,271000435,0,A,2000,143400,G,
@@ -33307,8 +34289,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 87.961763,,Cancel,271000439,,,-1000,,,
 87.982424,,Insert,271005035,0,B,1000,140700,G,
 87.985611,,Insert,271005063,0,B,8000,142100,G,
+<<<<<<< HEAD
 88.015,minusOne,Cancel,459,,,-160,,,
 88.015,minusOne,Insert,461,1,A,160,142600,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 88.021336,,Cancel,271004303,,,-1000,,,
 88.021358,,Cancel,270992711,,,-1000,,,
 88.033835,,Cancel,271004459,,,-820,,,
@@ -34563,8 +35548,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 90.505605,,Insert,271076711,0,B,1000,141800,G,
 90.506743,,Insert,271076759,0,A,8000,142000,G,
 90.50717,,Cancel,271075423,,,-1000,,,
+<<<<<<< HEAD
 90.515,minusOne,Cancel,472,,,-160,,,
 90.515,minusOne,Insert,477,1,A,160,142200,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 90.562456,,Insert,271077391,0,B,1000,140400,G,
 90.574886,,Insert,271077759,0,A,2000,142300,G,
 90.583408,,Insert,271077891,0,B,60,141800,G,
@@ -34966,8 +35954,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 91.431472,,Insert,271105915,0,B,2000,140500,G,
 91.431476,,Insert,271105923,0,A,1000,141900,G,
 91.439561,,Insert,271106375,0,A,2000,142100,G,
+<<<<<<< HEAD
 91.469,minusOne,Cancel,482,,,-160,,,
 91.469,minusOne,Insert,484,1,A,160,142100,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 91.492427,,Insert,271106927,0,A,1000,143300,G,
 91.538633,,Insert,271107523,0,A,8000,141900,G,
 91.538641,,Insert,271107527,0,A,1000,141800,G,
@@ -36136,7 +37127,10 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 93.926778,,Insert,271171543,0,B,60,141700,G,
 93.926803,,Insert,271171547,0,B,1000,97500,G,
 94.009807,,Insert,5096764,1,B,32,142100,G,
+<<<<<<< HEAD
 94.009807,minusOne,Trade,497,1,A,32,142000,,-454
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 94.015509,,Cancel,271170619,,,-8000,,,
 94.01671,,Cancel,271171543,,,-60,,,
 94.021892,,Insert,5096765,1,B,36,140500,G,
@@ -36297,12 +37291,15 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 94.455378,,Insert,271182395,0,A,1000,141900,G,
 94.47114,,Insert,271182699,0,A,1000,142200,G,
 94.49195,,Cancel,271182379,,,-1000,,,
+<<<<<<< HEAD
 94.5,minusOne,Cancel,502,,,-20,,,
 94.5,minusOne,Cancel,503,,,-20,,,
 94.5,minusOne,Insert,504,1,B,20,141500,G,
 94.5,minusOne,Trade,504,1,B,20,141500,,566
 94.5,minusOne,Insert,505,1,A,20,142100,G,
 94.5,minusOne,Hedge,506,0,A,20,141700,,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 94.523422,,Cancel,271111479,,,-1000,,,
 94.523445,,Cancel,271177055,,,-1000,,,
 94.523445,,Cancel,271177059,,,-1000,,,
@@ -36979,8 +37976,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 95.741559,,Cancel,271223075,,,-1000,,,
 95.741887,,Cancel,271020275,,,-830,,,
 95.745236,,Insert,271223267,0,B,8000,142000,G,
+<<<<<<< HEAD
 95.75,minusOne,Cancel,505,,,-20,,,
 95.75,minusOne,Insert,513,1,A,160,142300,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 95.757321,,Insert,271223475,0,A,1000,142300,G,
 95.757348,,Insert,271223479,0,A,2000,143200,G,
 95.757707,,Insert,271223503,0,A,2000,142500,G,
@@ -38431,8 +39431,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 98.503801,,Insert,271294743,0,A,1000,142600,G,
 98.54242,,Insert,271295211,0,B,1000,140600,G,
 98.542443,,Cancel,271273743,,,-1000,,,
+<<<<<<< HEAD
 98.547,minusOne,Cancel,531,,,-160,,,
 98.547,minusOne,Insert,533,1,A,160,142500,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 98.573586,,Cancel,271290103,,,-8000,,,
 98.573586,,Cancel,271293171,,,-1000,,,
 98.573598,,Cancel,271294743,,,-1000,,,
@@ -39444,8 +40447,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 100.537165,,Insert,271355135,0,B,1000,141800,G,
 100.537257,,Insert,271355147,0,B,1000,141800,G,
 100.543021,,Insert,5096778,1,B,27,143500,G,
+<<<<<<< HEAD
 100.543021,minusOne,Trade,543,1,A,27,142200,,-384
 100.547,minusOne,Hedge,545,0,B,27,142000,,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 100.547629,,Insert,271355383,0,B,8000,141800,G,
 100.547752,,Insert,271355407,0,B,920,141800,G,
 100.547799,,Cancel,271349015,,,-2000,,,
@@ -39564,9 +40570,12 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 100.727017,,Cancel,271363831,,,-8000,,,
 100.727053,,Insert,271363887,0,B,1000,142000,G,
 100.72731,,Cancel,271362219,,,-1000,,,
+<<<<<<< HEAD
 100.734,minusOne,Cancel,543,,,-102,,,
 100.734,minusOne,Insert,546,1,B,20,141800,G,
 100.734,minusOne,Insert,547,1,A,20,142400,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 100.739377,,Insert,271364091,0,B,1000,141700,G,
 100.741176,,Cancel,271364091,,,-1000,,,
 100.751549,,Cancel,271363883,,,-1000,,,
@@ -39737,7 +40746,10 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 101.062,minusOne,Insert,548,1,B,20,141900,G,
 101.062,minusOne,Insert,549,1,A,20,142500,G,
 101.06288,,Insert,5096780,1,B,54,143200,G,
+<<<<<<< HEAD
 101.06288,minusOne,Trade,549,1,A,14,142500,,-200
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 101.069816,,Insert,271374611,0,A,920,142300,G,
 101.0699,,Cancel,271374503,,,-8000,,,
 101.069909,,Cancel,271374127,,,-920,,,
@@ -39756,7 +40768,10 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 101.086935,,Insert,271374951,0,A,1000,142300,G,
 101.08696,,Cancel,271373959,,,-1000,,,
 101.104403,,Insert,271375203,0,A,1000,143700,G,
+<<<<<<< HEAD
 101.109,minusOne,Hedge,550,0,B,14,142300,,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 101.112483,,Cancel,271375203,,,-1000,,,
 101.119167,,Cancel,271374951,,,-1000,,,
 101.152444,,Insert,271375703,0,A,1000,143800,G,
@@ -39835,7 +40850,7 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 101.291127,,Insert,271378763,0,B,1000,141500,G,
 101.298061,,Cancel,271364423,,,-1000,,,
 101.299486,,Insert,271378955,0,A,1000,147100,G,
-101.315847,,Cancel,7017571,,,-10000,,,
+101.315847,,Cancel,7017571,,,-9959,,,
 101.315847,,Cancel,7017572,,,-10000,,,
 101.315847,,Insert,7017573,1,A,10000,142700,G,
 101.315847,,Insert,7017574,1,B,10000,141500,G,
@@ -39899,8 +40914,12 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 101.556833,,Cancel,271383599,,,-1000,,,
 101.558998,,Cancel,271377219,,,-1000,,,
 101.630015,,Insert,5096781,1,B,49,145300,G,
+<<<<<<< HEAD
 101.630015,minusOne,Trade,552,1,A,20,142400,,-285
 101.63149,,Cancel,7017573,,,-9971,,,
+=======
+101.63149,,Cancel,7017573,,,-9951,,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 101.63149,,Cancel,7017574,,,-10000,,,
 101.63149,,Insert,7017575,1,A,10000,142800,G,
 101.63149,,Insert,7017576,1,B,10000,141600,G,
@@ -40087,7 +41106,10 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 102.349953,,Insert,271396019,0,B,1000,141500,G,
 102.352454,,Insert,271396027,0,A,1000,143800,G,
 102.379459,,Insert,5096783,1,B,102,145200,G,
+<<<<<<< HEAD
 102.379459,minusOne,Trade,554,1,A,20,142400,,-285
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 102.379513,,Cancel,271395411,,,-8000,,,
 102.379555,,Cancel,271394379,,,-1000,,,
 102.379558,,Insert,271396235,0,A,1000,142300,G,
@@ -40097,7 +41119,10 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 102.37986,,Cancel,271396019,,,-1000,,,
 102.38001,,Cancel,271395483,,,-2000,,,
 102.38001,,Insert,271396291,0,A,2000,176800,G,
+<<<<<<< HEAD
 102.406,minusOne,Hedge,555,0,B,20,142300,,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 102.41036,,Cancel,271394419,,,-1000,,,
 102.410382,,Cancel,271378331,,,-1000,,,
 102.410385,,Cancel,271377419,,,-1000,,,
@@ -40245,7 +41270,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 102.499209,,Insert,271401671,0,B,2000,108200,G,
 102.49933,,Cancel,271401619,,,-1000,,,
 102.49983,,Cancel,271401571,,,-1000,,,
+<<<<<<< HEAD
 102.501348,,Cancel,7017579,,,-9918,,,
+=======
+102.501348,,Cancel,7017579,,,-9898,,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 102.501348,,Cancel,7017580,,,-10000,,,
 102.501348,,Insert,7017581,1,A,10000,142800,G,
 102.501348,,Insert,7017582,1,B,10000,141600,G,
@@ -40295,12 +41324,15 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 102.68245,,Insert,271404991,0,A,1000,143800,G,
 102.698029,,Insert,271405067,0,B,2000,141000,G,
 102.706496,,Insert,5096784,1,B,19,143100,G,
+<<<<<<< HEAD
 102.706496,minusOne,Trade,556,1,A,19,142400,,-271
 102.719,minusOne,Hedge,557,0,B,19,142300,,
 102.719,minusOne,Cancel,551,,,-20,,,
 102.719,minusOne,Cancel,556,,,-1,,,
 102.719,minusOne,Insert,558,1,B,20,141900,G,
 102.719,minusOne,Insert,559,1,A,20,142500,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 102.746196,,Cancel,271402583,,,-8000,,,
 102.753084,,Insert,271405647,0,B,1000,141800,G,
 102.754399,,Cancel,271401655,,,-1000,,,
@@ -40339,7 +41371,7 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 102.793673,,Insert,271406291,0,B,2000,108200,G,
 102.793673,,Insert,271406295,0,B,2000,141200,G,
 102.795416,,Insert,271406311,0,A,2000,143500,G,
-102.802807,,Cancel,7017581,,,-10000,,,
+102.802807,,Cancel,7017581,,,-9981,,,
 102.802807,,Cancel,7017582,,,-10000,,,
 102.802807,,Insert,7017583,1,A,10000,142800,G,
 102.802807,,Insert,7017584,1,B,10000,141600,G,
@@ -40437,10 +41469,13 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 102.990433,,Cancel,271409063,,,-1000,,,
 102.990458,,Insert,271409907,0,B,1000,98000,G,
 102.997743,,Insert,271410003,0,A,2000,143600,G,
+<<<<<<< HEAD
 103.0,minusOne,Cancel,558,,,-20,,,
 103.0,minusOne,Cancel,559,,,-20,,,
 103.0,minusOne,Insert,560,1,B,20,142000,G,
 103.0,minusOne,Insert,561,1,A,20,142600,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 103.003376,,Cancel,271407487,,,-1000,,,
 103.003399,,Cancel,271407207,,,-1000,,,
 103.003425,,Cancel,271407179,,,-1000,,,
@@ -41020,6 +42055,7 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 104.404585,,Insert,271439859,0,B,1000,140600,G,
 104.40461,,Insert,271439863,0,A,1000,186300,G,
 104.414832,,Insert,5096786,1,A,20,141400,G,
+<<<<<<< HEAD
 104.414832,minusOne,Trade,562,1,B,7,141800,,-99
 104.422457,,Insert,271440227,0,B,1000,140500,G,
 104.436744,,Cancel,271438735,,,-930,,,
@@ -41027,6 +42063,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 104.453,minusOne,Hedge,566,0,A,7,141900,,
 104.469,minusOne,Cancel,562,,,-13,,,
 104.469,minusOne,Insert,567,1,B,20,141700,G,
+=======
+104.422457,,Insert,271440227,0,B,1000,140500,G,
+104.436744,,Cancel,271438735,,,-930,,,
+104.436745,,Insert,271440299,0,A,930,142100,G,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 104.538353,,Insert,271441639,0,B,930,141900,G,
 104.538752,,Cancel,271440299,,,-930,,,
 104.538767,,Insert,271441659,0,B,8000,141900,G,
@@ -41387,7 +42428,10 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 105.396063,,Cancel,271457867,,,-2000,,,
 105.396063,,Insert,271459223,0,B,2000,107900,G,
 105.422266,,Insert,5096788,1,B,36,144700,G,
+<<<<<<< HEAD
 105.422266,minusOne,Trade,568,1,A,20,142200,,-284
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 105.443345,,Insert,271460815,0,A,8000,142000,G,
 105.443604,,Insert,271460859,0,A,1000,142000,G,
 105.444106,,Cancel,271454063,,,-940,,,
@@ -41517,7 +42561,11 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 105.475086,,Insert,271465899,0,A,1000,141900,G,
 105.475205,,Cancel,271410423,,,-1000,,,
 105.475211,,Insert,271465907,0,A,1000,142100,G,
+<<<<<<< HEAD
 105.496133,,Cancel,7017599,,,-9984,,,
+=======
+105.496133,,Cancel,7017599,,,-9964,,,
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
 105.496133,,Cancel,7017600,,,-10000,,,
 105.496133,,Insert,7017601,1,A,10000,142400,G,
 105.496133,,Insert,7017602,1,B,10000,141200,G,
@@ -42680,7 +43728,7 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 108.799199,,Cancel,271556303,,,-970,,,
 108.7992,,Insert,271556627,0,A,970,141400,G,
 108.799241,,Cancel,271556307,,,-8000,,,
-108.823123,,Cancel,7017621,,,-9898,,,
+108.823123,,Cancel,7017621,,,-9887,,,
 108.823123,,Cancel,7017622,,,-10000,,,
 108.823123,,Insert,7017623,1,A,10000,141900,G,
 108.823123,,Insert,7017624,1,B,10000,140700,G,
@@ -43773,6 +44821,7 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 111.711528,,Cancel,271638623,,,-2000,,,
 111.711528,,Insert,271641995,0,B,2000,107200,G,
 111.754446,,Insert,271642719,0,B,1000,140700,G,
+<<<<<<< HEAD
 111.774929,,Cancel,271621899,,,-1000,,,
 111.77493,,Insert,271643271,0,B,1000,141100,G,
 111.774941,,Insert,271643279,0,B,1000,141000,G,
@@ -89237,3 +90286,5 @@ Time,Competitor,Operation,OrderId,Instrument,Side,Volume,Price,Lifespan,Fee
 214.744738,,Insert,274620223,0,A,1000,138100,G,
 214.744751,,Cancel,274615723,,,-2000,,,
 214.744751,,Insert,274620227,0,A,2000,172700,G,
+=======
+>>>>>>> 0f49c3eff6dcb1aec3472f59cc8fa0c0cef33b04
