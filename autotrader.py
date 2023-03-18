@@ -23,7 +23,7 @@ from typing import List
 from ready_trader_go import BaseAutoTrader, Instrument, Lifespan, MAXIMUM_ASK, MINIMUM_BID, Side
 
 
-LOT_SIZE = 50
+LOT_SIZE = 10
 POSITION_LIMIT = 100
 TICK_SIZE_IN_CENTS = 100
 MIN_BID_NEAREST_TICK = (MINIMUM_BID + TICK_SIZE_IN_CENTS) // TICK_SIZE_IN_CENTS * TICK_SIZE_IN_CENTS
@@ -170,7 +170,7 @@ class AutoTrader(BaseAutoTrader):
             if client_order_id in self.bids:
                 if self.etf_volume + remaining_volume > POSITION_LIMIT:
                     self.send_cancel_order(client_order_id)
-
+                    self.logger.info('order %d might cause position limit error, cancelling order' % client_order_id)
             elif client_order_id in self.asks:
                 if self.etf_volume - remaining_volume < -POSITION_LIMIT:
                     self.send_cancel_order(client_order_id)
@@ -194,5 +194,4 @@ class AutoTrader(BaseAutoTrader):
         If there are less than five prices on a side, then zeros will appear at
         the end of both the prices and volumes arrays.
         """
-        self.logger.info("received trade ticks for instrument %d with sequence number %d", instrument,
-                         sequence_number)
+        self.logger.info("received trade ticks for instrument %d with sequence number %d", instrument, sequence_number)
