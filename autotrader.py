@@ -23,13 +23,13 @@ from typing import List
 from ready_trader_go import BaseAutoTrader, Instrument, Lifespan, MAXIMUM_ASK, MINIMUM_BID, Side
 
 
-LOT_SIZE = 50
+LOT_SIZE = 20
 POSITION_LIMIT = 100
 TICK_SIZE_IN_CENTS = 100
 MIN_BID_NEAREST_TICK = (MINIMUM_BID + TICK_SIZE_IN_CENTS) // TICK_SIZE_IN_CENTS * TICK_SIZE_IN_CENTS
 MAX_ASK_NEAREST_TICK = MAXIMUM_ASK // TICK_SIZE_IN_CENTS * TICK_SIZE_IN_CENTS
-TEMP_LOT_SIZE_BID = [0]
-TEMP_LOT_SIZE_ASK = [0]
+TEMP_LOT_SIZE_BID = 0
+TEMP_LOT_SIZE_ASK = 0
 
 
 class AutoTrader(BaseAutoTrader):
@@ -77,9 +77,9 @@ class AutoTrader(BaseAutoTrader):
         price levels.
         """
         if instrument == Instrument.FUTURE:
-            price_adjustment = - (self.position // LOT_SIZE) * TICK_SIZE_IN_CENTS
-            new_bid_price = bid_prices[-3] + price_adjustment if bid_prices[0] != 0 else 0
-            new_ask_price = ask_prices[-3] + price_adjustment if ask_prices[0] != 0 else 0
+            #price_adjustment = - (self.position // LOT_SIZE) * TICK_SIZE_IN_CENTS
+            new_bid_price = bid_prices[-3]# + price_adjustment if bid_prices[0] != 0 else 0
+            new_ask_price = ask_prices[-3]# + price_adjustment if ask_prices[0] != 0 else 0
 
             if self.bid_id != 0 and new_bid_price not in (self.bid_price, 0):
                 self.send_cancel_order(self.bid_id)
@@ -91,14 +91,14 @@ class AutoTrader(BaseAutoTrader):
 
             if self.bid_id == 0 and new_bid_price != 0:
                 if abs(self.etf_volume) + LOT_SIZE > POSITION_LIMIT:
-                    TEMP_LOT_SIZE_BID[0] = int((POSITION_LIMIT - self.etf_volume))
+                    TEMP_LOT_SIZE = int((POSITION_LIMIT - self.etf_volume))
                     self.bid_id = next(self.order_ids)
                     self.bid_price = new_bid_price
-                    self.send_insert_order(self.bid_id, Side.BUY, new_bid_price, TEMP_LOT_SIZE_BID[0], Lifespan.GOOD_FOR_DAY)
+                    self.send_insert_order(self.bid_id, Side.BUY, new_bid_price, TEMP_LOT_SIZE, Lifespan.GOOD_FOR_DAY)
                     self.bids.add(self.bid_id)
                     self.logger.info("received order book for BUY instrument %d with sequence number %d current "
                                      "volume %f, temp lot size %f",
-                                     instrument, sequence_number, self.etf_volume, TEMP_LOT_SIZE_BID[0])
+                                     instrument, sequence_number, self.etf_volume, TEMP_LOT_SIZE)
                 # if abs(self.etf_volume) + LOT_SIZE == POSITION_LIMIT: TEMP_LOT_SIZE = 0 self.logger.info("received
                 # order book for BUY instrument %d with sequence number %d current volume %f, temp lot size %f",
                 # instrument, sequence_number, self.etf_volume, TEMP_LOT_SIZE)
@@ -113,14 +113,14 @@ class AutoTrader(BaseAutoTrader):
 
             if self.ask_id == 0 and new_ask_price != 0:
                 if abs(self.etf_volume) + LOT_SIZE > POSITION_LIMIT:
-                    TEMP_LOT_SIZE_ASK[0] = int((POSITION_LIMIT + self.etf_volume))
+                    TEMP_LOT_SIZE = int((POSITION_LIMIT + self.etf_volume))
                     self.ask_id = next(self.order_ids)
                     self.ask_price = new_ask_price
-                    self.send_insert_order(self.ask_id, Side.SELL, new_ask_price, TEMP_LOT_SIZE_ASK[0], Lifespan.GOOD_FOR_DAY)
+                    self.send_insert_order(self.ask_id, Side.SELL, new_ask_price, TEMP_LOT_SIZE, Lifespan.GOOD_FOR_DAY)
                     self.asks.add(self.ask_id)
                     self.logger.info("received order book for SELL instrument %d with sequence number %d current "
                                      "volume %f, temp lot size %f",
-                                     instrument, sequence_number, self.etf_volume, TEMP_LOT_SIZE_ASK[0])
+                                     instrument, sequence_number, self.etf_volume, TEMP_LOT_SIZE)
                 # if abs(self.etf_volume) + LOT_SIZE == POSITION_LIMIT: TEMP_LOT_SIZE = 0 self.logger.info("received
                 # order book for SELL instrument %d with sequence number %d current volume %f, temp lot size %f",
                 # instrument, sequence_number, self.etf_volume, TEMP_LOT_SIZE)
@@ -144,14 +144,14 @@ class AutoTrader(BaseAutoTrader):
         if client_order_id in self.bids:
             self.position += volume
             self.etf_volume += volume
-            TEMP_LOT_SIZE_BID.append(int((POSITION_LIMIT - self.etf_volume)))
-            TEMP_LOT_SIZE_BID.pop(0)
+            # TEMP_LOT_SIZE_BID.append(int((POSITION_LIMIT - self.etf_volume)))
+            # TEMP_LOT_SIZE_BID.pop(0)
             self.send_hedge_order(next(self.order_ids), Side.ASK, MIN_BID_NEAREST_TICK, volume)
         elif client_order_id in self.asks:
             self.position -= volume
             self.etf_volume -= volume
-            TEMP_LOT_SIZE_ASK.append(int((POSITION_LIMIT + self.etf_volume))) 
-            TEMP_LOT_SIZE_ASK.pop(0)
+            # TEMP_LOT_SIZE_ASK.append(int((POSITION_LIMIT + self.etf_volume))) 
+            # TEMP_LOT_SIZE_ASK.pop(0)
             self.send_hedge_order(next(self.order_ids), Side.BID, MAX_ASK_NEAREST_TICK, volume)
 
     def on_order_status_message(self, client_order_id: int, fill_volume: int, remaining_volume: int,
