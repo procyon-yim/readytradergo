@@ -92,7 +92,6 @@ class AutoTrader(BaseAutoTrader):
             midf = 0.5*(bid_prices[0]+ask_prices[0])
             FUTURE_mid.append(midf)
             self.logger.info("future mid is %f", midf)
-            
 
         if instrument == Instrument.ETF:
             #storing prices for Future
