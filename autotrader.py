@@ -86,7 +86,7 @@ class AutoTrader(BaseAutoTrader):
                 self.send_cancel_order(self.ask_id)
                 self.ask_id = 0
 
-            if self.bid_id == 0 and self.ask_id == 0 and  new_bid_price != 0:
+            if self.bid_id == 0 and  new_bid_price != 0:
                 if abs(self.etf_volume) + LOT_SIZE > POSITION_LIMIT:
                     TEMP_LOT_SIZE = int((POSITION_LIMIT - self.etf_volume))
                     self.bid_id = next(self.order_ids)
@@ -107,7 +107,7 @@ class AutoTrader(BaseAutoTrader):
                     self.logger.info("received order book for BUY instrument %d with sequence number %d current volume %f, temp lot size %f", 
                                      instrument, sequence_number, self.etf_volume, LOT_SIZE)
 
-            if self.ask_id == 0 and self.bid_id == 0 and new_ask_price != 0:
+            if self.ask_id == 0 and new_ask_price != 0:
                 if abs(self.etf_volume) + LOT_SIZE > POSITION_LIMIT:
                     TEMP_LOT_SIZE = int((POSITION_LIMIT + self.etf_volume))
                     self.ask_id = next(self.order_ids)
