@@ -1,3 +1,4 @@
+
 # Copyright 2021 Optiver Asia Pacific Pty. Ltd.
 # test if commit works
 # This file is part of Ready Trader Go.
@@ -17,20 +18,17 @@
 #     <https://www.gnu.org/licenses/>.
 import asyncio
 import itertools
-import time
 
 from typing import List
 
 from ready_trader_go import BaseAutoTrader, Instrument, Lifespan, MAXIMUM_ASK, MINIMUM_BID, Side
 
 
-LOT_SIZE = 10
-POSITION_LIMIT = 90
+LOT_SIZE = 100
+POSITION_LIMIT = 100
 TICK_SIZE_IN_CENTS = 100
 MIN_BID_NEAREST_TICK = (MINIMUM_BID + TICK_SIZE_IN_CENTS) // TICK_SIZE_IN_CENTS * TICK_SIZE_IN_CENTS
 MAX_ASK_NEAREST_TICK = MAXIMUM_ASK // TICK_SIZE_IN_CENTS * TICK_SIZE_IN_CENTS
-TEMP_LOT_SIZE_BID = 0
-TEMP_LOT_SIZE_ASK = 0
 
 
 class AutoTrader(BaseAutoTrader):
@@ -97,31 +95,6 @@ class AutoTrader(BaseAutoTrader):
             # TEMP_LOT_SIZE_ASK.pop(0)
             self.send_hedge_order(next(self.order_ids), Side.BID, MAX_ASK_NEAREST_TICK, volume)
 
-    def on_order_status_message(self, client_order_id: int, fill_volume: int, remaining_volume: int,
-                                fees: int) -> None:
-        """Called when the status of one of your orders changes.
-        The fill_volume is the number of lots already traded, remaining_volume
-        is the number of lots yet to be traded and fees is the total fees for
-        this order. Remember that you pay fees for being a market taker, but
-        you receive fees for being a market maker, so fees can be negative.
-        If an order is cancelled its remaining volume will be zero.
-        """
-        
-        self.logger.info("received order status for order %d with fill volume %d remaining %d and fees %d",
-                         client_order_id, fill_volume, remaining_volume, fees)
-        
-        if remaining_volume == 0:
-            if client_order_id == self.bid_id:
-                self.bid_id = 0
-                #self.position += fill_volume
-            elif client_order_id == self.ask_id:
-                self.ask_id = 0
-                #self.position -= fill_volume
-
-            # It could be either a bid or an ask
-            self.bids.discard(client_order_id)
-            self.asks.discard(client_order_id)
-
             
 
     def on_order_book_update_message(self, instrument: int, sequence_number: int, ask_prices: List[int],
@@ -133,9 +106,9 @@ class AutoTrader(BaseAutoTrader):
         price levels.
         """
         if instrument == Instrument.FUTURE:
-            #price_adjustment = - (self.position // LOT_SIZE) * TICK_SIZE_IN_CENTS
-            new_bid_price = int(bid_prices[-3]/100)*100# + price_adjustment if bid_prices[0] != 0 else 0
-            new_ask_price = int(ask_prices[-3]/100)*100# + price_adjustment if ask_prices[0] != 0 else 0
+            price_adjustment = abs((self.position // LOT_SIZE) * TICK_SIZE_IN_CENTS)
+            new_bid_price = bid_prices[-1]+ price_adjustment if bid_prices[0] != 0 else 0
+            new_ask_price = ask_prices[-1] - price_adjustment if ask_prices[0] != 0 else 0
 
             if self.bid_id != 0 and new_bid_price not in (self.bid_price, 0):
                 self.send_cancel_order(self.bid_id)
@@ -195,7 +168,31 @@ class AutoTrader(BaseAutoTrader):
                                      "volume %f, temp lot size %f with order id %f",
                                      instrument, sequence_number, self.position, LOT_SIZE, self.ask_id)
 
+    def on_order_status_message(self, client_order_id: int, fill_volume: int, remaining_volume: int,
+                                fees: int) -> None:
+        """Called when the status of one of your orders changes.
+        The fill_volume is the number of lots already traded, remaining_volume
+        is the number of lots yet to be traded and fees is the total fees for
+        this order. Remember that you pay fees for being a market taker, but
+        you receive fees for being a market maker, so fees can be negative.
+        If an order is cancelled its remaining volume will be zero.
+        """
+        
+        self.logger.info("received order status for order %d with fill volume %d remaining %d and fees %d",
+                         client_order_id, fill_volume, remaining_volume, fees)
+        
+        if remaining_volume == 0:
+            if client_order_id == self.bid_id:
+                self.bid_id = 0
+                #self.position += fill_volume
+            elif client_order_id == self.ask_id:
+                self.ask_id = 0
+                #self.position -= fill_volume
 
+            # It could be either a bid or an ask
+            self.bids.discard(client_order_id)
+            self.asks.discard(client_order_id)
+            
     def on_trade_ticks_message(self, instrument: int, sequence_number: int, ask_prices: List[int],
                                ask_volumes: List[int], bid_prices: List[int], bid_volumes: List[int]) -> None:
         """Called periodically when there is trading activity on the market.
