@@ -148,8 +148,8 @@ class AutoTrader(BaseAutoTrader):
         if instrument == Instrument.ETF:
             bidprice_ETF = bid_prices[0]
             askprice_ETF = ask_prices[0]
-            ETF_buy.append(bid_prices[-3])
-            ETF_sell.append(ask_prices[-3])
+            ETF_buy.append(bid_prices[0])
+            ETF_sell.append(ask_prices[0])
             ETF_mid.append((bidprice_ETF + askprice_ETF) / 2)
             diff_list.append(ETF_mid[sequence_number-1] - FUT_mid[sequence_number-1])
             
